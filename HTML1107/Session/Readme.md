@@ -1,7 +1,7 @@
-***Sample sprint***
--
+# Sample sprint
 
-Basic intro to html.
+
+## Basic intro to html.
  
  - Website -> collection of web pages
  - Role of HTML: Creates skeletal/basic structural layer of a webpage. Look and feel determined by other technologies. 
