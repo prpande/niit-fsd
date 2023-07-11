@@ -110,7 +110,7 @@ To develop the solution, following tasks need to be completed:​​​
 - Inside `index.html` file, add two more `<p>` tags to finalize the page contents.​
 - The text for the first paragraph is as follows​:
 "working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.​"
-- The text for the seconf paragraph is as follows:
+- The text for the second paragraph is as follows:
 "Read the Mozilla Manifesto to learn even more about the values and principles that guide the pursuit of our mission."
 
 #### Task 6: Add Hyperlink
