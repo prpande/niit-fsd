@@ -4,17 +4,17 @@
 
 ### Algorithm
 
-Step1: Start
-Step2: Accept n as number of employees
-Step3: Initialize totalBonus to 0, highestBonus to 0, salesEmployeeCount to 0
-Step4: Accept employee data
-Step5: If the employee is from Sales, then perform Steps 6,7 and 8
-Step6: Calculate and display individual employeeBonus = 0.02*monthlySalary
-Step7: If employeeBonus is greater than highestBonus, then assign employeeBonus to highestBonus
-Step8: Add employeeBonus to totalBonus and increment salesEmployeeCount
-Step9: Repeat Steps 4,5,6,7,8 for all n employees
-Step10: Display totalBonus, highestBonus and averageBonus equal to totalBonus/salesEmployeeCount
-Step: End
+- **Step1**: Start
+- **Step2**: Accept n as number of employees
+- **Step3**: Initialize totalBonus to 0, highestBonus to 0, salesEmployeeCount to 0
+- **Step4**: Accept employee data
+- **Step5**: If the employee is from Sales, then perform Steps 6,7 and 8
+- **Step6**: Calculate and display individual employeeBonus = 0.02*monthlySalary
+- **Step7**: If employeeBonus is greater than highestBonus, then assign employeeBonus to highestBonus
+- **Step8**: Add employeeBonus to totalBonus and increment salesEmployeeCount
+- **Step9**: Repeat Steps 4,5,6,7,8 for all n employees
+- **Step10**: Display totalBonus, highestBonus and averageBonus equal to totalBonus/salesEmployeeCount
+- **Step11**: End
 
 ### Pseudocode
 
@@ -46,13 +46,13 @@ Step: End
 
 ### Algorithm
 
-Step1: Start
-Step2: Accept rangeMin and rangeMax
-Step3: Initialize sum to 0 and counter to rangeMin
-Step5: Check if counter is not divisible by any number between 2 and square root of counter if so add counter to the sum
-Step6: Increment counter and repeat step5 till counter is less than equal to rangeMin
-Step7: Display sum
-Step8: End
+- **Step1**: Start
+- **Step2**: Accept rangeMin and rangeMax
+- **Step3**: Initialize sum to 0 and counter to rangeMin
+- **Step5**: Check if counter is not divisible by any number between 2 and square root of counter if so add counter to the sum
+- **Step6**: Increment counter and repeat step5 till counter is less than equal to rangeMin
+- **Step7**: Display sum
+- **Step8**: End
 
 ### Pseudocode
 

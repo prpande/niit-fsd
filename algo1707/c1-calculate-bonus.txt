@@ -14,7 +14,7 @@ Step7: If employeeBonus is greater than highestBonus, then assign employeeBonus 
 Step8: Add employeeBonus to totalBonus and increment salesEmployeeCount
 Step9: Repeat Steps 4,5,6,7,8 for all n employees
 Step10: Display totalBonus, highestBonus and averageBonus equal to totalBonus/salesEmployeeCount
-Step: End
+Step11: End
 
 Pseudocode
 ----------
