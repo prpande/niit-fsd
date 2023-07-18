@@ -1,0 +1,24 @@
+Practice 1: Calculate Discount on Total Bill Amount
+===================================================
+
+Algorithm
+---------
+
+Step1: Start
+Step2: Accept totalBill
+Step3: Check if totalBill is greater than or equal to $500 then calculate discounted amount as 95% of totalBill
+Step4: Display discounted bill
+Step5: End
+
+Pseudocode
+----------
+
+BEGIN
+    GET totalBill
+    SET discountedBill = totalBill
+    IF totalBill >= 500
+    BEGIN
+        SET discountedBill = 0.95*totalBill                          
+    ENDIF
+    PRINT discountedBill
+END

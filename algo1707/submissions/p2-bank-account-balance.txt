@@ -1,0 +1,25 @@
+Practice 2: Algorithm to Display Bank Account Balance
+=====================================================
+  
+Algorithm
+---------
+
+Step1: Start
+Step2: Set accountBalance to 5500
+Step3: Accept withdrawlAmount
+Step4: Display (accountBalance - withdrawlAmount)
+Step5: Check if (accountBalance - withdrawlAmount) is less than $100 then tell user that the account is frozen
+Step6: End
+
+Pseudocode
+----------
+
+BEGIN
+    SET accountBalance = 5500
+    GET withdrawlAmount
+    PRINT "Balance:" + (accountBalance - withdrawlAmount)
+    IF accountBalance - withdrawlAmount < 100
+    BEGIN
+        PRINT "Account Balance less than $100. Account frozen!"
+    ENDIF
+END

@@ -2,25 +2,29 @@
 
 ## Challenge 1: Calculate the Bonuses for the Employees
 
+![c1_1](images/c1_1.png)
+![c1_2](images/c1_2.png)
+![c1_3](images/c1_3.png)
+
 ### Algorithm
 
 - **Step1**: Start
 - **Step2**: Accept n as number of employees
-- **Step3**: Initialize totalBonus to 0, highestBonus to 0, salesEmployeeCount to 0
+- **Step3**: Initialize totalBonus to 0, highestBonusAmt to 0, highestBonusName to NULL, salesEmployeeCount to 0
 - **Step4**: Accept employee data
 - **Step5**: If the employee is from Sales, then perform Steps 6,7 and 8
 - **Step6**: Calculate and display individual employeeBonus = 0.02*monthlySalary
-- **Step7**: If employeeBonus is greater than highestBonus, then assign employeeBonus to highestBonus
+- **Step7**: If employeeBonus is greater than highestBonusAmt, then assign employeeBonus to highestBonusAmt and employee name to highestBonusName
 - **Step8**: Add employeeBonus to totalBonus and increment salesEmployeeCount
 - **Step9**: Repeat Steps 4,5,6,7,8 for all n employees
-- **Step10**: Display totalBonus, highestBonus and averageBonus equal to totalBonus/salesEmployeeCount
+- **Step10**: Display totalBonus, highestBonusName with highestBonusAmt and averageBonus equal to totalBonus/salesEmployeeCount
 - **Step11**: End
 
 ### Pseudocode
 
     BEGIN
         GET employeeCount
-        SET totalBonus = 0, highestBonus = 0, salesEmployeeCount = 0
+        SET totalBonus = 0, highestBonusAmt = 0, highestBonusName = NULL, salesEmployeeCount = 0
         FOR i = 1 to employeeCount STEP 1
         DO
             GET employeeData
@@ -33,16 +37,20 @@
                 IF employeeBonus > highestBonus
                 BEGIN
                     highestBonus = employeeBonus
+                    highestBonusName = employeeData.Name
                 ENDIF
             ENDIF
         ENDFOR
         SET avgBonus = totalBonus / salesEmployeeCount
         PRINT "Average Bonus:" + avgBonus
-        PRINT "Highest Bonus:" + highestBonus
+        PRINT "Highest Bonus:" + highestBonusName + ":" + highestBonusAmt
         PRINT "Total Bonus:" + totalBonus
     END
 
 ## Challenge 2: Calculate the Sum of Prime Numbers
+
+![c2_1](images/c2_1.png)
+![c2_2](images/c2_2.png)
 
 ### Algorithm
 
