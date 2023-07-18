@@ -6,7 +6,7 @@ Algorithm
 step1: Start
 step2: Accept rangeMin and rangeMax
 step3: Initialize sum to 0 and counter to rangeMin
-Step5: Check if counter is not divisible by any number between 2 and square root of counter if so add counter to the sum
+Step5: Iterate using i between numbers 2 and square root of counter and check if counter is not divisible by i, if so add counter to the sum
 Step6: Increment counter and repeat step5 till counter is less than equal to rangeMin
 Step7: Display sum
 Step8: End
