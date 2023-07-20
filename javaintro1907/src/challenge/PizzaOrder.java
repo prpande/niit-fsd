@@ -7,7 +7,7 @@ public class PizzaOrder
         int discountOffered = 10;
         String customerName = "Gary";
         String customerEmail = "gary@123.com";
-        long phoneNo = 412312345L;
+        long phoneNo = 412312345l;
         String address = "20, Marble Drive, Eville";
         int noOfPizzasOrdered = 5;
         float pizzaPrice = 12.5f;
