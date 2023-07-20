@@ -5,7 +5,7 @@ public class EnquiryForm
     public static void main(String[] args)
     {
         String name = "John";
-        long contactNumber = 412312556;
+        long contactNumber = 412312556l;
         String email = "john@gmail.com";
         int age = 34;
         char gender = 'M';
@@ -20,7 +20,7 @@ public class EnquiryForm
         System.out.println(age);
         System.out.println(gender);
         System.out.println(occupation);
-        System.out.println(annualSalary);
+        System.out.println("$" + annualSalary);
         System.out.println(nationality);
         System.out.println(isMarried);
 
