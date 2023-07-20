@@ -7,7 +7,7 @@ public class PizzaOrder
         int discountOffered = 10;
         String customerName = "Gary";
         String customerEmail = "gary@123.com";
-        long phoneNo = 412312345;
+        long phoneNo = 412312345L;
         String address = "20, Marble Drive, Eville";
         int noOfPizzasOrdered = 5;
         float pizzaPrice = 12.5f;
@@ -22,6 +22,8 @@ public class PizzaOrder
         float totalBeveragePrice = noOfBeveragesOrdered * beveragePrice;
 
         float totalBillAmount = totalPizzaPrice + totalGarlicBreadPrice + totalBeveragePrice;
+
+        boolean checkBillAmount = totalBillAmount >= 100;
 
         float discountedBillAmount = (1 - discountOffered/100f) * totalBillAmount;
 
