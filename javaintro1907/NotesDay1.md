@@ -10,7 +10,7 @@ Consists of
 
 - hardware
 - software -> collection of programs to perform variety of tasks
-  - system -> assist the system how to work 
+  - system -> assist the system how to work
   - application -> used for specific tasks on top of the resources provided by the system
   - database -> to store high volume of data
 
