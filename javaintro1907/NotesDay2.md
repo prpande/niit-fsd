@@ -332,10 +332,10 @@ So,\
             int or = a | b;
             int complement = ~a;
             int xor = a ^ b;
-            System.out.println(a + " & " + b + " = " + and); //0
-            System.out.println(a + " | " + b + " = " + or); //30
-            System.out.println("~ "+ a + " = " + complement); //-11
-            System.out.println(a + " ^ " + b + " = " + xor); //30
+            System.out.println(a + " & " + b + " = " + and);
+            System.out.println(a + " | " + b + " = " + or);
+            System.out.println("~ "+ a + " = " + complement);
+            System.out.println(a + " ^ " + b + " = " + xor); 
 
             int num = 5;
             int leftShift = num << 4;
@@ -357,9 +357,3 @@ So,\
     5 << 4 = 80
     5 >> 2 = 1
 ```
-
-TODO precedence
-TODO associativity
-TODO escape sequence
-TODO system.out.format
-TODO wrapper classes
