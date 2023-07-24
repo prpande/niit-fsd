@@ -33,19 +33,19 @@
   ...
 ```
 
-  
 ## Scanner class
 
 - Used to accept inputs from the specified channel during initialization.
 - Contained in predefined Util package.
 - Included using `import java.util.Scanner;`
-- Values read using methods like `nextInt()`. `nextFloat()` etc.
+- Values read using methods like `nextInt()`. `nextFloat()`, `next()` (for accepting `String`) etc.
+  - `nextLine()` returns every character in a line of text right up until the carriage return
+  - `next()` splits the line up into individual words, returning individual text Strings one at a time. It read input from the input device till the space character.
 
 ```java
   Scanner sc = new Scanner(System.in);
   System.out.println("Enter a number: ");
   int num = sc.nextInt();
+  System.out.println("Enter name: ");
+  String name = sc.next();
 ```
-
-
-
