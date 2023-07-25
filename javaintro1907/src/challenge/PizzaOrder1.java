@@ -1,6 +1,6 @@
 package challenge;
 
-public class PizzaOrder 
+public class PizzaOrder1 
 {
     public static void main(String[] args)
     {
