@@ -11,7 +11,7 @@ import java.util.Scanner;
  * details and order history. The program should also
  * calculate the bill amount for each item ordered.
  */
-public class PizzaOrder 
+public class PizzaOrder2 
 {
     public static void main(String[] args)
     {
