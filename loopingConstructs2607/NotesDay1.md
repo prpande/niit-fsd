@@ -5,4 +5,3 @@
 - Set of instructions reduced to a single instruction
 - Pre-tested - `for` and `while` loops. Checks the condition first. Entry controlled loop.
 - Post-tested - `do-while` loops. Checks the condition after block execution. Exit controlled loop. Runs at least once.
-
