@@ -17,7 +17,7 @@ public class PizzaOrder
     public static void main(String[] args)
     {
         int discountOffered = 10, discountThreshold = 50;
-        float pizzaPrice = 12.5f;
+        float pizzaPrice = 12.99f;
         float beveragePrice = 1.99f;
         float garlicBreadPrice = 5.99f;
         char pizzaSize = 'M';
@@ -28,7 +28,7 @@ public class PizzaOrder
 
         String itemChosenName = null;
         int itemChosen, noOfItemsOrdered, choice;
-        boolean invalidChoice = false;
+        boolean invalidChoice;
         
         float totalBill = 0f, loopBill = 0f, perItemPrice = 0f, discountedBill = 0f;
          
@@ -52,6 +52,7 @@ public class PizzaOrder
 
         do
         {
+            invalidChoice = false;
             System.out.println("Select the item from the Main Menu\n\n");
             System.out.println("Sl No\tItem Category");
             System.out.println("--------------------------");
@@ -84,7 +85,7 @@ public class PizzaOrder
                 noOfItemsOrdered = Integer.parseInt(scanner.nextLine());
 
                 loopBill = noOfItemsOrdered * perItemPrice;
-                System.out.format("Your total %s Bill: $%.2f\n", itemChosenName, loopBill);
+                System.out.format("Your total %s Bill: $ %.2f\n", itemChosenName, loopBill);
 
                 totalBill += loopBill;
             }
@@ -94,16 +95,16 @@ public class PizzaOrder
 
         } while(choice == 1);
 
-        System.out.format("The total bill amount is : $%.2f\n", totalBill);
+        System.out.format("The total bill amount is : $ %.2f\n", totalBill);
 
         if(totalBill > discountThreshold)
         {
             discountedBill = totalBill * (1 - discountOffered/100f);
-            System.out.format("The total discounted bill amount : $%.3f\n", discountedBill);
+            System.out.format("The total discounted bill amount : $ %.3f\n", discountedBill);
         }
         else
         {
-            System.out.format("No discount provided since bill amount is less than $%.0f\n", discountThreshold);
+            System.out.format("No discount provided since bill amount is less than $ %d\n", (int)discountThreshold);
         }
 
         scanner.close();
