@@ -14,7 +14,7 @@ import java.lang.Math;
  * Create a program in Java to help Ron calculate the area
  * for each fence separately.
  */
-public class AreaCalculator 
+public class AreaCalculator1 
 {
    public static void main(String[] args)
    {
