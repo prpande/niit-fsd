@@ -12,7 +12,7 @@ import java.util.Scanner;
  * ordered and then calculate the total discount
  * received by the customer
  */
-public class PizzaOrder 
+public class PizzaOrder3 
 {
     public static void main(String[] args)
     {
