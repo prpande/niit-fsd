@@ -13,7 +13,7 @@ public class ArmstrongNumber
         int number;
 
         System.out.println("Enter a number:");
-        number = Integer.parseInt(scanner.nextLine());
+        number = scanner.nextInt();
 
         int cubeSum = 0;
         int quotient = number;

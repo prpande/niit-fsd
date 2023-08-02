@@ -12,7 +12,7 @@ public class AddEvenNumbers
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number:");
-        int limit = Integer.parseInt(scanner.nextLine());
+        int limit = scanner.nextInt();
         int sum = 0;
         for(int i = 1; i <= limit; i++)
         {

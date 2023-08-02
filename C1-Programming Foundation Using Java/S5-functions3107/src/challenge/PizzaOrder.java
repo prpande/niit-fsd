@@ -162,28 +162,28 @@ public class PizzaOrder
         do
         {
             pizzaOrder.displayMenu();
-            itemChosen = Integer.parseInt(scanner.nextLine());
+            itemChosen = scanner.nextInt();
             
             switch(itemChosen)
             {
                 case 1:
                     System.out.println("Please enter the size of pizza:");
-                    pizzaSize =  Integer.parseInt(scanner.nextLine());
+                    pizzaSize =  scanner.nextInt();
                     perItemPrice = pizzaOrder.getPriceOfPizzaBasedOnSize(pizzaSize);
                     System.out.println("Please enter the number of pizzas you want to order:");
-                    noOfPizza += Integer.parseInt(scanner.nextLine());
+                    noOfPizza += scanner.nextInt();
                     totalPizzaPrice += pizzaOrder.calculatePriceOfPizza(noOfPizza, perItemPrice);
                     break;
                 case 2:
                     perItemPrice = pizzaOrder.getPriceOfGarlicBread();
                     System.out.println("Please enter the number of garlic breads you want to order:");
-                    noOfGarlicBread += Integer.parseInt(scanner.nextLine());
+                    noOfGarlicBread += scanner.nextInt();
                     totalGarlicBreadPrice += pizzaOrder.calculatePriceOfGarlicBread(noOfGarlicBread, perItemPrice);
                     break;
                 case 3:
                     perItemPrice = pizzaOrder.getPriceOfBeverage();
                     System.out.println("Please enter the number of beverages you want to order:");
-                    noOfBeverages += Integer.parseInt(scanner.nextLine());
+                    noOfBeverages += scanner.nextInt();
                     totalBeveragePrice += pizzaOrder.calculatePriceOfBeverage(noOfBeverages, perItemPrice);
                     break;
                 default:
@@ -191,7 +191,7 @@ public class PizzaOrder
             }
 
             System.out.println("Do you want to place another order enter 1 to continue or O to exit");
-            choice = Integer.parseInt(scanner.nextLine());
+            choice = scanner.nextInt();
 
         } while(choice == 1);
 

@@ -16,17 +16,17 @@ public class WeightedAverage
     {
         Scanner scanner = new Scanner(System.in);
 
-        int assignmentWeight = Integer.parseInt(scanner.nextLine());
-        int projectWeight = Integer.parseInt(scanner.nextLine());
-        int  quizWeight = Integer.parseInt(scanner.nextLine());
-        int midTermWeight = Integer.parseInt(scanner.nextLine());
-        int finalExamWeight = Integer.parseInt(scanner.nextLine());
+        int assignmentWeight = scanner.nextInt();
+        int projectWeight = scanner.nextInt();
+        int  quizWeight = scanner.nextInt();
+        int midTermWeight = scanner.nextInt();
+        int finalExamWeight = scanner.nextInt();
 
-        int assignmentScore = Integer.parseInt(scanner.nextLine());
-        int projectScore = Integer.parseInt(scanner.nextLine());
-        int quizScore = Integer.parseInt(scanner.nextLine());
-        int midTermScore = Integer.parseInt(scanner.nextLine());
-        int finalExamScore = Integer.parseInt(scanner.nextLine());
+        int assignmentScore = scanner.nextInt();
+        int projectScore = scanner.nextInt();
+        int quizScore = scanner.nextInt();
+        int midTermScore = scanner.nextInt();
+        int finalExamScore = scanner.nextInt();
 
         float assignmentPercentageScore = (assignmentWeight/100.0f) * assignmentScore;
         float projectPercentageScore = (projectWeight/100.0f) * projectScore;
