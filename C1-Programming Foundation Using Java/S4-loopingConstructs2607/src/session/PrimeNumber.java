@@ -13,7 +13,7 @@ public class PrimeNumber
         int number;
 
         System.out.println("Enter a number:");
-        number = Integer.parseInt(scanner.nextLine());
+        number = scanner.nextInt();
 
         boolean isPrime = true;
         int sqrt = (int)Math.sqrt(number);

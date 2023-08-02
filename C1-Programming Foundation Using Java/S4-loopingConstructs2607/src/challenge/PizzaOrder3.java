@@ -82,7 +82,7 @@ public class PizzaOrder3
             if(!invalidChoice)
             {
                 System.out.format("Please enter the number of %s you want to order:\n", itemChosenName);
-                noOfItemsOrdered = Integer.parseInt(scanner.nextLine());
+                noOfItemsOrdered = scanner.nextInt();
 
                 loopBill = noOfItemsOrdered * perItemPrice;
                 System.out.format("Your total %s Bill: $ %.2f\n", itemChosenName, loopBill);
@@ -91,7 +91,7 @@ public class PizzaOrder3
             }
 
             System.out.println("Do you want to place another order enter 1 to continue or O to exit");
-            choice = Integer.parseInt(scanner.nextLine());
+            choice = scanner.nextInt();
 
         } while(choice == 1);
 

@@ -42,14 +42,14 @@ public class AreaCalculator
         Scanner scanner = new Scanner(System.in);
         AreaCalculator areaCalculator = new AreaCalculator();
 
-        double side = Integer.parseInt(scanner.nextLine());
+        double side = scanner.nextInt();
         areaCalculator.calculateAreaOfSquare(side);
 
-        double radius = Integer.parseInt(scanner.nextLine());
+        double radius = scanner.nextInt();
         areaCalculator.calculateAreaOfCirc1e(radius);
 
-        double length = Integer.parseInt(scanner.nextLine());
-        double breadth = Integer.parseInt(scanner.nextLine());
+        double length = scanner.nextInt();
+        double breadth = scanner.nextInt();
         areaCalculator.calculateAreaOfRectang1e(length, breadth);
 
         scanner.close();

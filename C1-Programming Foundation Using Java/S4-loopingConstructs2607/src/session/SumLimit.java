@@ -15,7 +15,7 @@ public class SumLimit
         do
         {
             System.out.println("Enter a number:");
-            int num = Integer.parseInt(scanner.nextLine());
+            int num = scanner.nextInt();
             sum += num;
 
         }while(sum <= limit);

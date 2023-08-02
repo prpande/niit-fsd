@@ -18,7 +18,7 @@ public class MultiplicationTable
         int number, tableLimit = 10;
 
         System.out.println("Enter a number");
-        number = Integer.parseInt(scanner.nextLine());
+        number = scanner.nextInt();
 
         for(int i = 1; i <= tableLimit; i++)
         {
