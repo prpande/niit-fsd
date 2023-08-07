@@ -77,3 +77,17 @@
 ```java
     int array[] = {21, 3, 4, 12, 34};
 ```
+
+### Reference Types are passed/ used by reference
+
+```java
+    int x = 10;
+    int y = x;
+
+    int[] arr = {1, 2, 3, 4, 5};
+    int[] num = arr;
+```
+
+`x` and `y` will represent 2 different memory locations and the value of `x` will be copied to `y`. Modifying `x` will not impact `y`.
+
+`arr` and `num` will point to the same memory location. Modifying any array will change the values for the other one also. Same data accessed by 2 different names.
