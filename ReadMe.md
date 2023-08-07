@@ -6,7 +6,7 @@ The files should be arranged in directories corresponding to each sprint session
 
 ## Repository Directory Structure
 
-```less
+```text
     NIIT-FSD   
     └─── C1-<Course1>
     |   └─── S1-<Sprint1>-<ddmm>
