@@ -22,7 +22,7 @@ Write a Java program that reverses the array, stores the reversed array in anoth
     ```
 
     Create an object of the class `ReverseArrayDemo`.
-    Call the method `reverseArrayDemo()` and store the array returned in another array
+    Call the method `getReverseArray()` and store the array returned in another array
 
 4. Sample Input
 
