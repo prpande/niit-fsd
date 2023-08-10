@@ -16,7 +16,10 @@ public class LoopClass
         int whilePrintCtr = 0;
         while(whilePrintCtr <= printWhileLimit)
         {
-            System.out.println(whilePrintCtr);
+            if( whilePrintCtr % 2 == 0)
+            {
+                System.out.println(whilePrintCtr);
+            }
             whilePrintCtr++;
         }
 
