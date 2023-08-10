@@ -1,6 +1,6 @@
 # Repo for NIIT Full Stack Developer Program
 
-This repo contains the class notes, slides, assignments and solution src files for the NIIT FSD program. 
+This repo contains the class notes, slides, assignments and solution src files for the NIIT FSD program.
 The repo contains both the practice and learning session code files.
 The files should be arranged in directories corresponding to each sprint sessions.
 
@@ -15,12 +15,12 @@ The files should be arranged in directories corresponding to each sprint session
     |   |   |   <Course1 Consolidation>.pdf        
     |   |   └─── src
     |   |       └─── session
-    |   |       |   |   <Demo/Session code files>
+    |   |       |   |   <Demo/Session code files/projects>
     |   |       └─── practice
-    |   |       |   |   <Practice code files>
+    |   |       |   |   <Practice code files/projects>
     |   |       |   |   <Practice problem statement>.pdf
     |   |       └─── challenge
-    |   |           |   <Challenge code files>
+    |   |           |   <Challenge code files/projects>
     |   |           |   <Challenge problem statement>.pdf
     |   |
     |   └─── S2-<Sprint2>-<ddmm>
@@ -30,6 +30,12 @@ The files should be arranged in directories corresponding to each sprint session
     └─── C2-<Course2>
     |       ...
     └─── Cn-<CourseN>
+    |
+    └─── Assessments
+        └─── Assessment1-<ddmm>
+        |   |   <Quiz/Questions/Problems files/projects>
+        |       ...
+        └─── AssessmentN-<ddmm>
 ```
 
 ## Additional Resources
