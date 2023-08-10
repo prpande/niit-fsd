@@ -20,7 +20,7 @@ public class LoopClass {
         //4. Fix the code to get factorial of 10 also write what is the error with the code
         int n = 10;
         int factorial = 0;
-        for (int i = 9; i >= 0; i-) {
+        for (int i = 9; i >= 0; i--) {
             factorial *= i;
         }
         System.out.println("Factorial of 10 is " + factorial);

@@ -88,3 +88,10 @@ The files should be arranged in directories corresponding to each sprint session
 - Creating, Initializing, and Accessing an Array:
 <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html>
 - Array Manipulations: <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html>
+
+#### Sprint3 - Sorting and Searching
+
+- Sorting Algorithm Implementation using Java
+<https://stackabuse.com/sorting-agorithms-in-java/>
+- Time and Space Complexity of Sorting Algorithms
+<https://www.interviewkickstart.com/learn/time-complexities-of-all-sorting-algorithms>
