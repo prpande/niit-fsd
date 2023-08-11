@@ -91,3 +91,71 @@
 `x` and `y` will represent 2 different memory locations and the value of `x` will be copied to `y`. Modifying `x` will not impact `y`.
 
 `arr` and `num` will point to the same memory location. Modifying any array will change the values for the other one also. Same data accessed by 2 different names.
+
+### Command line Parameter in `main(String[] args)`
+
+- Powerful way to interact with your Java programs from the command line and provide dynamic input without modifying your code.
+- `main` method can accept command-line arguments when the program is executed.
+
+- `args` parameter is an array of strings (`String[]`)
+
+- Command-line arguments are provided as space-separated values when running the program
+
+- Individual command-line arguments using array indexing, such as `args[0]` for the first argument, `args[1]` for the second, and so on.
+
+- Usage Examples: you might provide a filename, a configuration option, a number, or any other kind of input data
+
+- Always treated as strings, even if they represent numbers or other data types. You'll need to c
+- Convert them to the appropriate data type using methods like `Integer.parseInt()` or `Double.parseDouble()` if needed.
+
+- Example:
+
+    ```text
+    java MyProgram arg1 arg2 arg3
+    ```
+
+- Check the length of the `args` array before accessing specific indices to avoid `ArrayIndexOutOfBoundsException`.
+
+TODO 1)Write a program to show the count of occurrence of every digit in following array
+	{10,5,10,2,6,2,5,2,10}
+like 10---3
+      5---2
+      2---3
+      6---1
+
+2)Write a program to show sum of three digit number present in following array:
+	{22,234,1,100,58,111,2}
+
+3)run below programs in main() one by one and check the difference
+
+for(int i=1;i<=10;i++);
+{
+System.out.println("hello"+i);
+}
+System.out.println("hi"+i);
+
+
+ang1 sp3
+==============================
+
+for(int i=1;i<=10;i++)
+{
+System.out.println("hello"+i);
+}
+System.out.println("hi"+i);
+==============================
+use scanner yourself and run this program
+
+int i=0;
+while(true)
+{
+System.out.println("enter a number");
+i=sc.nextInt();
+System.out.println("want to continue press y else n");
+
+if(ch=='y')
+break;
+}
+
+=============
+Q1) Write a program to accept 5 elements of an int type in an array and find the lowest value and show it.

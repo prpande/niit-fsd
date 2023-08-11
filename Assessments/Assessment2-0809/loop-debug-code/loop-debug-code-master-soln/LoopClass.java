@@ -64,7 +64,7 @@ public class LoopClass
         int oddSumLimit = 100;
         int oddSumCtr = 1;
         int oddSum = 0;
-        while(oddSumCtr <= oddSquareLimit)
+        while(oddSumCtr <= oddSumLimit)
         {
             if(oddSumCtr % 2 == 1)
             {
@@ -74,6 +74,6 @@ public class LoopClass
             oddSumCtr++;
         }
 
-        System.out.println("Odd Sum is " + sum);
+        System.out.println("Odd Sum is " + oddSum);
     }
 }
