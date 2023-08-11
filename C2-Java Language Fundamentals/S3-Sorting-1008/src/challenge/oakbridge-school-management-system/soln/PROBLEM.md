@@ -16,7 +16,7 @@ marks is >= 90 the grade is 'A'\
 if score is >= 80 and <=89 the grade is 'B'\
 if score is  >= 70 and <= 79 the grade is 'C'\
 if score is >= 60  and <=69 the grade is 'D'\
-if score is <=59 the grade is 'F'\
+if score is <=59 the grade is 'F'
 
 ## Tasks
 
