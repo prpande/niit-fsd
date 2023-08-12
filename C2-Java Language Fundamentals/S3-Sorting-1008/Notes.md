@@ -72,6 +72,7 @@
   ```
 
 > *Like bubbles rising to the surface in a glass of water. The larger bubbles (higher values) move upwards faster because they are lighter, just like the larger elements move towards their correct position faster in the list.*
+
 - Not very efficient for large lists. Can take many passes to fully sort the list, especially if the largest (or smallest) items are at the beginning.
 - **Algorithm**
 
