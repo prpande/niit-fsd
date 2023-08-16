@@ -105,3 +105,4 @@ The files should be arranged in directories corresponding to each sprint session
 
 #### Sprint5 - String Manipulation
 
+- Strings: <https://docs.oracle.com/javase/tutorial/java/data/strings.html>
