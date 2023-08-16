@@ -1,28 +1,36 @@
-### Practice Challenge - Reverse the String
+# Practice Challenge - Reverse the String
 
-#### Ron's teacher has given him the task to reverse a String.Help Ron achieve this task.
+Ron's teacher has given him the task to reverse a `String`. Help Ron achieve this task.
 
-#### Below are the task 
+## Tasks
 
-##### 1. Write all the logic for the program inside the ReverseStringDemo class provided.
+**Write all the logic for the program inside the ReverseStringDemo class provided.**
 
-##### 2. Write the logic to reverse the String  inside the below method and return the reverse String.
+1. Write the logic to reverse the `String` inside the below method and return the reverse `String`.
 
-        public String getReverseString(String string)
+   ```java
+   public String getReverseString(String string)
+   ```
 
-##### 3. Inside the main method:
+2. Inside the `main` method, Create a `String` object.
 
-        Create a String object.
-            String string = "Programming";
-        Create an object of the class ReverseStringDemo
-        Call the method getReverseString() and store the value returned in a String variable.
+   ```java
+   String string = "Programming";
+   ```
 
-##### 4. Sample Input -
+   Create an object of the class `ReverseStringDemo`\
+   Call the method `getReverseString()` and store the value returned in a `String` variable.
 
-        String string = "Programming";
+3. Sample Input -
 
-##### 5. Sample Output -
+   ```java
+   String string = "Programming";
+   ```
 
-        Reverse String is  : gnimmargorP;
+4. Sample Output -
 
-##### 6. Execute the test cases provided in the test folder.
+   ```text
+   Reverse String is  : gnimmargorP;
+   ```
+
+5. Execute the test cases provided in the test folder.

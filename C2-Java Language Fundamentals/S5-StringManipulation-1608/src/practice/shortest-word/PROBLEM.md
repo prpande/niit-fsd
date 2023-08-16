@@ -1,28 +1,36 @@
-### Practice Challenge - Shortest Word
+# Practice Challenge - Shortest Word
 
-#### John and Steve play a game where John has to identify the shortest String in an array of Strings provided by Steve.Help John achieve this task using Strings.
+John and Steve play a game where John has to identify the shortest String in an array of Strings provided by Steve.Help John achieve this task using Strings.
 
-#### Below are the task 
+## Tasks
 
-##### 1. Write all the logic for the program inside the ShortestWord class provided.
+**Write all the logic for the program inside the ShortestWord class provided.**
 
-##### 2. Write the logic to find the shortest word in the list of Strings from the given array inside the below method and return the shortest word.
+1. Write the logic to find the shortest word in the list of Strings from the given array inside the below method and return the shortest word.
 
-        public String findShortestWord(String[] words)
+   ```java
+   public String findShortestWord(String[] words)
+   ```
 
-##### 3. Inside the main method 
+2. Inside the `main` method, Declare and initialize a `String` array.
 
-        Declare and initialize a String array.
-            String words[] = {"Java","Programming","Language"};
-        Create an object of the class ShortestWord class.   
-        Call the method findShortestWord and store the value returned in a String variable.
+   ```java
+    String words[] = {"Java","Programming","Language"};
+   ```
 
-##### 4. Sample Input -
+   Create an object of the class `ShortestWord` class.\
+   Call the method `findShortestWord` and store the value returned in a `String` variable.
 
-        String words[] = {"Java","Programming","Language"};
+3. Sample Input -
 
-##### 5. Sample Output -
+   ```java
+   String words[] = {"Java","Programming","Language"};
+   ```
 
-        Shortest word is: Java
+4. Sample Output -
 
-##### 6. Execute the test cases provided in the test folder.
+   ```text
+   Shortest word is: Java
+   ```
+
+5. Execute the test cases provided in the test folder.
