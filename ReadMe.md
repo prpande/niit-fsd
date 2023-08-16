@@ -102,3 +102,6 @@ The files should be arranged in directories corresponding to each sprint session
 <https://en.wikipedia.org/wiki/Recursion_(computer_science)>
 - Recursion Vs Iteration
 <https://www.advanced-ict.info/programming/recursion.html>
+
+#### Sprint5 - String Manipulation
+
