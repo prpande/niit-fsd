@@ -19,6 +19,81 @@
     String substring = fullName.substring(5);
     ```
 
+## String Methods and Manipulation
+
+### Length of a String
+
+- Get the length of a string using the `length()` method:
+
+    ```java
+    String text = "Hello, Java!";
+    int length = text.length(); // length is 12
+    ```
+
+### Extracting Substrings
+
+- Extract a portion of a string using the `substring()` method:
+
+    ```java
+    String message = "Welcome to Java Programming";
+    String subMessage = message.substring(11, 17); // subMessage is "Java"
+    ```
+
+### Changing Case
+
+- `toUpperCase()` and `toLowerCase()` create new strings with the desired case:
+
+    ```java
+    String original = "Hello, World!";
+    String upperCase = original.toUpperCase(); // "HELLO, WORLD!"
+    String lowerCase = original.toLowerCase(); // "hello, world!"
+    ```
+
+### Searching and Replacing
+
+- Search for a substring or character within a string and replace it:
+
+    ```java
+    String sentence = "Java is a popular programming language";
+    int index = sentence.indexOf("popular"); // index is 9
+
+    String replaced = sentence.replace("Java", "Python");
+    ```
+
+### String Formatting
+
+- Format strings using the `String.format()` method or by using the `%` placeholders. Formatting allows you to insert values into specific positions within a template string:
+
+    ```java
+    String formatted = String.format("Name: %s, Age: %d", "Alice", 25);
+    ```
+
+## String Comparison
+
+### Comparing Content
+
+- compare the content of two strings, use the `equals()` method or `equalsIgnoreCase()` for case-insensitive comparison:
+
+    ```java
+    String str1 = "Hello";
+    String str2 = "hello";
+
+    boolean isEqual = str1.equals(str2); // false
+    boolean isIgnoreCaseEqual = str1.equalsIgnoreCase(str2); // true
+    ```
+
+### Comparing Order
+
+- compare strings lexicographically using the `compareTo()` method:
+
+    ```java
+    String word1 = "apple";
+    String word2 = "banana";
+
+    int result = word1.compareTo(word2);
+    // result < 0 because "apple" comes before "banana" in lexicographic order
+    ```
+
 ## Immutability of Strings
 
 - Once a string is created, its value cannot be changed.
@@ -42,6 +117,17 @@
     String str1 = "Hello";       // Pooled
     String str2 = "Hello";       // Reuses pooled "Hello" string
     String str3 = new String("Hello"); // Not pooled
+    ```
+
+## String Interning
+
+- allows you to explicitly add strings to the string pool using the `intern()` method:
+
+    ```java
+    String s1 = new String("Hello").intern(); // Adds "Hello" to the string pool
+    String s2 = "Hello"; // Reuses the string from the pool
+
+    boolean areEqual = s1 == s2; // true
     ```
 
 ## StringBuilder and StringBuffer
