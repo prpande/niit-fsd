@@ -1,5 +1,13 @@
 package session;
-
+/*
+ * String Methods
+ * Write a Java program that will create an array of Strings and will
+ * perform the following task.
+ * Find the length of all the String in an array.
+ * Make all the String in the array in Uppercase.
+ * Find all the String that start with "J".
+ * Count all the Vowels of all the Strings present in the array.
+ */
 public class StringMethodDemo
 {
     public static void main( String[] args )
