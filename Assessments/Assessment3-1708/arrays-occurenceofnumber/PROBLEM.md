@@ -1,22 +1,29 @@
-In this assessment participants are expected to write logic of counting 
-the occurrence of the given number from the sorted array.
+# Count Occurrences using recursion
 
-Sample Input - 
-    
-    int []numberArray = {1,3,3,3,3,4,5,5};
+In this assessment participants are expected to write logic of counting the occurrence of the given number from the sorted array.
+
+- Sample Input
+
+  ```java
+    int[] numberArray = {1,3,3,3,3,4,5,5};
     int findOccurrence = 3
-    
-Sample Output - 
+  ```
 
-    int count = 4
+- Sample Output
 
+  ```text
+  count = 4
+  ```
 
-Sample Input -
+- Sample Input
 
+  ```java
     int []numberArray = {1,3,3,3,3,4,5,5,5,5,5,5};
     int findOccurrence = 5
+  ```
 
-Sample Output -
+- Sample Output
 
-    int count = 6
-    
+  ```text
+  count = 6
+  ```
