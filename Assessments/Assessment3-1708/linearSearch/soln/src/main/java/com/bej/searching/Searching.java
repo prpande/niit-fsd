@@ -1,6 +1,7 @@
 package com.bej.searching;
 
-public class Searching {
+public class Searching 
+{
    public int search(int array[],int searchElement)
     {
         int foundIndex = -1;
