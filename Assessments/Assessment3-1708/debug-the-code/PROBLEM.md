@@ -1,24 +1,36 @@
-# Course 2 - Assessment 3 - Bargraph
+# Course 2 - Sprint 4 - Assessment 3 - Debug the Code (Search)
 
-**A Bar Graph (also called Bar Chart) is a graphical 
-display of data using bars of different heights.**
+**A linear search or sequential search is a method for finding 
+an element within a list. It sequentially checks each 
+element of the list until a match is found or the whole list 
+has been searched**
 
-Given an array of numbers, plot a bar graph horizontally with asterisk.
-For example if the array holds a number 3, the bar graph must be represented as,
+A program is given that performs a liner search on an array of integers, and returns the index value where the element was found. If the element is not found it returns -1.
 
-    3 ***
-
-Sample Input :
+### Sample Input
     
-    int[] scores = {1,7,9,4,3};
+    int arr[] = {5,6,7,8,21,3,4,9};
+    int elementToBeSearched = 7
 
-Expected Output :
 
-    1 *
-    7 *******
-    9 *********
-    4 ****
-    3 ***
+### Expected Output : 
+    
+    Element found at index 2
 
-The program to print the graph is given, identify the errors in the code and print the result as expected.
+### Sample Input
+
+    int arr[] = {5,6,7,8,21,3,4,9};
+    int elementToBeSearched = 10
+
+
+### Expected Output :
+
+    Element not found returned index is -1
+
+
+## Tasks :
+
+    1. Identify the logical error in the given program and rectify them, so as to get the desired output.
+    2. Execute the test cases given using stackcode, refer to README.md for the details.
+
 

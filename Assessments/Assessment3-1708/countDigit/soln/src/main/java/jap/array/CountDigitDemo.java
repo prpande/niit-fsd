@@ -14,7 +14,6 @@ public class CountDigitDemo
     public int countDigit(int[] numberArray) 
     {
         int threeDigitCount = 0;
-
         for(int num : numberArray)
         {
             if(num > 99 && num < 1000)
