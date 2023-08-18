@@ -41,14 +41,11 @@ public class OakBridgeSchool
         for(int i = 0; i < noOfStudents; i++)
         {
             String nameToCheck = names[i];
-            for(int j = 0; j < noOfStudents; j++)
+            for(int j = i + 1; j < noOfStudents; j++)
             {
-                if(j != i)
+                if(nameToCheck.compareTo(names[j]) == 0)
                 {
-                    if(nameToCheck.compareTo(names[j]) == 0)
-                    {
-                        flag = true;
-                    }
+                    flag = true;
                 }
             }
         }
