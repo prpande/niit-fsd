@@ -4,6 +4,8 @@
 - C++- not pure- code can be written without classes and object + main() is not inside any class
 - .Net, Java- Pure OOP
 - Object-Oriented Programming is a powerful paradigm that helps you organize and manage complex code by representing real-world entities as objects
+- Arrays :homogeneous same datatype
+- Object : heterogenous different type of values of attributes
 
 ## What is Object-Oriented Programming?
 

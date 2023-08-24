@@ -111,9 +111,12 @@ The files should be arranged in directories corresponding to each sprint session
 
 #### Sprint1 - Introduction to Object-Oriented Programming
 
-- Classes and objects: <https://docs.oracle.com/javase/tutorial/java0avaOO/index.html>
+- Classes and objects: <https://docs.oracle.com/javase/tutorial/java/javaOO/index.html>
 
 #### Sprint2 - Objects and Constructors
+
+- Create Objects - <https://docs.oracle.com/javase/tutorial/java/javaOO/objectcreation.html>
+- Constructors - <https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html>
 
 #### Sprint3 - Data Abstraction and Encapsulation
 
