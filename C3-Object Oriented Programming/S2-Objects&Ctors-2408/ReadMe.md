@@ -18,3 +18,15 @@
 - Creates duplicate copy of existing object
 - Useful for deep copy/clone
 
+## `static` Keyword
+
+- Used to define class-level attributes and methods
+- Shared among all instances of the class
+- Accessed using the class name, not an object reference
+
+## `final` Keyword
+
+- Applied to variables, methods, and classes
+- `final` variables cannot be changed after it is assigned a value
+- `final` methods cannot be overridden by subclasses
+- `final` classes cannot be extended
