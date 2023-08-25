@@ -1,7 +1,7 @@
 # String Manipulation
 
 In this assessment participants are expected to write logic for the methods given and test their logic against the test cases given.\
-Participants are expected to use String InBuilt API's where ever required.\
+Participants are expected to use String InBuilt API's where ever required.
 
 Perform the below operations on a given String
 
