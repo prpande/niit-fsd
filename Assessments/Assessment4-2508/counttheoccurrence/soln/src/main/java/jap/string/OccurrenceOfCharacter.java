@@ -66,13 +66,12 @@ public class OccurrenceOfCharacter
     // This method will return a char array of all the vowels in the given string
     public char[] getAllVowelsInTheString(String str)
     {
-        char[] characters = str.toCharArray();
-        int length = characters.length;
-        char[] vowelsTemp = new char[length];
-        int index = 0;
-        for (int i = 0; i < length; i++) 
+        int length = str.length();
+        String vowelString = "";
+        for(int i = 0; i < length; i++)
         {
-            switch(characters[i])
+            char ch = str.charAt(i);
+            switch(ch)
             {
                 case 'a':
                 case 'A':
@@ -84,19 +83,12 @@ public class OccurrenceOfCharacter
                 case 'O':
                 case 'u':
                 case 'U':
-                    vowelsTemp[index] = characters[i];
-                    index++;
+                    vowelString += ch;
                     break;
             }
         }
 
-        char[] vowels = new char[index];
-        for(int i = 0; i < index; i++)
-        {
-            vowels[i] = vowelsTemp[i];
-        }
-
-        return vowels;
+        return vowelString.toCharArray();
     }
 
     public static void main( String[] args )
