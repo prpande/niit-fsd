@@ -1,8 +1,13 @@
 # Repo for NIIT Full Stack Developer Program
 
-This repo contains the class notes, slides, assignments and solution src files for the NIIT FSD program.
-The repo contains both the practice and learning session code files.
-The files should be arranged in directories corresponding to each sprint sessions.
+This repo contains the class notes, slides, assignments and solution src files for the NIIT FSD program.\
+The repo contains both the practice and learning session code files.\
+The files should be arranged in directories corresponding to each sprint sessions.\
+
+## Software
+
+- IntelliJ Community Edition – <https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC>
+- GitHub – <https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe>
 
 ## Repository Directory Structure
 
