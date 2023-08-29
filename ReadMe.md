@@ -125,6 +125,9 @@ The files should be arranged in directories corresponding to each sprint session
 
 #### Sprint3 - Data Abstraction and Encapsulation
 
+- Packages: <https://docs.oracle.com/javase/tutorial/java/concepts/package.html>
+- Encapsulation: <https://www.simplilearn.com/tutorials/java-tutorial/java-encapsulation>
+
 #### Sprint4 - Inheritance
 
 #### Sprint5 - Polymorphism
