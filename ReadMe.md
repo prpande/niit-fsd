@@ -130,4 +130,7 @@ The files should be arranged in directories corresponding to each sprint session
 
 #### Sprint4 - Inheritance
 
+- Inheritance - <https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html>
+- Object class - <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
+
 #### Sprint5 - Polymorphism
