@@ -9,6 +9,7 @@
 - Reference type that defines a contract of methods that implementing classes must follow
 - Provides a way to achieve multiple inheritance and is used to define a common set of methods that classes must implement
 - Help establish a clear separation between the contract (methods that must be implemented) and the implementation details
+- Classes can implement multiple interfaces while they can extend only one class.
 
 ### Interface implementation example
 
