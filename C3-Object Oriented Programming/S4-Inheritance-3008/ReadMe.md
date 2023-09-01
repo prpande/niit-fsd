@@ -315,7 +315,7 @@ class LaptopComputer extends Computer {
 
 2. **Multiple Inheritance (through Interfaces):**
 
-   - Java doesn't support multiple inheritance of classes due to the "diamond problem," which can lead to ambiguity when two superclasses have a method with the same name
+   - **Java doesn't support multiple inheritance of classes** due to the "diamond problem," which can lead to ambiguity when two superclasses have a method with the same name
    - However, Java achieves a form of multiple inheritance through interfaces
    - A class can implement multiple interfaces, allowing it to inherit method signatures from multiple sources
 

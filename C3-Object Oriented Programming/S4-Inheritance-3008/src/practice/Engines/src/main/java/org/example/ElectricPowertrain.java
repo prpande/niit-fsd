@@ -2,13 +2,15 @@ package org.example;
 
 public class ElectricPowertrain extends Engine
 {
+    private float voltage;
     private float batterySizeInKwh;
     private int numberOfMotors;
 
     public ElectricPowertrain(String modelNumber, float powerOutput, float torqueOutput,
-                              float batterySizeInKwh, int numberOfMotors)
+                              float voltage, float batterySizeInKwh, int numberOfMotors)
     {
         super(modelNumber, "Electric", powerOutput, torqueOutput);
+        this.voltage = voltage;
         this.batterySizeInKwh = batterySizeInKwh;
         this.numberOfMotors = numberOfMotors;
     }
