@@ -190,6 +190,10 @@ Dependency on the internet and social media has increased tremendously over the 
 
 Web founder Tim Berners Lee had a vision for the web. He wanted to make web content accessible to all machines using appropriate HTML elements for the intended purpose. The semantic elements should clearly communicate the intent to both the browsers and the developers.In this learning sprint, you would learn to semantically structure web pages which make machines understand web pages. You will also learn how semantically designed web pages can help people with disabilities.
 
+- How Do Semantic Elements Help Screen Readers?
+  - <https://www.youtube.com/watch?v=LP3zLrOjQSY&ab_channel=dantamas>
+  - <https://www.youtube.com/watch?v=qdB8SRhqvFc&ab_channel=Front-Trends>
+
 ### Sprint3 - Style a Web Page Using CSS Properties and CSS Box Model
 
 HTML helps to frame and structure a web page. CSS or the Cascading Style Sheet language, on the other hand helps in adding aesthetics to the web page. Web pages with only information and no styles makes it less appealing. Companies whose websites are styled with pleasing looks have a better viewership. Hence developers must master the skill of applying CSS while developing web pages.In this learning sprint, you will get introduced to CSS and basic CSS style properties. You will learn the different techniques of styling web page using CSS. You will learn how these style properties can be applied on HTML elements using various CSS selectors. You will explore about CSS Box model properties and how do we manage spaces by applying the Properties like margin, padding and borders.
