@@ -198,6 +198,16 @@ Web founder Tim Berners Lee had a vision for the web. He wanted to make web cont
 
 HTML helps to frame and structure a web page. CSS or the Cascading Style Sheet language, on the other hand helps in adding aesthetics to the web page. Web pages with only information and no styles makes it less appealing. Companies whose websites are styled with pleasing looks have a better viewership. Hence developers must master the skill of applying CSS while developing web pages.In this learning sprint, you will get introduced to CSS and basic CSS style properties. You will learn the different techniques of styling web page using CSS. You will learn how these style properties can be applied on HTML elements using various CSS selectors. You will explore about CSS Box model properties and how do we manage spaces by applying the Properties like margin, padding and borders.
 
+- Boxes and border cheat sheet <https://learntheweb.courses/topics/boxes-borders-cheat-sheet/>
+- Letter spacing and line-height
+  - <https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing>
+  - <https://developer.mozilla.org/en-US/docs/Web/CSS/line-height>
+- Calculating the exact size of the box <https://css-tricks.com/the-css-box-model/>
+- Combinators <https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators>
+- Pseudo Class Selectors <https://css-tricks.com/pseudo-class-selectors/>
+- CSS Specificity - Things you should know <https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/>
+- BEM syntax <https://css-tricks.com/bem-101/>
+
 ### Sprint4 - Structure a Web Page Using CSS Floats
 
 Structuring information provides clear paths for navigation within webpages and puts the most important elements of a website at the front and center. To design complex layouts, the normal document flow needs to be changed by overriding the default browser styles. You need to control the behavior and position of elements on the page. Positioning allows to customize the flow of elements in the document.In this learning sprint, you will learn to explore the behavior of normal document flow and how it can be controlled using CSS floats. You will also learn various CSS position properties like absolute, relative, fixed and static that will help to alter the position of elements.
