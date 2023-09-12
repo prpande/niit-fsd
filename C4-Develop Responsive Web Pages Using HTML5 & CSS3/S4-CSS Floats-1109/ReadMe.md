@@ -667,6 +667,121 @@ In this example:
 
 - Each `.card` is set to take up approximately one-third of the container's width, with `margin` and `padding` applied for spacing.
 
+## `overflow` property
+
+- Used to control how content is displayed when it overflows the boundaries of its containing element in the horizontal or vertical direction
+- Useful property when dealing with content that doesn't fit within a fixed-size container, such as text, images, or overflowing menus
+- It accepts four main values:
+
+  1. **visible (default)**: Content overflows the container but is still visible outside it. This is the default behavior.
+
+  2. **hidden**: Content that overflows the container is clipped and not visible.
+
+  3. **scroll**: Scrollbars are added to the container, allowing the user to scroll and view the hidden content.
+
+  4. **auto**: Scrollbars are added only when the content overflows the container, and the user can scroll if necessary.
+
+### Basic Syntax for `overflow`
+
+```css
+.selector {
+    overflow: value;
+}
+```
+
+- `selector`: The CSS selector for the element you want to apply the "overflow" property to.
+
+- `value`: One of the four "overflow" values: `visible`, `hidden`, `scroll`, or `auto`.
+
+### Examples of "overflow"
+
+#### 1. Clipping Overflowing Content
+
+```html
+<div class="container">
+    <p class="text">This is some long text that will overflow the container.</p>
+</div>
+```
+
+```css
+.container {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.text {
+    width: 250px;
+}
+```
+
+In this example:
+
+- The `.container` div has a fixed width and height, creating a constrained container.
+
+- The `.text` paragraph within the container has a width that exceeds the container's width.
+
+- Applying `overflow: hidden;` to the container clips and hides the overflowing text, making it invisible to the user.
+
+#### 2. Adding Scrollbars for Overflowing Content
+
+```html
+<div class="container">
+    <p class="text">This is some long text that will overflow the container.</p>
+</div>
+```
+
+```css
+.container {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    overflow: scroll;
+}
+
+.text {
+    width: 250px;
+}
+```
+
+In this example:
+
+- The `.container` div has the same fixed width and height as the previous example.
+
+- However, instead of `overflow: hidden;`, we use `overflow: scroll;` to add both horizontal and vertical scrollbars to the container.
+
+- This allows the user to scroll and view the hidden content within the constrained container.
+
+#### 3. Automatically Adding Scrollbars as Needed
+
+```html
+<div class="container">
+    <p class="text">This is some long text that will overflow the container only when the container is smaller.</p>
+</div>
+```
+
+```css
+.container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+.text {
+    width: 250px;
+}
+```
+
+In this example:
+
+- The `.container` div has larger dimensions than the previous examples.
+
+- We use `overflow: auto;` to add scrollbars only when the content overflows the container. If the content fits within the container, no scrollbars are displayed.
+
+- This provides a user-friendly experience by avoiding unnecessary scrollbars when they are not needed.
+
 ## `table` layout
 
 - Method of arranging content into rows and columns, similar to HTML tables
