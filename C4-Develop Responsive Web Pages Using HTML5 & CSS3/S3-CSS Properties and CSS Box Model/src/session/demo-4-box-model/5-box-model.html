@@ -1,0 +1,170 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-size: larger;
+            background-color: lightyellow;
+            margin: auto;
+        }
+
+        .page {
+            max-width: 850px;
+            margin: auto;
+        }
+
+        h4 {
+            font-family: 'Caveat', cursive;
+            font-size: 1.4em;
+        }
+
+        .box-model {
+            width: 4%;
+            padding: 0 10px;
+            margin-top: 35px;
+            margin-left: 62%;
+            border: 8px solid #444;
+            border-radius: 10px;
+        }
+
+        .heading {
+            color: whitesmoke;
+            background-color: #c66;
+            height: 40px;
+            padding: 15px;
+        }
+
+        #label {
+            color: whitesmoke;
+            background: #c66;
+            border-radius: .25em;
+            width: 400px;
+            margin: 10px auto;
+            padding: 10px;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-transform: uppercase;
+        }
+
+        img {
+            margin-left: 20%;
+            border-radius: 10px;
+            width: 60%;
+            height: 40%;
+        }
+
+        .post-block {
+            padding: 1em 2em;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul li,
+        ol li {
+            color: #444;
+            list-style: none;
+        }
+
+        .post-title {
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 700;
+        }
+
+        ul,ol {
+            padding: 0;
+        }
+
+        .post-block .post-title {
+            margin: 0px;
+        }
+
+        .post-list {
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .list-title {
+            font-size: 1.25em;
+            padding: 0 1.5em;
+            margin-top: 2.5em;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: #444;
+        }
+
+        .list-title i {
+            margin: 0 0.5em 0 0;
+        }
+
+        h3 {
+            font-size: 1.75em;
+        }
+
+        h2,
+        h3,
+        h4 {
+            line-height: 1.25;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">Maria's Dog</h1>
+    <h4 class="box-model">Nessie</h4>
+    <div class="page">
+        <section>
+            <img src="dog.jpeg" alt="dog" />
+            <h4 id="label">Personalised premium dog food</h4>
+        </section>
+        <section>
+            <h2 class="list-title"><i class="fa-solid fa-paw"></i>Real Meat Dog Food</h2>
+            <ul class="post-list">
+                <li class="post-block">
+                    <h3 class="post-title"><a href="#">Puppy Dog Food</a></h3>
+                    <p class="post-meta">Small/Medium/Large Breeds</p>
+                </li>
+
+                <li class="post-block">
+                    <h3 class="post-title"><a href="#">Adult Dog Food</a></h3>
+                    <p class="post-meta">Small/Medium/Large Breeds</p>
+                </li>
+                <li class="post-block">
+                    <h3 class="post-title"><a href="#">Senior Dog Food</a></h3>
+                    <p class="post-meta">All Breeds</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="list-title"><i class="fa-solid fa-bowl-food"></i>What's Inside each bag</h2>
+            <ul class="post-list">
+                <li class="post-block">
+                    <h3 class="post-title"><a href="#">Essential Vitamins and Nutrients</a></h3>
+                    <p class="post-meta">Includes Antioxidants</p>
+                </li>
+
+                <li class="post-block">
+                    <h3 class="post-title"><a href="#">Real Meat</a></h3>
+                    <p class="post-meta">No byproduct or meat meal</p>
+                </li>
+                <li class="post-block">
+                    <h3 class="post-title"><a href="#">Grain Free</a></h3>
+                    <p class="post-meta">Minimises bloating and wind</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>
