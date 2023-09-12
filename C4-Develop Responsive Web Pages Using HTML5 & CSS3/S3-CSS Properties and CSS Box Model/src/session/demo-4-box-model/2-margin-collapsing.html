@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin collapsing</title>
+    <style>
+        .container {
+            margin-top: 60px;
+            margin-left: 30px;
+            width: 25vw;
+            height: 23vh;
+            border: 5px solid rebeccapurple;
+            background-color: lightyellow;
+        }
+        
+        p {
+            border: 5px solid blue;
+            background-color: lightgray;
+        }
+        
+        .one {
+            margin-bottom: 50px;
+        }
+        
+        .two {
+            margin-top: -30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="one">I am paragraph one.</p>
+        <p class="two">I am paragraph two.</p>
+    </div>
+</body>
+
+</html>

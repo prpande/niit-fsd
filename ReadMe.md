@@ -212,6 +212,11 @@ HTML helps to frame and structure a web page. CSS or the Cascading Style Sheet l
 
 Structuring information provides clear paths for navigation within webpages and puts the most important elements of a website at the front and center. To design complex layouts, the normal document flow needs to be changed by overriding the default browser styles. You need to control the behavior and position of elements on the page. Positioning allows to customize the flow of elements in the document.In this learning sprint, you will learn to explore the behavior of normal document flow and how it can be controlled using CSS floats. You will also learn various CSS position properties like absolute, relative, fixed and static that will help to alter the position of elements.
 
+- Things-you should.know-about-floats-theory <https://www.smashingmagazine.com/2007/05/css-float-theory-things-you-should-know/#:~:text=Float%20an%20image%20to%20the>
+- All about floats <https://css-tricks.com/all-about-floats/>
+- Float property and its values <https://developer.mozilla.org/en-US/docs/Web/CSS/float>
+- Logical properties of margin, padding and border <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding>
+
 ### Sprint5 - Develop a Responsive Web Page Using Modern CSS
 
 Web surfing has grown at a phenomenal rate over the past years as most people prefer browsing on their mobile devices. To provide a seamless user experience, web sites should adapt to various devices. A responsive web design offers smooth navigation with reduced scrolling and zooming for excellent user experience on various screen sizes.In this learning sprint, you will be introduced to the various responsive design patterns that use breakpoints for adding responsiveness to a web page. You will learn to implement design patterns like Mostly fluid and Layout shifter using modern CSS properties like media queries.

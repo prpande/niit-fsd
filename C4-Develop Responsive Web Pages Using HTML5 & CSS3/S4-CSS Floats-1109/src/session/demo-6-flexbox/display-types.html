@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different types of display</title>
+    <style>
+        p,
+        ul {
+            border: 2px solid blue;
+            padding: .5em;
+            width: 40vw;
+            margin-left: 30px;
+            margin-top: 30px;
+            background-color: aqua;
+        }
+        
+        .inline-block,
+        li {
+            border: 2px solid rebeccapurple;
+            padding: .5em;
+            background-color: lime;
+           }
+        
+        ul {
+            display: flex;
+            list-style: none;
+            background-color: aqua;
+        }
+        
+        .inline-block {
+            display: inline-block;
+            background-color: lime;
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is a short paragraph.</p>
+    <ul>
+        <li>Apple</li>
+        <li>Samsung</li>
+        <li>Oppo</li>
+    </ul>
+    <p>This is second paragraph. Some of the <span class="inline-block">contents</span> have been wrapped in a <span>span element</span>.</p>
+</body>
+
+</html>

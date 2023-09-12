@@ -1,0 +1,108 @@
+/* Write CSS code here */
+:root{
+    --background-color: #ebd6d2;
+    --menu-background: #47190f;
+    --menu-text-color: #ffff00;
+    --page-width: 1400px;
+    --page-top-margin: 35px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.flow-root{
+    display: flow-root;
+}
+body{
+    width: var(--page-width);
+    margin: var(--page-top-margin) auto;
+    background-color: var(--background-color);
+    /* border: 2px solid red; */
+}
+
+.menuItem{
+    float: left;
+    color: var(--menu-text-color);
+    text-transform: uppercase;
+    background-color: var(--menu-background);
+    width: 9rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: .9rem;
+    margin: 0 6rem 3rem .5rem;
+    border-radius: .7rem;
+    font-weight: bold;
+}
+
+.imageMain{
+    float: left;
+    width: 29rem;
+    margin-right: 1rem;
+}
+
+.imageMain img{
+    width: 28rem;
+    height: 23rem;
+}
+.imageMain figcaption{
+    color: var(--menu-text-color);
+    font-size: 1.3rem;
+    margin: 0 1rem;
+    position: relative;
+    top: -22rem
+}
+
+.information{
+    float: left;
+    width: 59rem;
+}
+
+.descText{
+    color: var(--menu-background);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.item{
+    background-color: var(--menu-background);
+    float: left;
+    color: var(--menu-text-color);
+    font-weight: bold;
+    width: 15rem;
+    height: 9rem;
+    margin: 4.4rem 2rem 0 0;
+    text-align: center;
+}
+.item img{
+    width: 5rem;
+    margin-top: 1rem;
+    border-radius: 10rem;
+}
+.item figcaption{
+    margin-top: 1.5rem;
+}
+.footerContainer{
+    display: inline-block;
+    clear: both;
+    width: 1400px;
+}
+
+.footerItem{
+    float: left;
+    width: 17.5rem;
+    margin: 6rem 0rem 0 4rem;
+    text-align: left;
+}
+.footerLabel{
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: -1.2rem;
+    left: -1rem
+}

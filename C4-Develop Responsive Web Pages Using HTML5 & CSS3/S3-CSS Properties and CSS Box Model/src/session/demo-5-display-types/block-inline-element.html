@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Boxes</title>
+    <style>
+        span {
+            margin: 20px;
+            padding: 20px;
+            width: 40px;
+            height: 25px; 
+            background-color: lightpink;
+            border: 2px solid purple;
+            display: inline-block;
+           
+        }
+        
+        p {
+            width: 18vw;
+            border: 2px solid blue;
+            padding: 5px;
+            margin-left: 40px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        This is a paragraph and here is a <span>span</span> inside that paragraph. A span is an inline element and hence does not respect width and height.
+    </p>
+
+</body>
+
+</html>

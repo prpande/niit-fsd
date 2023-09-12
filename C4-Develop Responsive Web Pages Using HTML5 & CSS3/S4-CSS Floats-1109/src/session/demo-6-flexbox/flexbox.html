@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        header {
+            background: purple;
+            height: 100px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            line-height: 100px;
+            margin: 0;
+        }
+
+        section {
+            display: flex;
+        }
+
+        article {
+            padding: 10px;
+            margin: 10px;
+            background: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sample flexbox example</h1>
+    </header>
+
+    <section>
+        <article>
+            <h2>Flexbox</h2>
+
+            <p>Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex (expand) to
+                fill additional space or shrink to fit into smaller spaces..</p>
+        </article>
+
+        <article>
+            <h2>Why Flexbox?</h2>
+
+            <p>For a long time, the only reliable cross-browser compatible tools available for creating CSS layouts were
+                features like floats and positioning. These work, but in some ways they're also limiting and
+                frustrating. Some of the simple layout designs are either difficult or impossible to achieve with such
+                tools. Flexbox makes a lot of layout tasks much easier.</p>
+        </article>
+
+        <article>
+            <h2>How Flexbox Works?</h2>
+
+            <p>To start with, we need to select which elements are to be laid out as flexible boxes. To do this, we set
+                a special value of display on the parent element of the elements you want to affect.</p>
+
+            <p>The element we've given a display value of flex to is acting like a block-level element in terms of how
+                it interacts with the rest of the page, but its children are laid out as flex items. The next section
+                will explain in more detail what this means. Note also that you can use a display value of inline-flex
+                if you wish to lay out an element's children as flex items, but have that element behave like an inline
+                element.
+            </p>
+        </article>
+    </section>
+</body>
+
+</html>
