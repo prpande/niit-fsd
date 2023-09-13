@@ -1,4 +1,77 @@
+<!-- omit in toc -->
 # CSS Properties and CSS Box Model - 08/09
+
+<!-- omit in toc -->
+## Contents
+
+- [What is CSS?](#what-is-css)
+  - [The Purpose of CSS](#the-purpose-of-css)
+- [CSS Syntax](#css-syntax)
+  - [Example](#example)
+- [Practical Examples](#practical-examples)
+  - [Example 1: Changing Text Color](#example-1-changing-text-color)
+  - [Example 2: Adjusting Margins and Padding](#example-2-adjusting-margins-and-padding)
+  - [Example 3: Styling Links](#example-3-styling-links)
+- [Applying Styles to an HTML Page](#applying-styles-to-an-html-page)
+- [CSS Selectors](#css-selectors)
+  - [1. Type (Element) Selectors](#1-type-element-selectors)
+  - [2. Class Selectors](#2-class-selectors)
+  - [3. ID Selectors](#3-id-selectors)
+  - [4. Universal Selector](#4-universal-selector)
+  - [5. Descendant (Whitespace) Selectors](#5-descendant-whitespace-selectors)
+  - [6. Child Selectors](#6-child-selectors)
+  - [7. Adjacent Sibling Selectors](#7-adjacent-sibling-selectors)
+  - [8. Attribute Selectors](#8-attribute-selectors)
+  - [9. Pseudo-Classes and Pseudo-Elements](#9-pseudo-classes-and-pseudo-elements)
+  - [More info on CSS Selectors](#more-info-on-css-selectors)
+- [CSS Properties](#css-properties)
+  - [1. color](#1-color)
+  - [2. background-color](#2-background-color)
+  - [3. font-family](#3-font-family)
+  - [4. font-size](#4-font-size)
+  - [5. font-weight](#5-font-weight)
+  - [6. text-decoration](#6-text-decoration)
+  - [7. margin](#7-margin)
+  - [8. padding](#8-padding)
+  - [9. border](#9-border)
+  - [10. width and height](#10-width-and-height)
+  - [11. display](#11-display)
+  - [12. float](#12-float)
+  - [13. position](#13-position)
+  - [More CSS Properties Links](#more-css-properties-links)
+  - [Shorthand property declarations](#shorthand-property-declarations)
+    - [1. Font Shorthand](#1-font-shorthand)
+    - [2. Margin and Padding Shorthand](#2-margin-and-padding-shorthand)
+    - [3. Background Shorthand](#3-background-shorthand)
+    - [4. Border Shorthand](#4-border-shorthand)
+    - [5. Box Shorthand](#5-box-shorthand)
+    - [Benefits of Using Shorthand Property Declarations](#benefits-of-using-shorthand-property-declarations)
+- [Specificity in CSS](#specificity-in-css)
+  - [Specificity resolution](#specificity-resolution)
+  - [Specificity hierarchy from highest to lowest](#specificity-hierarchy-from-highest-to-lowest)
+- [CSS Box Model](#css-box-model)
+  - [What is the CSS Box Model?](#what-is-the-css-box-model)
+  - [The Box Model Components](#the-box-model-components)
+    - [1. Content](#1-content)
+    - [2. Padding](#2-padding)
+    - [3. Border](#3-border)
+    - [4. Margin](#4-margin)
+  - [Practical Use Cases of the Box Model](#practical-use-cases-of-the-box-model)
+    - [1. Creating Layouts](#1-creating-layouts)
+    - [2. Styling Buttons and Form Elements](#2-styling-buttons-and-form-elements)
+    - [3. Designing Cards and Panels](#3-designing-cards-and-panels)
+    - [4. Responsive Design](#4-responsive-design)
+  - [Inline Boxes vs Block Boxes](#inline-boxes-vs-block-boxes)
+- [`display` Property](#display-property)
+  - [Common Values of the `display` Property](#common-values-of-the-display-property)
+- [BEM naming convention](#bem-naming-convention)
+  - [BEM Naming Convention Principles](#bem-naming-convention-principles)
+  - [Best Practices and Examples](#best-practices-and-examples)
+    - [1. Styling a Button Component](#1-styling-a-button-component)
+    - [2. Creating a Card Component](#2-creating-a-card-component)
+    - [3. Creating a Menu Component](#3-creating-a-menu-component)
+    - [4. Modifying Text Styles](#4-modifying-text-styles)
+  - [Advantages of the BEM Naming Convention](#advantages-of-the-bem-naming-convention)
 
 ## What is CSS?
 
@@ -206,7 +279,7 @@ Here, created a box with margins (space outside the element) and padding (space 
 - Patterns used to select and style HTML elements in a web page
 - Define which elements in the HTML document will be affected by the styles you apply
 
-### 1. **Type (Element) Selectors**
+### 1. Type (Element) Selectors
 
 Select HTML elements by their tag name.
 
@@ -220,7 +293,7 @@ p {
 
 In this example, all `<p>` elements will have blue text.
 
-### 2. **Class Selectors**
+### 2. Class Selectors
 
 - Select elements by their class attribute
 - Denote a class selector with a period (.) followed by the class name
@@ -239,7 +312,7 @@ In this example, all `<p>` elements will have blue text.
 
 The `<p>` element with the class "highlight" will have a yellow background.
 
-### 3. **ID Selectors**
+### 3. ID Selectors
 
 - Select elements by their id attribute
 - Denote an ID selector with a hash (#) followed by the ID name.
@@ -258,7 +331,7 @@ The `<p>` element with the class "highlight" will have a yellow background.
 
 The `<p>` element with the ID "unique" will have bold text.
 
-### 4. **Universal Selector**
+### 4. Universal Selector
 
 Represented by an asterisk (*), selects all elements on the page.
 
@@ -273,7 +346,7 @@ Represented by an asterisk (*), selects all elements on the page.
 
 This rule sets the margin and padding to 0 for all elements on the page.
 
-### 5. **Descendant (Whitespace) Selectors**
+### 5. Descendant (Whitespace) Selectors
 
 - Select elements that are descendants of another specified element
 - They are separated by a whitespace
@@ -295,7 +368,7 @@ ul li {
 
 All `<li>` elements that are descendants of a `<ul>` will have a square list-style.
 
-### 6. **Child Selectors**
+### 6. Child Selectors
 
 - Select elements that are a **direct** child of another specified element
 - Denoted by the `>` symbol.
@@ -316,7 +389,7 @@ All `<li>` elements that are descendants of a `<ul>` will have a square list-sty
 
 Only the `<p>` element that is a direct child of an element with the class "container" will have red text.
 
-### 7. **Adjacent Sibling Selectors**
+### 7. Adjacent Sibling Selectors
 
 - Select an element that is immediately preceded by a specified element
 - Denoted by the `+` symbol
@@ -338,7 +411,7 @@ h2 + p {
 
 The `<p>` element immediately following an `<h2>` will have bold text.
 
-### 8. **Attribute Selectors**
+### 8. Attribute Selectors
 
 - Select elements based on their attributes
 - Enclosed in square brackets and can be used to target specific attribute values
@@ -357,7 +430,7 @@ a[href="https://www.example.com"] {
 
 This rule selects an `<a>` element with the specified `href` attribute value and removes the text decoration.
 
-### 9. **Pseudo-Classes and Pseudo-Elements**
+### 9. Pseudo-Classes and Pseudo-Elements
 
 - Allow you to select elements based on their state or position in the document
 
@@ -400,7 +473,7 @@ This rule makes the first line of every `<p>` element bold.
 - Used to define how HTML elements should be styled or formatted
 - Each property controls a specific aspect of an element's appearance, such as color, size, spacing, or layout
 
-### 1. **color**
+### 1. color
 
 Sets the text color of an element.
 
@@ -414,7 +487,7 @@ p {
 
 In this example, all `<p>` elements will have red text.
 
-### 2. **background-color**
+### 2. background-color
 
 Sets the background color of an element.
 
@@ -428,7 +501,7 @@ div {
 
 All `<div>` elements will have a light gray background color.
 
-### 3. **font-family**
+### 3. font-family
 
 Specifies the font of text inside an element.
 
@@ -442,7 +515,7 @@ h1 {
 
 The `<h1>` elements will use the Arial font or a sans-serif fallback if Arial is unavailable.
 
-### 4. **font-size**
+### 4. font-size
 
 Determines the size of text.
 
@@ -456,7 +529,7 @@ p {
 
 All `<p>` elements will have a font size of 16 pixels.
 
-### 5. **font-weight**
+### 5. font-weight
 
 Controls the thickness or boldness of text.
 
@@ -470,7 +543,7 @@ strong {
 
 Text within `<strong>` elements will be bold.
 
-### 6. **text-decoration**
+### 6. text-decoration
 
 Adds decorations to text, such as underlines, overlines, or line-through.
 
@@ -484,7 +557,7 @@ a {
 
 Links (`<a>`) will have no text decoration (removes underlines by default).
 
-### 7. **margin**
+### 7. margin
 
 Sets the space outside the border of an element.
 
@@ -498,7 +571,7 @@ div {
 
 All `<div>` elements will have a 10-pixel margin on all sides.
 
-### 8. **padding**
+### 8. padding
 
 Sets the space between an element's content and its border.
 
@@ -512,7 +585,7 @@ button {
 
 Buttons will have 5 pixels of padding on the top and bottom and 10 pixels on the left and right.
 
-### 9. **border**
+### 9. border
 
 Sets the border properties of an element.
 
@@ -526,7 +599,7 @@ img {
 
 All images will have a 2-pixel solid gray border.
 
-### 10. **width and height**
+### 10. width and height
 
 Determine the dimensions of an element.
 
@@ -541,7 +614,7 @@ Determine the dimensions of an element.
 
 Elements with the class "container" will have a width of 300 pixels and a height of 200 pixels.
 
-### 11. **display**
+### 11. display
 
 - Controls how an element is displayed
 - It can change an element's behavior from block-level to inline or other values
@@ -556,7 +629,7 @@ span {
 
 All `<span>` elements will be displayed as inline-block elements.
 
-### 12. **float**
+### 12. float
 
 Alows elements to float to the left or right within their container.
 
@@ -570,7 +643,7 @@ img {
 
 Images will float to the left, allowing text to wrap around them.
 
-### 13. **position**
+### 13. position
 
 Used for element positioning, such as "relative," "absolute," or "fixed."
 
@@ -595,14 +668,14 @@ The element with the class "header" will be fixed to the top-left corner of the 
 - List-style properties <https://developer.mozilla.org/en-US/docs/Web/CSS/list-style>
 - Styling tables properties <https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Styling_tables>
 
-### **Shorthand property declarations**
+### Shorthand property declarations
 
 - Provide a more efficient and concise way to set multiple related properties at once
 - Useful when applying styles efficiently, reducing redundancy, and improving code readability
 - Typically consists of the property name followed by a value or a series of values enclosed in parentheses, brackets, or slashes
 - Values are separated by whitespace, slashes, or hyphens, depending on the property
 
-### 1. Font Shorthand
+#### 1. Font Shorthand
 
 Allows you to set various font-related properties like `font-size`, `font-weight`, and `font-family` in a single declaration.
 
@@ -616,7 +689,7 @@ p {
 
 In this example, we set the `font-style` to `italic`, `font-weight` to `bold`, `font-size` to `16px`, line height (`line-height`) to `1.5`, and `font-family` to Arial or sans-serif as a fallback.
 
-### 2. Margin and Padding Shorthand
+#### 2. Margin and Padding Shorthand
 
 Set the margin and padding of an element in one declaration using the `margin` and `padding` shorthand properties.
 
@@ -631,7 +704,7 @@ div {
 
 In the `margin` property, the values are applied clockwise: top, right, bottom, and left. In the `padding` property, only two values are provided, which apply to top/bottom and left/right.
 
-### 3. Background Shorthand
+#### 3. Background Shorthand
 
 Allows you to set various background-related properties like `background-color`, `background-image`, and `background-position` in one declaration.
 
@@ -645,7 +718,7 @@ button {
 
 In this example, we set the `background-image`, `background-repeat`, `background-position`, and `background-color` properties in one declaration.
 
-### 4. Border Shorthand
+#### 4. Border Shorthand
 
 Used to set the properties for all four borders (top, right, bottom, and left) in one declaration.
 
@@ -659,7 +732,7 @@ div {
 
 Here, we set the `border-width`, `border-style`, and `border-color` properties in a single declaration.
 
-### 5. Box Shorthand
+#### 5. Box Shorthand
 
 Allows you to set properties related to box shadows, such as `box-shadow`, `offset-x`, `offset-y`, `blur-radius`, `spread-radius`, and `color`, all in one declaration.
 
@@ -673,7 +746,7 @@ Allows you to set properties related to box shadows, such as `box-shadow`, `offs
 
 In this example, we create a box shadow with an x-offset of 10 pixels, a y-offset of 10 pixels, a blur radius of 20 pixels, and a shadow color with a 20% opacity.
 
-## Benefits of Using Shorthand Property Declarations
+#### Benefits of Using Shorthand Property Declarations
 
 1. **Conciseness**: Reduce the amount of code you need to write, making stylesheets more concise and easier to read.
 
@@ -755,7 +828,7 @@ In this example, we create a box shadow with an x-offset of 10 pixels, a y-offse
 - Fundamental concept that governs how HTML elements are displayed and spaced on a web page
 - Crucial for web developers and designers to grasp this concept thoroughly as it forms the foundation of layout and design in web development
 
-## What is the CSS Box Model?
+### What is the CSS Box Model?
 
 - Represents every HTML element as a rectangular box
 - Each of these boxes consists of four main components:
@@ -767,9 +840,9 @@ In this example, we create a box shadow with an x-offset of 10 pixels, a y-offse
 
   4. **Margin**: The margin is the space outside the border. It creates distance between the element and other elements on the page.
 
-### **The Box Model Components**
+### The Box Model Components
 
-### 1. Content
+#### 1. Content
 
 - Represents the actual content of an element
 - Its size is determined by the element's width and height properties
@@ -796,7 +869,7 @@ In this example, we create a box shadow with an x-offset of 10 pixels, a y-offse
 
 In this example, the content area is the blue rectangle inside the `<div>` element.
 
-### 2. Padding
+#### 2. Padding
 
 - Space between the content and the element's border
 - Controlled using the `padding` property in CSS
@@ -814,7 +887,7 @@ In this example, the content area is the blue rectangle inside the `<div>` eleme
 
 In this case, the padding creates a 20-pixel gap between the content and the border of the `<div>` element.
 
-### 3. Border
+#### 3. Border
 
 - Visible line that surrounds the padding and content
 - Its properties like width, style, and color can be set using the `border` property
@@ -833,7 +906,7 @@ In this case, the padding creates a 20-pixel gap between the content and the bor
 
 Here, the border is a 2-pixel-wide solid line with a red color.
 
-### 4. Margin
+#### 4. Margin
 
 - The space outside the border, creating separation between elements
 - Controlled using the `margin` property
@@ -853,25 +926,25 @@ Here, the border is a 2-pixel-wide solid line with a red color.
 
 In this example, the margin around the `<div>` element is 30 pixels, creating space between this element and other elements on the page.
 
-### **Practical Use Cases of the Box Model**
+### Practical Use Cases of the Box Model
 
-### 1. Creating Layouts
+#### 1. Creating Layouts
 
 The Box Model allows you to control the dimensions, spacing, and alignment of various elements, enabling you to create complex page layouts with precise control over spacing and positioning.
 
-### 2. Styling Buttons and Form Elements
+#### 2. Styling Buttons and Form Elements
 
 By adjusting the padding and border properties, you can style buttons and form elements to make them visually appealing and user-friendly.
 
-### 3. Designing Cards and Panels
+#### 3. Designing Cards and Panels
 
 Creating cards or panels for displaying content, such as articles or product listings, is a common use case for the Box Model. You can control the padding, border, and margin to achieve the desired look.
 
-### 4. Responsive Design
+#### 4. Responsive Design
 
 When building responsive websites, you can adjust the dimensions and spacing of elements using media queries, ensuring that your layout adapts to different screen sizes and devices while maintaining the desired spacing.
 
-### **Inline Boxes vs Block Boxes**
+### Inline Boxes vs Block Boxes
 
 | Characteristic            | Inline Box                                              | Block Box                                     |
 |---------------------------|--------------------------------------------------------|-----------------------------------------------|
@@ -885,7 +958,7 @@ When building responsive websites, you can adjust the dimensions and spacing of 
 | **Example CSS Properties**| `color`, `font-size`, `text-decoration`, `background-color`. | `width`, `height`, `margin`, `padding`, `border`. |
 ||
 
-### **`display` Property**
+## `display` Property
 
 - Determines how an HTML element should be displayed in the document layout
 - Enables developers to change the default behavior of elements, transforming inline elements into block-level elements and vice versa, or even hiding elements entirely

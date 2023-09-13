@@ -38,7 +38,7 @@
     }
 ```
 
-> No `main()` in test class.\
+> No `main()` in test class.
 
 > Delta or epsilon value required when asserting for equality/comparison.\
 > Epsilon is the value that the 2 numbers can be off by. So it will assert to true as long as `Math.abs(expected - actual) <= epsilon`

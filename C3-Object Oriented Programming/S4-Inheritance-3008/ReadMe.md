@@ -1,3 +1,4 @@
+<!-- omit in toc -->
 # Inheritance - 30/08
 
 - One of the fundamental concepts in object-oriented programming (OOP)
@@ -5,6 +6,36 @@
 - Subclass can extend or customize the behavior inherited from the superclass, enabling the creation of more specialized classes while maintaining a strong connection to the parent/base class
 - Enables the creation of a hierarchical relationship between classes, where the subclass can reuse and extend the functionality of the superclass
 - Promotes code reusability, extensibility, and the organization of classes in a logical hierarchy
+
+<!-- omit in toc -->
+## Contents
+
+- [Syntax of Inheritance](#syntax-of-inheritance)
+- [Example of Inheritance](#example-of-inheritance)
+  - [Implementation](#implementation)
+  - [Output](#output)
+- [Benefits of Inheritance](#benefits-of-inheritance)
+- [Composition and Inheritance Relationships](#composition-and-inheritance-relationships)
+  - [Composition](#composition)
+    - [Example: Modeling a computer system](#example-modeling-a-computer-system)
+  - [Inheritance](#inheritance)
+    - [Example (contd.)](#example-contd)
+- [`super` keyword](#super-keyword)
+  - [Usage](#usage)
+- [Types of Inheritances](#types-of-inheritances)
+- [Constructors and Inheritance](#constructors-and-inheritance)
+  - [Constructor Chaining](#constructor-chaining)
+  - [Parameterized Constructors and Superclass Constructors](#parameterized-constructors-and-superclass-constructors)
+  - [Default Constructors](#default-constructors)
+- [Abstract Classes](#abstract-classes)
+  - [Key Points about Abstract Classes](#key-points-about-abstract-classes)
+    - [1. Cannot be Instantiated](#1-cannot-be-instantiated)
+    - [2. May Contain Abstract Methods](#2-may-contain-abstract-methods)
+    - [3. Can Have Concrete Methods](#3-can-have-concrete-methods)
+    - [4. Can Have Constructors](#4-can-have-constructors)
+    - [5. Provide Code Reusability](#5-provide-code-reusability)
+    - [6. Used for Polymorphism](#6-used-for-polymorphism)
+  - [Example of an Abstract Class](#example-of-an-abstract-class)
 
 ## Syntax of Inheritance
 
@@ -146,7 +177,7 @@ Vehicle stopped.
 - One class (the container or composite) holds references to objects of other classes (the components), and the components' lifecycles are managed by the container.
 - Involves building complex objects by combining simpler objects as part of their state.
 
-#### **Example:** Modeling a computer system
+#### Example: Modeling a computer system
 
 - `Computer` class might contain components like a `Processor`, `Memory`, and `HardDrive`, which are separate classes responsible for their specific functionalities
 - `Computer` class composes these components to create a complete computer system
@@ -183,7 +214,7 @@ class Computer {
 
 - Involves creating a new class based on an existing class, inheriting its attributes and methods, and optionally adding or modifying them.
 
-#### **Example (contd.)**
+#### Example (contd.)
 
 - Might have different types of computers, such as `DesktopComputer` and `LaptopComputer`, that share common features with the base `Computer` class.
 

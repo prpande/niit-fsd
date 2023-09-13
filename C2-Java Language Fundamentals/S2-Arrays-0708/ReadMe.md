@@ -1,7 +1,18 @@
+<!-- omit in toc -->
 # Working with Arrays 0708
 
 - Needed when the program needs to access and use multiple data values of the same type.
 - Managing separate variables for each data value is impractical and not scalable.
+
+<!-- omit in toc -->
+## Contents
+
+- [Arrays](#arrays)
+  - [Single Dimension Array](#single-dimension-array)
+  - [Multi Dimensional Arrays](#multi-dimensional-arrays)
+  - [Initialization](#initialization)
+  - [Reference Types are passed/ used by reference](#reference-types-are-passed-used-by-reference)
+- [Command line Parameter in `main(String[] args)`](#command-line-parameter-in-mainstring-args)
 
 ## Arrays
 
@@ -92,7 +103,7 @@
 
 `arr` and `num` will point to the same memory location. Modifying any array will change the values for the other one also. Same data accessed by 2 different names.
 
-### Command line Parameter in `main(String[] args)`
+## Command line Parameter in `main(String[] args)`
 
 - Powerful way to interact with your Java programs from the command line and provide dynamic input without modifying your code.
 - `main` method can accept command-line arguments when the program is executed.

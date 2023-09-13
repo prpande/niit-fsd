@@ -1,4 +1,16 @@
+<!-- omit in toc -->
 # Implement Sorting on Arrays - 10/08
+
+<!-- omit in toc -->
+## Contents
+
+- [Searching](#searching)
+  - [Linear Search](#linear-search)
+  - [Binary Search](#binary-search)
+- [Sorting](#sorting)
+  - [Linear Sort](#linear-sort)
+  - [Bubble Sort](#bubble-sort)
+  - [Insertion Sort](#insertion-sort)
 
 ## Searching
 

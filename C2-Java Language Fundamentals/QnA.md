@@ -1,8 +1,38 @@
+<!-- omit in toc -->
 # Questions and Answers
+
+<!-- omit in toc -->
+## Contents
+
+- [Question 1](#question-1)
+  - [Debug the function below to count the number of vowels in each word of a string array. Also write `main()` and pass the provided `string` array](#debug-the-function-below-to-count-the-number-of-vowels-in-each-word-of-a-string-array-also-write-main-and-pass-the-provided-string-array)
+- [Question 2](#question-2)
+  - [Write a program to accept a string and check if it is palindrome or not](#write-a-program-to-accept-a-string-and-check-if-it-is-palindrome-or-not)
+- [Question 3](#question-3)
+  - [Write a program to accept a string and return all the vowels present in the string in a char array](#write-a-program-to-accept-a-string-and-return-all-the-vowels-present-in-the-string-in-a-char-array)
+- [Question 4 : Explain `String.split()` function in Java and give examples](#question-4--explain-stringsplit-function-in-java-and-give-examples)
+  - [Example 1: Splitting by a Space](#example-1-splitting-by-a-space)
+  - [Example 2: Splitting by a Comma](#example-2-splitting-by-a-comma)
+  - [Example 3: Splitting with Multiple Characters](#example-3-splitting-with-multiple-characters)
+  - [Example 4: Limiting the Number of Splits](#example-4-limiting-the-number-of-splits)
+- [Question 5: In Java, what is the difference between stack and heap?](#question-5-in-java-what-is-the-difference-between-stack-and-heap)
+  - [Stack](#stack)
+  - [Heap](#heap)
+- [Question 6: In Java, what are stack frames?](#question-6-in-java-what-are-stack-frames)
+- [Question 7: Explain following concepts](#question-7-explain-following-concepts)
+  - [Immutability of Strings](#immutability-of-strings)
+  - [String Pool](#string-pool)
+- [Question 8](#question-8)
+  - [Write a program to count the number of spaces present in a string like `"Java is a programming language"`](#write-a-program-to-count-the-number-of-spaces-present-in-a-string-like-java-is-a-programming-language)
+- [Question 9: What are the laws of recursion](#question-9-what-are-the-laws-of-recursion)
+- [Question 10: What are the steps or technique used in recursion for problem solving](#question-10-what-are-the-steps-or-technique-used-in-recursion-for-problem-solving)
+- [Question 11](#question-11)
+  - [Rectify the following code of recursion](#rectify-the-following-code-of-recursion)
+  - [Answer](#answer)
 
 ## Question 1
 
-### Debug the function below to count the number of vowels in each word of a string array. Also write `main()` and pass the provided `string` array.
+### Debug the function below to count the number of vowels in each word of a string array. Also write `main()` and pass the provided `string` array
 
 ```java
 public void countAllVowels(String[] string)
@@ -29,7 +59,7 @@ Input sample
 String string[]= {"Tommy","JOHN","JeNNy","Robert"};
 ```
 
-***Solution in src\session\CountVowels.java***
+[***Solution***](./S5-StringManipulation-1608/src/session/CountVowels.java)
 
 ## Question 2
 
@@ -37,13 +67,13 @@ String string[]= {"Tommy","JOHN","JeNNy","Robert"};
 
 Example: `nitin` is a palindrome. Reverse of `nitin` = `nitin`
 
-***Solution in src\session\Palindrome.java***
+[***Solution***](./S5-StringManipulation-1608/src/session/Palindrome.java)
 
 ## Question 3
 
-### Write a program to accept a string and return all the vowels present in the string in a char array.
+### Write a program to accept a string and return all the vowels present in the string in a char array
 
-***Solution in src\session\ExtractVowels.java***
+[***Solution***](./S5-StringManipulation-1608/src/session/ExtractVowels.java)
 
 ## Question 4 : Explain `String.split()` function in Java and give examples
 
@@ -58,7 +88,7 @@ String[] splitArray = originalString.split(delimiter);
 
 Here, `originalString` is the string you want to split, and `delimiter` is the regular expression pattern that defines the splitting points.
 
-### Example 1: Splitting by a Spac
+### Example 1: Splitting by a Space
 
 ```java
 String sentence = "Hello world, how are you?";
@@ -190,7 +220,7 @@ Each time a method is called, a new stack frame is created and pushed onto the c
 
 As the method executes, the local variables and other relevant data are stored within the stack frame, and the program counter keeps track of the current instruction being executed within the method. When the method completes its execution, the stack frame is popped off the call stack, and the control returns to the point specified by the return address.
 
-The call stack and stack frames are crucial for managing the flow of program execution, including method calls, handling local variables, and ensuring the correct sequence of method invocations and returns. 
+The call stack and stack frames are crucial for managing the flow of program execution, including method calls, handling local variables, and ensuring the correct sequence of method invocations and returns.
 > It's important to note that the stack has a limited size, so if the call stack becomes too deep due to excessive method calls, it can lead to a stack overflow error.
 
 ## Question 7: Explain following concepts
@@ -231,7 +261,7 @@ The string pool helps save memory by reusing common string values and enhances p
 
 ### Write a program to count the number of spaces present in a string like `"Java is a programming language"`
 
-***Solution in src\session\CountSpaces.java***
+[***Solution***](./S5-StringManipulation-1608/src/session/CountSpaces.java)
 
 ## Question 9: What are the laws of recursion
 
@@ -282,14 +312,14 @@ In this example, the laws of recursion are followed:
 
 ## Question 10: What are the steps or technique used in recursion for problem solving
 
-Solving problems using recursion involves breaking down complex problems into smaller, more manageable subproblems, and then solving those subproblems using recursive calls. Here's a step-by-step technique to approach problem solving using recursion:
+Solving problems using recursion involves breaking down complex problems into smaller, more manageable sub-problems, and then solving those sub-problems using recursive calls. Here's a step-by-step technique to approach problem solving using recursion:
 
 1. **Identify the Base Case:**
    - Determine the simplest possible scenario where a direct solution can be provided without further recursion. This is your base case.
    - Base cases are essential to ensure that the recursion eventually terminates.
 
 2. **Define the Recursive Case:**
-   - Express the problem in terms of a smaller subproblem or multiple subproblems of the same type.
+   - Express the problem in terms of a smaller subproblem or multiple sub-problems of the same type.
    - Break down the problem into smaller pieces that can be solved using the same approach.
 
 3. **Make Progress Toward the Base Case:**
@@ -297,8 +327,8 @@ Solving problems using recursion involves breaking down complex problems into sm
    - Modify the function's arguments in a way that leads to eventually reaching the base case(s).
 
 4. **Assume Recursion Works (Inductive Hypothesis):**
-   - Assume that the recursive calls will correctly solve the smaller subproblems.
-   - Use this assumption to solve the current problem by combining the solutions of the subproblems.
+   - Assume that the recursive calls will correctly solve the smaller sub-problems.
+   - Use this assumption to solve the current problem by combining the solutions of the sub-problems.
 
 5. **Combine Subproblem Solutions:**
    - Combine the results obtained from the recursive calls to solve the original problem.

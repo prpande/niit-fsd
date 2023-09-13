@@ -51,5 +51,3 @@ public class RecursionExample {
 1. Identify a base condition (stopping/termination condition)
 2. Function should call itself
 3. Update the value being calculated while calling itself
-
-WAP to implement power function using recursion

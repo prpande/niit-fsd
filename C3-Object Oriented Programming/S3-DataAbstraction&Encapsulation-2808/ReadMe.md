@@ -1,9 +1,24 @@
+<!-- omit in toc -->
 # Implement Data Abstraction and Encapsulation
 
 - OOP- -class, object constr
 - package, visibility modifiers
-
 - MVC - model, view, controller
+
+<!-- omit in toc -->
+## Contents
+
+- [Packages](#packages)
+  - [Advantages of Packages](#advantages-of-packages)
+- [Principles of OOP](#principles-of-oop)
+  - [Encapsulation](#encapsulation)
+    - [Key points about encapsulation](#key-points-about-encapsulation)
+    - [Example of encapsulation in Java](#example-of-encapsulation-in-java)
+    - [Access specifiers](#access-specifiers)
+    - [Example](#example)
+  - [Abstraction](#abstraction)
+    - [Key points about abstraction](#key-points-about-abstraction)
+    - [Example of abstraction](#example-of-abstraction)
 
 ## Packages
 
@@ -45,7 +60,7 @@ Features or pillars of OOP
 - Restricts direct access to the internal details of an object and instead provides controlled access through methods, ensuring data integrity and security
   - **Setter and getter methods**: Prevent variables from misuse or unwanted changes by other objects.
 
-#### **Key points about encapsulation**
+#### Key points about encapsulation
 
 1. **Data Hiding:** Hides the internal state of an object from the outside world. Data attributes are often marked as private, preventing direct access.
 2. **Access Control:** Access to the data within an object is controlled through methods (getters and setters), allowing you to enforce rules and validations.
@@ -85,7 +100,7 @@ public class Person {
 - Direct access to these attributes is restricted, and access is provided through getter and setter methods
 - Setter methods implement validation checks to ensure that the data remains valid.
 
-#### **Access specifiers**
+#### Access specifiers
 
 - Restrict access to the variables in a class at multiple levels.
 - Visibility modifiers
@@ -107,7 +122,7 @@ public class Person {
 3. **`protected`:** Members marked as `protected` are accessible within the same class, subclasses (even if they're in different packages), and within the same package.
 4. **`default` (package-private):** When no access specifier is used, the member has default access, also known as package-private access. Members with default access are accessible within the same package but not from outside that package.
 
-#### **Example**
+#### Example
 
 ```java
 public class MyClass {
@@ -145,7 +160,7 @@ public class MyClass {
 - Helps in managing complexity, promoting code reusability, and providing a clear interface for interacting with objects without needing to understand their intricate inner workings.
 - Both the variables and methods of a class can be abstracted out
 
-#### **Key points about abstraction**
+#### Key points about abstraction
 
 1. **Hiding Complexity:** Allows you to hide the internal details and complexities of an object, exposing only what is necessary for the user to interact with it.
 2. **Creating Abstract Classes and Interfaces:** `abstract` `class` and `interface` that define the structure, methods, and properties that must be implemented by concrete subclasses.

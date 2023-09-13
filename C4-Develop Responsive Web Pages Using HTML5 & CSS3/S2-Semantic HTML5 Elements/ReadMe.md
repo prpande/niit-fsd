@@ -1,4 +1,18 @@
+<!-- omit in toc -->
 # Sematic HTML5 Elements - 06/09
+
+<!-- omit in toc -->
+## Contents
+
+- [Semantic Elements](#semantic-elements)
+  - [Common Semantic Elements](#common-semantic-elements)
+- [Non-Semantic Elements](#non-semantic-elements)
+  - [Common Non-Semantic Elements](#common-non-semantic-elements)
+  - [`div` vs. `span`](#div-vs-span)
+- [Semantic Vs Non-Semantic](#semantic-vs-non-semantic)
+- [ARIA (Accessible Rich Internet Applications) labels](#aria-accessible-rich-internet-applications-labels)
+  - [ARIA tags examples](#aria-tags-examples)
+- [Indexing and SEO](#indexing-and-seo)
 
 ## Semantic Elements
 

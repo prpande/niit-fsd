@@ -1,4 +1,27 @@
+<!-- omit in toc -->
 # Questions and Answers
+
+<!-- omit in toc -->
+## Contents
+
+- [What is a constructor?](#what-is-a-constructor)
+- [Why do we initialize static variables only once?](#why-do-we-initialize-static-variables-only-once)
+- [What are final variable? How can we initialize them?](#what-are-final-variable-how-can-we-initialize-them)
+- [Explain packages. What do you understand by the term importing a package in java?](#explain-packages-what-do-you-understand-by-the-term-importing-a-package-in-java)
+- [What are the pillars of OOP?](#what-are-the-pillars-of-oop)
+- [What are the principles of OOP?](#what-are-the-principles-of-oop)
+- [What is encapsulation. How can we achieve it?](#what-is-encapsulation-how-can-we-achieve-it)
+- [What are visibility Specifiers? Explain](#what-are-visibility-specifiers-explain)
+- [What are the differences between constructors and getter/setter methods?](#what-are-the-differences-between-constructors-and-gettersetter-methods)
+- [What is the need of abstract methods and abstract classes?](#what-is-the-need-of-abstract-methods-and-abstract-classes)
+- [What is the significance of method overloading?](#what-is-the-significance-of-method-overloading)
+- [What is dynamic method dispatch?](#what-is-dynamic-method-dispatch)
+- [What is the difference between abstract classes and interface?](#what-is-the-difference-between-abstract-classes-and-interface)
+- [What is object class and toString() method?](#what-is-object-class-and-tostring-method)
+- [Does java allow multiple inheritance?](#does-java-allow-multiple-inheritance)
+- [Explain types of inheritance](#explain-types-of-inheritance)
+- [What is @override annotation and why it is required?](#what-is-override-annotation-and-why-it-is-required)
+
 
 ## What is a constructor?
 
@@ -258,6 +281,7 @@ Dynamic method dispatch is a mechanism in object-oriented programming languages,
 3. **Selection at Runtime**:
    - When you call a method on an object, the Java Virtual Machine (JVM) determines the appropriate method implementation to execute based on the actual object's type (the runtime type), not the reference type. This allows for the selection of the correct method implementation at runtime.
 
+<!-- omit in toc -->
 ### Example
 
 - Suppose you have a superclass `Vehicle` with a method `start()`. You also have two subclasses, `Car` and `Motorcycle`, each of which overrides the `start()` method with its own implementation. When you call `start()` on a `Vehicle` reference that points to a `Car` object, the `Car` class's `start()` method is executed due to dynamic method dispatch.

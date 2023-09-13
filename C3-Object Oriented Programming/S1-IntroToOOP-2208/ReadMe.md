@@ -1,3 +1,4 @@
+<!-- omit in toc -->
 # Introduction to Object-Oriented Programming
 
 - normal language programming — procedural paradigm — step by Step
@@ -6,6 +7,19 @@
 - Object-Oriented Programming is a powerful paradigm that helps you organize and manage complex code by representing real-world entities as objects
 - Arrays :homogeneous same datatype
 - Object : heterogenous different type of values of attributes
+
+<!-- omit in toc -->
+## Contents
+
+- [What is Object-Oriented Programming?](#what-is-object-oriented-programming)
+- [Classes and Objects](#classes-and-objects)
+- [Basic OOP Principles](#basic-oop-principles)
+  - [Encapsulation](#encapsulation)
+  - [Inheritance](#inheritance)
+  - [Polymorphism](#polymorphism)
+  - [Declaring Classes and Objects](#declaring-classes-and-objects)
+  - [Constructors](#constructors)
+  - [Fields and Methods](#fields-and-methods)
 
 ## What is Object-Oriented Programming?
 

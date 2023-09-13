@@ -1,8 +1,56 @@
+<!-- omit in toc -->
 # Introduction to Java, Variables, Datatypes and Operators 19/07
 
 - High level programming language
 - Object oriented programming language like C++. Lower languages like C and pascal -> structured approach
 - Used widely in major software engineering companies
+
+<!-- omit in toc -->
+## Contents
+
+- [Computer](#computer)
+- [Language](#language)
+  - [Basic language constructs](#basic-language-constructs)
+- [History of Java](#history-of-java)
+- [Features of Java](#features-of-java)
+- [Class](#class)
+- [Methods](#methods)
+- [Compile and Execute steps](#compile-and-execute-steps)
+- [Frequently Terms Used](#frequently-terms-used)
+  - [JDK - Java Development Kit](#jdk---java-development-kit)
+  - [JIT - Just in Time compiler](#jit---just-in-time-compiler)
+  - [JRE - Java Runtime Environment](#jre---java-runtime-environment)
+  - [JVM - Java Virtual Machine](#jvm---java-virtual-machine)
+- [Casting](#casting)
+  - [Widening Casting (Implicit)](#widening-casting-implicit)
+  - [Narrowing Casting (Explicit)](#narrowing-casting-explicit)
+  - [Converting to `String`](#converting-to-string)
+  - [Converting from `String`](#converting-from-string)
+- [Java's primitive datatypes](#javas-primitive-datatypes)
+  - [Default values of primitive data types in Java](#default-values-of-primitive-data-types-in-java)
+- [Binary Arithmetic and Operators](#binary-arithmetic-and-operators)
+  - [Binary to Decimal Conversion](#binary-to-decimal-conversion)
+  - [Decimal to Binary Conversion](#decimal-to-binary-conversion)
+  - [Bitwise Operators](#bitwise-operators)
+- [Precedence And Associativity](#precedence-and-associativity)
+- [Escape Sequences](#escape-sequences)
+- [System.out.format](#systemoutformat)
+  - [Syntax of the format specifier](#syntax-of-the-format-specifier)
+  - [Flags and Specifiers examples](#flags-and-specifiers-examples)
+    - [Space format specifier](#space-format-specifier)
+    - [`+` Sign Specifier](#-sign-specifier)
+    - [`(` specifier](#-specifier)
+    - [Comma `,` specifier](#comma--specifier)
+    - [Left Justification ( `-` ) specifier](#left-justification-----specifier)
+    - [`%n` specifier](#n-specifier)
+    - [`%%` specifier](#-specifier-1)
+    - [`%x %X` format specifiers](#x-x-format-specifiers)
+    - [`%e %E` format specifier](#e-e-format-specifier)
+    - [Precision format specifiers](#precision-format-specifiers)
+- [Wrapper Classes in Java](#wrapper-classes-in-java)
+  - [Need for Wrapper Classes](#need-for-wrapper-classes)
+  - [Advantages of Wrapper Classes](#advantages-of-wrapper-classes)
+  - [Autoboxing and Unboxing](#autoboxing-and-unboxing)
 
 ## Computer
 
@@ -75,26 +123,23 @@ A medium to author softwares
 
 ## Frequently Terms Used
 
-### **JDK - Java Development Kit**
+### JDK - Java Development Kit
 
 Platform independent software development kit containing tools for developing, debugging programs etc.
 
-### **JIT - Just in Time compiler**
+### JIT - Just in Time compiler
 
 Part if class loader that translates bytecode into machine code.
 
-### **JRE - Java Runtime Environment**
+### JRE - Java Runtime Environment
 
 Environment to execute java code
 
-### **JVM - Java Virtual Machine**
+### JVM - Java Virtual Machine
 
 Inside JVM, responsible for interpreting and executing the bytecode and generating machine code to run the java programs that is understandable by the underlying OS.
 
 **Note:** JVM is platform dependant.
-
-
-# Introduction to Java, Variables, Datatypes and Operators 20/07
 
 ## Casting
 
@@ -154,25 +199,25 @@ public class ImplicitCastingExample
 **Example**
 
 ```java
-    public class ExplicitCastingExample 
+public class ExplicitCastingExample 
+{
+    public static void main(String args[]) 
     {
-        public static void main(String args[]) 
-        {
-            double d = 30.0;
-            // Explicit casting is needed for below conversion
-            float f = (float) d;
-            long l = (long) f;
-            int i = (int) l;
-            short s = (short) i;
-            byte b = (byte) s;
-            System.out.println("double value : "+d);
-            System.out.println("float value : "+f);
-            System.out.println("long value : "+l);
-            System.out.println("int value : "+i);
-            System.out.println("short value : "+s);
-            System.out.println("byte value : "+b);
-        }
+        double d = 30.0;
+        // Explicit casting is needed for below conversion
+        float f = (float) d;
+        long l = (long) f;
+        int i = (int) l;
+        short s = (short) i;
+        byte b = (byte) s;
+        System.out.println("double value : "+d);
+        System.out.println("float value : "+f);
+        System.out.println("long value : "+l);
+        System.out.println("int value : "+i);
+        System.out.println("short value : "+s);
+        System.out.println("byte value : "+b);
     }
+}
 ```
 
 **Output**
@@ -454,8 +499,6 @@ So,\
     5 >> 2 = 1
 ```
 
-# Introduction to Java, Variables, Datatypes and Operators 21/07
-
 ## Precedence And Associativity
 
 - Java has well-defined rules for evaluating expressions, including operator precedence, operator associativity, and order of operand evaluation
@@ -497,7 +540,7 @@ So,\
     System.out.println("1 + 2 = " + (1 + 2));
 ```
 
-**OutPut**
+**Output**
 
 ```text
     1 + 2 = 12
@@ -652,7 +695,7 @@ So,\
 |`%a %A`|floating point hexadecimal|
 |||
 
-### Flags and Specifers examples
+### Flags and Specifiers examples
 
 #### Space format specifier
 

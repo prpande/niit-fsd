@@ -6,7 +6,7 @@
 - Cascading Style Sheets (CSS) -> Styling language
 - JavaScript (JS) -> Programming language
   
-Refer to the sample HTML file for code snippets etc
+Refer to the sample [HTML file](./src/session/sample.html) for code snippets etc
 
 - Metadata can be stored inside the `head` tag
 

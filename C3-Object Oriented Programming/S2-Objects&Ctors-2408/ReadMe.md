@@ -1,4 +1,19 @@
+<!-- omit in toc -->
 # Objects and Constructors 24/08
+
+<!-- omit in toc -->
+## Contents
+
+- [Constructor](#constructor)
+- [Creating Objects and Memory Allocation](#creating-objects-and-memory-allocation)
+  - [Stack Memory Allocation](#stack-memory-allocation)
+  - [Heap Memory Allocation](#heap-memory-allocation)
+- [Copy Constructors](#copy-constructors)
+- [`static` Keyword](#static-keyword)
+- [`final` Keyword](#final-keyword)
+- [`this` Keyword](#this-keyword)
+- [`this` Keyword (Ctor chaining)](#this-keyword-ctor-chaining)
+- [`static` Initialization Block](#static-initialization-block)
 
 ## Constructor
 

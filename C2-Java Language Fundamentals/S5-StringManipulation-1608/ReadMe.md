@@ -1,4 +1,26 @@
+<!-- omit in toc -->
 # String Manipulation 16/08
+
+<!-- omit in toc -->
+## Contents
+
+- [String Basics](#string-basics)
+- [String Methods and Manipulation](#string-methods-and-manipulation)
+  - [Length of a String](#length-of-a-string)
+  - [Extracting Substrings](#extracting-substrings)
+  - [Changing Case](#changing-case)
+  - [Searching and Replacing](#searching-and-replacing)
+  - [String Formatting](#string-formatting)
+- [String Comparison](#string-comparison)
+  - [Comparing Content](#comparing-content)
+  - [Comparing Order](#comparing-order)
+- [Immutability of Strings](#immutability-of-strings)
+- [String Pool](#string-pool)
+- [String Interning](#string-interning)
+- [StringBuilder and StringBuffer](#stringbuilder-and-stringbuffer)
+- [Memory Implications, Optimization, and Allocation](#memory-implications-optimization-and-allocation)
+- [Stack and Heap Allocation](#stack-and-heap-allocation)
+- [String Comparison and Memory Allocation](#string-comparison-and-memory-allocation)
 
 ## String Basics
 

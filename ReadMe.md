@@ -4,6 +4,34 @@ This repo contains the class notes, slides, assignments and solution src files f
 The repo contains both the practice and learning session code files.\
 The files should be arranged in directories corresponding to each sprint sessions.\
 
+## Quick Links
+
+- [Course1 - Programming Foundations Using Java](./C1-Programming%20Foundation%20Using%20Java/)
+  - [Sprint1 - Pseudocode \& Algorithms](./C1-Programming%20Foundation%20Using%20Java/S1-Pseudocode&Algorithms-1707/)
+  - [Sprint2 - Introduction to Java](./C1-Programming%20Foundation%20Using%20Java/S2-JavaIntro-1907/)
+  - [Sprint3 - Conditional Constructs](./C1-Programming%20Foundation%20Using%20Java/S3-ConditionalConstructs-2407/)
+  - [Sprint4 - Looping Constructs](./C1-Programming%20Foundation%20Using%20Java/S4-LoopingConstructs-2607/)
+  - [Sprint5 - Functions](./C1-Programming%20Foundation%20Using%20Java/S5-Functions-3107/)
+- [Course2 - Java Language Fundamentals](./C2-Java%20Language%20Fundamentals/)
+  - [Sprint1 - Unit Testing with JUnit](./C2-Java%20Language%20Fundamentals/S1-UnitTesting-0308/)
+  - [Sprint2 - Arrays](./C2-Java%20Language%20Fundamentals/S2-Arrays-0708/)
+  - [Sprint3 - Sorting and Searching](./C2-Java%20Language%20Fundamentals/S3-Sorting-1008/)
+  - [Sprint4 - Implementing Recursion](./C2-Java%20Language%20Fundamentals/S4-Recursion-1408/)
+  - [Sprint5 - String Manipulation](./C2-Java%20Language%20Fundamentals/S5-StringManipulation-1608/)
+- [Course3 - Object-Oriented Programming](./C3-Object%20Oriented%20Programming/)
+  - [Sprint1 - Introduction to Object-Oriented Programming](./C3-Object%20Oriented%20Programming/S1-IntroToOOP-2208/)
+  - [Sprint2 - Objects and Constructors](./C3-Object%20Oriented%20Programming/S2-Objects&Ctors-2408/)
+  - [Sprint3 - Data Abstraction and Encapsulation](./C3-Object%20Oriented%20Programming/S3-DataAbstraction&Encapsulation-2808/)
+  - [Sprint4 - Inheritance](./C3-Object%20Oriented%20Programming/S4-Inheritance-3008/)
+  - [Sprint5 - Polymorphism](./C3-Object%20Oriented%20Programming/S5-Polymorphism-0109/)
+- [Course4 - Develop Responsive Web Pages using HTML5 and CSS3](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/)
+  - [Sprint1 - Develop a Web Page Using HTML5](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S1-HTML5-0509/)
+  - [Sprint2 - Develop a Web Page Using Semantic HTML5 Elements](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S2-Semantic%20HTML5%20Elements/)
+  - [Sprint3 - Style a Web Page Using CSS Properties and CSS Box Model](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S3-CSS%20Properties%20and%20CSS%20Box%20Model/)
+  - [Sprint4 - Structure a Web Page Using CSS Floats](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S4-CSS%20Floats-1109/)
+  - [Sprint5 - Develop a Responsive Web Page Using Modern CSS](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S5-Modern%20CSS/)
+  - [Sprint6 - Develop a Responsive Web Page Using Bootstrap](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S6-Bootstrap/)
+
 ## Software
 
 - IntelliJ Community Edition – <https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC>

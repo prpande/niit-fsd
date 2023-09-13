@@ -1,8 +1,25 @@
+<!-- omit in toc -->
 # Polymorphism - 01/09
 
 - Fundamental concept in object-oriented programming that allows objects of different classes to be treated as objects of a common superclass
 - Enables writing of code that works with objects in a more generic and flexible way, promoting code reusability and modularity
 - Achieved through method overriding and interfaces in Java.
+
+<!-- omit in toc -->
+## Contents
+
+- [Interfaces in Java](#interfaces-in-java)
+  - [Interface implementation example](#interface-implementation-example)
+    - [Declaring an Interface](#declaring-an-interface)
+    - [Implementing an Interface](#implementing-an-interface)
+  - [Interfaces and Polymorphism](#interfaces-and-polymorphism)
+  - [Extending Interfaces](#extending-interfaces)
+  - [Default Methods](#default-methods)
+  - [Static Methods in Interfaces](#static-methods-in-interfaces)
+- [Types of Polymorphism](#types-of-polymorphism)
+  - [Static Polymorphism](#static-polymorphism)
+  - [Dynamic Polymorphism](#dynamic-polymorphism)
+  - [Method Overloading vs. Method Overriding](#method-overloading-vs-method-overriding)
 
 ## Interfaces in Java
 

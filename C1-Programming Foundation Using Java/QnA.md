@@ -1,4 +1,25 @@
+<!-- omit in toc -->
 # Questions and Answers
+
+<!-- omit in toc -->
+## Contents
+
+- [What is a function? What are the advantages of function?](#what-is-a-function-what-are-the-advantages-of-function)
+- [What do understand by term structure of function?](#what-do-understand-by-term-structure-of-function)
+- [What is the difference between local and instance variables?](#what-is-the-difference-between-local-and-instance-variables)
+- [What are the advantages of modular programming?](#what-are-the-advantages-of-modular-programming)
+- [What is modular programming?](#what-is-modular-programming)
+- [What is a loop? What are pretested and post tested loops? Explain with examples](#what-is-a-loop-what-are-pretested-and-post-tested-loops-explain-with-examples)
+- [What is the difference between break and continue? Explain with examples](#what-is-the-difference-between-break-and-continue-explain-with-examples)
+- [What is a conditional construct?](#what-is-a-conditional-construct)
+- [What is ternary operator? What are the advantages of ternary operator?](#what-is-ternary-operator-what-are-the-advantages-of-ternary-operator)
+- [Define switch case](#define-switch-case)
+- [What is a program?](#what-is-a-program)
+- [What is a data type? explain different types of datatypes?](#what-is-a-data-type-explain-different-types-of-datatypes)
+- [What are logical operators?](#what-are-logical-operators)
+- [What are relational operators?](#what-are-relational-operators)
+- [What are arithmetic assignment operators?](#what-are-arithmetic-assignment-operators)
+- [What is widening of datatypes(type conversion)? Give examples](#what-is-widening-of-datatypestype-conversiongiveexamples)
 
 ## What is a function? What are the advantages of function?
 

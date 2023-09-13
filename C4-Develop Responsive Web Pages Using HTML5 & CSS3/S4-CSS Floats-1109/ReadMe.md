@@ -1,4 +1,53 @@
+<!-- omit in toc -->
 # CSS Floats - 11/09
+
+<!-- omit in toc -->
+## Contents
+
+- [Normal Document Flow](#normal-document-flow)
+- [CSS Floats](#css-floats)
+  - [Basic Syntax](#basic-syntax)
+  - [Examples of CSS Floats](#examples-of-css-floats)
+    - [1. Creating a Simple Two-Column Layout](#1-creating-a-simple-two-column-layout)
+    - [2. Creating Text Wraps Around an Image](#2-creating-text-wraps-around-an-image)
+  - [Advantages of CSS Floats](#advantages-of-css-floats)
+  - [Limitations of CSS Floats](#limitations-of-css-floats)
+  - [Clearing floats](#clearing-floats)
+    - [Understanding the Problem](#understanding-the-problem)
+    - [Clearing Floats Using the `clear` Property](#clearing-floats-using-the-clear-property)
+    - [Using the `::after` Pseudo-Element for Clearing](#using-the-after-pseudo-element-for-clearing)
+    - [Clearing Floats Using `display: flow-root;` ***(Best way)***](#clearing-floats-using-display-flow-root-best-way)
+    - [Benefits of Using `display: flow-root;`](#benefits-of-using-display-flow-root)
+- [CSS Positioning](#css-positioning)
+  - [`position` Property](#position-property)
+  - [Examples of CSS Positioning](#examples-of-css-positioning)
+    - [1. Basic Relative Positioning](#1-basic-relative-positioning)
+    - [2. Absolute Positioning within a Relative Container](#2-absolute-positioning-within-a-relative-container)
+    - [3. Fixed Positioning](#3-fixed-positioning)
+    - [4. Sticky Positioning](#4-sticky-positioning)
+- [`z-index` and Stack Order](#z-index-and-stack-order)
+  - [Basic Syntax of `z-index`](#basic-syntax-of-z-index)
+  - [Understanding Stack Order](#understanding-stack-order)
+  - [Examples of `z-index` and Stack Order](#examples-of-z-index-and-stack-order)
+    - [1. Basic Stacking with `z-index`](#1-basic-stacking-with-z-index)
+    - [2. Stacking Contexts with `transform`](#2-stacking-contexts-with-transform)
+    - [3. Stacking Order with `position`](#3-stacking-order-with-position)
+- [Flexbox](#flexbox)
+  - [Basic Syntax of Flexbox](#basic-syntax-of-flexbox)
+  - [Examples of CSS Flexbox](#examples-of-css-flexbox)
+    - [1. Creating a Horizontal Navigation Menu](#1-creating-a-horizontal-navigation-menu)
+    - [2. Creating a Responsive Card Layout](#2-creating-a-responsive-card-layout)
+- [`overflow` property](#overflow-property)
+  - [Basic Syntax for `overflow`](#basic-syntax-for-overflow)
+  - [Examples of "overflow"](#examples-of-overflow)
+    - [1. Clipping Overflowing Content](#1-clipping-overflowing-content)
+    - [2. Adding Scrollbars for Overflowing Content](#2-adding-scrollbars-for-overflowing-content)
+    - [3. Automatically Adding Scrollbars as Needed](#3-automatically-adding-scrollbars-as-needed)
+- [`table` layout](#table-layout)
+  - [Basic Syntax of `table` layout](#basic-syntax-of-table-layout)
+  - [Examples of CSS Table Layout](#examples-of-css-table-layout)
+    - [1. Creating a Simple Table](#1-creating-a-simple-table)
+    - [2. Creating a Table-Like Form](#2-creating-a-table-like-form)
 
 ## Normal Document Flow
 
@@ -111,7 +160,7 @@ In this CSS example, we've added some basic styling to the header, footer, navig
 
 ### Examples of CSS Floats
 
-#### **1. Creating a Simple Two-Column Layout**
+#### 1. Creating a Simple Two-Column Layout
 
 ```html
 <div class="left-column">Left Column</div>
@@ -135,7 +184,7 @@ In this example:
 - Both columns are floated to the left, making them appear side by side.
 - The `width` property ensures that each column takes up 50% of the container's width.
 
-#### **2. Creating Text Wraps Around an Image**
+#### 2. Creating Text Wraps Around an Image
 
 ```html
 <img src="image.jpg" alt="Floating Image" class="float-left">
@@ -176,7 +225,7 @@ In this example:
 - When you float an element, it is taken out of the normal document flow, which can sometimes lead to layout issues
 - Way to prevent these issues and ensure that the parent container expands to accommodate the floated elements
 
-#### **Understanding the Problem**
+#### Understanding the Problem
 
 Consider a scenario where you have two floated elements inside a container:
 
@@ -211,7 +260,7 @@ In this example,
 - Notice that the container does not fully enclose these floated elements
 - Leads to layout issues where other content on the page is affected
 
-#### **Clearing Floats Using the `clear` Property**
+#### Clearing Floats Using the `clear` Property
 
 - Ensure that the parent container fully contains the floated elements, you can use the `clear` property in CSS
 - `clear` property specifies which side of the floating elements should not be allowed to touch other floating elements
@@ -236,7 +285,7 @@ Example:
 - Added a clearing element with the class `.clearfix` and applied the `clear: both;` property to it
 - This tells the browser not to allow floating elements on either side of the clearing element, effectively clearing the floats and ensuring that the container fully contains its children
 
-#### **Using the `::after` Pseudo-Element for Clearing**
+#### Using the `::after` Pseudo-Element for Clearing
 
 - Doesn't require adding extra markup
 
@@ -250,7 +299,7 @@ Example:
 
 Target the container with the `::after` pseudo-element, and we use the `content: "";` property to generate an empty box. By setting `display: table;` and `clear: both;`, we effectively clear the floats without adding extra elements to the HTML.
 
-#### **Clearing Floats Using `display: flow-root;`** ***(Best way)***
+#### Clearing Floats Using `display: flow-root;` ***(Best way)***
 
 - Modern and effective way to clear floats in HTML and CSS without the need for additional clearing elements or pseudo-elements
 - Creates a new block formatting context (BFC), which automatically clears the floated elements within a container
@@ -289,7 +338,7 @@ In this example:
 - Added the class `.flow-root` to the `.container` element, and applied `display: flow-root;` to create a new block formatting context.
 - This new block formatting context ensures that the floated elements inside the container are properly contained within it, preventing layout issues.
 
-#### **Benefits of Using `display: flow-root;`**
+#### Benefits of Using `display: flow-root;`
 
 Using `display: flow-root;` for clearing floats has several advantages:
 
@@ -603,7 +652,7 @@ To create a simple Flexbox layout, you need to
 
 ### Examples of CSS Flexbox
 
-### 1. Creating a Horizontal Navigation Menu
+#### 1. Creating a Horizontal Navigation Menu
 
 ```html
 <nav class="nav-menu">
@@ -634,7 +683,7 @@ In this example:
 - `.nav-menu` container is turned into a flex container
 - `justify-content: space-around;` is used to evenly distribute the anchor links along the main axis (horizontally)
 
-### 2. Creating a Responsive Card Layout
+#### 2. Creating a Responsive Card Layout
 
 ```html
 <div class="card-container">
