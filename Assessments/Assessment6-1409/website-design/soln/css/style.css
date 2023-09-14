@@ -1,0 +1,98 @@
+/* Style the home page using css properties */
+ /* #region Constants */
+:root{
+    --base-color: #f2f2f2;
+    --font-family: 'Dancing script', serif;
+    --menu-background-color: #434f5b;
+    --page-width: 515px;
+}
+/* #endregion */
+
+/* #region Body base and common styles */
+body{
+    background-color: var(--base-color);
+    color: var(--menu-background-color);
+    margin: 5px auto;
+    padding: 0;
+    text-align: center;
+    width: var(--page-width);
+}
+/* Anchor tag style */
+a{
+    text-decoration: none;
+}
+/* Font style class */
+.dancingFont{
+    font-family: var(--font-family);
+}
+/* Left align style class */
+.leftAlign{
+    text-align: left;
+}
+/* #endregion */
+
+/* #region Header styles */
+.headerContainer{
+    border: 2px solid black;
+    box-shadow: 2px 2px 20px black;
+    text-align: center;
+}
+.headerContainer h1{
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+/* #endregion */
+
+/* #region Navigation menu style */
+nav{
+    background-color: var(--menu-background-color);
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    list-style: none;
+}
+li a{
+    color: var(--base-color);
+    font-size: 1.7rem;
+    margin: 10px 25px 10px 0px;
+
+}
+/* #endregion */
+
+/* #region Section style */
+.sectionHead{
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.sectionPara{
+    color: var(--menu-background-color);
+    text-align: left;
+}
+
+section ul{
+    padding: 0;
+}
+section li{
+    list-style: none;
+}
+
+/* #region Image styling */
+figure{
+    margin: 0;
+}
+img{
+    width: 425px;
+}
+/* #endregion */
+
+/* Bottom border style */
+.bottomBorder{
+    border-bottom: 7px solid var(--menu-background-color);
+    padding-bottom: 15px;
+}
+/* #endregion */
