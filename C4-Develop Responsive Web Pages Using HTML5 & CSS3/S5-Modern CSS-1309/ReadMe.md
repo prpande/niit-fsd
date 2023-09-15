@@ -34,10 +34,10 @@
   - [7. Flex Grow, Shrink, and Basis](#7-flex-grow-shrink-and-basis)
   - [8. Order](#8-order)
   - [9. Align Self](#9-align-self)
-  - [Advanced Features](#advanced-features-1)
+  - [Advanced Features of Flex box](#advanced-features-of-flex-box)
 - [Grid layout](#grid-layout)
   - [Understanding the Basics of Grid layout](#understanding-the-basics-of-grid-layout)
-  - [1. Display Property](#1-display-property-1)
+  - [1. Display Property for grid](#1-display-property-for-grid)
   - [2. Grid Template Columns and Rows](#2-grid-template-columns-and-rows)
   - [3. Grid Gap](#3-grid-gap)
   - [4. Justify and Align Properties](#4-justify-and-align-properties)
@@ -45,7 +45,7 @@
   - [6. Placing Grid Items](#6-placing-grid-items)
   - [7. Implicit Grid](#7-implicit-grid)
   - [8. Grid Auto Flow](#8-grid-auto-flow)
-  - [Advanced Features](#advanced-features-2)
+  - [Advanced Features of Grid layout](#advanced-features-of-grid-layout)
 - [Flexible images](#flexible-images)
   - [Understanding the Challenge](#understanding-the-challenge)
   - [Methodology 1: Fluid Width with Max-Width](#methodology-1-fluid-width-with-max-width)
@@ -59,9 +59,9 @@
   - [Common Media Query Properties](#common-media-query-properties)
   - [Complex Media Queries](#complex-media-queries)
   - [Practical Examples](#practical-examples)
-      - [Responsive Typography](#responsive-typography)
-      - [Image Optimization](#image-optimization)
-      - [Navigation Menu](#navigation-menu)
+    - [Responsive Typography](#responsive-typography)
+    - [Image Optimization](#image-optimization)
+    - [Navigation Menu](#navigation-menu)
 
 ## Responsive Website Design Patterns
 
@@ -510,7 +510,7 @@ Example:
 }
 ```
 
-### Advanced Features
+### Advanced Features of Flex box
 
 Flexbox offers advanced features like nested flex containers, which enable more complex layouts. Here's a brief example of nesting:
 
@@ -561,7 +561,7 @@ Before diving into the properties and features of CSS Grid, let's establish some
 
 Now, let's explore the core properties and features of CSS Grid:
 
-### 1. Display Property
+### 1. Display Property for grid
 
 The `display` property is used to define an element as a grid container. By setting `display: grid;`, you enable the grid layout model.
 
@@ -664,7 +664,7 @@ Example:
 }
 ```
 
-### Advanced Features
+### Advanced Features of Grid layout
 
 CSS Grid offers advanced features such as nesting grids within grids, aligning grid items within grid areas, and spanning multiple rows or columns. These features allow for intricate and responsive layouts, but they require a deeper understanding of the layout model.
 
@@ -797,10 +797,12 @@ In this example, `object-fit: cover;` ensures that the image scales proportional
 A media query consists of an `@media` rule followed by one or more conditions enclosed in parentheses. If the conditions within the parentheses are met, the styles within the corresponding block are applied.
 
 ```css
-@media (condition) {
+@media type and (condition) {
   /* CSS styles to apply when the condition is met */
 }
 ```
+
+`type` can be different media types like screen, print etc. It is optional to specify.
 
 ### Common Media Query Properties
 
@@ -852,6 +854,16 @@ A media query consists of an `@media` rule followed by one or more conditions en
    }
    ```
 
+5. **Media type based queries**
+
+   - Print with a different text color if the width is greater than a particular size
+
+    ```css
+    @media print and (max-width: 800px){
+      color: black;
+    }
+    ```
+
 ### Complex Media Queries
 
 Media queries can become more complex by combining multiple conditions using logical operators such as `and`, `or`, and `not`. This allows for fine-grained control over style application.
@@ -865,7 +877,7 @@ Media queries can become more complex by combining multiple conditions using log
 
 ### Practical Examples
 
-##### Responsive Typography
+#### Responsive Typography
 
 ```css
 /* Base font size for all screens */
@@ -881,7 +893,7 @@ body {
 }
 ```
 
-##### Image Optimization
+#### Image Optimization
 
 ```css
 /* Images with a max-width of 100% for all screens */
@@ -897,7 +909,7 @@ img {
 }
 ```
 
-##### Navigation Menu
+#### Navigation Menu
 
 ```css
 /* Display a mobile-friendly menu icon for screens with a maximum width of 768px */
