@@ -1,0 +1,69 @@
+/* Write CSS code here */
+:root{
+    --background-color: #fefefe;
+    --secondary-text-color: #808080;
+    --card-color: #ffffff;
+    --border-color: #e5e5e5
+}
+
+.page{
+    background-color: var(--background-color);
+}
+
+.card{
+    background-color: var(--card-color);
+    width: 400px;
+    height: 500px;
+    margin:  10rem auto;
+    box-shadow: 1rem 1rem 5rem var(--secondary-text-color);
+}
+
+.iconMain{
+    float:left;
+    font-size: 5rem;
+    margin: .5rem 1.2rem 0 1rem;
+}
+
+.wrapper{
+    display: flow-root;
+}
+
+.cardName{
+    margin: 1.7rem 0 0 0;
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.shortDesc{
+    color: var(--secondary-text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: .4rem;
+    font-size: .8rem;
+
+}
+
+.cardDetails{
+    color: var(--secondary-text-color);
+    padding: 1rem .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 .3rem 0 0;
+}
+
+.actions{
+    float: left;
+    margin-right: 8.5rem;
+}
+.actionIcons{
+    color: var(--secondary-text-color);
+    font-size: 1.7rem;
+    margin-right: .7rem;
+}
+.actionsWrapper{
+    display: flow-root;
+    padding: 1rem 1.5rem;
+}

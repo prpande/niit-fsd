@@ -1,0 +1,51 @@
+/* Write CSS code here for nameplate-1 */
+:root{
+    --header-background: #282828;
+    --text-color: #ffffff;
+    --button-color: #add8e6;
+}
+.page{
+    width: 1284px;
+    margin: auto;
+}
+nav{
+    background-color: var(--header-background);
+    
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+span{
+    margin-left: 25rem;
+}
+
+li{
+    float:left;
+    color: var(--text-color);
+    margin: 0 1rem;
+}
+
+.button{
+    margin-left: 18rem;
+    background-color: var(--button-color);
+    width: fit-content;
+    color: black; 
+    padding: .2rem 1.5rem;
+    border-radius: .7rem;
+    border: .16rem solid black;
+    display: fl;
+}
+
+.wrapper{
+    display: flow-root;
+    padding: 1rem 2rem;
+}
