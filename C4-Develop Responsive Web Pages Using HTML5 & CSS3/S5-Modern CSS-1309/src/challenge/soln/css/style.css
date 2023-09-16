@@ -1,0 +1,173 @@
+/* Write CSS code here */
+:root{
+    --background-color-heading: #45484a;
+    --card-background-color: rgb(234,229,219);
+    --card-shadow-color: grey;
+    --flex-heading-color: #444;
+    --font-color-heading: whitesmoke;
+    --font-family-1: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+    --font-family-2: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+    --footer-background-color: #26272b;
+    --footer-content-color:aliceblue;
+    --footer-heading-color: wheat;
+    --footer-text-color: #737373;
+    --hover-color: rgb(171,171,229);
+    --min-page-width: 300px;
+    --social-media-anchor-color: #072339;
+}
+
+*{
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+body{
+    background-color: var(--card-background-color);
+    margin-top: 0px;
+}
+
+/* Header styling */
+header{
+    background-color: var(--background-color-heading);
+    display: flex;
+    min-width: var(--min-page-width);
+}
+
+header img{
+    margin: 5px;
+    width: 50px;
+}
+
+.title{
+    color: var(--font-color-heading);
+    display: inline-block;
+    flex-grow: 1;
+    flex-shrink: 4;
+    font-family: var(--font-family-1);
+    margin: 0 2.5vw 0 1vw;
+}
+
+nav ul{
+    line-height: 1.5rem;
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 10vw;
+
+}
+nav ul li{
+    display: inline;
+    margin-bottom: .1vw;
+}
+nav ul li a{
+    color: var(--font-color-heading);
+    font-family: var(--font-family-1);
+    padding: 0 .5vw 3px .5vw;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid var(--hover-color);
+}
+
+/* Hero section styling */
+.hero{
+    background: center/cover no-repeat url("../images/corporate.jpg");
+    color: var(--font-color-heading);
+    font-family: var(--font-family-1);
+    min-width: var(--min-page-width);
+    padding: 10% 2%;
+    text-align: center;
+}
+
+.hero button{
+    background-color: var(--background-color-heading);
+    border-radius: 5px;
+    border: 2px solid;
+    color: var(--font-color-heading);
+    font-family: var(--font-family-1);
+    padding: 10px 25px;
+}
+
+.hero h1{
+    font-family: var(--font-family-2);
+}
+.hero button:hover{
+    background-color: var(--hover-color);
+}
+
+/* Main section styling */
+.mainSection{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font-family-1);
+    justify-content:center;
+    margin: 1vw 0;
+    padding: 0;
+}
+
+.mainSection article{
+    box-shadow: 3px 3px 20px var(--card-shadow-color);
+    margin: 1vw .5vw;
+    min-width: var(--min-page-width);
+    text-align: center;
+    width: 31.8%;
+}
+
+.mainSection h3{
+    color: var(--flex-heading-color);
+}
+.mainSection article img{
+    border-radius: 400px;
+    height: 25vw;
+    width:25vw;
+    
+}
+.mainSection a{
+    color: black;
+}
+.mainSection p{
+    padding: 0 3vw 1vw 3vw;
+}
+
+/* Footer styling */
+footer{
+    background-color: var(--footer-background-color);
+    font-family: var(--font-family-2);
+    font-size: .8rem;
+    min-width: var(--min-page-width);
+}
+
+.footerGridContainer{
+    color: var(--footer-content-color);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, max(var(--min-page-width),20%));
+    padding: 2vw 0;
+}
+
+.footerGridContainer strong{
+    color: var(--footer-heading-color);
+}
+.footerGridContainer ul{
+    list-style-type: none;
+}
+
+.footerSocialMedia li{
+    display: inline;
+}
+.footerSocialMedia a{
+    background-color: var(--font-color-heading);
+    border-radius: 2rem;
+    color: var(--social-media-anchor-color);
+    margin-right: .2vw;
+    padding: 0.8rem 1rem;
+}
+
+/* Screen size based media breakpoint */
+@media (max-width:650px){
+    nav ul li{
+        display: block;
+    }
+    .mainSection article{
+        width:100%;
+    }
+}
