@@ -1,41 +1,48 @@
+<!-- omit in toc -->
 # Repo for NIIT Full Stack Developer Program
 
 This repo contains the class notes, slides, assignments and solution src files for the NIIT FSD program.\
 The repo contains both the practice and learning session code files.\
 The files should be arranged in directories corresponding to each sprint sessions.\
 
-## Quick Links
+<!-- omit in toc -->
+## Contents
 
-- [Course1 - Programming Foundations Using Java](./C1-Programming%20Foundation%20Using%20Java/)
-  - [Sprint1 - Pseudocode \& Algorithms](./C1-Programming%20Foundation%20Using%20Java/S1-Pseudocode&Algorithms-1707/)
-  - [Sprint2 - Introduction to Java](./C1-Programming%20Foundation%20Using%20Java/S2-JavaIntro-1907/)
-  - [Sprint3 - Conditional Constructs](./C1-Programming%20Foundation%20Using%20Java/S3-ConditionalConstructs-2407/)
-  - [Sprint4 - Looping Constructs](./C1-Programming%20Foundation%20Using%20Java/S4-LoopingConstructs-2607/)
-  - [Sprint5 - Functions](./C1-Programming%20Foundation%20Using%20Java/S5-Functions-3107/)
-- [Course2 - Java Language Fundamentals](./C2-Java%20Language%20Fundamentals/)
-  - [Sprint1 - Unit Testing with JUnit](./C2-Java%20Language%20Fundamentals/S1-UnitTesting-0308/)
-  - [Sprint2 - Arrays](./C2-Java%20Language%20Fundamentals/S2-Arrays-0708/)
-  - [Sprint3 - Sorting and Searching](./C2-Java%20Language%20Fundamentals/S3-Sorting-1008/)
-  - [Sprint4 - Implementing Recursion](./C2-Java%20Language%20Fundamentals/S4-Recursion-1408/)
-  - [Sprint5 - String Manipulation](./C2-Java%20Language%20Fundamentals/S5-StringManipulation-1608/)
-- [Course3 - Object-Oriented Programming](./C3-Object%20Oriented%20Programming/)
-  - [Sprint1 - Introduction to Object-Oriented Programming](./C3-Object%20Oriented%20Programming/S1-IntroToOOP-2208/)
-  - [Sprint2 - Objects and Constructors](./C3-Object%20Oriented%20Programming/S2-Objects&Ctors-2408/)
-  - [Sprint3 - Data Abstraction and Encapsulation](./C3-Object%20Oriented%20Programming/S3-DataAbstraction&Encapsulation-2808/)
-  - [Sprint4 - Inheritance](./C3-Object%20Oriented%20Programming/S4-Inheritance-3008/)
-  - [Sprint5 - Polymorphism](./C3-Object%20Oriented%20Programming/S5-Polymorphism-0109/)
-- [Course4 - Develop Responsive Web Pages using HTML5 and CSS3](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/)
-  - [Sprint1 - Develop a Web Page Using HTML5](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S1-HTML5-0509/)
-  - [Sprint2 - Develop a Web Page Using Semantic HTML5 Elements](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S2-Semantic%20HTML5%20Elements/)
-  - [Sprint3 - Style a Web Page Using CSS Properties and CSS Box Model](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S3-CSS%20Properties%20and%20CSS%20Box%20Model/)
-  - [Sprint4 - Structure a Web Page Using CSS Floats](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S4-CSS%20Floats-1109/)
-  - [Sprint5 - Develop a Responsive Web Page Using Modern CSS](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S5-Modern%20CSS/)
-  - [Sprint6 - Develop a Responsive Web Page Using Bootstrap](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S6-Bootstrap/)
+- [Software](#software)
+- [Repository Directory Structure](#repository-directory-structure)
+- [Course1 - Programming Foundations Using Java](#course1---programming-foundations-using-java)
+  - [Sprint1 - Pseudocode \& Algorithms](#sprint1---pseudocode--algorithms)
+  - [Sprint2 - Introduction to Java](#sprint2---introduction-to-java)
+  - [Sprint3 - Conditional Constructs](#sprint3---conditional-constructs)
+  - [Sprint4 - Looping Constructs](#sprint4---looping-constructs)
+  - [Sprint5 - Functions](#sprint5---functions)
+- [Course2 - Java Language Fundamentals](#course2---java-language-fundamentals)
+  - [Sprint1 - Unit Testing with JUnit](#sprint1---unit-testing-with-junit)
+  - [Sprint2 - Arrays](#sprint2---arrays)
+  - [Sprint3 - Sorting and Searching](#sprint3---sorting-and-searching)
+  - [Sprint4 - Implementing Recursion](#sprint4---implementing-recursion)
+  - [Sprint5 - String Manipulation](#sprint5---string-manipulation)
+- [Course3 - Object-Oriented Programming](#course3---object-oriented-programming)
+  - [Sprint1 - Introduction to Object-Oriented Programming](#sprint1---introduction-to-object-oriented-programming)
+  - [Sprint2 - Objects and Constructors](#sprint2---objects-and-constructors)
+  - [Sprint3 - Data Abstraction and Encapsulation](#sprint3---data-abstraction-and-encapsulation)
+  - [Sprint4 - Inheritance](#sprint4---inheritance)
+  - [Sprint5 - Polymorphism](#sprint5---polymorphism)
+- [Course4 - Develop Responsive Web Pages using HTML5 and CSS3](#course4---develop-responsive-web-pages-using-html5-and-css3)
+  - [Sprint1 - Develop a Web Page Using HTML5](#sprint1---develop-a-web-page-using-html5)
+  - [Sprint2 - Develop a Web Page Using Semantic HTML5 Elements](#sprint2---develop-a-web-page-using-semantic-html5-elements)
+  - [Sprint3 - Style a Web Page Using CSS Properties and CSS Box Model](#sprint3---style-a-web-page-using-css-properties-and-css-box-model)
+  - [Sprint4 - Structure a Web Page Using CSS Floats](#sprint4---structure-a-web-page-using-css-floats)
+  - [Sprint5 - Develop a Responsive Web Page Using Modern CSS](#sprint5---develop-a-responsive-web-page-using-modern-css)
+  - [Sprint6 - Develop a Responsive Web Page Using Bootstrap](#sprint6---develop-a-responsive-web-page-using-bootstrap)
+- [Additional Resources](#additional-resources)
+
 
 ## Software
 
 - IntelliJ Community Edition – <https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC>
 - GitHub – <https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe>
+- Visual Studio Code - <https://code.visualstudio.com/download>
 
 ## Repository Directory Structure
 
@@ -245,9 +252,16 @@ Structuring information provides clear paths for navigation within webpages and 
 - Float property and its values <https://developer.mozilla.org/en-US/docs/Web/CSS/float>
 - Logical properties of margin, padding and border <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding>
 
-### Sprint5 - Develop a Responsive Web Page Using Modern CSS
+### [Sprint5 - Develop a Responsive Web Page Using Modern CSS](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S5-Modern%20CSS-1309/)
 
 Web surfing has grown at a phenomenal rate over the past years as most people prefer browsing on their mobile devices. To provide a seamless user experience, web sites should adapt to various devices. A responsive web design offers smooth navigation with reduced scrolling and zooming for excellent user experience on various screen sizes.In this learning sprint, you will be introduced to the various responsive design patterns that use breakpoints for adding responsiveness to a web page. You will learn to implement design patterns like Mostly fluid and Layout shifter using modern CSS properties like media queries.
+
+- Guidelines for responsive web design <https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/>
+- Responsive web design proven principle <https://level-level.com/blog/responsive-web-design-our-5-proven-principles/>
+- Responsive design best practices <https://www.impactplus.com/blog/responsive-design-best-practices#:~:text=For%20an%20optimal%20responsive%20experience>
+- Golden ratio in weh design <https://uxplanet.org/golden-ratio-bring-balance-in-ui-design-765c954f0ff9>
+- A complete guide to CSS media queries <https://css-tricks.com/a-complete-guide-to-css-media-queries/>
+- What does mobile first design mean for digital designers? <https://www.invisionapp.com/inside-design/mobile-first-design/>
 
 ### Sprint6 - Develop a Responsive Web Page Using Bootstrap
 

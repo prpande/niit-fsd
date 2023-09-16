@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web design using Media Queries</title>
+    <style>
+        .wrapper {
+            overflow: auto;
+        }
+        
+        #main {
+            margin-left: 4px;
+        }
+        
+        #leftsidebar {
+            float: none;
+            width: auto;
+        }
+        
+        #menulist {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .menuitem {
+            background: lightgray;
+            border: 1px solid #d4d4d4;
+            border-radius: 4px;
+            list-style-type: none;
+            margin: 4px;
+            padding: 2px;
+        }
+        
+        /*@media <type> and media feature expressions*/
+        /*type can be all, print, screen or speech*/
+        @media screen and (min-width: 480px) {
+            #leftsidebar {
+                width: 200px;
+                float: left;
+            }
+            #main {
+                margin-left: 416px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="leftsidebar">
+            <ul id="menulist">
+                <li class="menuitem">Deal of the day!</li>
+                <li class="menuitem">Products</li>
+                <li class="menuitem">Categories</li>
+                <li class="menuitem">Top deals</li>
+                <li class="menuitem">Contact Us</li>
+            </ul>
+        </div>
+
+        <div id="main">
+            <h1>Resize the browser window to see the effect!</h1>
+            <p>This demo shows a menu that will float to the left of the page if the viewport is 480 pixels wide or wider. If the viewport is less than 480 pixels, the menu will be on top of the content.</p>
+        </div>
+    </div>
+</body>
+
+</html>
