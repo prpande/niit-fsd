@@ -267,6 +267,11 @@ Web surfing has grown at a phenomenal rate over the past years as most people pr
 
 Developing and designing responsive web pages has never been easy. It requires developing a grid system that can help web pages adapt on any device. Framework provides a predefined and tested code for reuse. This helps increase the productivity of a developer. Bootstrap is a CSS Framework which already provides a Grid System for you to work with.In this learning sprint, you will explore the column drop responsive design pattern. You will learn to implement this design pattern quickly using the Bootstrap Framework. You will also learn to design a responsive web page using various Bootstrap components like navbar, carousel, tables, cards and forms.
 
+- Get Bootstrap <https://getbootstrap.com/>
+- Bootstrap Best Practices <https://medium.com/@nikita.vyrko/bootstrap-best-practices-59752895d4e1>
+- Common Bootstrap Mistakes <https://codeburst.io/7-common-bootstrap-mistakes-that-developers-make-5dc8f9bc5423>
+- Best Bootstrap websites <https://www.awwwards.com/websites/bootstrap/>
+
 ## Additional Resources
 
 > Java tutorials:  <https://docs.oracle.com/javase/tutorial/java/index.html>
