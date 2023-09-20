@@ -35,6 +35,10 @@ The files should be arranged in directories corresponding to each sprint session
   - [Sprint4 - Structure a Web Page Using CSS Floats](#sprint4---structure-a-web-page-using-css-floats)
   - [Sprint5 - Develop a Responsive Web Page Using Modern CSS](#sprint5---develop-a-responsive-web-page-using-modern-css)
   - [Sprint6 - Develop a Responsive Web Page Using Bootstrap](#sprint6---develop-a-responsive-web-page-using-bootstrap)
+- [Course5 - Developing Basic Programs using JavaScript](#course5---developing-basic-programs-using-javascript)
+  - [Sprint1 - Getting Started with JavaScript](#sprint1---getting-started-with-javascript)
+  - [Sprint2 - Implement Modular Programming Using Functions](#sprint2---implement-modular-programming-using-functions)
+  - [Sprint3 - Implement Unit Testing using Mocha and Chai](#sprint3---implement-unit-testing-using-mocha-and-chai)
 - [Additional Resources](#additional-resources)
 
 
@@ -43,6 +47,7 @@ The files should be arranged in directories corresponding to each sprint session
 - IntelliJ Community Edition – <https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC>
 - GitHub – <https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe>
 - Visual Studio Code - <https://code.visualstudio.com/download>
+- NodeJS - <https://nodejs.org/en>
 
 ## Repository Directory Structure
 
@@ -263,7 +268,7 @@ Web surfing has grown at a phenomenal rate over the past years as most people pr
 - A complete guide to CSS media queries <https://css-tricks.com/a-complete-guide-to-css-media-queries/>
 - What does mobile first design mean for digital designers? <https://www.invisionapp.com/inside-design/mobile-first-design/>
 
-### Sprint6 - Develop a Responsive Web Page Using Bootstrap
+### [Sprint6 - Develop a Responsive Web Page Using Bootstrap](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S6-Bootstrap-1809/)
 
 Developing and designing responsive web pages has never been easy. It requires developing a grid system that can help web pages adapt on any device. Framework provides a predefined and tested code for reuse. This helps increase the productivity of a developer. Bootstrap is a CSS Framework which already provides a Grid System for you to work with.In this learning sprint, you will explore the column drop responsive design pattern. You will learn to implement this design pattern quickly using the Bootstrap Framework. You will also learn to design a responsive web page using various Bootstrap components like navbar, carousel, tables, cards and forms.
 
@@ -271,6 +276,29 @@ Developing and designing responsive web pages has never been easy. It requires d
 - Bootstrap Best Practices <https://medium.com/@nikita.vyrko/bootstrap-best-practices-59752895d4e1>
 - Common Bootstrap Mistakes <https://codeburst.io/7-common-bootstrap-mistakes-that-developers-make-5dc8f9bc5423>
 - Best Bootstrap websites <https://www.awwwards.com/websites/bootstrap/>
+
+## [Course5 - Developing Basic Programs using JavaScript](./C5-Basic%20Programs%20using%20JavaScript/)
+
+HTML5 and CSS3 frameworks help you build a static web page, that displays content and works on any device. However, to make a page interactive, you need a programming language that can be understood by the browsers. JavaScript is one of the core technologies of the World Wide Web. In this course, you will explore basic programming concepts and solve simple computational problems using JavaScript. You will acquire skills to write decision-making programs using conditional constructs and build iterations in programs using looping constructs. The course will also provide insight into modularizing code by writing user-defined functions. In addition you will write test cases using JavaScript Libraries.
+
+### [Sprint1 - Getting Started with JavaScript](./C5-Basic%20Programs%20using%20JavaScript/S1-JavaScriptIntro-2009/)
+
+JavaScript is the most popular programming language for web development. More specifically, it’s a scripting language that is interpreted by the browser to make the page interactive. To add interactivity to the web page, the developer has to write programs in JavaScript. This learning sprint sets the foundation for writing simple JavaScript programs. By the end of this sprint, you will be able to work with key programming concepts such as statements, expressions, datatypes, variables, constants, literals, and operators and will solve basic computational problems using these concepts.
+
+- JavaScript Intro <https://javascript.info/intro>
+- Intro to JS Engine <https://www.htmlgoodies.com/javascript/what-is-the-javascript-engine-and-how-it-works/>
+- JavaScript Development Tools and IDE's <https://technostacks.com/blog/javascript-development-tools/>
+- Evolution of JavaScript <https://www.opensourceforu.com/2021/12/the-evolution-of-javascript/>
+- Truthy in JavaScript <https://developer.mozilla.org/en-US/docs/Glossary/Truthy>
+- Falsy in JavaScript <https://developer.mozilla.org/en-US/docs/Glossary/Falsy>
+
+### Sprint2 - Implement Modular Programming Using Functions
+
+A very large program is always difficult to understand, and debugging takes a lot of time to trace an error in a big program. JavaScript functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task. By the end of this sprint, you will be able to write modular programs by breaking them into simpler and logical methods. Hands-on practices are provided to create and execute user-defined functions, which improves the readability of code.
+
+### Sprint3 - Implement Unit Testing using Mocha and Chai
+
+Producing top quality products requires rigorous testing. The web is no exception. In this learning sprint, you will learn to think and write test cases using JavaScript Libraries to test your Web Application.
 
 ## Additional Resources
 
