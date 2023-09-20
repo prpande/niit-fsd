@@ -291,6 +291,23 @@ JavaScript is the most popular programming language for web development. More sp
 - Evolution of JavaScript <https://www.opensourceforu.com/2021/12/the-evolution-of-javascript/>
 - Truthy in JavaScript <https://developer.mozilla.org/en-US/docs/Glossary/Truthy>
 - Falsy in JavaScript <https://developer.mozilla.org/en-US/docs/Glossary/Falsy>
+- switch vs if...else: A Comparison <https://javascript.plainenglish.io/switch-vs-if-else-7f7617bfe8cb>
+- JavaScript — Short Circuit Evaluation - && (AND) Operator <https://codeburst.io/javascript-short-circuit-conditionals-bbc13ac3e9eb>
+- JavaScript — Short Circuit Evaluation - || (OR) Operator <https://codeburst.io/javascript-short-circuit-evaluation-3709ffda6384>
+- JavaScript Best Practices - Loop Flow Control <https://levelup.gitconnected.com/javascript-best-practices-more-about-loops-910589f7aa24>
+- Difference between while and do...while <https://techdifferences.com/difference-between-while-and-do-while-loop.html>
+- Tips: JavaScript break and continue Statements <https://www.bitdegree.org/learn/javascript-break>
+- Predefined Functions <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#predefined_functions>
+- Function Parameters <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_parameters>
+- Functions and Function Expressions <https://www.programiz.com/javascript/function>
+
+**Helpful Tools for Developing a JavaScript Code**
+
+- Firefox Developer Tools
+- JavaScript Shells
+- StackBlitz
+- JSFiddle
+- CodePen
 
 ### Sprint2 - Implement Modular Programming Using Functions
 
