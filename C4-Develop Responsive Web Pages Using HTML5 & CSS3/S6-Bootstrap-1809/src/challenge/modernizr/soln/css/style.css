@@ -1,0 +1,70 @@
+/* Add custom styles here */
+.testBorder{
+    border: 2px solid blue;
+}
+
+.logo{
+    width: 100%;
+    max-width: 250px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    color: #6C757D;
+    text-transform: uppercase;
+}
+.nav-item{
+    margin-left: 4vw;
+}
+.width95{
+    width: 95%;
+}
+
+.mainHeadline{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.textData{
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    color: gray;
+}
+.sectionText{
+    color: black;
+    padding-right: 2.5rem;
+}
+.btn2{
+    margin-right: 2.5rem;
+}
+
+.card{
+    border: 0;
+    border-radius: 0;
+    margin: 0 1rem 0rem 0;
+    height: 93%;
+
+
+}
+ul{
+    margin-top: 2rem;
+}
+
+.githubLogo{
+    width: 100%;
+    max-width: 100px;
+}
+
+@media (max-width:992px) {
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sectionText{
+        color: gray;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+}
