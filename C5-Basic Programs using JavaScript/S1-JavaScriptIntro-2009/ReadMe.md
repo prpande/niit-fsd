@@ -508,7 +508,6 @@ exampleConst();
 | Use in Loops                  | Prone to unexpected behavior in loops | Recommended for loop-scoped variables |
 | ES6 and Later                 | Considered outdated and discouraged  | Recommended for modern JavaScript   |
 
-
 1. **Variable Scope**:
    - `var` has a function scope. Variables declared with `var` are accessible throughout the entire function in which they are declared.
    - `let` has a block scope. Variables declared with `let` are only accessible within the block (enclosed by curly braces) where they are defined.
@@ -541,6 +540,29 @@ exampleConst();
    - `let` was introduced in ECMAScript 6 (ES6) and is recommended for use in modern JavaScript code. It offers better scoping and safer variable behavior.
 
 - `let` and is generally preferred in modern JavaScript development. It is more predictable and helps in writing safer and more maintainable code.
+-`var` is not globally scoped, but it has a global object property association in the context of the global scope.
+- `var` is function-scoped when declared within a function or block-scoped when declared within a block of code (such as a loop or a conditional statement)
+- Variables declared with `var` in the global scope become properties of the global object. In a web browser environment, the global object is `window`.
+
+For example:
+
+```javascript
+var x = 10; // Global variable, property of window in browsers
+
+function exampleFunction() {
+    var y = 20; // Function-scoped variable
+}
+
+if (true) {
+    var z = 30; // Block-scoped variable, but still a property of window in browsers
+}
+
+console.log(window.x); // 10
+console.log(window.y); // undefined (not in the global scope)
+console.log(window.z); // 30
+```
+
+- it's important to note that this behavior can lead to unexpected results and potential naming conflicts in global scope, which is one of the reasons why `let` and `const` were introduced in ES6 to provide block-scoping without creating global object properties.
 
 ## JavaScript Data Types
 
