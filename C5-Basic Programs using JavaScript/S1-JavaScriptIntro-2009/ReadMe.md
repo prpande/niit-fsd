@@ -4,8 +4,13 @@
 <!-- omit in toc -->
 ## Contents
 
-- [What is JavaScript?](#what-is-javascript)
-- [Why Use JavaScript?](#why-use-javascript)
+- [Introduction to JavaScript](#introduction-to-javascript)
+  - [What is JavaScript?](#what-is-javascript)
+  - [Why Use JavaScript?](#why-use-javascript)
+  - [What JavaScript can do?](#what-javascript-can-do)
+  - [What Can In-Browser JavaScript Do?](#what-can-in-browser-javascript-do)
+  - [What Can’t In-Browser JavaScript Do?](#what-cant-in-browser-javascript-do)
+  - [What Makes JavaScript a Unique language?](#what-makes-javascript-a-unique-language)
 - [Getting Started with JavaScript](#getting-started-with-javascript)
   - [Example 1: Inline JavaScript](#example-1-inline-javascript)
   - [Example 2: External JavaScript](#example-2-external-javascript)
@@ -134,12 +139,18 @@
     - [Object Methods](#object-methods)
     - [Object Destructuring](#object-destructuring)
 
-## What is JavaScript?
+## Introduction to JavaScript
 
-- High-level, dynamically typed, and interpreted scripting language primarily used for web development
-- Unlike HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets), which are used for structuring and styling web content, respectively, JavaScript adds functionality and interactivity to web pages
+### What is JavaScript?
 
-## Why Use JavaScript?
+- JavaScript is a client side scripting language.
+- It is used to make web pages alive.
+- It is used to programmatically perform actions within the page.
+- When JavaScript was created, it was initially called “LiveScript”.
+- But Java was a very popular language at that time, so it was decided that positioning a language as a “younger brother” of Java would help.
+- It requires substantial updates to maintain its different versions. The ECMA is a standard maintained for any of the scripting languages that pushes for new updates. The ECMA was first launched in 1997.
+
+### Why Use JavaScript?
 
 1. **Client-Side Interactivity:** Allows you to create interactive features on websites, such as form validation, animations, and user interface enhancements, without relying on server-side processing.
 
@@ -148,6 +159,32 @@
 3. **Ecosystem:** Vast ecosystem of libraries and frameworks, like React, Angular, and Vue.js, which simplify and expedite web development.
 
 4. **Server-Side Development:** With Node.js, JavaScript can also be used for server-side programming, allowing for full-stack development with a single language.
+
+### What JavaScript can do?
+
+- JavaScript can execute not only in the browser, but also on the server.
+- We will use JavaScript as a client as well as server side language.
+- JavaScript has evolved greatly as a language and is now used to perform a wide variety of tasks
+
+### What Can In-Browser JavaScript Do?
+
+- If JavaScripts are used in any websites, then it should not be given any low level CPU permissions like switching off the CPU etc. That is why JavaScript is made with extremely safe permissions that does not have any permission to access low level CPU usage
+
+- JavaScript can add new HTML and change existing HTML from DOM.
+- It can even react to any events (actions).
+- It can also manage the AJAX requests (GET or POST request)
+- JavaScript can get and set cookies and use local storage.
+
+### What Can’t In-Browser JavaScript Do?
+
+- JavaScript cannot read or write to and from computer hard disk without user permissions
+- The browser does not allow the JavaScript of any website to collect the AJAX information of the other website because it generates the error of  same origin policy.
+
+### What Makes JavaScript a Unique language?
+
+- It has a complete integration of HTML and CSS. They provide it with a lot of extra support
+- It provides the use of simple APIs (Application Programming Interface)
+- It also supports the major modern browsers which are enabled by default. If you turn off the feature of JavaScript in the browser, you cannot access any website.
 
 ## Getting Started with JavaScript
 
