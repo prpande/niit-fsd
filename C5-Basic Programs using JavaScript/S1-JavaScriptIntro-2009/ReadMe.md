@@ -32,6 +32,7 @@
   - [Syntax of Template Literals](#syntax-of-template-literals)
 - [JavaScript Variables](#javascript-variables)
   - [Variable Naming Rules](#variable-naming-rules)
+  - [`var` vs `let`](#var-vs-let)
 - [JavaScript Data Types](#javascript-data-types)
   - [Primitive Data Types](#primitive-data-types)
   - [Reference Data Types](#reference-data-types)
@@ -493,6 +494,53 @@ exampleConst();
 - Variables are **case-sensitive** (`myVar` and `myvar` are different).
 - Start variable names with a letter, underscore (_), or dollar sign ($).
 - Subsequent characters can be letters, numbers, underscores, or dollar signs.
+
+### `var` vs `let`
+
+| Feature                       | `var`                                | `let`                               |
+| ------------------------------ | ------------------------------------ | ----------------------------------- |
+| Variable Scope                | Function scope                      | Block scope                         |
+| Hoisting                       | Hoisted to the top of the function  | Hoisted to the top of the block    |
+| Re-declaration Allowed         | Yes                                  | No                                  |
+| Temporal Dead Zone (TDZ)       | No                                   | Yes                                 |
+| Initialization Required        | No                                   | Yes (unless declared with `undefined`) |
+| Global Object Property         | Yes (`var` variables attach to the global object) | No                                  |
+| Use in Loops                  | Prone to unexpected behavior in loops | Recommended for loop-scoped variables |
+| ES6 and Later                 | Considered outdated and discouraged  | Recommended for modern JavaScript   |
+
+
+1. **Variable Scope**:
+   - `var` has a function scope. Variables declared with `var` are accessible throughout the entire function in which they are declared.
+   - `let` has a block scope. Variables declared with `let` are only accessible within the block (enclosed by curly braces) where they are defined.
+
+2. **Hoisting**:
+   - Variables declared with `var` are hoisted to the top of their function or global scope. This means you can use a `var` variable before it's declared in code, although it will be `undefined`.
+   - Variables declared with `let` are hoisted to the top of their block scope but remain in the "Temporal Dead Zone" (TDZ) until they are actually declared in code. Accessing them before declaration results in a `ReferenceError`.
+
+3. **Re-declaration Allowed**:
+   - With `var`, you can re-declare a variable within the same scope without any error.
+   - `let` does not allow you to re-declare a variable with the same name within the same block scope. It will result in a `SyntaxError`.
+
+4. **Temporal Dead Zone (TDZ)**:
+   - The TDZ is a phase between entering the scope and the actual declaration of a `let` variable. During this phase, accessing the variable results in a `ReferenceError`. This helps catch variable-related issues early.
+
+5. **Initialization Required**:
+   - Variables declared with `var` are not required to be initialized at the time of declaration. They will have the value `undefined` by default.
+   - Variables declared with `let` are required to be initialized at the time of declaration. If not initialized, they will remain in the TDZ until a value is assigned.
+
+6. **Global Object Property**:
+   - Variables declared with `var` at the global scope become properties of the global object (e.g., `window` in browsers). This can lead to unexpected behavior and namespace pollution.
+   - Variables declared with `let` at the global scope do not become properties of the global object. They stay within their respective scope.
+
+7. **Use in Loops**:
+   - Variables declared with `var` in loops may have unexpected behavior due to their function scope. They are often used incorrectly and can lead to unintended results.
+   - Variables declared with `let` in loops have block scope, making them suitable for loop variables and preventing common issues associated with `var` in loops.
+
+8. **ES6 and Later**:
+   - `var` is part of the older ECMAScript standards and is considered outdated and discouraged in modern JavaScript development.
+   - `let` was introduced in ECMAScript 6 (ES6) and is recommended for use in modern JavaScript code. It offers better scoping and safer variable behavior.
+
+- `let` and is generally preferred in modern JavaScript development. It is more predictable and helps in writing safer and more maintainable code.
 
 ## JavaScript Data Types
 
