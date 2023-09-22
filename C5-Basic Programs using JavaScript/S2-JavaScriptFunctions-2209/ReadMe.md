@@ -37,6 +37,38 @@
 - [Closures](#closures)
 - [IIFE (Immediately Invoked Function Expression)](#iife-immediately-invoked-function-expression)
 - [Function Best Practices](#function-best-practices)
+- [Nested functions](#nested-functions)
+  - [Creating Nested Functions](#creating-nested-functions)
+    - [Function Declarations within Functions](#function-declarations-within-functions)
+    - [Function Expressions within Functions](#function-expressions-within-functions)
+  - [Scope of Nested Functions](#scope-of-nested-functions)
+    - [Accessing Outer Variables](#accessing-outer-variables)
+  - [Use Cases and Benefits](#use-cases-and-benefits)
+    - [Modularization and Encapsulation](#modularization-and-encapsulation)
+    - [Closure and Data Privacy](#closure-and-data-privacy)
+  - [Practical Examples](#practical-examples)
+    - [Nested Function for Calculation](#nested-function-for-calculation)
+    - [Closure for Counter](#closure-for-counter)
+- [Built-in Functions](#built-in-functions)
+  - [String Manipulation Functions](#string-manipulation-functions)
+    - [String Length](#string-length)
+    - [Substring Extraction](#substring-extraction)
+    - [String Concatenation](#string-concatenation)
+    - [Search and Replace](#search-and-replace)
+  - [Array Manipulation Functions](#array-manipulation-functions)
+    - [Adding and Removing Elements](#adding-and-removing-elements)
+    - [Array Transformation](#array-transformation)
+  - [Mathematical Functions](#mathematical-functions)
+    - [Basic Mathematical Operations](#basic-mathematical-operations)
+    - [Random Number Generation](#random-number-generation)
+  - [Date and Time Functions](#date-and-time-functions)
+    - [Date Creation](#date-creation)
+    - [Date Formatting and Parsing](#date-formatting-and-parsing)
+    - [Date Arithmetic](#date-arithmetic)
+  - [Global Functions](#global-functions)
+    - [`setTimeout` and `setInterval`](#settimeout-and-setinterval)
+    - [`parseInt` and `parseFloat`](#parseint-and-parsefloat)
+  - [Custom extension Functions](#custom-extension-functions)
 
 ## Understanding Modular Programming
 
@@ -373,3 +405,318 @@ An IIFE is a function that is executed immediately after it is defined. It's oft
 - **Document your functions**: Add comments or use JSDoc comments to explain the purpose and usage of your functions.
 - **Avoid global functions**: Minimize the use of global functions to prevent naming conflicts.
 - **Consider immutability**: When working with data, prefer functions that do not modify the original data but return a new copy.
+
+## Nested functions
+
+In JavaScript, a nested function is a function defined within another function. The inner function has access to the variables and parameters of the outer function. This concept enables the creation of more structured and organized code by encapsulating related logic within functions.
+
+### Creating Nested Functions
+
+#### Function Declarations within Functions
+
+```javascript
+function outerFunction() {
+    // Outer function logic
+    
+    function innerFunction() {
+        // Inner function logic
+    }
+    
+    // More outer function logic
+}
+```
+
+#### Function Expressions within Functions
+
+```javascript
+function outerFunction() {
+    // Outer function logic
+    
+    const innerFunction = function() {
+        // Inner function logic
+    };
+    
+    // More outer function logic
+}
+```
+
+### Scope of Nested Functions
+
+#### Accessing Outer Variables
+
+Nested functions have access to variables and parameters of their containing (outer) functions. This concept is known as "closure."
+
+```javascript
+function outerFunction() {
+    const outerVar = 10;
+
+    function innerFunction() {
+        console.log(outerVar); // Access outerVar from the outer function
+    }
+
+    innerFunction();
+}
+
+outerFunction();
+```
+
+### Use Cases and Benefits
+
+#### Modularization and Encapsulation
+
+Nested functions allow you to modularize your code by breaking down complex tasks into smaller, more manageable functions. This enhances code readability and makes it easier to maintain and debug.
+
+#### Closure and Data Privacy
+
+Closure, a result of nested functions, enables data encapsulation and privacy. You can hide variables within an outer function, preventing direct access from outside the scope.
+
+### Practical Examples
+
+#### Nested Function for Calculation
+
+```javascript
+function calculator() {
+    let result = 0;
+
+    function add(x) {
+        result += x;
+    }
+
+    function subtract(x) {
+        result -= x;
+    }
+
+    function getResult() {
+        return result;
+    }
+
+    return { add, subtract, getResult };
+}
+
+const calc = calculator();
+calc.add(5);
+calc.subtract(2);
+console.log(calc.getResult()); // Output: 3
+```
+
+#### Closure for Counter
+
+```javascript
+function counter() {
+    let count = 0;
+
+    return function() {
+        return ++count;
+    };
+}
+
+const increment = counter();
+
+console.log(increment()); // Output: 1
+console.log(increment()); // Output: 2
+```
+
+## Built-in Functions
+
+### String Manipulation Functions
+
+#### String Length
+
+- `length`: Returns the number of characters in a string.
+
+```javascript
+const str = "JavaScript";
+console.log(str.length); // Output: 10
+```
+
+#### Substring Extraction
+
+- `substring(startIndex, endIndex)`: Extracts a portion of a string.
+
+```javascript
+const str = "Hello, World!";
+const subStr = str.substring(0, 5);
+console.log(subStr); // Output: "Hello"
+```
+
+#### String Concatenation
+
+- `concat(string1, string2, ...)`: Combines multiple strings into one.
+
+```javascript
+const firstName = "John";
+const lastName = "Doe";
+const fullName = firstName.concat(" ", lastName);
+console.log(fullName); // Output: "John Doe"
+```
+
+#### Search and Replace
+
+- `indexOf(searchString)`: Searches for a substring within a string and returns its position.
+
+```javascript
+const str = "JavaScript is amazing!";
+const position = str.indexOf("is");
+console.log(position); // Output: 12
+```
+
+### Array Manipulation Functions
+
+#### Adding and Removing Elements
+
+- `push(element1, element2, ...)`: Adds elements to the end of an array.
+
+```javascript
+const colors = ["red", "green"];
+colors.push("blue");
+console.log(colors); // Output: ["red", "green", "blue"]
+```
+
+- `pop()`: Removes the last element from an array.
+
+```javascript
+const fruits = ["apple", "banana", "cherry"];
+const removedFruit = fruits.pop();
+console.log(fruits); // Output: ["apple", "banana"]
+console.log(removedFruit); // Output: "cherry"
+```
+
+#### Array Transformation
+
+- `map(callback)`: Creates a new array by applying a callback function to each element.
+
+```javascript
+const numbers = [1, 2, 3];
+const doubled = numbers.map(num => num * 2);
+console.log(doubled); // Output: [2, 4, 6]
+```
+
+- `filter(callback)`: Creates a new array with elements that pass a given test.
+
+```javascript
+const scores = [85, 92, 78, 95, 89];
+const passingScores = scores.filter(score => score >= 90);
+console.log(passingScores); // Output: [92, 95]
+```
+
+### Mathematical Functions
+
+#### Basic Mathematical Operations
+
+- `Math.abs(x)`: Returns the absolute value of a number.
+
+```javascript
+const num = -5;
+const absoluteValue = Math.abs(num);
+console.log(absoluteValue); // Output: 5
+```
+
+- `Math.sqrt(x)`: Returns the square root of a number.
+
+```javascript
+const square = 16;
+const squareRoot = Math.sqrt(square);
+console.log(squareRoot); // Output: 4
+```
+
+#### Random Number Generation
+
+- `Math.random()`: Generates a random decimal number between 0 (inclusive) and 1 (exclusive).
+
+```javascript
+const randomNum = Math.random();
+console.log(randomNum); // Output: A random decimal number between 0 and 1
+```
+
+### Date and Time Functions
+
+#### Date Creation
+
+- `new Date()`: Creates a new Date object representing the current date and time.
+
+```javascript
+const currentDate = new Date();
+console.log(currentDate); // Output: Current date and time
+```
+
+#### Date Formatting and Parsing
+
+- `toDateString()`: Converts a Date object to a human-readable date string.
+
+```javascript
+const today = new Date();
+const dateString = today.toDateString();
+console.log(dateString); // Output: "Mon Sep 12 2023"
+```
+
+- `Date.parse(dateString)`: Parses a date string and returns the number of milliseconds since January 1, 1970.
+
+```javascript
+const dateStr = "2023-09-12T08:30:00Z";
+const milliseconds = Date.parse(dateStr);
+console.log(milliseconds); // Output: 1662994200000
+```
+
+#### Date Arithmetic
+
+- Date objects support various arithmetic operations, such as addition and subtraction, to perform date calculations.
+
+```javascript
+const currentDate = new Date();
+const tomorrow = new Date(currentDate);
+tomorrow.setDate(currentDate.getDate() + 1);
+console.log(tomorrow); // Output: Date representing tomorrow
+```
+
+### Global Functions
+
+#### `setTimeout` and `setInterval`
+
+- `setTimeout(callback, delay)`: Executes a function after a specified delay (in milliseconds).
+
+```javascript
+setTimeout(() => {
+    console.log("Delayed message");
+}, 2000); // Output after 2 seconds
+```
+
+- `setInterval(callback, interval)`: Repeatedly executes a function at a specified interval (in milliseconds).
+
+```javascript
+setInterval(() => {
+    console.log("Repeated message");
+}, 1000); // Output every second
+
+
+```
+
+#### `parseInt` and `parseFloat`
+
+- `parseInt(string, radix)`: Parses a string and returns an integer.
+
+```javascript
+const numStr = "42";
+const num = parseInt(numStr);
+console.log(num); // Output: 42
+```
+
+- `parseFloat(string)`: Parses a string and returns a floating-point number.
+
+```javascript
+const floatStr = "3.14";
+const floatNum = parseFloat(floatStr);
+console.log(floatNum); // Output: 3.14
+```
+
+### Custom extension Functions
+
+You can create your own custom functions to extend JavaScript's functionality.
+
+```javascript
+String.prototype.reverse = function() {
+    return this.split("").reverse().join("");
+};
+
+const reversedStr = "JavaScript".reverse();
+console.log(reversedStr); // Output: "tpircSavaJ"
+```
