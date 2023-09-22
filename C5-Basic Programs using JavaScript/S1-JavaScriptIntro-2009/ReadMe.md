@@ -59,8 +59,8 @@
       - [Type Coercion with Equality (`==`) and Inequality (`!=`)](#type-coercion-with-equality--and-inequality-)
       - [Strict Comparison with Strict Equality (`===`) and Strict Inequality (`!==`)](#strict-comparison-with-strict-equality--and-strict-inequality-)
     - [Equality vs. Identity](#equality-vs-identity)
-      - [Equality (`==`)](#equality--1)
-      - [Identity (`===`)](#identity-)
+      - [Equality Operator (`==`)](#equality-operator-)
+      - [Identity Operator (`===`)](#identity-operator-)
     - [Common Pitfalls](#common-pitfalls)
       - [Type Coercion Surprises](#type-coercion-surprises)
       - [NaN and Comparison](#nan-and-comparison)
@@ -78,7 +78,7 @@
     - [Unary NOT (!)](#unary-not-)
   - [8. Type Operators](#8-type-operators)
     - [typeof Operator](#typeof-operator)
-    - [instanceof Operator](#instanceof-operator)
+    - [`instanceof` Operator](#instanceof-operator)
 - [Checking Data Types](#checking-data-types)
 - [The Ins and Outs of `typeof` in JavaScript](#the-ins-and-outs-of-typeof-in-javascript)
   - [Data Types and `typeof`](#data-types-and-typeof)
@@ -89,7 +89,7 @@
     - [Null](#null)
     - [Object](#object)
     - [Function](#function)
-  - [Common Pitfalls](#common-pitfalls-1)
+  - [Common Pitfalls of `typeof`](#common-pitfalls-of-typeof)
     - [Null Is Not "null"](#null-is-not-null)
     - [Non-Existent Variables](#non-existent-variables)
   - [Advanced Usage](#advanced-usage)
@@ -133,7 +133,7 @@
   - [Converting Between Objects and JSON](#converting-between-objects-and-json)
     - [Object to JSON](#object-to-json)
     - [JSON to Object](#json-to-object)
-  - [Common Pitfalls](#common-pitfalls-2)
+  - [Common Pitfalls](#common-pitfalls-1)
     - [JSON Limitations](#json-limitations)
     - [Property Order](#property-order)
   - [Advanced Techniques](#advanced-techniques)
@@ -401,7 +401,7 @@ The basic syntax of a template literal is as follows:
 - `${expression}` is a placeholder where you can insert variables or expressions.
 - `string text` can be any string content, including multiline text.
 
-**Example 1: Basic Usage**
+**Example 1: Basic Usage:**
 
 ```javascript
 const name = "Alice";
@@ -412,7 +412,7 @@ console.log(greeting); // Outputs: "Hello, Alice!"
 
 In this example, we use a template literal to create a greeting string that includes the value of the `name` variable within `${}`.
 
-**Example 2: Multiline Strings**
+**Example 2: Multiline Strings:**
 
 ```javascript
 const multiline = `
@@ -428,7 +428,7 @@ console.log(multiline);
 
 Template literals make it easy to create multiline strings without using explicit newline characters.
 
-**Example 3: Expression Evaluation**
+**Example 3: Expression Evaluation:**
 
 ```javascript
 const a = 5;
@@ -566,7 +566,7 @@ console.log(window.z); // 30
 
 ## JavaScript Data Types
 
-- Data types categorize values and determine how they can be manipulated. 
+- Data types categorize values and determine how they can be manipulated
 - JavaScript has two main categories of data types: **primitive data types** and **reference data types**.
 
 ### Primitive Data Types
@@ -824,7 +824,7 @@ console.log(m !== n); // Outputs: true (strict comparison)
 
 JavaScript has two types of equality: equality (`==`) and identity (`===`).
 
-##### Equality (`==`)
+##### Equality Operator (`==`)
 
 The equality operator compares values after performing type coercion if necessary. It checks whether values are equal in terms of their content.
 
@@ -835,7 +835,7 @@ let b = "5";
 console.log(a == b); // Outputs: true (coerced comparison)
 ```
 
-##### Identity (`===`)
+##### Identity Operator (`===`)
 
 The identity operator compares values without type coercion. It checks whether values are both equal in content and have the same data type.
 
@@ -955,7 +955,7 @@ let value = 42;
 console.log(typeof value); // "number"
 ```
 
-#### instanceof Operator
+#### `instanceof` Operator
 
 ```javascript
 class Vehicle {}
@@ -1034,7 +1034,7 @@ function greet() {
 console.log(typeof greet); // Outputs: "function"
 ```
 
-### Common Pitfalls
+### Common Pitfalls of `typeof`
 
 #### Null Is Not "null"
 
