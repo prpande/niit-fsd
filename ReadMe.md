@@ -37,6 +37,7 @@ The files should be arranged in directories corresponding to each sprint session
   - [Sprint6 - Develop a Responsive Web Page Using Bootstrap](#sprint6---develop-a-responsive-web-page-using-bootstrap)
 - [Course5 - Developing Basic Programs using JavaScript](#course5---developing-basic-programs-using-javascript)
   - [Sprint1 - Getting Started with JavaScript](#sprint1---getting-started-with-javascript)
+    - [**Helpful Tools for Developing a JavaScript Code**](#helpful-tools-for-developing-a-javascript-code)
   - [Sprint2 - Implement Modular Programming Using Functions](#sprint2---implement-modular-programming-using-functions)
   - [Sprint3 - Implement Unit Testing using Mocha and Chai](#sprint3---implement-unit-testing-using-mocha-and-chai)
 - [Additional Resources](#additional-resources)
@@ -301,7 +302,7 @@ JavaScript is the most popular programming language for web development. More sp
 - Function Parameters <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_parameters>
 - Functions and Function Expressions <https://www.programiz.com/javascript/function>
 
-**Helpful Tools for Developing a JavaScript Code**
+#### **Helpful Tools for Developing a JavaScript Code**
 
 - Firefox Developer Tools
 - JavaScript Shells
@@ -312,6 +313,10 @@ JavaScript is the most popular programming language for web development. More sp
 ### Sprint2 - Implement Modular Programming Using Functions
 
 A very large program is always difficult to understand, and debugging takes a lot of time to trace an error in a big program. JavaScript functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task. By the end of this sprint, you will be able to write modular programs by breaking them into simpler and logical methods. Hands-on practices are provided to create and execute user-defined functions, which improves the readability of code.
+
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#predefined_functions>
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_parameters>
+- <https://www.programiz.com/javascript/function>
 
 ### Sprint3 - Implement Unit Testing using Mocha and Chai
 
