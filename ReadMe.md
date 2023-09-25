@@ -239,9 +239,8 @@ Dependency on the internet and social media has increased tremendously over the 
 
 Web founder Tim Berners Lee had a vision for the web. He wanted to make web content accessible to all machines using appropriate HTML elements for the intended purpose. The semantic elements should clearly communicate the intent to both the browsers and the developers.In this learning sprint, you would learn to semantically structure web pages which make machines understand web pages. You will also learn how semantically designed web pages can help people with disabilities.
 
-- How Do Semantic Elements Help Screen Readers?
-  - <https://www.youtube.com/watch?v=LP3zLrOjQSY&ab_channel=dantamas>
-  - <https://www.youtube.com/watch?v=qdB8SRhqvFc&ab_channel=Front-Trends>
+- [Video - How screen readers speak a simple HTML5 page when ARIA roles were added](<https://www.youtube.com/watch?v=LP3zLrOjQSY&ab_channel=dantamas>)
+- [Video - ARIA, Accessibility APIs and coding like you give a damn!](<https://www.youtube.com/watch?v=qdB8SRhqvFc&ab_channel=Front-Trends>)
 
 ### [Sprint3 - Style a Web Page Using CSS Properties and CSS Box Model](./C4-Develop%20Responsive%20Web%20Pages%20Using%20HTML5%20&%20CSS3/S3-CSS%20Properties%20and%20CSS%20Box%20Model/)
 
