@@ -1,9 +1,9 @@
 <!-- omit in toc -->
 # Repo for NIIT Full Stack Developer Program
 
-This repo contains the class notes, slides, assignments and solution src files for the NIIT FSD program.\
-The repo contains both the practice and learning session code files.\
-The files should be arranged in directories corresponding to each sprint sessions.\
+- This repo contains the class notes, slides, assignments and solution src files for the NIIT FSD program.
+- The repo contains both the practice and learning session code files.
+- The files should be arranged in directories corresponding to each sprint sessions.
 
 <!-- omit in toc -->
 ## Contents
@@ -40,14 +40,35 @@ The files should be arranged in directories corresponding to each sprint session
     - [**Helpful Tools for Developing a JavaScript Code**](#helpful-tools-for-developing-a-javascript-code)
   - [Sprint2 - Implement Modular Programming Using Functions](#sprint2---implement-modular-programming-using-functions)
   - [Sprint3 - Implement Unit Testing using Mocha and Chai](#sprint3---implement-unit-testing-using-mocha-and-chai)
+- [Course6 - Building Interactive Web Pages Using Modern JavaScript](#course6---building-interactive-web-pages-using-modern-javascript)
+  - [\[Sprint1 - Utilize Arrays to Model Aggregate Data\]](#sprint1---utilize-arrays-to-model-aggregate-data)
+  - [\[Sprint2 - Perform Common Array Operations Using JavaScript Array Methods\]](#sprint2---perform-common-array-operations-using-javascript-array-methods)
+  - [\[Sprint3 - Model Real World Data Using Objects\]](#sprint3---model-real-world-data-using-objects)
+  - [\[Sprint4 -Implement Stateless Communication Using REST APIs and JSON\]](#sprint4--implement-stateless-communication-using-rest-apis-and-json)
+  - [\[Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events\]](#sprint5--develop-interactive-web-pages-using-dom-and-dom-events)
+  - [\[Sprint6 -Interact With Application Servers Using HTTP Protocol\]](#sprint6--interact-with-application-servers-using-http-protocol)
+  - [\[Sprint7 - Gen AI Enabled Interactive Web Page Development\]](#sprint7---gen-ai-enabled-interactive-web-page-development)
 - [Additional Resources](#additional-resources)
-
 
 ## Software
 
 - IntelliJ Community Edition – <https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC>
 - GitHub – <https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe>
+  - GitHub Pull Requests and Issues <https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github>
 - Visual Studio Code - <https://code.visualstudio.com/download>
+- Java Extensions
+  - Extension Pack for Java <https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack>
+  - Test Runner for Java <https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test>
+  - Debugger for Java <https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug>
+  - Maven for Java <https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven>
+  - Project Manager for Java <https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency>
+  
+- HTML CSS JS Extensions
+  - HTML CSS Support <https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css>
+  - Live Preview <https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server>
+  - Live Server <https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer>
+  - JavaScript (ES6) code snippets <https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets>
+  - Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets <https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode>
 - NodeJS - <https://nodejs.org/en>
 
 ## Repository Directory Structure
@@ -321,6 +342,36 @@ A very large program is always difficult to understand, and debugging takes a lo
 ### Sprint3 - Implement Unit Testing using Mocha and Chai
 
 Producing top quality products requires rigorous testing. The web is no exception. In this learning sprint, you will learn to think and write test cases using JavaScript Libraries to test your Web Application.
+
+## [Course6 - Building Interactive Web Pages Using Modern JavaScript](./C6-Interactive%20Web%20Pages%20Using%20Modern%20JavaScript/)
+
+Most businesses with a strong online presence wish to provide their customers with a rich, interactive, user experience. JavaScript is a popular scripting language that executes within the browser and helps in developing interactive web pages. The language features provide support to add interactivity to the pages by allowing page contents to be updated dynamically based on a user's request. In addition, there are features that help perform complex data operations and interchanging information with the server without creating any delay.
+
+### [Sprint1 - Utilize Arrays to Model Aggregate Data]
+
+Data in a web application should be a representation of real-world objects. In JavaScript, arrays represent a collection of values, and objects help model the real world's data. By the end of this learning sprint, you will learn to create objects and access their properties. You will also be able to create arrays, access their values using for loops, and extract multiple properties from an array using array destructuring.
+
+### [Sprint2 - Perform Common Array Operations Using JavaScript Array Methods]
+
+Performing array operations is an inherent part of any large application. This sprint will teach you how to manipulate array elements with the help of various built-in Array methods. By the end of this learning sprint, you will be able to add and remove elements from the array using built-in methods like push, pop, shift, and un-shift. Hands-on practices will enable you to filter, transform, and aggregate array elements using filter, map, and reduce methods.
+
+### [Sprint3 - Model Real World Data Using Objects]
+
+In a web application, a client and server communicate to exchange information. Client makes a request to the server to send or receive data. However, client and server applications are developed using different languages. Hence, the data needs to be converted and shared in a format that is understood by both applications. JSON is a text-based format that represents structured data based on JavaScript syntax but is language-independent. In this learning sprint, you will acquire skills to create JSON structures, both simple and complex.The hands-on exercises will help you to convert JSON to JavaScript objects and perform aggregations. You will also learn to use the method to convert a JavaScript object to JSON data.
+
+### [Sprint4 -Implement Stateless Communication Using REST APIs and JSON]
+
+In a typical web application, the client and server applications are written in all sorts of different languages that cannot communicate without an intermediary. REST API is a uniform interface that allows a client to communicate with the server using Hyper Text Transfer Protocol - HTTP. In this learning sprint, you will acquire skills to create RESTful APIs using json-server and test them using the Postman app. You will get opportunities to interpret an API specification document and create it in JSON format.
+
+### [Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events]
+
+User experiences are enhanced when web pages are interactive. They not only respond to users' interactions but also keep them engaged and coming back for more. JavaScript helps build interactive web pages. It helps save network bandwidth by preempting server validation and performing client-side validation.In this learning sprint, you will learn to add interactivity by understanding the DOM and DOM Events. You will learn to validate users' data using client-side JavaScript.
+
+### [Sprint6 -Interact With Application Servers Using HTTP Protocol]
+
+JavaScript, by default, is synchronous, meaning a task needs to complete its execution before the next can begin. However, in web application, there are many tasks that need to execute asynchronously. Asynchronous programming enables your program to start a potentially long-running task without waiting for the on-going task to finish. It is responsive to other events triggered by the user or by the system. In this learning sprint, you will acquire the skills required to make asynchronous requests to respond to timer events or make HTTP calls to a server to fetch or store data using callbacks and promises. The hands-on practices and challenges of this sprint will enable you to experience the limitations of working with callbacks and encourage you to use Promise with the Axios API to make asynchronous server calls and handle responses.
+
+### [Sprint7 - Gen AI Enabled Interactive Web Page Development]
 
 ## Additional Resources
 
