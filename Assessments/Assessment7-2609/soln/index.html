@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crick Freak</title>
+    <!-- Add link for Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Add this line to include Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      /* Custom CSS styles if required*/
+      nav{
+        background-color: #343a40;
+      }
+      body{
+        background-color: #f8f9fa;
+      }
+      .jumbotron{
+        background: center/cover no-repeat url("images/cricket-group.jpg");
+        height: 40vh;
+      }
+      footer{
+        background-color: #343a40;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-dark px-3">
+        <a class="navbar-brand" href="#">Crick Freak</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav m-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+    </nav>
+
+    <!-- Jumbotron section -->
+    <div class="jumbotron jumbotron-fluid py-5">
+        <div class="container text-center text-white">
+            <h1 class="fw-bold">Welcome to Crick Freak</h1>
+            <p class="d-none d-md-block">Learn cricket from the experts and improve your game.</p>
+        </div>
+    </div>
+    
+    <!-- Section having 3 features -->
+    <section class="container-fluid row justify-content-evenly mx-auto my-5">
+        <div class="col col-lg-4 col-12">
+            <img src="images/cricket-practice-1.png" alt="Experienced Coaches" class="img-fluid mb-3">
+            <h5>Experienced Coaches</h5>
+            <p>Our coaching staff consists of highly experienced cricket coaches who will guide you throughout your journey.</p>
+        </div>
+        <div class="col col-lg-4 col-12">
+            <img src="images/cricket-practice-2.png" alt="State-of-the-art Facilities" class="img-fluid mb-3">
+            <h5>State-of-the-art Facilities</h5>
+            <p>We provide top-notch facilities including well-maintained cricket grounds, practice nets, and modern training equipment</p>
+        </div>
+        <div class="col col-lg-4 col-12">
+            <img src="images/cricket-with-coach.png" alt="Personalized Training" class="img-fluid mb-3">
+            <h5>Personalized Training</h5>
+            <p>We offer personalized training sessions tailored to individual needs, focusing on enhancing specific skills and techniques.</p>
+        </div>
+    </section>
+    <!-- Section having 2 courses -->
+    <section class="container-fluid row justify-content-evenly mx-auto ">
+        <div class="col col-lg-6 col-12">
+            <img src="images/cricket-anim-1.png" alt="Beginner's Course" class="img-fluid mb-3">
+            <h5>Beginner's Course</h5>
+            <p>Designed for beginners, this course covers the basics of cricket, including batting, bowling, and fielding techniques.
+            </p>
+        </div>
+        <div class="col col-lg-6 col-12">
+            <img src="images/cricket-anim-2.png" alt="Advanced Course" class="img-fluid mb-3">
+            <h5>Advanced Course</h5>
+            <p>For intermediate and advanced players, this course focuses on advanced batting strategies, bowling variations, and match tactics.</p>
+        </div>
+    </section>
+    <!-- Section having contact details -->
+    <section class="container-fluid row m-auto">
+        <div class="col">
+            <h5>Contact Us</h5>
+            <p>For inquiries and registration, please contact us using the details below:</p>
+            <ul>
+                <li>Address: 123 Cricket Lane, City, State, ZIP</li>
+                <li>Phone: 123-456-7890</li>
+                <li>Email: info@cricketcoaching.com</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Footer section-->
+    <footer class="py-3">
+        <div class="container-fluid row justify-content-between m-auto">
+            <div class="col-md-12 col-lg-3 text-light p-3">© 2023 Crick Freak. All rights reserved.</div>
+            <div class="col-md-12 col-lg-3">
+                <ul class="nav justify-content-lg-between">
+                    <li><a href="#"><i class="fa fa-facebook text-light p-3"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter text-light p-3"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram text-light p-3"></i></a></li>        
+                </ul>
+            </div>
+            <div class="col-md-12 col-lg-3 text-light text-lg-end p-3">Privacy Policy | Terms of Service</div>
+        </div>
+    </footer>
+    <!-- Add JQuery and Bootstrap JS script files -->
+  </body>
+</html>
