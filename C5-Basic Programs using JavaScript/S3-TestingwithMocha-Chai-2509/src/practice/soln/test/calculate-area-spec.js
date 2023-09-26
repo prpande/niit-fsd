@@ -5,17 +5,17 @@ const expect = chai.expect;
 const solution = require('../solution/calculate-area-solution');
 
 describe('solution', function(){
-            it("should have function `calculateAreaOfSquare()`", function(){
-                expect(typeof solution.calculateAreaOfSquare).to.be.equal('function');
-            });
+    it("should have function `calculateAreaOfSquare()`", function(){
+        expect(typeof solution.calculateAreaOfSquare).to.be.equal('function');
+    });
 
-            it("should have function `calculateAreaOfCircle()`", function(){
-                expect(typeof solution.calculateAreaOfCircle).to.be.equal('function');
-            });
+    it("should have function `calculateAreaOfCircle()`", function(){
+        expect(typeof solution.calculateAreaOfCircle).to.be.equal('function');
+    });
 
-            it("should have function `calculateAreaOfRectangle()`", function(){
-                expect(typeof solution.calculateAreaOfRectangle).to.be.equal('function');
-            });
+    it("should have function `calculateAreaOfRectangle()`", function(){
+        expect(typeof solution.calculateAreaOfRectangle).to.be.equal('function');
+    });
 });
 
 describe('Function calculateAreaOfSquare', function(){
