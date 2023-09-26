@@ -1,0 +1,19 @@
+{
+  "name": "fe-c2-s3-testing-challenge",
+  "version": "1.0.0",
+  "description": "Creative IT Solutions have developed an application for MovieZone cinemas that allows the customers to book tickets and snacks online.​",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0"
+  }
+}
