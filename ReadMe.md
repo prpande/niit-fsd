@@ -41,7 +41,7 @@
   - [Sprint2 - Implement Modular Programming Using Functions](#sprint2---implement-modular-programming-using-functions)
   - [Sprint3 - Implement Unit Testing using Mocha and Chai](#sprint3---implement-unit-testing-using-mocha-and-chai)
 - [Course6 - Building Interactive Web Pages Using Modern JavaScript](#course6---building-interactive-web-pages-using-modern-javascript)
-  - [\[Sprint1 - Utilize Arrays to Model Aggregate Data\]](#sprint1---utilize-arrays-to-model-aggregate-data)
+  - [Sprint1 - Utilize Arrays to Model Aggregate Data](#sprint1---utilize-arrays-to-model-aggregate-data)
   - [\[Sprint2 - Perform Common Array Operations Using JavaScript Array Methods\]](#sprint2---perform-common-array-operations-using-javascript-array-methods)
   - [\[Sprint3 - Model Real World Data Using Objects\]](#sprint3---model-real-world-data-using-objects)
   - [\[Sprint4 -Implement Stateless Communication Using REST APIs and JSON\]](#sprint4--implement-stateless-communication-using-rest-apis-and-json)
@@ -332,9 +332,13 @@ Producing top quality products requires rigorous testing. The web is no exceptio
 
 Most businesses with a strong online presence wish to provide their customers with a rich, interactive, user experience. JavaScript is a popular scripting language that executes within the browser and helps in developing interactive web pages. The language features provide support to add interactivity to the pages by allowing page contents to be updated dynamically based on a user's request. In addition, there are features that help perform complex data operations and interchanging information with the server without creating any delay.
 
-### [Sprint1 - Utilize Arrays to Model Aggregate Data]
+### [Sprint1 - Utilize Arrays to Model Aggregate Data](./C6-Interactive%20Web%20Pages%20Using%20Modern%20JavaScript/S1-JSArrays-2709/)
 
 Data in a web application should be a representation of real-world objects. In JavaScript, arrays represent a collection of values, and objects help model the real world's data. By the end of this learning sprint, you will learn to create objects and access their properties. You will also be able to create arrays, access their values using for loops, and extract multiple properties from an array using array destructuring.
+
+- [JavaScript Objects](https://www.w3schools.com/js/js_objects.asp)
+- [JavaScript Arrays Programiz](https://www.programiz.com/javascript/array)
+- [JavaScript Arrays GeeksForGeeks](https://www.geeksforgeeks.org/javascript-arrays/)
 
 ### [Sprint2 - Perform Common Array Operations Using JavaScript Array Methods]
 
