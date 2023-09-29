@@ -43,6 +43,15 @@
 - [Function Chaining](#function-chaining)
   - [Features and Properties](#features-and-properties-4)
   - [Example](#example-4)
+- [`delete` Operator](#delete-operator)
+  - [Usage and Syntax](#usage-and-syntax)
+    - [Deleting Object Properties](#deleting-object-properties)
+    - [Deleting Array Elements](#deleting-array-elements)
+    - [Deleting Inherited Properties](#deleting-inherited-properties)
+  - [Limitations and Considerations](#limitations-and-considerations)
+  - [More Examples](#more-examples)
+    - [Deleting a Non-Existent Property](#deleting-a-non-existent-property)
+    - [Deleting an Inherited Property](#deleting-an-inherited-property)
 
 ## JavaScript Built-in Array Functions
 
@@ -444,4 +453,107 @@ class Calculator {
 const calc = new Calculator(0);
 const result = calc.add(5).subtract(3).add(10).getResult();
 console.log(result); // 12
+```
+
+## `delete` Operator
+
+The `delete` operator is used to remove a property from an object. It can be applied to both user-defined and built-in object properties. However, it's important to note that it only works on object properties and not on variables or function names.
+
+### Usage and Syntax
+
+The syntax of the `delete` operator is quite simple:
+
+```javascript
+delete object.property;
+```
+
+Where:
+
+- `object`: The object from which you want to delete the property.
+- `property`: The name of the property you want to delete.
+
+#### Deleting Object Properties
+
+```javascript
+const person = {
+  name: 'Alice',
+  age: 30,
+};
+
+delete person.age;
+
+console.log(person); // { name: 'Alice' }
+```
+
+#### Deleting Array Elements
+
+The `delete` operator can also be used on array elements, but it doesn't reindex the array. Instead, it leaves a gap in the array.
+
+```javascript
+const fruits = ['apple', 'banana', 'cherry'];
+
+delete fruits[1];
+
+console.log(fruits); // ['apple', <1 empty item>, 'cherry']
+```
+
+#### Deleting Inherited Properties
+
+You can delete properties inherited from an object's prototype using the `delete` operator.
+
+```javascript
+function Vehicle() {
+  this.make = 'Toyota';
+  this.model = 'Camry';
+}
+
+Vehicle.prototype.color = 'blue';
+
+const car = new Vehicle();
+
+console.log(car.color); // 'blue'
+
+delete car.color;
+
+console.log(car.color); // undefined
+```
+
+### Limitations and Considerations
+
+While the `delete` operator is useful, it comes with some limitations and considerations:
+
+- It cannot delete variables or function names.
+- It cannot delete properties that are part of the object's prototype chain if the property is not marked as non-configurable.
+- It returns `true` for successful deletions and `false` for failed deletions, but it does not provide detailed error messages.
+
+### More Examples
+
+#### Deleting a Non-Existent Property
+
+```javascript
+const person = {
+  name: 'Alice',
+  age: 30,
+};
+
+const result = delete person.job;
+
+console.log(result); // true
+console.log(person); // { name: 'Alice', age: 30 }
+```
+
+#### Deleting an Inherited Property
+
+```javascript
+function Vehicle() {
+  this.make = 'Toyota';
+  this.model = 'Camry';
+}
+
+Vehicle.prototype.color = 'blue';
+
+const car = new Vehicle();
+
+console.log(delete car.color); // true
+console.log(car.color); // undefined
 ```
