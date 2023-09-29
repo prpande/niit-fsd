@@ -42,7 +42,7 @@
   - [Sprint3 - Implement Unit Testing using Mocha and Chai](#sprint3---implement-unit-testing-using-mocha-and-chai)
 - [Course6 - Building Interactive Web Pages Using Modern JavaScript](#course6---building-interactive-web-pages-using-modern-javascript)
   - [Sprint1 - Utilize Arrays to Model Aggregate Data](#sprint1---utilize-arrays-to-model-aggregate-data)
-  - [\[Sprint2 - Perform Common Array Operations Using JavaScript Array Methods\]](#sprint2---perform-common-array-operations-using-javascript-array-methods)
+  - [Sprint2 - Perform Common Array Operations Using JavaScript Array Methods](#sprint2---perform-common-array-operations-using-javascript-array-methods)
   - [\[Sprint3 - Model Real World Data Using Objects\]](#sprint3---model-real-world-data-using-objects)
   - [\[Sprint4 -Implement Stateless Communication Using REST APIs and JSON\]](#sprint4--implement-stateless-communication-using-rest-apis-and-json)
   - [\[Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events\]](#sprint5--develop-interactive-web-pages-using-dom-and-dom-events)
@@ -340,9 +340,16 @@ Data in a web application should be a representation of real-world objects. In J
 - [JavaScript Arrays Programiz](https://www.programiz.com/javascript/array)
 - [JavaScript Arrays GeeksForGeeks](https://www.geeksforgeeks.org/javascript-arrays/)
 
-### [Sprint2 - Perform Common Array Operations Using JavaScript Array Methods]
+### [Sprint2 - Perform Common Array Operations Using JavaScript Array Methods](./C6-Interactive%20Web%20Pages%20Using%20Modern%20JavaScript/S2-JSArrayFunctions-2909/)
 
 Performing array operations is an inherent part of any large application. This sprint will teach you how to manipulate array elements with the help of various built-in Array methods. By the end of this learning sprint, you will be able to add and remove elements from the array using built-in methods like push, pop, shift, and un-shift. Hands-on practices will enable you to filter, transform, and aggregate array elements using filter, map, and reduce methods.
+
+- [Common pitfalls when working with Javascript Arrays](https://www.thecodeship.com/web-development/common-pitfalls-when-working-with-javascript-arrays/)
+- [Array methods](https://javascript.info/array-methods)
+- [Array Methods Explained : Filter vs Map vs Reduce vs Foreach](https://codeburst.io/array-methods-explained-filter-vs-map-vs-reduce-vs-foreach-ea3127c6d319)
+- [Best Practices in JavaScript Array Iteration](https://vgpena.github.io/js-arrays/)
+- [4 Practices to Help You Understand array.reduce()](https://javascript.plainenglish.io/4-practices-to-help-you-understand-array-reduce-f3138cfef095)
+- [Must-Know JavaScript Array Methods](https://livecodestream.dev/post/must-know-javascript-array-methods/)
 
 ### [Sprint3 - Model Real World Data Using Objects]
 
