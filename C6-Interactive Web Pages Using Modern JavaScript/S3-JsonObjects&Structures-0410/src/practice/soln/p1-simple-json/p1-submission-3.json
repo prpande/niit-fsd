@@ -1,0 +1,13 @@
+{
+    "from": "Chicago",
+    "to": "New York",
+    "departureDays": "Th",
+    "flightNo": "AA1378",
+    "airlines": "American Airlines",
+    "departureTime": "11:21:00",
+    "arrivalTime": "14:30:00",
+    "stopOvers": null,
+    "isDirect": true,
+    "departureFrom": "ORD",
+    "arrivalAt": "JFK"
+}

@@ -43,7 +43,7 @@
 - [Course6 - Building Interactive Web Pages Using Modern JavaScript](#course6---building-interactive-web-pages-using-modern-javascript)
   - [Sprint1 - Utilize Arrays to Model Aggregate Data](#sprint1---utilize-arrays-to-model-aggregate-data)
   - [Sprint2 - Perform Common Array Operations Using JavaScript Array Methods](#sprint2---perform-common-array-operations-using-javascript-array-methods)
-  - [\[Sprint3 - Model Real World Data Using Objects\]](#sprint3---model-real-world-data-using-objects)
+  - [Sprint3 - Model Real World Data Using Objects](#sprint3---model-real-world-data-using-objects)
   - [\[Sprint4 -Implement Stateless Communication Using REST APIs and JSON\]](#sprint4--implement-stateless-communication-using-rest-apis-and-json)
   - [\[Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events\]](#sprint5--develop-interactive-web-pages-using-dom-and-dom-events)
   - [\[Sprint6 -Interact With Application Servers Using HTTP Protocol\]](#sprint6--interact-with-application-servers-using-http-protocol)
@@ -351,9 +351,15 @@ Performing array operations is an inherent part of any large application. This s
 - [4 Practices to Help You Understand array.reduce()](https://javascript.plainenglish.io/4-practices-to-help-you-understand-array-reduce-f3138cfef095)
 - [Must-Know JavaScript Array Methods](https://livecodestream.dev/post/must-know-javascript-array-methods/)
 
-### [Sprint3 - Model Real World Data Using Objects]
+### [Sprint3 - Model Real World Data Using Objects](./C6-Interactive%20Web%20Pages%20Using%20Modern%20JavaScript/S3-JsonObjects&Structures-0410/)
 
 In a web application, a client and server communicate to exchange information. Client makes a request to the server to send or receive data. However, client and server applications are developed using different languages. Hence, the data needs to be converted and shared in a format that is understood by both applications. JSON is a text-based format that represents structured data based on JavaScript syntax but is language-independent. In this learning sprint, you will acquire skills to create JSON structures, both simple and complex.The hands-on exercises will help you to convert JSON to JavaScript objects and perform aggregations. You will also learn to use the method to convert a JavaScript object to JSON data.
+
+- [SyntaxError: JSON.parse: bad parsing](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/JSON_bad_parse)
+- [Interesting facts about JSON](https://www.geeksforgeeks.org/interesting-facts-about-json/)
+- [Handling Untrusted JSON Safely](https://manicode.blogspot.com/2013/01/handling-untrusted-json-safely.html)
+- [JavaScript Prototype Poisoning Vulnerabilities in the Wild](https://medium.com/intrinsic-blog/javascript-prototype-poisoning-vulnerabilities-in-the-wild-7bc15347c96)
+- [JSON Best practices](https://medium.com/analytics-vidhya/json-best-practices-d8270f6b8e17)
 
 ### [Sprint4 -Implement Stateless Communication Using REST APIs and JSON]
 
