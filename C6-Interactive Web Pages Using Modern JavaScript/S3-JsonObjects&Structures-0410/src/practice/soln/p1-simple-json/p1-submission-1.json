@@ -1,0 +1,13 @@
+{
+    "from": "Chicago",
+    "to": "New York",
+    "departureDays": "M-Tu-W-Th-F",
+    "flightNo": "DL551",
+    "airlines": "Delta Airlines",
+    "departureTime": "06:00:00",
+    "arrivalTime": "09:13:00",
+    "stopOvers": null,
+    "isDirect": true,
+    "departureFrom": "ORD",
+    "arrivalAt": "LGA"
+}
