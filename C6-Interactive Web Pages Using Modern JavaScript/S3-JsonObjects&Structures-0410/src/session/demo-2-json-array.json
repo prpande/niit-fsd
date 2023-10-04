@@ -1,0 +1,16 @@
+{
+    "movies": [
+        {
+            "movieTitle": "Top Gun: Maverick",
+            "yearOfRelease": 2022,
+            "genre": "action",
+            "isOnOTT": false
+        },
+        {
+            "movieTitle": "Spider-Man: No Way Home",
+            "yearOfRelease": 2021,
+            "genre": "adventure",
+            "isOnOTT": true
+        }
+    ]
+}

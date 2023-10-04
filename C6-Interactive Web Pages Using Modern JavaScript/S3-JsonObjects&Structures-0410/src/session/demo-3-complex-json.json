@@ -1,0 +1,41 @@
+{
+    "movies": [
+        {
+            "movieTitle": "Top Gun: Maverick",
+            "yearOfRelease": 2022,
+            "director": "Joseph Kosinski",
+            "cast": [
+                {
+                    "actorName": "Tom Cruise",
+                    "onScreenName": "Capt. Pete"
+                },
+                {
+                    "actorName": "Jennifer Connelly",
+                    "onScreenName": "Penny Benjamin"
+                },
+                {
+                    "actorName": "Miles Teller",
+                    "onScreenName": "Lt. Bradley"
+                }
+            ],
+            "genre": "action",
+            "isOnOTT": false
+        },
+        {
+            "movieTitle": "Spider-Man: No Way Home",
+            "yearOfRelease": 2021,
+            "director": "Jon Watts",
+            "cast": [
+                {
+                    "actorName": "Tom Holland",
+                    "onScreenName": "Peter Parker"
+                },
+                {
+                    "actorName": "Zendaya",
+                    "onScreenName": "MJ"
+                }
+            ],"genre": "adventure",
+            "isOnOTT": true
+        }
+    ]
+}
