@@ -44,7 +44,7 @@
   - [Sprint1 - Utilize Arrays to Model Aggregate Data](#sprint1---utilize-arrays-to-model-aggregate-data)
   - [Sprint2 - Perform Common Array Operations Using JavaScript Array Methods](#sprint2---perform-common-array-operations-using-javascript-array-methods)
   - [Sprint3 - Model Real World Data Using Objects](#sprint3---model-real-world-data-using-objects)
-  - [\[Sprint4 -Implement Stateless Communication Using REST APIs and JSON\]](#sprint4--implement-stateless-communication-using-rest-apis-and-json)
+  - [Sprint4 -Implement Stateless Communication Using REST APIs and JSON](#sprint4--implement-stateless-communication-using-rest-apis-and-json)
   - [\[Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events\]](#sprint5--develop-interactive-web-pages-using-dom-and-dom-events)
   - [\[Sprint6 -Interact With Application Servers Using HTTP Protocol\]](#sprint6--interact-with-application-servers-using-http-protocol)
   - [\[Sprint7 - Gen AI Enabled Interactive Web Page Development\]](#sprint7---gen-ai-enabled-interactive-web-page-development)
@@ -361,9 +361,14 @@ In a web application, a client and server communicate to exchange information. C
 - [JavaScript Prototype Poisoning Vulnerabilities in the Wild](https://medium.com/intrinsic-blog/javascript-prototype-poisoning-vulnerabilities-in-the-wild-7bc15347c96)
 - [JSON Best practices](https://medium.com/analytics-vidhya/json-best-practices-d8270f6b8e17)
 
-### [Sprint4 -Implement Stateless Communication Using REST APIs and JSON]
+### [Sprint4 -Implement Stateless Communication Using REST APIs and JSON](./C6-Interactive%20Web%20Pages%20Using%20Modern%20JavaScript/S4-RestApis-0610/)
 
 In a typical web application, the client and server applications are written in all sorts of different languages that cannot communicate without an intermediary. REST API is a uniform interface that allows a client to communicate with the server using Hyper Text Transfer Protocol - HTTP. In this learning sprint, you will acquire skills to create RESTful APIs using json-server and test them using the Postman app. You will get opportunities to interpret an API specification document and create it in JSON format.
+
+- [8 Best Practices for REST API Design](https://javascript.plainenglish.io/8-best-practices-for-rest-api-design-3fd1b837b283)
+- [REST API Development](https://www.partech.nl/nl/publicaties/2020/07/9-trending-best-practices-for-rest-api-development#)
+- [7 Mistakes To Avoid When Building Your REST Apis](https://www.desuvit.com/7-mistakes-to-avoid-when-building-your-rest-apis/)
+- [7 HTTP methods every web developer should know and how to test them](https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them)
 
 ### [Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events]
 
