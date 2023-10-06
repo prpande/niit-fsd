@@ -70,6 +70,7 @@
   - [JavaScript (ES6) code snippets](<https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets>)
   - [Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets](<https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode>)
 - [NodeJS](<https://nodejs.org/en>)
+- [Postman](https://www.postman.com/downloads/)
 
 ## Repository Directory Structure
 
