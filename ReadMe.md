@@ -45,7 +45,7 @@
   - [Sprint2 - Perform Common Array Operations Using JavaScript Array Methods](#sprint2---perform-common-array-operations-using-javascript-array-methods)
   - [Sprint3 - Model Real World Data Using Objects](#sprint3---model-real-world-data-using-objects)
   - [Sprint4 -Implement Stateless Communication Using REST APIs and JSON](#sprint4--implement-stateless-communication-using-rest-apis-and-json)
-  - [\[Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events\]](#sprint5--develop-interactive-web-pages-using-dom-and-dom-events)
+  - [Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events](#sprint5--develop-interactive-web-pages-using-dom-and-dom-events)
   - [\[Sprint6 -Interact With Application Servers Using HTTP Protocol\]](#sprint6--interact-with-application-servers-using-http-protocol)
   - [\[Sprint7 - Gen AI Enabled Interactive Web Page Development\]](#sprint7---gen-ai-enabled-interactive-web-page-development)
 - [Additional Resources](#additional-resources)
@@ -371,9 +371,15 @@ In a typical web application, the client and server applications are written in 
 - [7 Mistakes To Avoid When Building Your REST Apis](https://www.desuvit.com/7-mistakes-to-avoid-when-building-your-rest-apis/)
 - [7 HTTP methods every web developer should know and how to test them](https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them)
 
-### [Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events]
+### [Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events](./C6-Interactive%20Web%20Pages%20Using%20Modern%20JavaScript/S5-DomManupulation-0910/)
 
 User experiences are enhanced when web pages are interactive. They not only respond to users' interactions but also keep them engaged and coming back for more. JavaScript helps build interactive web pages. It helps save network bandwidth by preempting server validation and performing client-side validation.In this learning sprint, you will learn to add interactivity by understanding the DOM and DOM Events. You will learn to validate users' data using client-side JavaScript.
+
+- [Javascript DOM Manipulation to improve performance](https://dev.to/grandemayta/javascript-dom-manipulation-to-improve-performance-459a)
+- [DOM manipulation best practices](http://www.softxml.com/3026/DOM-manipulation-best-practices)
+- [Top 10 Essential JavaScript DOM methods List](https://www.dynamicwebtraining.com.au/blog/javascript-dom-methods)
+- [Events in JavaScript](https://www.peachpit.com/articles/article.aspx?p=1394321)
+- [JavaScript Events and Event Handlers](https://www.elated.com/events-and-event-handlers/)
 
 ### [Sprint6 -Interact With Application Servers Using HTTP Protocol]
 
