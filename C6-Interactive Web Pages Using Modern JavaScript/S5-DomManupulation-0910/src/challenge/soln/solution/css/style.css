@@ -1,0 +1,73 @@
+/* Write style code here*/
+:root{
+    --banner-bg: #133280;
+    --head-color: #59f3f9;
+    --shadow-color: #f1cb95;
+}
+body{
+    min-width: 400px;
+}
+#pageHeading{
+    background-color: var(--banner-bg);
+    color: var(--head-color);
+    padding: 1rem;
+    box-shadow: 0px 0px 0px 3px var(--shadow-color);
+}
+#orderBox{
+    width: 60%;
+    min-width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 2px var(--shadow-color);
+    margin: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.formLabels{
+    font-weight: bold;
+    margin: 1.5rem 0 0 0;
+}
+.formInput{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 95%;
+    margin: 0;
+    padding: 0;
+}
+.formInput:valid{
+    background-color: #e8f0fe;
+}
+.bottomBorderOnly{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#initAddOrderButton{
+    border-radius: 100%;
+    line-height: 1.2rem;
+}
+#orderTable{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.tableHead{
+    padding-bottom: 1.5rem;
+    width: 18.7%;
+}
+.tableWidth{
+    width: 100%;
+}
+.addOrderButton{
+    border-radius: 50%;
+}
+#totalAmount{
+    width: 7%;
+    background-color: #e4f5d4;
+}
+#orderNowButton{
+    margin-top: 1rem;
+    padding: .3rem .9rem;
+    background-color: var(--banner-bg);
+    color: var(--head-color);
+    border-radius: 5px;
+    border: none;
+}

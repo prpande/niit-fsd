@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Pizza Order Form</title>
+</head>
+
+<body>
+    <!-- Create order form with various fields as mentioned in README file -->
+    <header>
+        <h1 id="pageHeading">Veggie Pizza Order</h1>
+    </header>
+    <main>
+        <div id="orderBox" class="container mx-auto">
+            <h3 class="">Fill up Order Details here</h3>
+            <form id="customerDetails">
+                <label for="orderId" class="formLabels">Order Id:</label><br />
+                <input type="number" name="orderId" id="orderId" class="formInput" required min="1" /><br />
+                <label for="customerName" class="formLabels">Customer Name:</label><br />
+                <input type="text" name="customerName" id="customerName" class="formInput" required /><br />
+                <label for="emailId" class="formLabels">Email Id:</label><br />
+                <input type="email" name="emailId" id="emailId" class="formInput" required /><br />
+                <label for="contactNumber" class="formLabels">Contact Number:</label><br />
+                <input type="number" name="contactNumber" id="contactNumber" class="formInput" required min="1000000000"
+                    max="9999999999" /><br />
+                <label for="orderDate" class="formLabels">Order Date:</label><br />
+                <input type="date" name="orderDate" id="orderDate" class="formInput" required /><br />
+                <label for="address" class="formLabels">Address:</label><br />
+                <textarea name="address" id="address" rows="5" class="formInput" required
+                    minlength="10"></textarea><br />
+                <label for="initAddOrderButton" class="formLabels">Add Order:</label>
+                <button id="initAddOrderButton" name="initAddOrderButton" class="addOrderButton">+</button>
+                <table id="orderTable">
+                    <tr>
+                        <th class="formLabels tableHead">Category Name</th>
+                        <th class="formLabels tableHead">Item Name</th>
+                        <th class="formLabels tableHead">Price</th>
+                        <th class="formLabels tableHead">Quantity</th>
+                        <th class="formLabels tableHead">Amount</th>
+                        <th class="formLabels tableHead"></th>
+                    </tr>
+                </table>
+                <table>
+                    <tbody id="orderData">
+                    </tbody>
+                </table>
+                <label for="totalAmount" class="formLabels">Total Amount:</label>
+                <input type="number" name="totalAmount" id="totalAmount" class="bottomBorderOnly" readonly /><br />
+                <input type="submit" value="Order Now" id="orderNowButton">
+            </form>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
