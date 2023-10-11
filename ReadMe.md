@@ -46,7 +46,7 @@
   - [Sprint3 - Model Real World Data Using Objects](#sprint3---model-real-world-data-using-objects)
   - [Sprint4 -Implement Stateless Communication Using REST APIs and JSON](#sprint4--implement-stateless-communication-using-rest-apis-and-json)
   - [Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events](#sprint5--develop-interactive-web-pages-using-dom-and-dom-events)
-  - [\[Sprint6 -Interact With Application Servers Using HTTP Protocol\]](#sprint6--interact-with-application-servers-using-http-protocol)
+  - [Sprint6 -Interact With Application Servers Using HTTP Protocol (async programming with JavaScript)](#sprint6--interact-with-application-servers-using-http-protocol-async-programming-with-javascript)
   - [\[Sprint7 - Gen AI Enabled Interactive Web Page Development\]](#sprint7---gen-ai-enabled-interactive-web-page-development)
 - [Additional Resources](#additional-resources)
 
@@ -381,9 +381,14 @@ User experiences are enhanced when web pages are interactive. They not only resp
 - [Events in JavaScript](https://www.peachpit.com/articles/article.aspx?p=1394321)
 - [JavaScript Events and Event Handlers](https://www.elated.com/events-and-event-handlers/)
 
-### [Sprint6 -Interact With Application Servers Using HTTP Protocol]
+### [Sprint6 -Interact With Application Servers Using HTTP Protocol (async programming with JavaScript)](./C6-Interactive%20Web%20Pages%20Using%20Modern%20JavaScript/S6-AsyncJS-1110/)
 
 JavaScript, by default, is synchronous, meaning a task needs to complete its execution before the next can begin. However, in web application, there are many tasks that need to execute asynchronously. Asynchronous programming enables your program to start a potentially long-running task without waiting for the on-going task to finish. It is responsive to other events triggered by the user or by the system. In this learning sprint, you will acquire the skills required to make asynchronous requests to respond to timer events or make HTTP calls to a server to fetch or store data using callbacks and promises. The hands-on practices and challenges of this sprint will enable you to experience the limitations of working with callbacks and encourage you to use Promise with the Axios API to make asynchronous server calls and handle responses.
+
+- [5 Common Mistakes when Using Promises](https://blog.bitsrc.io/5-common-mistakes-in-using-promises-bfcc4d62657f)
+- [Improve async programming with JavaScript promises](https://blog.logrocket.com/improve-async-programming-with-javascript-promises/)
+- [Callbacks vs. Promises in JavaScript](https://betterprogramming.pub/callbacks-vs-promises-in-javascript-1f074e93a3b5)
+- [5 Awesome JavaScript Promise Tricks](https://davidwalsh.name/javascript-promise-tricks)
 
 ### [Sprint7 - Gen AI Enabled Interactive Web Page Development]
 
