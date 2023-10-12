@@ -1,0 +1,33 @@
+/* Write style sheet here */
+main{
+    width: 95%;
+    margin: auto;
+}
+#category{
+    background-color: #000080;
+    color: #00e5f2;
+    padding: .55rem;
+    width: 11rem;
+    border-radius: 5px;
+}
+#menuData{
+    margin: 2rem 25rem;
+    width: 50%;
+}
+.menuTable{
+    width: 100%;
+}
+.tableHead{
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+.tableColWidth{
+    width: 75%;
+}
+#menuItemsTable{
+    background-color: #e4f5d4;
+    text-align: center;
+}
+td{
+    padding: .5rem;
+}

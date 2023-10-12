@@ -1,0 +1,23 @@
+{
+  "order": [
+    {
+      "orderId": "1",
+      "customerName": "Pratyush Pande",
+      "emailId": "pratyush.pande@gmail.com",
+      "contactNumber": "1234567890",
+      "orderDate": "2023-10-11",
+      "address": "dsfdsfdsfdsf",
+      "totalAmount": "68",
+      "orderedItems": [
+        {
+          "categoryName": "fdsf",
+          "itemName": "fdsf",
+          "price": "34",
+          "quantity": "2",
+          "amount": "68"
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

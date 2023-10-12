@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veggie Pizza Order</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/order.css">
+</head>
+
+<body onload="resetPage()">
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">View Menu</a>
+        <a href="customer.html">Customer Registration</a>
+        <a href="order.html">Place an Order</a>
+    </div>
+
+    <!-- Paste the solution code developed in sprint 5 challenge to create order form here  -->
+    <main>
+        <div id="orderBox" class="container">
+            <h3 class="">Fill up Order Details here</h3>
+            <form id="customerDetails">
+                <label for="orderId" class="formLabels">Order Id:</label><br />
+                <input type="number" name="orderId" id="orderId" class="formInput" required min="1" /><br />
+                <label for="customerName" class="formLabels">Customer Name:</label><br />
+                <input type="text" name="customerName" id="customerName" class="formInput" required /><br />
+                <label for="emailId" class="formLabels">Email Id:</label><br />
+                <input type="email" name="emailId" id="emailId" class="formInput" required /><br />
+                <label for="contactNumber" class="formLabels">Contact Number:</label><br />
+                <input type="number" name="contactNumber" id="contactNumber" class="formInput" required min="1000000000"
+                    max="9999999999" /><br />
+                <label for="orderDate" class="formLabels">Order Date:</label><br />
+                <input type="date" name="orderDate" id="orderDate" class="formInput" required /><br />
+                <label for="address" class="formLabels">Address:</label><br />
+                <textarea name="address" id="address" rows="5" class="formInput" required
+                    minlength="10"></textarea><br />
+                <label for="initAddOrderButton" class="formLabels">Add Order:</label>
+                <button id="initAddOrderButton" name="initAddOrderButton" class="addOrderButton">+</button>
+                <table id="orderTable">
+                    <tr>
+                        <th class="formLabels tableHead">Category Name</th>
+                        <th class="formLabels tableHead">Item Name</th>
+                        <th class="formLabels tableHead">Price</th>
+                        <th class="formLabels tableHead">Quantity</th>
+                        <th class="formLabels tableHead">Amount</th>
+                        <th class="formLabels tableHead"></th>
+                    </tr>
+                </table>
+                <table>
+                    <tbody id="orderData">
+                    </tbody>
+                </table>
+                <label for="totalAmount" class="formLabels">Total Amount:</label>
+                <input type="number" name="totalAmount" id="totalAmount" class="bottomBorderOnly" readonly /><br />
+                <input type="submit" value="Order Now" id="orderNowButton">
+            </form>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/order.js"></script>
+</body>
+
+</html>
