@@ -14,23 +14,7 @@
   - [Advanced Features](#advanced-features)
 - [Data Types in TypeScript](#data-types-in-typescript)
   - [Basic Data Types](#basic-data-types)
-    - [1. **Number**](#1-number)
-    - [2. **String**](#2-string)
-    - [3. **Boolean**](#3-boolean)
-    - [4. **Array**](#4-array)
-    - [5. **Tuple**](#5-tuple)
-    - [6. **Enum**](#6-enum)
-    - [7. **Any**](#7-any)
-    - [8. **Void**](#8-void)
-    - [9. **Null and Undefined**](#9-null-and-undefined)
   - [Advanced Data Types](#advanced-data-types)
-    - [10. **Interfaces**](#10-interfaces)
-    - [11. **Classes**](#11-classes)
-    - [12. **Modules**](#12-modules)
-    - [13. **Generics**](#13-generics)
-    - [14. **Union and Intersection Types**](#14-union-and-intersection-types)
-    - [15. **Literal Types**](#15-literal-types)
-    - [16. **Type Assertions**](#16-type-assertions)
 - [Function Execution with Type Annotations](#function-execution-with-type-annotations)
   - [Defining Function Signatures](#defining-function-signatures)
   - [Optional Parameters](#optional-parameters)
@@ -122,155 +106,155 @@ const user: { name: string, age: number, email: string } = {
 
 ### Basic Data Types
 
-#### 1. **Number**
+1. **Number**
 
-The `number` type is used for both integer and floating-point numbers.
+    The `number` type is used for both integer and floating-point numbers.
 
-```typescript
-let age: number = 25;
-```
+    ```typescript
+    let age: number = 25;
+    ```
 
-#### 2. **String**
+2. **String**
 
-The `string` type represents textual data.
+    The `string` type represents textual data.
 
-```typescript
-let name: string = "Alice";
-```
+    ```typescript
+    let name: string = "Alice";
+    ```
 
-#### 3. **Boolean**
+3. **Boolean**
 
-The `boolean` type represents true or false values.
+    The `boolean` type represents true or false values.
 
-```typescript
-let isStudent: boolean = true;
-```
+    ```typescript
+    let isStudent: boolean = true;
+    ```
 
-#### 4. **Array**
+4. **Array**
 
-The `array` type represents a list of elements, all of the same type.
+    The `array` type represents a list of elements, all of the same type.
 
-```typescript
-let scores: number[] = [98, 76, 89];
-```
+    ```typescript
+    let scores: number[] = [98, 76, 89];
+    ```
 
-#### 5. **Tuple**
+5. **Tuple**
 
-A `tuple` is an array with a fixed number of elements, each with a known type.
+    A `tuple` is an array with a fixed number of elements, each with a known type.
 
-```typescript
-let person: [string, number] = ["Bob", 30];
-```
+    ```typescript
+    let person: [string, number] = ["Bob", 30];
+    ```
 
-#### 6. **Enum**
+6. **Enum**
 
-An `enum` is a set of named constant values.
+    An `enum` is a set of named constant values.
 
-```typescript
-enum Color { Red, Green, Blue }
-let favoriteColor: Color = Color.Green;
-```
+    ```typescript
+    enum Color { Red, Green, Blue }
+    let favoriteColor: Color = Color.Green;
+    ```
 
-#### 7. **Any**
+7. **Any**
 
-The `any` type is a dynamic type that's similar to plain JavaScript. It's often used when you don't know or can't specify a variable's type in advance.
+    The `any` type is a dynamic type that's similar to plain JavaScript. It's often used when you don't know or can't specify a variable's type in advance.
 
-```typescript
-let user: any = "John";
-user = 42; // Valid
-```
+    ```typescript
+    let user: any = "John";
+    user = 42; // Valid
+    ```
 
-#### 8. **Void**
+8. **Void**
 
-The `void` type is usually used as a return type for functions that don't return a value.
+    The `void` type is usually used as a return type for functions that don't return a value.
 
-```typescript
-function sayHello(): void {
-  console.log("Hello, World!");
-}
-```
+    ```typescript
+    function sayHello(): void {
+    console.log("Hello, World!");
+    }
+    ```
 
-#### 9. **Null and Undefined**
+9. **Null and Undefined**
 
-The `null` and `undefined` types represent null and undefined values, respectively.
+    The `null` and `undefined` types represent null and undefined values, respectively.
 
-```typescript
-let data: null = null;
-let status: undefined = undefined;
-```
+    ```typescript
+    let data: null = null;
+    let status: undefined = undefined;
+    ```
 
 ### Advanced Data Types
 
-#### 10. **Interfaces**
+1. **Interfaces**
 
-Interfaces define the structure of objects, making your code more organized and self-documenting.
+    Interfaces define the structure of objects, making your code more organized and self-documenting.
 
-```typescript
-interface Person {
-  name: string;
-  age: number;
-}
-```
+    ```typescript
+    interface Person {
+    name: string;
+    age: number;
+    }
+    ```
 
-#### 11. **Classes**
+2. **Classes**
 
-TypeScript supports classes and object-oriented programming concepts.
+    TypeScript supports classes and object-oriented programming concepts.
 
-```typescript
-class Animal {
-  constructor(public name: string) { }
-  move(distance: number = 0) {
-    console.log(`${this.name} moved ${distance} meters.`);
-  }
-}
-```
+    ```typescript
+    class Animal {
+    constructor(public name: string) { }
+    move(distance: number = 0) {
+        console.log(`${this.name} moved ${distance} meters.`);
+    }
+    }
+    ```
 
-#### 12. **Modules**
+3. **Modules**
 
-TypeScript's module system allows you to organize and reuse code effectively.
+    TypeScript's module system allows you to organize and reuse code effectively.
 
-```typescript
-// Math.ts
-export function add(a: number, b: number): number {
-  return a + b;
-}
-```
+    ```typescript
+    // Math.ts
+    export function add(a: number, b: number): number {
+    return a + b;
+    }
+    ```
 
-#### 13. **Generics**
+4. **Generics**
 
-Generics allow you to write reusable and type-safe functions, classes, and interfaces.
+    Generics allow you to write reusable and type-safe functions, classes, and interfaces.
 
-```typescript
-function identity<T>(arg: T): T {
-  return arg;
-}
-```
+    ```typescript
+    function identity<T>(arg: T): T {
+    return arg;
+    }
+    ```
 
-#### 14. **Union and Intersection Types**
+5. **Union and Intersection Types**
 
-You can combine types using union (`|`) and intersection (`&`) operators.
+    You can combine types using union (`|`) and intersection (`&`) operators.
 
-```typescript
-type StringOrNumber = string | number;
-type Employee = { name: string } & { jobTitle: string };
-```
+    ```typescript
+    type StringOrNumber = string | number;
+    type Employee = { name: string } & { jobTitle: string };
+    ```
 
-#### 15. **Literal Types**
+6. **Literal Types**
 
-You can specify exact values as types using literals.
+    You can specify exact values as types using literals.
 
-```typescript
-let result: "success" | "error" = "success";
-```
+    ```typescript
+    let result: "success" | "error" = "success";
+    ```
 
-#### 16. **Type Assertions**
+7. **Type Assertions**
 
-Type assertions allow you to tell TypeScript to treat a value as a specific type.
+    Type assertions allow you to tell TypeScript to treat a value as a specific type.
 
-```typescript
-let userInput: any = "Hello, TypeScript!";
-let strLength: number = (userInput as string).length;
-```
+    ```typescript
+    let userInput: any = "Hello, TypeScript!";
+    let strLength: number = (userInput as string).length;
+    ```
 
 ## Function Execution with Type Annotations
 
