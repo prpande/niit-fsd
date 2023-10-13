@@ -48,6 +48,12 @@
   - [Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events](#sprint5--develop-interactive-web-pages-using-dom-and-dom-events)
   - [Sprint6 -Interact With Application Servers Using HTTP Protocol (async programming with JavaScript)](#sprint6--interact-with-application-servers-using-http-protocol-async-programming-with-javascript)
   - [\[Sprint7 - Gen AI Enabled Interactive Web Page Development\]](#sprint7---gen-ai-enabled-interactive-web-page-development)
+- [Course7 - Building Single Page Applications Using Angular](#course7---building-single-page-applications-using-angular)
+  - [Sprint1 - Build Interactive Web Pages with TypeScript](#sprint1---build-interactive-web-pages-with-typescript)
+  - [Sprint2 - Develop SPA using Angular Components](#sprint2---develop-spa-using-angular-components)
+  - [Sprint3 - Implement Unit Testing For Angular Components](#sprint3---implement-unit-testing-for-angular-components)
+  - [Sprint4 - Implement Interactions between Angular Components](#sprint4---implement-interactions-between-angular-components)
+  - [Sprint5 - Build Reusable Application Logic using Angular Services](#sprint5---build-reusable-application-logic-using-angular-services)
 - [Additional Resources](#additional-resources)
 
 ## Software
@@ -391,6 +397,28 @@ JavaScript, by default, is synchronous, meaning a task needs to complete its exe
 - [5 Awesome JavaScript Promise Tricks](https://davidwalsh.name/javascript-promise-tricks)
 
 ### [Sprint7 - Gen AI Enabled Interactive Web Page Development]
+
+## [Course7 - Building Single Page Applications Using Angular](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/)
+
+### [Sprint1 - Build Interactive Web Pages with TypeScript](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S1-Typescript-1310/)
+
+Do you think user-friendliness and usability are more desired while coding with a programming language? TypeScript simplifies JavaScript code and makes it easier to read and debug. TypeScript is a strongly typed programming language that builds on JavaScript. In this learning sprint, you will be able to explore the fundamental concepts like Datatypes, Object types, class, and fetching data from the server using Fetch API. Hands-on practice will enable you to create a simple interactive web page using TypeScript.
+
+### [Sprint2 - Develop SPA using Angular Components](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S2-AngularComponents/)
+
+Angular Applications are written in TypeScript, which needs to be transpired into JavaScript to be interpreted by browsers. Components are building blocks of Angular Application. Building these angular components is a mandatory skill required for any developer. In this learning sprint, you will learn the difference between multi-page and single-page applications. You will learn to create an angular application using the Angular CLI tool and explore the folder and file structure created by the tool. Hands-on practices will make you create views using Angular components and templates. You will understand the concepts of property binding and event binding to project data onto the template.
+
+### [Sprint3 - Implement Unit Testing For Angular Components](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S3-UnitTesting/)
+
+Testing is an integral process of development as it facilitates in discovering defects/bugs early in the stages of development. Unit testing involves testing individual components of the software program or application. The main purpose is to check that all the individual units of the code are working as intended. A unit is known as the smallest possible component of software that can be tested. In this learning sprint, you would adequately explore the techniques to test the Angular components and its dependencies. You would learn how Angular framework configures the testing environment to perform unit testing. Hands on practice is available to test components and dependencies individually using Jasmine framework - for writing test scripts and Karma - as the test runner.
+
+### [Sprint4 - Implement Interactions between Angular Components](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S4-Interactions/)
+
+In a Single Page Application, an interactive UI is split into independent, reusable pieces known as Components, each handling a specific single responsibility. The components are organized into a hierarchical structure building a parent-child relationship. The components in the hierarchy interact with each other by sharing data. In this learning sprint, the learners will learn to identify components for developing a SPA based on design principles. The hands-on practices and challenges of this sprint will enable learners to make these components interact with each other and pass data using the Angular @Input() and @Output() decorators.
+
+### [Sprint5 - Build Reusable Application Logic using Angular Services](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S5-AngularServices/)
+
+Angular Components should focus on presenting data instead of fetching and saving data directly. Component classes can be made lean and efficient by separating view-related functionality from business logic. Components can delegate the data access logic to a service that can be reusable. In this learning sprint, the learners will learn to implement Angular services to make business logic reusable across components. They learners will also explore how Angular services perform application tasks and how they are consumed in Angular components. The practice and challenge of this learning sprint will enable learners to make HTTP calls to REST API from Angular Services using RxJS Observable to fetch and send data.
 
 ## Additional Resources
 
