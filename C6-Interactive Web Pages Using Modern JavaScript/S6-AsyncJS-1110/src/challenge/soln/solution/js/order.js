@@ -56,10 +56,30 @@ function setupAmountUpdateEvent(priceElement, quantityElement, amountElement) {
     });
 }
 
+// Checks if the order inputs are valid
+function checkOrderItemsValidity(addItemTrElement) {
+    return Array.from(addItemTrElement
+        .getElementsByTagName("input"))
+        .reduce((list, element) => {
+            if(!element.checkValidity()){
+                list.push(element.name);
+            }
+            return list;
+        }, [])
+}
 // Set up the listener when an item is added to the order
 function setupAddItemEvent(addItemTrElement, addOrderButtonElement) {
     addOrderButtonElement.addEventListener("click", event => {
         let itemObj = {};
+        let invalidItems = checkOrderItemsValidity(addItemTrElement);
+        if(invalidItems.length > 0)
+        {
+            let msg = `!! Invalid Order !!\nPlease input correct values for the following items: ${invalidItems.join(", ")}.`;
+            alert(msg);
+            console.log(msg);
+            return false;
+        }
+
         for (child of addItemTrElement.getElementsByTagName("input")) {
             child.readOnly = true;
             itemObj[child.name] = child.value;
