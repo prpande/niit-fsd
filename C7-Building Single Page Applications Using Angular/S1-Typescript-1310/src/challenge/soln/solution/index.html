@@ -1,0 +1,101 @@
+
+<!-- Write HTML code  -->
+
+<!-- use onload event within the body tag to call getFruits() function to populate the fruits-->
+
+<!-- Add script tag inside the body to execute the app.js script functions-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Fantasy</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="bg" onload="getFruits()">
+    <header class="container text-center p-3">
+        <h2 id="title" class="mt-5">Fresh fruits for the day</h2>
+    </header>
+    <main>
+        <div  class="container flex-wrap text-center p-1">
+            <div id="fruitBasket" class="row">
+                <div class="card col-2 fruitCard">
+                    <div class="imgContainer">
+                        <img src="./images/apple.jpg" alt="" class="cardImg">
+                    </div>
+                    <div class="card-body p-0">
+                        <h5 class="cardTitle">Apple</h5>
+                        <p class="cardText">Price:$1.1 per lb</p>
+                    </div>                
+                </div>
+                <div class="card col-2 fruitCard">
+                    <div class="imgContainer">
+                        <img src="./images/banana.jpg" alt="" class="cardImg">
+                    </div>
+                    <div class="card-body p-0">
+                        <h5>Apple</h5>
+                        <p>Price:$1.1 per lb</p>
+                    </div>                
+                </div>
+                <div class="card col-2 fruitCard">
+                    <div class="imgContainer">
+                        <img src="./images/apricot.jpg" alt="" class="cardImg">
+                    </div>
+                    <div class="card-body p-0">
+                        <h5>Apple</h5>
+                        <p>Price:$1.1 per lb</p>
+                    </div>                
+                </div>
+                <div class="card col-2 fruitCard">
+                    <div class="imgContainer">
+                        <img src="./images/coconut.jpg" alt="" class="cardImg">
+                    </div>
+                    <div class="card-body p-0">
+                        <h5>Apple</h5>
+                        <p>Price:$1.1 per lb</p>
+                    </div>                
+                </div>
+                <div class="card col-2 fruitCard">
+                    <div class="imgContainer">
+                        <img src="./images/dragonfruit.jpg" alt="" class="cardImg">
+                    </div>
+                    <div class="card-body p-0">
+                        <h5>Apple</h5>
+                        <p>Price:$1.1 per lb</p>
+                    </div>                
+                </div>
+                <div class="card col-2 fruitCard">
+                    <div class="imgContainer">
+                        <img src="./images/grapes.jpg" alt="" class="cardImg">
+                    </div>
+                    <div class="card-body p-0">
+                        <h5>Apple</h5>
+                        <p>Price:$1.1 per lb</p>
+                    </div>                
+                </div>
+                <div class="card col-2 fruitCard">
+                    <div class="imgContainer">
+                        <img src="./images/jackfruit.jpg" alt="" class="cardImg">
+                    </div>
+                    <div class="card-body p-0">
+                        <h5>Apple</h5>
+                        <p>Price:$1.1 per lb</p>
+                    </div>                
+                </div>
+                <div class="card col-2 fruitCard">
+                    <div class="imgContainer">
+                        <img src="./images/orange.jpg" alt="" class="cardImg">
+                    </div>
+                    <div class="card-body p-0">
+                        <h5>Apple</h5>
+                        <p>Price:$1.1 per lb</p>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="public/js/app.js"></script>
+</body>
+</html>

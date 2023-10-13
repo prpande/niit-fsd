@@ -1,0 +1,40 @@
+/* Add custom styles to display the fruits */
+:root{
+    --backgroundColor: #36454f;
+}
+*{
+    box-sizing: border-box;
+}
+.bg{
+    background-color: var(--backgroundColor);
+}
+#title{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.testBorder{
+    border: 2px solid red;
+}
+#fruitBasket{
+    /* flex-wrap: wrap; */
+}
+.imgContainer{
+    height: 11vw;
+    width: 100%;
+}
+.cardImg{
+    height: 100%;
+    width: 100%;
+}
+.fruitCard{
+    margin: .7rem;
+}
+.cardTitle{
+    margin: .5rem 0 0 0;
+}
+.cardText{
+    color: gray;
+    font-weight: bold;
+    padding: 0;
+}
