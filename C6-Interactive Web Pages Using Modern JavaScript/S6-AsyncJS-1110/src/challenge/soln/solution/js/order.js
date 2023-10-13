@@ -22,6 +22,10 @@ function createOrderTableEntry(name, type) {
     itemElement.name = name;
     itemElement.type = type;
     itemElement.required = true;
+    if(type == "number")
+    {        
+        itemElement.min = 0;
+    }
     itemElement.classList.add("bottomBorderOnly", "tableWidth");
 
     let orderTableItemElement = document.createElement("td");
@@ -55,7 +59,6 @@ function setupAmountUpdateEvent(priceElement, quantityElement, amountElement) {
         updateAmountElement(priceElement.value, quantityElement.value, amountElement)
     });
 }
-
 // Checks if the order inputs are valid
 function checkOrderItemsValidity(addItemTrElement) {
     return Array.from(addItemTrElement
@@ -102,6 +105,10 @@ function addNewItemOrderRow() {
     let amountTdElement = createOrderTableEntry("amount", "number")
     let amountElement = amountTdElement.firstElementChild;
     amountElement.readOnly = true;
+
+    priceTdElement.firstElementChild.step = "0.01";
+    amountElement.step = "0.01";
+    
     updateAmountElement(0, 0, amountElement);
 
     let addOrderButtonTdElement = createAddOrderButton();
