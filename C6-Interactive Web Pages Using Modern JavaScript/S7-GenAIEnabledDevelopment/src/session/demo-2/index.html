@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Country Information</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  .country-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  .country-card img {
+    max-width: 100px;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<div id="countries-container"></div>
+
+<script>
+  async function fetchCountries() {
+    try {
+      const response = await fetch("https://restcountries.com/v3.1/all");
+      const countries = await response.json();
+      return countries;
+    } catch (error) {
+      console.error("Error fetching countries:", error);
+      return [];
+    }
+  }
+
+  async function displayCountries() {
+    const countriesContainer = document.getElementById("countries-container");
+    const countries = await fetchCountries();
+
+    countries.forEach(country => {
+      const countryCard = document.createElement("div");
+      countryCard.classList.add("country-card");
+
+      const name = country.name.common;
+      const currency = Object.keys(country.currencies)[0];
+      const capital = country.capital ? country.capital[0] : "N/A";
+      const flagUrl = country.flags.svg;
+
+      countryCard.innerHTML = `
+        <h2>${name}</h2>
+        <img src="${flagUrl}" alt="${name} Flag">
+        <p>Capital: ${capital}</p>
+        <p>Currency: ${currency}</p>
+      `;
+
+      countriesContainer.appendChild(countryCard);
+    });
+  }
+
+  displayCountries();
+</script>
+</body>
+</html>
