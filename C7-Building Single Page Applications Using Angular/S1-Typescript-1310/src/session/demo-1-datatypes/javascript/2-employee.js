@@ -1,0 +1,10 @@
+var firstName = 'John';
+var lastName = 'Christ';
+//let salary = '450';
+var salary = 450;
+var designation = 'Software Developer';
+var hasMedicalInsurance = false;
+var incrementedSalary = salary + 30;
+console.log("Employee Details");
+console.log("FullName: ".concat(firstName, ".").concat(lastName, "\nSalary: ").concat(salary, "\nDesignation:").concat(designation, "\nHasMedicalInsurance:").concat(hasMedicalInsurance));
+console.log("Incremented Salary: ".concat(incrementedSalary));
