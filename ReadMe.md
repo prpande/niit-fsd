@@ -408,7 +408,7 @@ Do you think user-friendliness and usability are more desired while coding with 
 -[Typescript Best Practices](https://engineering.zalando.com/posts/2019/02/typescript-best-practices.html)
 -[TypeScript Crash Course(YouTube Video)](https://youtu.be/BCg4U1FzODs?si=Twu1zG9dXnb9Bfkx)
 
-### [Sprint2 - Develop SPA using Angular Components](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S2-AngularComponents/)
+### [Sprint2 - Develop SPA using Angular Components](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S2-AngularComponents-1610/)
 
 Angular Applications are written in TypeScript, which needs to be transpired into JavaScript to be interpreted by browsers. Components are building blocks of Angular Application. Building these angular components is a mandatory skill required for any developer. In this learning sprint, you will learn the difference between multi-page and single-page applications. You will learn to create an angular application using the Angular CLI tool and explore the folder and file structure created by the tool. Hands-on practices will make you create views using Angular components and templates. You will understand the concepts of property binding and event binding to project data onto the template.
 
@@ -423,6 +423,14 @@ In a Single Page Application, an interactive UI is split into independent, reusa
 ### [Sprint5 - Build Reusable Application Logic using Angular Services](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S5-AngularServices/)
 
 Angular Components should focus on presenting data instead of fetching and saving data directly. Component classes can be made lean and efficient by separating view-related functionality from business logic. Components can delegate the data access logic to a service that can be reusable. In this learning sprint, the learners will learn to implement Angular services to make business logic reusable across components. They learners will also explore how Angular services perform application tasks and how they are consumed in Angular components. The practice and challenge of this learning sprint will enable learners to make HTTP calls to REST API from Angular Services using RxJS Observable to fetch and send data.
+
+- [SPA vs MPA (YouTube)](https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk&ab_channel=Academind)
+- [One to choose - SPA or MPA](https://andrejgajdos.com/single-page-application-vs-multiple-page-application/)
+- [What is Angular CLI](https://www.youtube.com/watch?v=rJ9o4TyhSuo&ab_channel=kudvenkat)
+- [How an Angular App Work Behind The Scenes — The Angular Flow](https://medium.com/siam-vit/how-an-angular-app-work-behind-the-scenes-angular-flow-dcc4d1df27bd)
+- [Folder structure and flow of angular application (YouTube)](https://www.youtube.com/watch?v=ufyyhFye7MQ&ab_channel=StudyMash)
+- [Angular components overview](https://angular.io/guide/component-overview)
+- [Interpolation Vs Property Binding in Angular2](https://www.codementor.io/@adekunleoyaniyi/interpolation-vs-property-binding-in-angular2-eu1tzbyn4)
 
 ## Additional Resources
 
