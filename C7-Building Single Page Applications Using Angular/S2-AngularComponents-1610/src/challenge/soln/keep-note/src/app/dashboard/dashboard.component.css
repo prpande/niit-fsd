@@ -1,0 +1,34 @@
+.dash-body{
+    width: 90vw;
+    margin: 2rem auto;
+    text-align: center;
+}
+.search-bar{
+    display: inline-block;
+    border: 1px solid #add8e6;
+    padding: 5px 1rem;
+    border-radius: 5px;
+}
+input{
+    border-radius: 5px;
+    margin-right: .5rem;
+    border: 1px solid;
+    padding: 5px;
+}
+.note-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+    justify-content:space-between;
+}
+.note-card{
+    border: 1px solid #add8e6;
+    border-radius: 10px;
+    box-shadow: 5px 5px #add8e6;
+    padding: 2rem;
+    width: 15vw;
+    margin: 2rem;
+}
+.note-content{
+    margin-top: 2rem;
+}
