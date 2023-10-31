@@ -1,0 +1,20 @@
+#contact-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#contact-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+.contact-card{
+    text-align: left;
+    margin: .5rem;
+    background-color: #f1ffff;
+}
+app-contact-add{
+    margin: 6rem 6rem 0 0;
+    background-color: #f1ffff;
+    padding: 2.5rem 2rem 2rem;
+    height: fit-content;
+}
