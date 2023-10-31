@@ -431,9 +431,13 @@ Testing is an integral process of development as it facilitates in discovering d
 - [Angular Unit Testing using Jasmine & Karma](https://codecraft.tv/courses/angular/unit-testing/jasmine-and-karma/)
 - [Jasmine documentation](https://jasmine.github.io/pages/docs_home.html)
 
-### [Sprint4 - Implement Interactions between Angular Components](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S4-Interactions/)
+### [Sprint4 - Implement Interactions between Angular Components](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S4-Interactions-2010/)
 
 In a Single Page Application, an interactive UI is split into independent, reusable pieces known as Components, each handling a specific single responsibility. The components are organized into a hierarchical structure building a parent-child relationship. The components in the hierarchy interact with each other by sharing data. In this learning sprint, the learners will learn to identify components for developing a SPA based on design principles. The hands-on practices and challenges of this sprint will enable learners to make these components interact with each other and pass data using the Angular @Input() and @Output() decorators.
+
+- [Building Reusable Angular Components: Best Practices](https://blog.bitsrc.io/building-reusable-angular-components-best-practices-744fff49e0d)
+- [Component Communication in Angular (Parent to Child & Child to Parent)](https://dev.to/this-is-angular/component-communication-parent-to-child-child-to-parent-5800)
+- [Input and Output in Angular](https://medium.com/quick-code/input-output-in-angular-4550c8fea6da)
 
 ### [Sprint5 - Build Reusable Application Logic using Angular Services](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S5-AngularServices/)
 
