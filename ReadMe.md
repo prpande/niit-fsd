@@ -404,9 +404,9 @@ JavaScript, by default, is synchronous, meaning a task needs to complete its exe
 
 Do you think user-friendliness and usability are more desired while coding with a programming language? TypeScript simplifies JavaScript code and makes it easier to read and debug. TypeScript is a strongly typed programming language that builds on JavaScript. In this learning sprint, you will be able to explore the fundamental concepts like Datatypes, Object types, class, and fetching data from the server using Fetch API. Hands-on practice will enable you to create a simple interactive web page using TypeScript.
 
--[TypeScript Documentation](https://www.typescriptlang.org/)
--[Typescript Best Practices](https://engineering.zalando.com/posts/2019/02/typescript-best-practices.html)
--[TypeScript Crash Course(YouTube Video)](https://youtu.be/BCg4U1FzODs?si=Twu1zG9dXnb9Bfkx)
+- [TypeScript Documentation](https://www.typescriptlang.org/)
+- [Typescript Best Practices](https://engineering.zalando.com/posts/2019/02/typescript-best-practices.html)
+- [TypeScript Crash Course(YouTube Video)](https://youtu.be/BCg4U1FzODs?si=Twu1zG9dXnb9Bfkx)
 
 ### [Sprint2 - Develop SPA using Angular Components](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S2-AngularComponents-1610/)
 
