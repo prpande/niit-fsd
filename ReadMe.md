@@ -47,7 +47,7 @@
   - [Sprint4 -Implement Stateless Communication Using REST APIs and JSON](#sprint4--implement-stateless-communication-using-rest-apis-and-json)
   - [Sprint5 -Develop Interactive Web Pages Using DOM and DOM Events](#sprint5--develop-interactive-web-pages-using-dom-and-dom-events)
   - [Sprint6 -Interact With Application Servers Using HTTP Protocol (async programming with JavaScript)](#sprint6--interact-with-application-servers-using-http-protocol-async-programming-with-javascript)
-  - [\[Sprint7 - Gen AI Enabled Interactive Web Page Development\]](#sprint7---gen-ai-enabled-interactive-web-page-development)
+  - [Sprint7 - Gen AI Enabled Interactive Web Page Development](#sprint7---gen-ai-enabled-interactive-web-page-development)
 - [Course7 - Building Single Page Applications Using Angular](#course7---building-single-page-applications-using-angular)
   - [Sprint1 - Build Interactive Web Pages with TypeScript](#sprint1---build-interactive-web-pages-with-typescript)
   - [Sprint2 - Develop SPA using Angular Components](#sprint2---develop-spa-using-angular-components)
@@ -396,7 +396,7 @@ JavaScript, by default, is synchronous, meaning a task needs to complete its exe
 - [Callbacks vs. Promises in JavaScript](https://betterprogramming.pub/callbacks-vs-promises-in-javascript-1f074e93a3b5)
 - [5 Awesome JavaScript Promise Tricks](https://davidwalsh.name/javascript-promise-tricks)
 
-### [Sprint7 - Gen AI Enabled Interactive Web Page Development]
+### [Sprint7 - Gen AI Enabled Interactive Web Page Development](./C6-Interactive%20Web%20Pages%20Using%20Modern%20JavaScript/S7-GenAIEnabledDevelopment/)
 
 ## [Course7 - Building Single Page Applications Using Angular](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/)
 
