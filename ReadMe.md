@@ -443,7 +443,11 @@ In a Single Page Application, an interactive UI is split into independent, reusa
 
 Angular Components should focus on presenting data instead of fetching and saving data directly. Component classes can be made lean and efficient by separating view-related functionality from business logic. Components can delegate the data access logic to a service that can be reusable. In this learning sprint, the learners will learn to implement Angular services to make business logic reusable across components. They learners will also explore how Angular services perform application tasks and how they are consumed in Angular components. The practice and challenge of this learning sprint will enable learners to make HTTP calls to REST API from Angular Services using RxJS Observable to fetch and send data.
 
-
+- [Angular Dependency Injection Explained with Examples](https://www.freecodecamp.org/news/angular-dependency-injection)
+- [Generics in Typescript](https://www.typescriptlang.org/docs/handbook/2/generics.html)
+- [RxJS Observables](https://rxjs.dev/guide/observable)
+- [Comparing Observables](https://angular.io/guide/comparing-observables)
+- [Demystifying Rxjs Observable](https://medium.com/@AnkurRatra/demystifying-rxjs-observable-467c52309ac)
 
 ## Additional Resources
 
