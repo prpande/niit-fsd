@@ -1,0 +1,8 @@
+<div class="add-note-container">
+    <h5>Add New Note</h5>
+    <input type="text" class="note-input" placeholder="Note Title" [(ngModel)]="note.title">
+    <div class="textarea-div">
+        <textarea class="note-input" rows="3" placeholder="Note Content" [(ngModel)]="note.content"></textarea>
+    </div>
+    <button type="button" (click)="saveNote()">Save</button>
+</div>
