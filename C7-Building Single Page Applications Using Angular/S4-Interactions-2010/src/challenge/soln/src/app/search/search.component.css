@@ -1,0 +1,9 @@
+.search-container{
+    background-color: #000080;
+    text-align: right;
+    padding: 0 1rem 0.5rem 0;
+}
+button{
+    background-color: #000080;
+    color: white;
+}
