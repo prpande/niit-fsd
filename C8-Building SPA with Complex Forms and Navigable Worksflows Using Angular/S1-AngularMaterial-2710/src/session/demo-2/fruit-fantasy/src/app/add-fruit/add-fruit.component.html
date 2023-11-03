@@ -1,0 +1,14 @@
+<div id="add-fruit">
+    <mat-form-field class="input-field" appearance="legacy">
+        <input matInput [(ngModel)]="fruit.name" type="text" placeholder="Name">
+    </mat-form-field>
+    <mat-form-field class="input-field" appearance="legacy">
+        <input matInput [(ngModel)]="fruit.price" type="text" placeholder="Price ($)">
+    </mat-form-field>
+    <mat-form-field class="input-field" appearance="legacy">
+        <input matInput [(ngModel)]="fruit.unit" type="text" placeholder="Unit (pound / piece)">
+    </mat-form-field>
+    <button mat-fab type="button" (click)="add()">
+        <mat-icon>add</mat-icon>
+    </button>
+</div>

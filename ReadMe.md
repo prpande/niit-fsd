@@ -463,6 +463,11 @@ Have you ever noticed that some websites update the page dynamically, rather tha
 
 High-quality digital experiences are a need of the hour to build engaging user-centric applications. Developers can use the Angular Material, a user interface component library, to quickly develop elegant and consistent user interfaces. Each of the components in this library is reusable and follows Material Design specifications. In this learning sprint, learners will learn to set up the Angular Material in the existing project and explore the components in the library to design rich user interfaces. The practice and challenge of this learning sprint will help the learner acquire skills to style the app using Angular Material components, prebuilt dark and light themes, and quickly build complex UI designs using Angular Schematics.
 
+- [Material Design — Introduction](https://m2.material.io/design/introduction)
+- [What Is Material Design and How Should It Be Used?](https://elementor.com/blog/what-is-material-design/)
+- [Angular Material Drag-and-Drop Schematics](https://material.angular.io/cdk/drag-drop/overview)
+- [Angular Material Typography Customization](https://material.angular.io/guide/typography)
+
 ### [Sprint2 - Developing Interactive Template-Driven Forms Inside SPA](./C8-Building%20SPA%20with%20Complex%20Forms%20and%20Navigable%20Worksflows%20Using%20Angular/S2-TemplateForms-3010/)
 
 Forms are integral parts of any modern-day workflow. They help build interactive web applications by allowing the user to provide the required inputs. Forms in Angular are, by default, implemented using Angular Templates. In this learning sprint, learners will learn to build simple forms using Template Driven approach. The hands-on experience will enable the learners to create a template-driven form whose control elements are bound to data properties, with input validation to maintain data integrity and styling to improve the user experience.
