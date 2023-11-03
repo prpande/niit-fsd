@@ -54,6 +54,12 @@
   - [Sprint3 - Implement Unit Testing For Angular Components](#sprint3---implement-unit-testing-for-angular-components)
   - [Sprint4 - Implement Interactions between Angular Components](#sprint4---implement-interactions-between-angular-components)
   - [Sprint5 - Build Reusable Application Logic using Angular Services](#sprint5---build-reusable-application-logic-using-angular-services)
+- [Course8 - Building SPA with Complex Forms and Navigable Workflows Using Angular](#course8---building-spa-with-complex-forms-and-navigable-workflows-using-angular)
+  - [Sprint1 - Style a Single Page Application Using Angular Material](#sprint1---style-a-single-page-application-using-angular-material)
+  - [Sprint2 - Developing Interactive Template-Driven Forms Inside SPA](#sprint2---developing-interactive-template-driven-forms-inside-spa)
+  - [Sprint3 - Develop Interactive Reactive Forms Inside SPA](#sprint3---develop-interactive-reactive-forms-inside-spa)
+  - [Sprint4 - Implement Navigation Using Angular Routing](#sprint4---implement-navigation-using-angular-routing)
+  - [Sprint5 - Guard Routes In An SPA](#sprint5---guard-routes-in-an-spa)
 - [Additional Resources](#additional-resources)
 
 ## Software
@@ -439,7 +445,7 @@ In a Single Page Application, an interactive UI is split into independent, reusa
 - [Component Communication in Angular (Parent to Child & Child to Parent)](https://dev.to/this-is-angular/component-communication-parent-to-child-child-to-parent-5800)
 - [Input and Output in Angular](https://medium.com/quick-code/input-output-in-angular-4550c8fea6da)
 
-### [Sprint5 - Build Reusable Application Logic using Angular Services](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S5-AngularServices/)
+### [Sprint5 - Build Reusable Application Logic using Angular Services](./C7-Building%20Single%20Page%20Applications%20Using%20Angular/S5-AngularServices-2510/)
 
 Angular Components should focus on presenting data instead of fetching and saving data directly. Component classes can be made lean and efficient by separating view-related functionality from business logic. Components can delegate the data access logic to a service that can be reusable. In this learning sprint, the learners will learn to implement Angular services to make business logic reusable across components. They learners will also explore how Angular services perform application tasks and how they are consumed in Angular components. The practice and challenge of this learning sprint will enable learners to make HTTP calls to REST API from Angular Services using RxJS Observable to fetch and send data.
 
@@ -448,6 +454,30 @@ Angular Components should focus on presenting data instead of fetching and savin
 - [RxJS Observables](https://rxjs.dev/guide/observable)
 - [Comparing Observables](https://angular.io/guide/comparing-observables)
 - [Demystifying Rxjs Observable](https://medium.com/@AnkurRatra/demystifying-rxjs-observable-467c52309ac)
+
+## [Course8 - Building SPA with Complex Forms and Navigable Workflows Using Angular](./C8-Building%20SPA%20with%20Complex%20Forms%20and%20Navigable%20Worksflows%20Using%20Angular/)
+
+Have you ever noticed that some websites update the page dynamically, rather than loading a new page which provides a reactive and smoother user experience? Every Frontend Application is expected to have a pleasing UI and smooth UX, which provides faster responses and swifter navigation among different views. To meet these expectations, we need Single Page Applications which are lighter and more efficient.
+
+### [Sprint1 - Style a Single Page Application Using Angular Material](./C8-Building%20SPA%20with%20Complex%20Forms%20and%20Navigable%20Worksflows%20Using%20Angular/S1-AngularMaterial-2710/)
+
+High-quality digital experiences are a need of the hour to build engaging user-centric applications. Developers can use the Angular Material, a user interface component library, to quickly develop elegant and consistent user interfaces. Each of the components in this library is reusable and follows Material Design specifications. In this learning sprint, learners will learn to set up the Angular Material in the existing project and explore the components in the library to design rich user interfaces. The practice and challenge of this learning sprint will help the learner acquire skills to style the app using Angular Material components, prebuilt dark and light themes, and quickly build complex UI designs using Angular Schematics.
+
+### [Sprint2 - Developing Interactive Template-Driven Forms Inside SPA](./C8-Building%20SPA%20with%20Complex%20Forms%20and%20Navigable%20Worksflows%20Using%20Angular/S2-TemplateForms-3010/)
+
+Forms are integral parts of any modern-day workflow. They help build interactive web applications by allowing the user to provide the required inputs. Forms in Angular are, by default, implemented using Angular Templates. In this learning sprint, learners will learn to build simple forms using Template Driven approach. The hands-on experience will enable the learners to create a template-driven form whose control elements are bound to data properties, with input validation to maintain data integrity and styling to improve the user experience.
+
+### [Sprint3 - Develop Interactive Reactive Forms Inside SPA](./C8-Building%20SPA%20with%20Complex%20Forms%20and%20Navigable%20Worksflows%20Using%20Angular/S3-ReactiveForms-0111/)
+
+Forms can quickly grow out to be large. Tracking and Accessing control states can grow to be complex for large forms. Reactive forms in Angular follow a model-driven approach, and they help control form inputs whose values change over time. Learners will learn to build Reactive Forms in a Single Page Application in this learning sprint. The practice and challenge of this learning sprint will help the learners to create and work with multiple form controls in a group. The learners will be able to validate user input from the UI using built-in and custom validators.
+
+### [Sprint4 - Implement Navigation Using Angular Routing](./C8-Building%20SPA%20with%20Complex%20Forms%20and%20Navigable%20Worksflows%20Using%20Angular/S4-AngularRouting-0311/)
+
+As users perform application tasks in a Single Page Application, they need to move between different views of the application. Angular Router helps developers configure routes and make Angular SPAs navigable. In this learning sprint, learners will develop navigable Angular SPA using Angular Router. This learning sprint would allow the learners to explore navigating and passing information to a component using Angular Routing. The practice and challenge in this learning sprint will enable learners to acquire skills to add basic routes to Angular applications, retrieve route information, handle invalid route URL errors, create default routes and implement programmatic navigation between the views.
+
+### [Sprint5 - Guard Routes In An SPA](./C8-Building%20SPA%20with%20Complex%20Forms%20and%20Navigable%20Worksflows%20Using%20Angular/S5-GuardRoutes-0611/)
+
+A user can navigate anywhere in the application at any time. Still, sometimes you need to control access to different parts of your application for various reasons. Perhaps the user is not authorized to navigate to the target component. This learning sprint would allow the learners to modify the route configurations to protect maritime routes using Angular Routing Guards. The practice and challenge in this learning sprint will enable learners to acquire skills to prevent unauthenticated access to secured routes and prevent losing unsaved changes while leaving the component.
 
 ## Additional Resources
 
