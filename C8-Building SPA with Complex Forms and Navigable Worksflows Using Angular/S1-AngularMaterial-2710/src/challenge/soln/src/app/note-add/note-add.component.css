@@ -1,0 +1,23 @@
+#add-note-container{
+    border: 1px solid #010080;
+    margin: 1rem auto;
+    border-radius: 10px;
+    padding: .5rem;
+    width: 20rem;
+}
+h5{
+    margin-bottom: 2.5rem;
+}
+
+textarea{
+    width: 100%;
+}
+.mat-form-margin-delete{
+    margin-top: -1.25em;
+    width: 90%;
+}
+#add-note-button{
+    position: fixed;
+    top: 90vh;
+    right: 1vw;
+}

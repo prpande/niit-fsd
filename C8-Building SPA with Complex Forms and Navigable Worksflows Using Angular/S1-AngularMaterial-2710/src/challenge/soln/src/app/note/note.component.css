@@ -1,0 +1,28 @@
+/* .note-card{
+    display: inline-block;
+    border: 1px solid #c3e2ed;
+    border-radius: 10px;
+    box-shadow: 3px 3px #c3e2ed;
+    width: 9rem;
+    text-align: center;
+    padding: 1rem .5rem;
+    margin: 2rem;
+}
+h4{
+    margin-bottom: 1rem;
+} */
+.note-card{
+    width: 18rem;
+    margin: 2rem;
+}
+h3{
+    text-align: center;
+}
+.card-actions{
+    display: none;
+}
+.note-card:hover{
+    .card-actions{
+        display: block;
+    }
+}

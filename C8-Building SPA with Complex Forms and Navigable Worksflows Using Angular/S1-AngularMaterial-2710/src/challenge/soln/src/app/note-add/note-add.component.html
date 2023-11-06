@@ -1,0 +1,15 @@
+<button mat-fab color="primary" id="add-note-button" (click)="toggleAddNoteDisplay()">
+    <mat-icon>add</mat-icon>
+</button>
+<div id="add-note-container" *ngIf="showNoteAddForm">
+    <h5>Add New Note</h5>
+    <mat-form-field appearance="fill" class="mat-form-margin-delete">
+        <input matInput type="text" placeholder="Note Title" [(ngModel)]="note.title">
+    </mat-form-field>
+    <div class="textarea-div">
+        <mat-form-field appearance="fill" class="mat-form-margin-delete">
+            <textarea matInput rows="3" placeholder="Note Content" [(ngModel)]="note.content"></textarea>
+        </mat-form-field>
+    </div>
+    <button mat-raised-button (click)="saveNote()" color="primary">Save</button>
+</div>
