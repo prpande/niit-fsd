@@ -1,0 +1,51 @@
+<mat-toolbar color="primary">
+    <span>User Profile Form</span>
+</mat-toolbar>
+<div class="container" [hidden]="submitted">
+    <form (ngSubmit)="onSubmit(userForm)" #userForm="ngForm">
+        <h1>Enter User details</h1>
+        <mat-form-field appearance="fill">
+            <mat-label>UserName</mat-label>
+            <input matInput required type="text" #username="ngModel" name="user.username" [(ngModel)]="user.username">
+            <mat-hint [hidden]="username.valid || username.pristine">
+                Username is required
+            </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput required type="text" #email="ngModel" name="user.email" [(ngModel)]="user.email">
+            <mat-hint [hidden]="email.valid || email.pristine">
+                Email is required
+            </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Phone</mat-label>
+            <input matInput required type="text" #phone="ngModel" name="user.phone" [(ngModel)]="user.phone">
+        </mat-form-field>
+        <mat-hint [hidden]="phone.valid || phone.pristine">
+            Phone is required
+        </mat-hint>
+        <div>
+            <button color="accent" (click)="userForm.resetForm()" mat-raised-button type="reset">Cancel</button>
+            <button color="primary" [disabled]="userForm.invalid" mat-raised-button type="submit">Register</button>
+        </div>
+    </form>
+</div>
+
+<div class="container" [hidden]="!submitted">
+    <h2>You submitted the following:</h2>
+    <table>
+        <tr>
+            <td>User Name: </td>
+            <td>{{user.username }}</td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td>{{ user.email }}</td>
+        </tr>
+        <tr>
+            <td>Phone: </td>
+            <td>{{ user.phone }}</td>
+        </tr>
+    </table>
+</div>

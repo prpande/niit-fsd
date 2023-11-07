@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">
+    <span>User Profile Form</span>
+</mat-toolbar>
+
+<div id="container">
+    <form (ngSubmit)="onSubmit()">
+        <h1>Enter User details</h1>
+        <mat-form-field appearance="legacy">
+            <mat-label>UserName</mat-label>
+            <input matInput type="text" name="user.username" [(ngModel)]="user.username">
+        </mat-form-field>
+        <mat-form-field appearance="legacy">
+            <mat-label>Email</mat-label>
+            <input matInput type="text" name="user.email" [(ngModel)]="user.email">
+        </mat-form-field>
+        <mat-form-field appearance="legacy">
+            <mat-label>Phone</mat-label>
+            <input matInput type="text" name="user.phone" [(ngModel)]="user.phone">
+        </mat-form-field>
+        <div>
+            <button color="accent" mat-raised-button type="reset">Cancel</button>
+            <button color="primary" mat-raised-button type="submit">Register</button>
+        </div>
+    </form>
+</div>
