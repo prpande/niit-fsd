@@ -472,6 +472,11 @@ High-quality digital experiences are a need of the hour to build engaging user-c
 
 Forms are integral parts of any modern-day workflow. They help build interactive web applications by allowing the user to provide the required inputs. Forms in Angular are, by default, implemented using Angular Templates. In this learning sprint, learners will learn to build simple forms using Template Driven approach. The hands-on experience will enable the learners to create a template-driven form whose control elements are bound to data properties, with input validation to maintain data integrity and styling to improve the user experience.
 
+- [Working with forms](https://infinum.com/handbook/frontend/angular/angular-guidelines-and-best-practices/working-with-forms)
+- [A practical guide to Angular Template-Driven Forms](https://timdeschryver.dev/blog/a-practical-guide-to-angular-template-driven-forms)
+- [Angular 2 Tutorial - 17 - Template Driven Forms - Youtube](https://www.youtube.com/watch?v=_hso8Z2zRnI&ab_channel=Codevolution)
+- [Angular Template-driven forms example](https://www.tektutorialshub.com/angular/angular-template-driven-forms/)
+
 ### [Sprint3 - Develop Interactive Reactive Forms Inside SPA](./C8-Building%20SPA%20with%20Complex%20Forms%20and%20Navigable%20Worksflows%20Using%20Angular/S3-ReactiveForms-0111/)
 
 Forms can quickly grow out to be large. Tracking and Accessing control states can grow to be complex for large forms. Reactive forms in Angular follow a model-driven approach, and they help control form inputs whose values change over time. Learners will learn to build Reactive Forms in a Single Page Application in this learning sprint. The practice and challenge of this learning sprint will help the learners to create and work with multiple form controls in a group. The learners will be able to validate user input from the UI using built-in and custom validators.
