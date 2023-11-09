@@ -1,0 +1,70 @@
+<div id="feedback-view">
+    <h1 id="feedback-title">
+        We appreciate your feedback!
+    </h1>
+    <div id="form-container">
+        <form class="form" (submit)="onSubmit(feedbackForm)" #feedbackForm="ngForm">
+            <mat-form-field appearance="legacy" class="width100">
+                <mat-label>First Name</mat-label>
+                <input matInput type="text" name="firstName" #firstName="ngModel" [(ngModel)]="feedback.firstName" required minlength="3"/>
+                <mat-error *ngIf="firstName.errors?.['required']">
+                    First name is required
+                </mat-error>
+                <mat-error *ngIf="firstName.errors?.['minlength']">                
+                    First name minimum length is 3 characters
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="legacy" class="width100">
+                <mat-label>Last Name</mat-label>
+                <input matInput type="text" name="lastName" #lastName="ngModel" [(ngModel)]="feedback.lastName" required minlength="3"/>
+                <mat-error *ngIf="lastName.errors?.['required']">
+                    Last name is required
+                </mat-error>
+                <mat-error *ngIf="lastName.errors?.['minlength']">                
+                    Last name minimum length is 3 characters
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="legacy" class="width100">
+                <mat-label>Phone Number</mat-label>
+                <input matInput type="number" name="phone" #phone="ngModel" [(ngModel)]="feedback.phone" required min="7000000000" max="9999999999"/>
+                <mat-error *ngIf="phone.errors?.['required']">
+                    Phone number is required
+                </mat-error>
+                <mat-error *ngIf="phone.errors?.['min'] || phone.errors?.['max']">                
+                    Enter valid phone number containing 10 digits starting with 7/8/9
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="legacy" class="width100">
+                <mat-label>Email Id</mat-label>
+                <input matInput type="email" name="email" #email="ngModel" [(ngModel)]="feedback.email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+                <mat-error *ngIf="email.errors?.['required']">
+                    Email id is required
+                </mat-error>
+                <mat-error *ngIf="email.errors?.['pattern']">                
+                    Enter valid email id
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="legacy">
+                <mat-label>Location you visited</mat-label>
+                <mat-select id="location" name="location" [(ngModel)]="feedback.location">
+                    <mat-option *ngFor="let loc of location" [value]="loc">{{loc}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <br>
+            <mat-radio-group aria-label="Select an option" name="rating" [(ngModel)]="feedback.rating" id="radio-container">
+                <mat-label>Overall Dining Experience</mat-label>
+                <mat-radio-button value="4">Excellent</mat-radio-button>
+                <mat-radio-button value="3">Good</mat-radio-button>
+                <mat-radio-button value="2">Average</mat-radio-button>
+                <mat-radio-button value="1">Dissatisfied</mat-radio-button>
+            </mat-radio-group>
+            <mat-form-field class="width100">
+                <textarea matInput type="text" name="comments" cols="45" rows="4" placeholder="Any comments / suggestions" [(ngModel)]="feedback.comments"></textarea>
+            </mat-form-field>
+            <div id="button-container" class="width100">
+                <button mat-raised-button type="reset" color="primary">Reset</button>
+                <button mat-raised-button type="submit" color="warn" [disabled]="feedbackForm.invalid">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>

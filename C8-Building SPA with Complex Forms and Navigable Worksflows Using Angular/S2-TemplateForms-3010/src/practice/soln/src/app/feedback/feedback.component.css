@@ -1,0 +1,33 @@
+#feedback-view{
+    width: 75vw;
+    margin: auto;
+    padding: 3rem 0;
+}
+#feedback-title{
+    color: #ef66b3;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#form-container{
+    background-color: plum;
+    border: 1px solid #c0c0c0;
+    padding: 1rem;
+    width: 75%;
+}
+.testBorder{
+    border: 1px solid red;
+}
+.width100{
+    width: 100%;
+}
+#radio-container{
+    display: flex;
+    justify-content: space-between;
+}
+#button-container{
+    text-align: center;
+}
+#button-container button{
+    margin: 1rem 1rem;
+    padding: .2rem 2.5rem;
+}
