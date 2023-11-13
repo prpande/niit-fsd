@@ -1,0 +1,20 @@
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    <label for="first-name">First Name: </label>
+    <input id="first-name" type="text" formControlName="firstName" required>
+  
+    <label for="last-name">Last Name: </label>
+    <input id="last-name" type="text" formControlName="lastName" required>
+   
+     <p class="p1">Complete the form to enable button.</p>
+    <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+  </form>
+  
+  <hr>
+  
+  <button class="update" type="button" (click)="updateProfile()">Update Profile</button>
+
+  <p>Form Value: {{ profileForm.value | json }}</p>
+  
+  <p>Form Status: {{ profileForm.status }}</p>
+  
+  
