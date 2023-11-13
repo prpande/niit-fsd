@@ -1,0 +1,1 @@
+// Create the type LiveStreamEvent with required attributes and export
