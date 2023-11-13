@@ -1,0 +1,23 @@
+form{
+    margin: 2rem auto auto 2rem;
+    width: 40vw;
+}
+#event-title{
+    width: 80%;
+}
+#time-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#text-details{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.textareas{
+    width: 47%;
+}
+textarea{
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+{
+  "events": [
+    {
+      "eventTitle": "Sample Event",
+      "eventDate": "2023-11-13T18:30:00.000Z",
+      "fromTime": "14:00",
+      "toTime": "18:00",
+      "description": "Sample description",
+      "guests": "sample@sample.com",
+      "id": 1
+    }
+  ]
+}
