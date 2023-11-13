@@ -481,6 +481,12 @@ Forms are integral parts of any modern-day workflow. They help build interactive
 
 Forms can quickly grow out to be large. Tracking and Accessing control states can grow to be complex for large forms. Reactive forms in Angular follow a model-driven approach, and they help control form inputs whose values change over time. Learners will learn to build Reactive Forms in a Single Page Application in this learning sprint. The practice and challenge of this learning sprint will help the learners to create and work with multiple form controls in a group. The learners will be able to validate user input from the UI using built-in and custom validators.
 
+- [Guide to Angular Reactive Forms](https://angular.io/guide/reactive-forms)
+- [Angular Reactive Forms: Tips and Tricks](https://netbasal.com/angular-reactive-forms-tips-and-tricks-bb0c85400b58)
+- [Angular Forms: Useful Tips](https://angularindepth.com/posts/1224/angular-forms-useful-tips)
+- [Angular reactive forms - YouTube](https://www.youtube.com/watch?v=VLYc3ACWL-E&ab_channel=kudvenkat)
+- [Angular Reactive Forms](https://www.tektutorialshub.com/angular/angular-reactive-forms/)
+
 ### [Sprint4 - Implement Navigation Using Angular Routing](./C8-Building%20SPA%20with%20Complex%20Forms%20and%20Navigable%20Worksflows%20Using%20Angular/S4-AngularRouting-0311/)
 
 As users perform application tasks in a Single Page Application, they need to move between different views of the application. Angular Router helps developers configure routes and make Angular SPAs navigable. In this learning sprint, learners will develop navigable Angular SPA using Angular Router. This learning sprint would allow the learners to explore navigating and passing information to a component using Angular Routing. The practice and challenge in this learning sprint will enable learners to acquire skills to add basic routes to Angular applications, retrieve route information, handle invalid route URL errors, create default routes and implement programmatic navigation between the views.
