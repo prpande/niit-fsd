@@ -491,6 +491,11 @@ Forms can quickly grow out to be large. Tracking and Accessing control states ca
 
 As users perform application tasks in a Single Page Application, they need to move between different views of the application. Angular Router helps developers configure routes and make Angular SPAs navigable. In this learning sprint, learners will develop navigable Angular SPA using Angular Router. This learning sprint would allow the learners to explore navigating and passing information to a component using Angular Routing. The practice and challenge in this learning sprint will enable learners to acquire skills to add basic routes to Angular applications, retrieve route information, handle invalid route URL errors, create default routes and implement programmatic navigation between the views.
 
+- [Understanding single page apps & client-side routing](https://bholmes.dev/blog/spas-clientside-routing/)
+- [Angular Routing Strategies](https://codecraft.tv/courses/angular/routing/routing-strategies/)
+- [Traditional Routing vs Modern Routing](https://freecontent.manning.com/routing-with-react-in-modern-front-end-web-applications/)
+- [Using ParamMap Observable For Handling Route In Angular](https://www.c-sharpcorner.com/article/using-parammap-observable-for-handling-route-in-angular/)
+
 ### [Sprint5 - Guard Routes In An SPA](./C8-Building%20SPA%20with%20Complex%20Forms%20and%20Navigable%20Worksflows%20Using%20Angular/S5-GuardRoutes-0611/)
 
 A user can navigate anywhere in the application at any time. Still, sometimes you need to control access to different parts of your application for various reasons. Perhaps the user is not authorized to navigate to the target component. This learning sprint would allow the learners to modify the route configurations to protect maritime routes using Angular Routing Guards. The practice and challenge in this learning sprint will enable learners to acquire skills to prevent unauthenticated access to secured routes and prevent losing unsaved changes while leaving the component.
