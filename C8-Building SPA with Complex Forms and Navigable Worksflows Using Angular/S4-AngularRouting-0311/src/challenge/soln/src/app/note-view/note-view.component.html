@@ -1,0 +1,5 @@
+<app-note-add (saveNoteEvent)="onSave($event)"></app-note-add>
+<app-search (onSearchEvent)="onSearch($event)"></app-search>
+<div class="notes-container">
+    <app-note (deleteNoteEvent)="onDelete($event)" *ngFor="let note of notes" [note] = "note"></app-note>
+</div>

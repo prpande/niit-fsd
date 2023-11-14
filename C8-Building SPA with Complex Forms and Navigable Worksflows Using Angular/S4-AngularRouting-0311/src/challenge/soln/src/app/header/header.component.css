@@ -1,0 +1,13 @@
+#home-link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95vw;
+}
+a:link {
+    color:inherit;
+}

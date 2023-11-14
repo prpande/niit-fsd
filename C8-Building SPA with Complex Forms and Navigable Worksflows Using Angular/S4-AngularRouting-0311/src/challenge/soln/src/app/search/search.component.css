@@ -1,0 +1,8 @@
+.search-container{
+    background-color: inherit;
+    text-align: center;
+    padding: 1rem 1rem 0.5rem 0;
+}
+#search-box{
+    width: 28%;
+}

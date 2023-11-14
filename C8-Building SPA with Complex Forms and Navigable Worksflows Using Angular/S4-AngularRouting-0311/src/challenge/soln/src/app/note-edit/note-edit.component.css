@@ -1,0 +1,10 @@
+#note-edit-container{
+    width: 33%;
+    margin: 1rem auto;
+}
+h1{
+    margin-bottom: 2rem;
+}
+mat-form-field{
+    width: 100%;
+}

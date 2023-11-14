@@ -1,0 +1,33 @@
+#registerForm{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    width: 25%;
+}
+#form-title{
+    color: #4f3683;
+    font-weight: 555;
+}
+.flex-spread{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.flex-spread mat-form-field{
+    width: 47%;
+}
+.single-spread{
+    width: 100%;
+}
+#gender{
+    margin: 2rem 0;
+}
+#form-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+#form-buttons button{
+    padding: 0 2rem;
+}

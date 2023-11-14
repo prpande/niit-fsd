@@ -1,0 +1,22 @@
+.note-card{
+    width: 18rem;
+    margin: 2rem;
+}
+h2{
+    font-weight: 550;
+}
+#note-category{
+    background-color: #e0e0e0;
+    width: fit-content;
+    padding: .5rem .7rem;
+    border-radius: 300px;
+    font-weight:550;
+}
+.card-actions{
+    display: none;
+}
+.note-card:hover{
+    .card-actions{
+        display: block;
+    }
+}
