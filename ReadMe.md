@@ -500,6 +500,11 @@ As users perform application tasks in a Single Page Application, they need to mo
 
 A user can navigate anywhere in the application at any time. Still, sometimes you need to control access to different parts of your application for various reasons. Perhaps the user is not authorized to navigate to the target component. This learning sprint would allow the learners to modify the route configurations to protect maritime routes using Angular Routing Guards. The practice and challenge in this learning sprint will enable learners to acquire skills to prevent unauthenticated access to secured routes and prevent losing unsaved changes while leaving the component.
 
+- [Protecting Routes using Guards in Angular](https://blog.thoughtram.io/angular/2016/07/18/guards-in-angular-2.html)
+- [Common Routing Tasks](https://angular.io/guide/router)
+- [Router Guards](https://codecraft.tv/courses/angular/routing/router-guards/)
+- [The 7-step process of Angular router navigation](https://www.jvandemo.com/the-7-step-process-of-angular-router-navigation/)
+
 ## Additional Resources
 
 > Java tutorials:  <https://docs.oracle.com/javase/tutorial/java/index.html>
