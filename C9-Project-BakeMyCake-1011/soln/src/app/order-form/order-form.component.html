@@ -1,0 +1,130 @@
+<div id="order-form-container">
+    <form [formGroup]="orderForm" (ngSubmit)="onSubmit()" id="order-form" class="p-4">
+        <div formGroupName="customerInfo" id="cxInfo-form">
+            <h2 id="cxInfo-title">
+                Your Information
+            </h2>
+            <mat-form-field appearance="outline" class="full-width">
+                <input matInput type="text" formControlName="name" class="form-input" />
+                <mat-label>Name</mat-label>
+                <mat-error *ngIf="cxName?.errors?.['required']">
+                    Name is required.
+                </mat-error>
+                <mat-error *ngIf="cxName?.errors?.['minlength']">
+                    Name minimum length is 2 characters.
+                </mat-error>
+            </mat-form-field>
+            <div id="contact-details" class="flex-container">
+                <mat-form-field appearance="outline" id="cx-email" class="half-width">
+                    <mat-label>Email ID</mat-label>
+                    <input matInput type="text" formControlName="email" />
+                    <mat-error *ngIf="cxEmail?.errors?.['required']">
+                        Email ID is required.
+                    </mat-error>
+                    <mat-error *ngIf="cxEmail?.errors?.['pattern']">
+                        Enter valid Email ID.
+                    </mat-error>
+                </mat-form-field>
+                <mat-form-field appearance="outline" id="cx-phone" class="half-width">
+                    <mat-label>Phone No.</mat-label>
+                    <input matInput type="text" formControlName="phone" />
+                    <mat-error *ngIf="cxPhone?.errors?.['required']">
+                        Phone No. is required.
+                    </mat-error>
+                    <mat-error *ngIf="cxPhone?.errors?.['pattern']">
+                        Enter valid phone number containing 10 digits starting with 7/8/9
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div id="cxAddress-form" formGroupName="address">
+                <h3 id="cxAddress-title">Address</h3>
+                <div class="flex-container">
+                    <mat-form-field appearance="outline" id="cxAddress-line1" class="half-width">
+                        <mat-label>Line 1</mat-label>
+                        <input matInput type="text" formControlName="line1" />
+                        <mat-error *ngIf="cxAddressLine1?.errors?.['required']">
+                            Address line 1 is required.
+                        </mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" id="cxAddress-line2" class="half-width">
+                        <mat-label>Line 2</mat-label>
+                        <input matInput type="text" formControlName="line2" />
+                    </mat-form-field>
+                </div>
+                <div id="addressCity-container" class="flex-container">
+                    <mat-form-field appearance="outline" id="cxAddress-landmark" class="half-width">
+                        <mat-label>Landmark</mat-label>
+                        <input matInput type="text" formControlName="landmark" />
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" id="cxAddress-city" class="half-width">
+                        <mat-label>City</mat-label>
+                        <input matInput type="text" formControlName="city" />
+                        <mat-error *ngIf="cxAddressCity?.errors?.['required']">
+                            City is required.
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div id="addressState-container" class="flex-container">
+                    <mat-form-field appearance="outline" id="cxAddress-state" class="half-width">
+                        <mat-label>State</mat-label>
+                        <mat-select formControlName="state">
+                            <mat-option *ngFor="let state of states" [value]="state">{{state}}</mat-option>
+                        </mat-select>
+                        <mat-error *ngIf="cxAddressState?.errors?.['required']">
+                            State is required.
+                        </mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" id="cxAddress-pincode" class="half-width">
+                        <mat-label>Pincode</mat-label>
+                        <input matInput type="text" formControlName="pincode" />
+                        <mat-error *ngIf="cxAddressPincode?.errors?.['required']">
+                            Pincode is required.
+                        </mat-error>
+                        <mat-error *ngIf="cxAddressPincode?.errors?.['pattern']">
+                            Enter valid Pincode containing 6 digits.
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+        <h2 id="orderInfo-title">
+            Order Information
+        </h2>
+        <div id="delivery-info-container" class="flex-container">
+            <div formGroupName="item" id="orderInfo-form">
+                <mat-form-field appearance="outline" id="item-quantity" class="form-input">
+                    <mat-label>Quantity</mat-label>
+                    <input matInput type="number" formControlName="quantity" />
+                    <mat-error *ngIf="itemQuantity?.errors?.['min']">
+                        Minimum 1 item.
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <mat-form-field appearance="outline" id="total-amount" class="form-input">
+                <mat-label>Total Amount</mat-label>
+                <span matTextPrefix>&#8377;&nbsp;</span>
+                <input matInput type="text" formControlName="totalAmount" readonly [value]="computeTotalAmount()" />
+                <mat-error *ngIf="totalAmount?.errors?.['min']">
+                    Order value should be greater than 0.
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline" id="delivery-date">
+                <mat-label>Delivery Date</mat-label>
+                <input [min]="minDate" matInput [matDatepicker]="deliveryDatePicker" formControlName="deliveryDate">
+                <mat-datepicker-toggle matSuffix [for]="deliveryDatePicker"></mat-datepicker-toggle>
+                <mat-datepicker #deliveryDatePicker></mat-datepicker>
+                <mat-error *ngIf="deliveryDate?.errors?.['required']">
+                    Delivery Date is required
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <mat-form-field appearance="outline" id="instructions" class="mt-2">
+            <mat-label>Instructions</mat-label>
+            <textarea matInput type="text" formControlName="instructions"></textarea>
+        </mat-form-field>
+        <div id="button-container" class="flex-container">
+            <button mat-raised-button type="submit" color="primary" [disabled]="orderForm.invalid">Place Order<span>
+                    (&#8377; {{computeTotalAmount()}})</span></button>
+        </div>
+    </form>
+</div>

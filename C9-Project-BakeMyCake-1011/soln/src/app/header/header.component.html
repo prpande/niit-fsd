@@ -1,0 +1,36 @@
+<mat-toolbar id="header" color="primary">
+    <div class="container-fluid row justify-content-between mx-auto align-items-center">
+        <div class="col-3 align-self-end my-lg-5 text-wrap d-lg-block d-none">
+            <h4 class=" ">Tantalizing taste buds since 1989</h4>
+        </div>
+        <div id="logo" class="col-lg-6 col-md-8 col-12 align-items-center">
+            <a routerLink="home">
+                <div class="container text-center align-items-center  ">
+                    <div id="image-container" class="text-center">
+                        <img src="/assets/logotop.png">
+                    </div>
+                    <h1 id="title" class="mt-md-3 mt-1">
+                        Bake My Cake
+                    </h1>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-12 align-self-end my-lg-5 my-1">
+            <div id="navigation-links" class="container row m-auto justify-content-around justify-content-md-end flex-nowrap">
+                <button mat-icon-button matTooltip="Home" routerLink="home" class="col-1 d-inline-block m-2">
+                    <mat-icon>home</mat-icon>
+                </button>
+                <button *ngIf="loggedIn!==true" mat-icon-button matTooltip="login" routerLink="login" class="col-1 d-block m-2">
+                    <mat-icon>login</mat-icon>
+                </button>
+                <button *ngIf="loggedIn===true" mat-icon-button matTooltip="logout" (click)="logout()" class="col-1 d-block m-2">
+                    <mat-icon>logout</mat-icon>
+                </button>
+                <button mat-icon-button matTooltip="Cake Requests" routerLink="cake-requests" class="col-1 d-block m-2">
+                    <mat-icon>cake</mat-icon>
+                </button>
+            </div>
+        </div>
+    </div>
+</mat-toolbar>

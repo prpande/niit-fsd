@@ -1,0 +1,44 @@
+#order-form-container{
+    min-width: 400px;
+}
+#order-form{
+    background-color: rgba(66, 66, 66, .75);
+    border-radius: 10px;
+}
+#cxAddress-title{
+    font-weight: 500;
+}
+.full-width{
+    width: 100%;
+}
+.half-width{
+    width: 49%;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#orderInfo-form{
+    width: 25%;
+}
+#item-quantity{
+    width:100%
+}
+#total-amount{
+    width: 30%;
+    font-weight: 550;
+}
+#delivery-date{
+    width: 40%;
+}
+#instructions{
+    width: 100%;
+}
+*{
+    color: whitesmoke;
+}
+#button-container{
+    justify-content: center;
+}

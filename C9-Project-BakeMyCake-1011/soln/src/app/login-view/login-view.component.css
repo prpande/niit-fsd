@@ -1,0 +1,28 @@
+#login-container{
+    height: 73.7vh;
+    display: flex;
+    align-items: center;
+}
+#login-box{
+    margin: auto;
+    background-color: rgba(66, 66, 66, .7);
+    padding: 2vh 1vw;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+}
+#title{
+    margin-top: 10vh;
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    
+}
+*{
+    color: whitesmoke;
+}
+form{
+    padding: 10vh;
+}
+#username, #password{
+    width: 100%;
+}

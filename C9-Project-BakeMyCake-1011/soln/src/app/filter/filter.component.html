@@ -1,0 +1,6 @@
+<div id="filter-container">
+    <div class="container text-center align-items-center">
+        <button (click)="onClick($event)" class="filter col m-2" *ngFor="let filter of categories">{{filter}}</button>
+        <button (click)="onClear($event)" id= "cancel" class="filter">X</button>
+    </div>
+</div>

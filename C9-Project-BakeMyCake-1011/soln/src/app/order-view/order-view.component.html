@@ -1,0 +1,13 @@
+<div>
+    <div class="container text-center p-3">
+        <h1>Place Your Order</h1>
+    </div>
+    <div class="container-fluid row m-auto">
+        <div class="col-sm m-2">
+            <app-item-details [item]="item"></app-item-details>
+        </div>
+        <div class="col-sm m-2">
+            <app-order-form [item]="item" (orderPlacedEvent)="orderPlacedEvent()"></app-order-form>
+        </div>
+    </div>
+</div>

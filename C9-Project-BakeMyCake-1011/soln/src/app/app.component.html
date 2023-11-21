@@ -1,0 +1,5 @@
+<app-header [loggedIn]=isLoggedIn></app-header>
+<div class="image">
+  <router-outlet (activate)="checkLoggedIn()"></router-outlet>
+</div>
+<app-footer></app-footer>

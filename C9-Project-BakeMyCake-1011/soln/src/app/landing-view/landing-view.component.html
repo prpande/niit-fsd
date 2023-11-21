@@ -1,0 +1,5 @@
+<app-search (textChangeEvent)="onTextChange($event)"></app-search>
+<app-filter (filterEvent)="onFilterSelection($event)"></app-filter>
+<div id="menu-card-container">
+    <app-item-card *ngFor="let item of filteredItems" [menuItem]="item"></app-item-card>
+</div>

@@ -1,0 +1,18 @@
+<a routerLink="/order/{{menuItem?.id}}">
+    <mat-card matRipple class="menuItem-card">
+        <mat-card-content>
+            <img mat-card-image src="{{menuItem?.imagePath}}" alt="{{menuItem?.imagePath}}">
+            <mat-card-title color="primary">
+                {{menuItem?.name}}
+            </mat-card-title>
+            <mat-card-subtitle class="sub-container">
+                <p class="item-sub">
+                    &#8377; {{menuItem?.price}}
+                </p>
+                <p class="item-sub">
+                    {{menuItem?.rating}}<span class="rating-star">&#9733;</span>
+                </p>
+            </mat-card-subtitle>
+        </mat-card-content>
+    </mat-card>
+</a>

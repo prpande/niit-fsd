@@ -1,0 +1,36 @@
+<div class="container my-0" id="request-container">
+
+  <h1 class="text-center p-2 pt-4">Cake Requests</h1>
+
+  <table class="table table-striped table-secondary table-hover">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Order</th>
+        <th>Delivery&nbsp;Date</th>
+        <th>Contact</th>
+        <th>Address</th>
+        <th>Instructions</th>
+        <th>Total&nbsp;(&#8377;)</th>
+        <th>Order&nbsp;Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let order of tableDisplayArray">
+        <td>{{ order.id }}</td>
+        <td>{{ order.customerInfo?.name }}</td>
+        <td>{{ order.item?.quantity }} x {{ order.item?.name }}</td>
+        <td>{{dateToString(order.deliveryDate)}}</td>
+        <td>{{order.customerInfo?.phone}}, {{order.customerInfo?.email}}</td>
+        <td>{{address(order)}}</td>
+        <td>{{order.instructions}}</td>
+        <td>{{order.totalAmount}}</td>
+        <td>{{dateToString(order.orderDate)}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <mat-paginator #paginator [pageSize]="pageSize" [pageSizeOptions]="[5, 10, 20]" [showFirstLastButtons]="true"
+    [length]="totalSize" [pageIndex]="currentPage" (page)="handlePageEvent($event)">
+  </mat-paginator>
+</div>

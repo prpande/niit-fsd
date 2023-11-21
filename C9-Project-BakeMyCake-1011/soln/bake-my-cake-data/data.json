@@ -1,0 +1,610 @@
+{
+  "orders": [
+    {
+      "customerInfo": {
+        "name": "Aditya Sharma",
+        "email": "aditya.sharma@email.com",
+        "phone": "9856783475",
+        "address": {
+          "line1": "H/12, 9th Floor, Everest Bldg",
+          "line2": "Tardeo Road, Tardeo",
+          "landmark": "",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "pincode": "400034"
+        }
+      },
+      "item": {
+        "id": 10,
+        "name": "Chocolate Summer Berries Cake",
+        "quantity": 2,
+        "category": "Cake"
+      },
+      "totalAmount": 1998,
+      "instructions": "It will be great if it can be sugar free.",
+      "orderDate": "2023-11-07T05:16:45.134Z",
+      "deliveryDate": "2023-11-18T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "customerInfo": {
+        "name": "Rajan Mishra",
+        "email": "rajan.mishra@email.com",
+        "phone": "8745983389",
+        "address": {
+          "line1": "1, Karmoyogi Indl.estate",
+          "line2": " Chheda Compound, Santacruz (east)",
+          "landmark": "",
+          "city": " Mumbai",
+          "state": "Maharashtra",
+          "pincode": "400055"
+        }
+      },
+      "item": {
+        "id": 5,
+        "name": "Chocolate Blueberries Cake",
+        "quantity": "1",
+        "category": "Cake"
+      },
+      "totalAmount": 899,
+      "instructions": "Please write Happy Birthday on the cake.",
+      "orderDate": "2023-01-17T05:20:25.637Z",
+      "deliveryDate": "2023-11-17T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "customerInfo": {
+        "name": "Jagjeet Singh",
+        "email": "jaggyrocks@email.com",
+        "phone": "8112798035",
+        "address": {
+          "line1": " B-6/205, Rohini",
+          "line2": null,
+          "landmark": null,
+          "city": "Delhi",
+          "state": "New Delhi",
+          "pincode": "110085"
+        }
+      },
+      "item": {
+        "id": 5,
+        "name": "Chocolate Blueberries Cake",
+        "quantity": 2,
+        "category": "Cake"
+      },
+      "totalAmount": 1798,
+      "instructions": "",
+      "orderDate": "2023-10-27T05:22:25.533Z",
+      "deliveryDate": "2023-11-19T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "customerInfo": {
+        "name": "Virat Kohli",
+        "email": "kingKohli@email.com",
+        "phone": "7822286641",
+        "address": {
+          "line1": "21/2, 5th Cross J M Lane, Balepet",
+          "line2": "",
+          "landmark": "",
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "pincode": "560053"
+        }
+      },
+      "item": {
+        "id": 7,
+        "name": "Chocolate Brownies",
+        "quantity": 3,
+        "category": "Brownies"
+      },
+      "totalAmount": 1647,
+      "instructions": "",
+      "orderDate": "2023-09-15T05:25:57.097Z",
+      "deliveryDate": "2023-11-18T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "customerInfo": {
+        "name": "Rohit Sharma",
+        "email": "hitmanscores@email.com",
+        "phone": "9922427311",
+        "address": {
+          "line1": " 9, Kandori Nagar Chs",
+          "line2": "Panjrapole Lane, Bhuleshwar",
+          "landmark": "Opp Madhav Baug Post Office",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "pincode": "400004"
+        }
+      },
+      "item": {
+        "id": 4,
+        "name": "Cherry Jelly Cheesecake",
+        "quantity": 2,
+        "category": "Cheesecake"
+      },
+      "totalAmount": 1398,
+      "instructions": "Cut it in 11 slices",
+      "orderDate": "2023-11-01T05:28:37.102Z",
+      "deliveryDate": "2023-11-18T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "customerInfo": {
+        "name": "Rahul Dravid",
+        "email": "jammyWall@email.com",
+        "phone": "8698894500",
+        "address": {
+          "line1": " Kansara Chawl, 120 Kalbadevi Rd",
+          "line2": " Kalbadevi",
+          "landmark": "",
+          "city": " Mumbai",
+          "state": "Maharashtra",
+          "pincode": "400002"
+        }
+      },
+      "item": {
+        "id": 6,
+        "name": "Chocolate Bonbons",
+        "quantity": 5,
+        "category": "Chocolates"
+      },
+      "totalAmount": 2245,
+      "instructions": "",
+      "orderDate": "2023-11-13T05:30:38.829Z",
+      "deliveryDate": "2023-12-26T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "customerInfo": {
+        "name": "Jasprit Bumrah",
+        "email": "boom.boom@email.com",
+        "phone": "9222052197",
+        "address": {
+          "line1": " A-1, 27,ground Floor, Avijah Bldg",
+          "line2": " Dhobi Talao,jambulwadi, Kalbadevi",
+          "landmark": "",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "pincode": "400002"
+        }
+      },
+      "item": {
+        "id": 15,
+        "name": "Monster Theme Cake",
+        "quantity": "1",
+        "category": "Cake"
+      },
+      "totalAmount": 1099,
+      "instructions": "",
+      "orderDate": "2023-11-12T05:32:33.075Z",
+      "deliveryDate": "2023-12-29T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "customerInfo": {
+        "name": "Jyoti Scindia",
+        "email": "jyoti.scindia@email.com",
+        "phone": "9314619845",
+        "address": {
+          "line1": "Hno.86, Sirsi Road, Krishna Nagar",
+          "line2": "Khatipura, Vaishali Nagar",
+          "landmark": "",
+          "city": "Jaipur",
+          "state": "Rajasthan",
+          "pincode": "302012"
+        }
+      },
+      "item": {
+        "id": 18,
+        "name": "Pumpkin Spice Cupcakes",
+        "quantity": 4,
+        "category": "Cupcakes"
+      },
+      "totalAmount": 1996,
+      "instructions": "",
+      "orderDate": "2023-07-14T05:34:46.749Z",
+      "deliveryDate": "2023-12-14T18:30:00.000Z",
+      "id": 8
+    },
+    {
+      "customerInfo": {
+        "name": "Pratyush Pande",
+        "email": "pratyush.pande@email.com",
+        "phone": "9448177743",
+        "address": {
+          "line1": "214, Blue Chip Complex",
+          "line2": "Bh Manubhai Tower",
+          "landmark": "GMS Road",
+          "city": "Dehradun",
+          "state": "Uttarakhand",
+          "pincode": "248006"
+        }
+      },
+      "item": {
+        "id": 11,
+        "name": "Classic Cheesecake",
+        "quantity": "1",
+        "category": "Cheesecake"
+      },
+      "totalAmount": 799,
+      "instructions": "",
+      "orderDate": "2023-08-08T05:36:40.243Z",
+      "deliveryDate": "2023-12-15T18:30:00.000Z",
+      "id": 9
+    },
+    {
+      "customerInfo": {
+        "name": "Jaya Kumar",
+        "email": "jaya.kumar@email.com",
+        "phone": "8897004566",
+        "address": {
+          "line1": "78, Moulana Shaukat Ali Street, C R Avenue",
+          "line2": "",
+          "landmark": "",
+          "city": "Kolkata",
+          "state": "West Bengal",
+          "pincode": "700073"
+        }
+      },
+      "item": {
+        "id": 14,
+        "name": "Fruit Cake",
+        "quantity": "1",
+        "category": "Cake"
+      },
+      "totalAmount": 849,
+      "instructions": "Write \"Happy Birthday Ashish\" on the cake",
+      "orderDate": "2023-09-19T05:42:23.377Z",
+      "deliveryDate": "2023-11-21T18:30:00.000Z",
+      "id": 10
+    },
+    {
+      "customerInfo": {
+        "name": "Mukul Pande",
+        "email": "mukul.pande@email.com",
+        "phone": "8855098322",
+        "address": {
+          "line1": "4/50, Ganpati Vihar",
+          "line2": "Mohit Colony, Kanwali Road",
+          "landmark": "Near Anurag Nursery",
+          "city": "Roorkee",
+          "state": "Uttarakhand",
+          "pincode": "248001"
+        }
+      },
+      "item": {
+        "id": 3,
+        "name": "Butter Cookies",
+        "quantity": 3,
+        "category": "Cookies"
+      },
+      "totalAmount": 747,
+      "instructions": "",
+      "orderDate": "2023-11-17T06:27:14.187Z",
+      "deliveryDate": "2023-11-20T18:30:00.000Z",
+      "id": 11
+    },
+    {
+      "customerInfo": {
+        "name": "Sachin Tendulkar",
+        "email": "sachin.goat@email.com",
+        "phone": "9910101010",
+        "address": {
+          "line1": "10, Civil lines",
+          "line2": "Andheri Road, Andheri East",
+          "landmark": "",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "pincode": "400344"
+        }
+      },
+      "item": {
+        "id": 13,
+        "name": "Easter Cupcakes",
+        "quantity": 10,
+        "category": "Cupcakes"
+      },
+      "totalAmount": 4990,
+      "instructions": "Please pack all the cupcakes in one box if possible.",
+      "orderDate": "2023-10-05T06:32:07.485Z",
+      "deliveryDate": "2023-11-22T18:30:00.000Z",
+      "id": 12
+    },
+    {
+      "customerInfo": {
+        "name": "Mohammad Shami",
+        "email": "mhd.shami@email.com",
+        "phone": "7869857890",
+        "address": {
+          "line1": "117, Aman Vihar",
+          "line2": "M.G Road, Transport Nagar",
+          "landmark": "",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "pincode": "721302"
+        }
+      },
+      "item": {
+        "id": 8,
+        "name": "Chocolate Cookies",
+        "quantity": 2,
+        "category": "Cookies"
+      },
+      "totalAmount": 798,
+      "instructions": "",
+      "orderDate": "2023-11-17T06:42:35.602Z",
+      "deliveryDate": "2023-11-27T18:30:00.000Z",
+      "id": 13
+    },
+    {
+      "customerInfo": {
+        "name": "Saurav Ganguly",
+        "email": "babu.moshai@email.com",
+        "phone": "9775550307",
+        "address": {
+          "line1": "D-213, RK Hall of Residence",
+          "line2": "New Bitumen Rd",
+          "landmark": "IIT Kharagpur",
+          "city": "Kharagpur",
+          "state": "West Bengal",
+          "pincode": "721302"
+        }
+      },
+      "item": {
+        "id": 4,
+        "name": "Cherry Jelly Cheesecake",
+        "quantity": "1",
+        "category": "Cheesecake"
+      },
+      "totalAmount": 699,
+      "instructions": "Please divide the cake in 2 halves and packed separately.",
+      "orderDate": "2023-11-17T07:02:48.104Z",
+      "deliveryDate": "2024-01-15T18:30:00.000Z",
+      "id": 14
+    },
+    {
+      "customerInfo": {
+        "name": "Pratyush Pande",
+        "email": "pratyush.pande@gmail.com",
+        "phone": "9058177743",
+        "address": {
+          "line1": "123 Street",
+          "line2": "",
+          "landmark": "",
+          "city": "Dehradun",
+          "state": "Uttarakhand",
+          "pincode": "248006"
+        }
+      },
+      "item": {
+        "id": 4,
+        "name": "Cherry Jelly Cheesecake",
+        "quantity": 2,
+        "category": "Cheesecake"
+      },
+      "totalAmount": 1398,
+      "instructions": "",
+      "orderDate": "2023-11-17T11:57:12.827Z",
+      "deliveryDate": "2023-11-21T18:30:00.000Z",
+      "id": 15
+    },
+    {
+      "customerInfo": {
+        "name": "Travis Head",
+        "email": "travis.head@email.com",
+        "phone": "9504041233",
+        "address": {
+          "line1": "Suite No. 62, Hilton Hotel",
+          "line2": "MG Road",
+          "landmark": "",
+          "city": "Ahmedabad",
+          "state": "Gujrat",
+          "pincode": "320008"
+        }
+      },
+      "item": {
+        "id": 7,
+        "name": "Chocolate Brownies",
+        "quantity": 11,
+        "category": "Brownies"
+      },
+      "totalAmount": 6039,
+      "instructions": "",
+      "orderDate": "2023-11-19T17:57:47.363Z",
+      "deliveryDate": "2023-11-18T18:30:00.000Z",
+      "id": 16
+    },
+    {
+      "customerInfo": {
+        "name": "Pratyush Pande",
+        "email": "pratyush.pande@email.com",
+        "phone": "9123177743",
+        "address": {
+          "line1": "789 Street",
+          "line2": "Main Road",
+          "landmark": "",
+          "city": "Dehradun",
+          "state": "Uttarakhand",
+          "pincode": "248001"
+        }
+      },
+      "item": {
+        "id": 12,
+        "name": "Cookies Cream Cake",
+        "quantity": 4,
+        "category": "Cake"
+      },
+      "totalAmount": 2596,
+      "instructions": "",
+      "orderDate": "2023-11-19T23:03:40.849Z",
+      "deliveryDate": "2023-11-21T18:30:00.000Z",
+      "id": 17
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Berries Summer Cupcakes",
+      "category": "Cupcakes",
+      "description": "Delicious cupcakes perfect for summer gatherings. Made with a light and fluffy vanilla batter, topped with a mix of fresh berries including strawberries, blueberries, and raspberries. Ingredients: Flour, sugar, butter, eggs, vanilla extract, baking powder, salt, mixed berries.",
+      "price": 399,
+      "imagePath": "/assets/berries summer cupcakes.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Brownies Different Flavor",
+      "category": "Brownies",
+      "description": "Indulge in the rich and fudgy goodness of our brownies with a twist. This assorted pack includes different flavors such as classic chocolate, walnut, and caramel swirl. Ingredients: Chocolate, butter, sugar, eggs, flour, cocoa powder, walnuts, caramel.",
+      "price": 599,
+      "imagePath": "/assets/brownies different flavor.jpg",
+      "rating": 4.2
+    },
+    {
+      "id": 3,
+      "name": "Butter Cookies",
+      "category": "Cookies",
+      "description": "Melt-in-your-mouth buttery cookies that are perfect with a cup of tea or coffee. These classic cookies are made with simple ingredients like butter, sugar, and flour. Ingredients: Butter, sugar, flour, vanilla extract.",
+      "price": 249,
+      "imagePath": "/assets/butter cookies.jpg",
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "name": "Cherry Jelly Cheesecake",
+      "category": "Cheesecake",
+      "description": "A delightful cheesecake with a twist of cherry jelly. The creamy cheesecake is topped with a layer of sweet and tangy cherry jelly. Ingredients: Cream cheese, sugar, eggs, vanilla extract, graham cracker crust, cherry jelly.",
+      "price": 699,
+      "imagePath": "/assets/cherry jelly cheesecake.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Blueberries Cake",
+      "category": "Cake",
+      "description": "A decadent chocolate cake loaded with fresh blueberries. The combination of rich chocolate and bursting blueberries creates a delightful flavor. Ingredients: Chocolate, flour, sugar, butter, eggs, cocoa powder, blueberries.",
+      "price": 899,
+      "imagePath": "/assets/chocolate blueberries cake.jpg",
+      "rating": 4.8
+    },
+    {
+      "id": 6,
+      "name": "Chocolate Bonbons",
+      "category": "Chocolates",
+      "description": "Indulge in these bite-sized chocolate bonbons filled with various creamy centers. Flavors include hazelnut, raspberry, and caramel. Ingredients: Chocolate, cream, hazelnut, raspberry, caramel.",
+      "price": 449,
+      "imagePath": "/assets/chocolate bonbons.jpg",
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Brownies",
+      "category": "Brownies",
+      "description": "Classic chocolate brownies that are dense, fudgy, and irresistible. Made with high-quality cocoa and a generous amount of chocolate chunks. Ingredients: Chocolate, butter, sugar, eggs, flour, cocoa powder.",
+      "price": 549,
+      "imagePath": "/assets/chocolate brownies.jpg",
+      "rating": 4.3
+    },
+    {
+      "id": 8,
+      "name": "Chocolate Cookies",
+      "category": "Cookies",
+      "description": "A chocolate lover's dream! These cookies are loaded with both cocoa powder and chunks of premium chocolate. Perfectly chewy with a rich chocolate flavor. Ingredients: Chocolate, butter, sugar, flour, cocoa powder.",
+      "price": 399,
+      "imagePath": "/assets/chocolate cookies.jpg",
+      "rating": 4.1
+    },
+    {
+      "id": 9,
+      "name": "Chocolate Cupcake",
+      "category": "Cupcakes",
+      "description": "Indulge in the decadence of chocolate with these moist and fluffy chocolate cupcakes. Topped with a velvety chocolate frosting for an extra treat. Ingredients: Flour, sugar, butter, eggs, cocoa powder, baking powder, salt.",
+      "price": 349,
+      "imagePath": "/assets/chocolate cupcake.jpg",
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "name": "Chocolate Summer Berries Cake",
+      "category": "Cake",
+      "description": "An exquisite chocolate cake featuring a blend of summer berries. Layers of chocolate cake are filled with a luscious berry compote and frosted with chocolate ganache. Ingredients: Chocolate, flour, sugar, butter, eggs, mixed berries, ganache.",
+      "price": 999,
+      "imagePath": "/assets/chocolate summer berries cake.jpg",
+      "rating": 4.9
+    },
+    {
+      "id": 11,
+      "name": "Classic Cheesecake",
+      "category": "Cheesecake",
+      "description": "The timeless classic cheesecake with a buttery graham cracker crust and a smooth, creamy filling. Pure indulgence in every bite. Ingredients: Cream cheese, sugar, eggs, vanilla extract, graham cracker crust.",
+      "price": 799,
+      "imagePath": "/assets/classic cheesecake.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": 12,
+      "name": "Cookies Cream Cake",
+      "category": "Cake",
+      "description": "A delightful cake that combines the goodness of cookies and cream. Layers of moist cake are sandwiched with a velvety cookies and cream frosting. Ingredients: Flour, sugar, butter, eggs, cookies, cream.",
+      "price": 649,
+      "imagePath": "/assets/cookies cream cake.jpg",
+      "rating": 4.2
+    },
+    {
+      "id": 13,
+      "name": "Easter Cupcakes",
+      "category": "Cupcakes",
+      "description": "Celebrate Easter with these festive cupcakes. Topped with colorful frosting and edible decorations, they're a joyous addition to your holiday festivities. Ingredients: Flour, sugar, butter, eggs, vanilla extract, baking powder, salt, food coloring.",
+      "price": 499,
+      "imagePath": "/assets/easter cupcakes.jpg",
+      "rating": 4.4
+    },
+    {
+      "id": 14,
+      "name": "Fruit Cake",
+      "category": "Cake",
+      "description": "A classic fruit cake filled with a medley of dried fruits and nuts. Moist and flavorful, it's a perfect treat for any occasion. Ingredients: Flour, sugar, butter, eggs, mixed dried fruits, nuts.",
+      "price": 849,
+      "imagePath": "/assets/fruit cake.jpg",
+      "rating": 4.3
+    },
+    {
+      "id": 15,
+      "name": "Monster Theme Cake",
+      "category": "Cake",
+      "description": "A fun and whimsical cake perfect for birthdays or themed parties. Decorated with colorful frosting and edible monster-themed decorations. Ingredients: Flour, sugar, butter, eggs, vanilla extract, food coloring.",
+      "price": 1099,
+      "imagePath": "/assets/monster theme cake.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": 16,
+      "name": "Muffin Devil Horns",
+      "category": "Muffins",
+      "description": "Spice up your muffin experience with these devilishly delicious muffins. Featuring a hint of cinnamon and a devil horn-shaped decoration. Ingredients: Flour, sugar, butter, eggs, cinnamon.",
+      "price": 399,
+      "imagePath": "/assets/muffin devil horns.jpg",
+      "rating": 4.1
+    },
+    {
+      "id": 17,
+      "name": "Muffin Ghost",
+      "category": "Muffins",
+      "description": "Adorable ghost-shaped muffins that are both cute and tasty. Perfect for Halloween or any spooky-themed occasion. Ingredients: Flour, sugar, butter, eggs, vanilla extract, baking powder, salt.",
+      "price": 449,
+      "imagePath": "/assets/muffin ghost.jpg",
+      "rating": 4
+    },
+    {
+      "id": 18,
+      "name": "Pumpkin Spice Cupcakes",
+      "category": "Cupcakes",
+      "description": "Embrace the flavors of fall with these pumpkin spice cupcakes. Infused with warm spices and topped with a luscious cream cheese frosting. Ingredients: Flour, sugar, butter, eggs, pumpkin puree, spices, cream cheese.",
+      "price": 499,
+      "imagePath": "/assets/pumpkin spice cupcakes.jpg",
+      "rating": 4.6
+    }
+  ]
+}

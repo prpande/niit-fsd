@@ -1,0 +1,23 @@
+<div id="item-details-container" class="p-3">
+    <div id="image-container">
+        <img src="{{item?.imagePath}}" alt="{{item?.name}}">
+    </div>
+    <div id="title-container">
+        <h1 id="name" class="white-color">{{item?.name}}</h1>
+        <h2 id="price">
+            &#8377;{{item?.price}}
+        </h2>
+    </div>
+    <div class="sub-container">
+        <h2 id="rating" class="item-sub">
+            {{item?.rating}}<span class="rating-star">&#9733;</span>
+        </h2>
+        <h3 id="category" class="item-sub">
+            {{item?.category}}
+        </h3>
+    </div>
+    <p id="description" class="white-color">
+        {{item?.description}}
+    </p>
+
+</div>

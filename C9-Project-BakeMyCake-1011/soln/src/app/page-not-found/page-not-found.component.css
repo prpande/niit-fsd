@@ -1,0 +1,10 @@
+#pnf-box{
+    background-color: rgba(66, 66, 66, .7);
+    color: whitesmoke;
+    width: fit-content;
+    border-radius: 10px;
+}
+.pnf-title{
+    font-family: "Satisfy", cursive;
+    font-size: 2rem;
+}

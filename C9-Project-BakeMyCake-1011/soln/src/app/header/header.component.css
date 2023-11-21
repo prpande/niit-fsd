@@ -1,0 +1,28 @@
+a:link{
+    color:inherit;
+    text-decoration: none;
+}
+#header{
+    height: fit-content;
+}
+#title{
+    font-family: 'Satisfy', cursive;
+    font-size: max(5vw, 4rem);
+    height: max(5vw, 4rem);
+    color: inherit;
+}
+h4{
+    font-family: 'Satisfy', cursive !important;
+    text-align: center;
+    color: inherit;
+    width: fit-content;
+    font-size: 1.5rem !important;
+}
+img{
+    height: 30%;
+    width: max(70%, 400px);
+    margin-bottom: 20px;
+}
+.test{
+    border: 1px solid blue;
+}
