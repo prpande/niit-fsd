@@ -1,0 +1,24 @@
+<mat-toolbar id="header" color="primary">
+    <div id="title-block">
+        <a id="home-link" href="/">
+          <h1>{{headerTitle}}</h1>
+        </a>
+      </div>
+    <div id="links">
+        <a routerLink="notes">
+            <button  mat-icon-button>
+                <mat-icon>home</mat-icon>
+            </button>
+        </a>
+        <button mat-icon-button>
+            <mat-icon> format_list_bulleted</mat-icon>
+        </button>
+        <button mat-icon-button>
+            <mat-icon>settings</mat-icon>
+        </button>
+        <a routerLink="register-user">
+        <button mat-icon-button>
+            <mat-icon>person_add</mat-icon>
+        </button></a>
+    </div>
+</mat-toolbar>

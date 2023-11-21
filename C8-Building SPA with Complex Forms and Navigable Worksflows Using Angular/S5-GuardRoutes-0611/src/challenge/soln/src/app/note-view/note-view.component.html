@@ -1,0 +1,8 @@
+<app-note-add (saveNoteEvent)="onSave($event)"></app-note-add>
+<app-search (onSearchEvent)="onSearch($event)"></app-search>
+<div class="notes-container">
+    <app-note (deleteNoteEvent)="onDelete($event)" *ngFor="let note of notes" [note] = "note"></app-note>
+</div>
+<button mat-fab color="primary" id="logout-button" (click)="logout()">
+    <mat-icon>logout</mat-icon>
+</button>
