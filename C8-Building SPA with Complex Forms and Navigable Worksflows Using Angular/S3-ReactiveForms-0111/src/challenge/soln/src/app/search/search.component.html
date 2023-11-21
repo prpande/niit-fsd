@@ -1,0 +1,10 @@
+<div class="search-container">
+    <div id="search-bar">
+      <mat-form-field appearance="fill" id="search-box">
+        <input matInput type="text" name="searchquery" id="searchquery" placeholder="Search Note" [(ngModel)]="searchText"/>
+      </mat-form-field>
+      <button mat-button type="button" (click)="search()">
+        <mat-icon>search</mat-icon>
+      </button>
+    </div>
+</div>
