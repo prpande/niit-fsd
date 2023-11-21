@@ -1,0 +1,9 @@
+<div color="primary" id="header">
+    <h2>Fruit Fantasy - Vendor View</h2>
+<div id="icons">
+    <a routerLink="../home"><mat-icon>home</mat-icon></a>
+    <mat-icon *ngIf="loggedIn!==true" matTooltip="login" routerLink="login">login</mat-icon>
+    <mat-icon *ngIf="loggedIn===true" matTooltip="logout" (click)="logout()">logout</mat-icon>
+    <mat-icon>settings</mat-icon>
+</div>
+</div>

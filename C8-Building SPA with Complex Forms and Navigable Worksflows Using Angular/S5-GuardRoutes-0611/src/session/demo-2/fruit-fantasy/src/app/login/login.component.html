@@ -1,0 +1,7 @@
+<div id="vendor-form">
+    <mat-form-field appearance="legacy">
+        <mat-label>Enter Vendor Code</mat-label>
+        <input type="text" name="vendorCode" placeholder="Vendor Code" [(ngModel)]="vendorCode" matInput>
+    </mat-form-field>
+    <button type="submit" mat-flat-button (click)="validateVendorCode()">Submit</button>
+</div>

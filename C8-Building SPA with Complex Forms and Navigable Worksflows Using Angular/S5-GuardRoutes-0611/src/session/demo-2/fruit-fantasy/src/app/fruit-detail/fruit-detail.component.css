@@ -1,0 +1,10 @@
+.card-content{
+    text-align: center;
+    margin: auto;
+    padding: 12px;
+    width: fit-content;
+}
+#edit-form{
+    display: flex;
+    flex-direction: column;
+}
