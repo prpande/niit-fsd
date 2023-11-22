@@ -1,0 +1,160 @@
+router Guard simple demo: -->
+
+step 1: ceate an application and add two component About/Contact 
+step 2: in app component :
+			delete All contend and designe your view as you required
+			<H1>Home Component</H1>
+<div class="container">
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/about">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/contact">Contact</a>
+  </li>
+</ul>
+</div>
+
+
+add about and contact also 
+
+
+==========================
+Create a Simple Auth Service
+The first thing to do is to create or connect an authorization service that checks if a user is logged in with methods to log them in or out.
+
+command ng generate service auth/auth
+
+add this code in class
+export class AuthService {
+  isLoggedIn = false;
+  constructor() { }
+isAuthenticated(){
+    return this.isLoggedIn;
+  }
+}
+
+Here we created a logged checker variable and assigned it a false value and then created a method to return the value. Next thing is to create the guard. You can do that simply with the Angular CLI also
+
+ng generate guard auth/auth
+it will ask you what guard you want to create, choose CanActivate and then replace the content with the code block below:
+import { Injectable } from '@angular/core';
+import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, Router} from '@angular/router';
+import { Observable } from 'rxjs';
+import { AuthService } from './auth.service';
+@Injectable({
+  providedIn: 'root'
+})
+export class AuthGuard implements CanActivate {
+  constructor(private authService: AuthService, private router: Router){};
+  canActivate(
+    next: ActivatedRouteSnapshot,
+    state: RouterStateSnapshot):any {
+      console.log('CanActivate called');
+    let isLoggedIn = this.authService.isAuthenticated();
+    if (isLoggedIn){
+      return true
+    } 
+    else {
+      this.router.navigate(['/contact']);
+    }
+  }
+  
+}
+CanActivate
+Interface that a class can implement to be a guard deciding if a route can be activated. If all guards return true, navigation continues. If any guard returns false, navigation is cancelled. If any guard returns a UrlTree, the current navigation is cancelled and a new navigation begins to the UrlTree returned from the guard.
+interface CanActivate {
+  canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree
+}
+
+
+
+ActivatedRouteSnapshot:
+Contains the information about a route associated with a component loaded in an outlet at a particular moment in time. ActivatedRouteSnapshot can also be used to traverse the router state tree.
+RouterStateSnapshot
+Represents the state of the router at a moment in time.
+
+
+
+
+apply route in app.module.ts---> 
+Open your app module file (or whichever place you have routes defined) and replace the content with this one below:
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [
+  {path:'about', component: AboutComponent,canActivate:[AuthGuard]},
+  {path:'contact', component: ContactComponent}
+];
+
+
+providers: [AuthService, AuthGuard],
+
+complete code :
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { AuthService } from './auth/auth.service';
+import { AuthGuard } from './auth/auth.guard';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
+import { FormsModule } from '@angular/forms';
+const routes: Routes = [
+  {path:'about', component: AboutComponent,canActivate:[AuthGuard]},
+  {path:'contact', component: ContactComponent}
+];
+@NgModule({
+  declarations: [
+    AppComponent,
+    ContactComponent,
+    AboutComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    RouterModule.forRoot(routes)
+  ],
+  providers: [AuthGuard,AuthService],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+now add following code to handle login
+import {NgForm} from '@angular/forms'
+ constructor(private as:AuthService){
+   // this.as.isLoggedIn=true;
+   }
+  login(data:NgForm)
+  {
+console.log(data);
+    if(data.value==='')
+    {
+      this.as.isLoggedIn=false;
+      alert("Please login first ");
+    }
+    else{
+      this.as.isLoggedIn=true;
+      alert("Now you can use link to access other components")
+    }
+
+  }
+
+<form #formdata="ngForm" (click)="login(formdata.value)" >
+    <input type="text"  ngModel name="username">
+    <br><br>
+    <input type="submit" value="Login" >
+</form>
+
+
+
+<a routerLink="about">About</a>
+<br>
+<a routerLink="contact">Contac Us</a>
+<router-outlet>
+
+</router-outlet>

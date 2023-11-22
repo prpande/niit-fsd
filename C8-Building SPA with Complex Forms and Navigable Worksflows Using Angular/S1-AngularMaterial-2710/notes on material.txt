@@ -1,0 +1,174 @@
+
+ng add @angular/material  ---> command you need to pass in your application to install any angular material 
+
+three packages :
+Angular Material--->@angula/material
+cdk
+Angular Animation
+
+during installation it will ask 3 questions to the user-->
+choose the pre-build theme
+whether to apply global typography style for your application---> Roboto font(index.html)
+whether to set up Browser Animation tool?
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+in order to implement any control / component of material'2:
+step1: import the module of that control in your application: app.module.ts and add them
+in import section
+step2 : use html code in component.html file css: 
+
+
+
+
+
+
+
+
+
+
+mat-toolbar :In the most situations, a toolbar will be placed at the top of your application and will only have a single row that includes the title of your application.
+<mat-toolbar>
+  <span>My Application</span>
+</mat-toolbar>
+
+ mat-icon:makes it easier to use vector-based icons in your app. This directive supports both icon fonts and SVG icons, but not bitmap-based formats (png, jpg, etc.).
+
+<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+
+more Better way: 
+
+ <mat-toolbar id="header">
+        <h2>Toolbar and Icon</h2>
+        <div id="icons">
+            <mat-icon>home</mat-icon>
+            <mat-icon>settings</mat-icon>
+        </div>
+    </mat-toolbar>
+css can be used
+#header{
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+  }
+  
+  #icons > * {
+      margin-right: 15px;
+  }
+
+====================================================
+matInput is a directive that allows native <input> and <textarea> elements to work with <mat-form-field>.
+inorder to use them 
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {FormsModule} from '@angular/forms';
+
+
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Favorite food</mat-label>
+    <input matInput placeholder="Ex. Pizza" value="Sushi">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Leave a comment</mat-label>
+    <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+  </mat-form-field>
+</form>
+
+==========================================
+Angular Material buttons are native <button> or <a> elements enhanced with Material Design styling and ink ripples.
+
+mat-fab	Circular button w/ elevation, defaults to theme's accent color
+
+<button mat-fab extended>
+  <mat-icon>home</mat-icon>
+  Home
+</button>
+<button mat-fab type="button" >
+            <mat-icon>add</mat-icon>
+</button>
+--------------------------------
+
+mat-button	Rectangular text button w/ no elevation
+
+
+
+
+mat-raised-button	Rectangular contained button w/ elevation
+
+
+==========================================================
+<mat-card> is a content container for text, photos, and actions in the context of a single subject.
+--------------------------------
+
+<mat-card-header>	Section anchored to the top of the card (adds padding)
+<mat-card-content>	Primary card content (adds padding)
+<img mat-card-image>	Card image. Stretches the image to the container width
+<mat-card-actions>	Container for buttons at the bottom of the card (adds padding)
+<mat-card-footer>	Section anchored to the bottom of the card
+
+Example:
+
+
+<mat-card>import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+
+
+----------
+  <mat-card-header>
+    <mat-card-title>Actions Buttons</mat-card-title>
+    <mat-card-subtitle>Start</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+<br>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Actions Buttons</mat-card-title>
+    <mat-card-subtitle>End</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-actions align="end">
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+
+============================
+<mat-list> is a container component that wraps and formats a series of <mat-list-item>. As the base list component, it provides Material Design styling, but no behavior of its own.
+import {MatListModule} from '@angular/material/list';
+
+<mat-list role="list">
+  <mat-list-item role="listitem">Item 1</mat-list-item>
+  <mat-list-item role="listitem">Item 2</mat-list-item>
+  <mat-list-item role="listitem">Item 3</mat-list-item>
+</mat-list>
+===============================
+Angular Material comes packaged with Angular CLI schematics to make creating Material applications easier.
+
+address-form	Component with a form group that uses Material Design form controls to prompt for a shipping address
+
+command to generate component
+ng generate @angular/material:address-form <component-name>
+======================
+Table schematic
+The table schematic will create a component that renders an Angular Material <table> which has been pre-configured with a datasource for sorting and pagination.
+
+ng generate @angular/material:table <component-name>
+==========================================
+Dashboard schematic
+The dashboard schematic will create a new component that contains a dynamic grid list of Material Design cards.
+
+ng generate @angular/material:dashboard <component-name>
+===========================================================
+
+
+

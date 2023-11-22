@@ -1,0 +1,35 @@
+Karma Basic Configuration
+Before we go any further, let’s examine how Karma is configured. If you enter the folder created for your project, you’ll find a file called karma.conf.js. 
+=========================
+ng g config karma  
+================================
+The basePath property allows you to configure the base for all relative paths used in testing files.
+This line identifies Jasmine as the testing framework. It’s possible to choose a different one.
+Here, the configuration defines plugins that will be used for various ends, such as launching the browser, reporting results and reporting code coverage results.
+You must choose which browser will be used. As you can see, the default is Chrome.
+===============================================
+Jasmine Basic Terminology
+But before we examine app.component.spec.ts in detail, let’s learn some Jasmine terminology.
+
+describe(string, function) functions take a title and a function containing one or more specs and are also known as a suite or test suite.
+it(string, function) functions take a title and a function containing one or more expectations and are also known as specs.
+expect(actual) functions take a value, called an actual. An expect function is typically used alongside a matcher function. Together they return a boolean value that depicts the passing or failing of a spec.
+Matcher functions take a value that represents the expected value. A matcher function is chained alongside an expect function. Together they return a boolean value that depicts the passing or failing of a spec. Some examples of matchers are toBeTruthy(), toEqual(),
+and toContain().
+==============================================
+A Closer Look Into App.component.spec.ts
+-----------------------------------------
+In order to test our Angular component’s functionality, we need to import some Angular testing tools, which we’ll use alongside Jasmine. TestBed is used to configure and initialize the environment unit tests.
+The describe code block represents the test suite for AppComponent. It contains specs and additional code that’s used for testing AppComponent.
+beforeEach is a global function in Jasmine that runs some setup code before each spec in the test suite. In this test suite, beforeEach is used to create a testing module using the TestBed object and declares any components that would be used in this testing module. This code creates a version of your Angular application that can be used alongside Jasmine to test component functionality.
+This is the first spec of the test suite and tests to see if the component compiles correctly. The TestBed.createComponent() method is used to create an instance of the AppComponent. The spec then uses expect and matcher functions to see if the component produces the expected behavior. As a result, the spec will either pass or fail. In this case, the expectation is that the AppComponent is defined.
+This spec tests to see if the AppComponent has a local variable called title with the hard coded value of “angular-component-testing.” The spec prevents any unwanted changes or deletions of the variable title in the AppComponent.
+This spec tests to see if the page’s welcome text reads correctly. The spec introduces the detectChanges() method, which binds the data to the component instance. Then, using the fixture.debugElement.nativeElement property, we’re able to check if the compiled component code contains an h1 HTML element with text that reads “Welcome to angular-component-testing!” The spec expects the welcome message to be placed inside of an h1 HTML element that reads “Welcome to angular-component-testing!”
+======================================================
+
+The ComponentFixture is a test harness for interacting with the created component and its corresponding element. Access the component instance through the fixture and confirm it exists with a Jasmine expectation: content_copy const component = fixture.
+------------------------
+
+spyOn()
+=============
+spyOn() Jasmine has test double functions called spies. A spy can stub any function and tracks calls to it and all arguments. A spy only exists in the describe or it block in which it is defined, and will be removed after each spec.

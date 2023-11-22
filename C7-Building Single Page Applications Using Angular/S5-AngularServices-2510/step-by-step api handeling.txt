@@ -1,0 +1,126 @@
+//Goal: create a json-srver for persistence of data
+step 1: create a folder to hold the json=server and open it in vs-code
+	command 1: npm init --y
+	command 2: npm i json-server
+	add student.json
+{
+  "Students": [
+    {
+      "id": 1,
+      "name": "Saurabh",
+      "Marks": 40
+      
+    },
+    {
+      "id": 2,
+      "name": "Rakesh",
+      "Marks": 60
+      
+    }
+]
+}
+
+now start the json-server by adding entry in package.json
+
+===============================================
+Front-end app creation
+================================================
+
+create a folder and open it in vs-code
+command 1: ng new student-app
+
+create a model folder add  type
+student.ts
+
+export type Student = {
+    id?: number;
+    name?: string;
+    Marks?:string;
+}
+add array of types 
+students.ts
+import { Student } from '../models/fruit';
+
+export const Students: Student[] = [
+        { id: 1, name: 'Saurabh', Marks:40},
+        {id: 2, name: 'Rakesh', Marks:60}
+];
+=========================
+create first component to take student input as forms
+ng g c student-add
+html:
+<div id="Student-form">
+    <h3>Enter Student Details</h3>
+    <div>
+        <input [(ngModel)]="student.name" type="text" placeholder="Name">
+    </div>
+    <div>
+        <input [(ngModel)]="student.maks" type="text" placeholder="Marks">
+    </div>
+    
+    <div>
+        <input type="button" (click)="add()" value="Add">
+    </div>
+</div>
+
+ts first step
+student:Student={};
+
+  constructor()
+  {
+    //here we call our service
+  }
+  add()
+  {
+	//this will call api for adding info
+  }
+
+
+================================
+app.ts -->main Component
+add component in app.html
+<app-stude-data>
+===============================
+now we will create service as per data
+======================================
+ng g s /service/StudentService
+==================================
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Student } from '../model/Student';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class FruitService {
+
+   URL: string = "http://localhost:3000/fruits";
+  constructor(private http: HttpClient) { }
+
+  addStudent(student: Student) {
+    return this.http.post<Student>(this.URL, student);
+  }
+}
+producer is ready to give service which need to be subscribed through client that is component over here student service to be called from appropreate component
+
+==========================================================
+come to child component --->student-add-component.ts
+
+============================================================
+step : import studentservice-->import {StudentServiceService} from '../Service/student-service.service'
+in constructer add(): update
+ constructor(private myservice:StudentServiceService)
+  {
+   
+  }
+  add()
+  {
+    if (this.student.name)
+      this.myservice.add(this.student).subscribe(data => {
+        alert("Student Added");
+        this.student = {};
+      })
+  }
+
+
