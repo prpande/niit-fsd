@@ -519,6 +519,8 @@ When browsing through webpages, have you ever come across a 404 Page not found a
 
 Most applications developed encounter error situations. Programmers face logical and runtime errors when writing programs. As a programmer you will be expected to handle these exceptional situations with grace. This sprint will give you hands on practice on exception handling, and help you to handle errors at runtime.
 
+- [Unchecked Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html)
+
 ### Create and Implement a User-defined Exception
 
 Developing error free applications are not very easy, they require skills. As a programmer when developing an application you need to give graceful solutions when errors are encountered. In this sprint you will learn how to implement custom error or exception handlers.
