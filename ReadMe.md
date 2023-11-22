@@ -60,12 +60,13 @@
   - [Sprint3 - Develop Interactive Reactive Forms Inside SPA](#sprint3---develop-interactive-reactive-forms-inside-spa)
   - [Sprint4 - Implement Navigation Using Angular Routing](#sprint4---implement-navigation-using-angular-routing)
   - [Sprint5 - Guard Routes In An SPA](#sprint5---guard-routes-in-an-spa)
-- [Advanced Programming in Java](#advanced-programming-in-java)
-  - [Implement Exception Handling](#implement-exception-handling)
-  - [Create and Implement a User-defined Exception](#create-and-implement-a-user-defined-exception)
-  - [Store and Manipulate Objects Using Ordered Collections](#store-and-manipulate-objects-using-ordered-collections)
-  - [Manipulate Objects Using Unordered Collections and Construct Objects As a Key Value Pair](#manipulate-objects-using-unordered-collections-and-construct-objects-as-a-key-value-pair)
-  - [Data Modeling Using RDBMS (DDL \& DML)](#data-modeling-using-rdbms-ddl--dml)
+- [Course9 - FE Project - Bake My Cake](#course9---fe-project---bake-my-cake)
+- [Course10 - Advanced Programming in Java](#course10---advanced-programming-in-java)
+  - [Sprint1 - Implement Exception Handling](#sprint1---implement-exception-handling)
+  - [Sprint2 - Create and Implement a User-defined Exception](#sprint2---create-and-implement-a-user-defined-exception)
+  - [Sprint3 - Store and Manipulate Objects Using Ordered Collections](#sprint3---store-and-manipulate-objects-using-ordered-collections)
+  - [Sprint4 - Manipulate Objects Using Unordered Collections and Construct Objects As a Key Value Pair](#sprint4---manipulate-objects-using-unordered-collections-and-construct-objects-as-a-key-value-pair)
+  - [Sprint5 - Data Modeling Using RDBMS (DDL \& DML)](#sprint5---data-modeling-using-rdbms-ddl--dml)
 - [Additional Resources](#additional-resources)
 
 ## Software
@@ -511,29 +512,31 @@ A user can navigate anywhere in the application at any time. Still, sometimes yo
 - [Router Guards](https://codecraft.tv/courses/angular/routing/router-guards/)
 - [The 7-step process of Angular router navigation](https://www.jvandemo.com/the-7-step-process-of-angular-router-navigation/)
 
-## [Advanced Programming in Java](./C10-Advanced%20Programming%20in%20Java/)
+## [Course9 - FE Project - Bake My Cake](./C9-Project-BakeMyCake-1011/)
+
+## [Course10 - Advanced Programming in Java](./C10-Advanced%20Programming%20in%20Java/)
 
 When browsing through webpages, have you ever come across a 404 Page not found an error? Most programmers encounter such erroneous situations while developing applications. This kind of error can be seen during any application development process. The errors must be handled gracefully. In this course, you will learn about exception handling. You will also learn to implement exceptions and see how error handling is done in Java programs to handle erroneous situations. In Java Collections Framework, you will learn about collections and how they can make your job easier by writing better programs. You'll learn about the core elements like interfaces, implementations, aggregate operations, and algorithms which comprises the Java Collections Framework. You will also apply Java 8 features such as lambdas to solve the problems. You will also learn to model data in tables, execute SQL queries to create a table with specific attributes and apply constraints when creating a table.
 
-### [Implement Exception Handling](./C10-Advanced%20Programming%20in%20Java/S1-ExceptionHandling-2111/)
+### [Sprint1 - Implement Exception Handling](./C10-Advanced%20Programming%20in%20Java/S1-ExceptionHandling-2111/)
 
 Most applications developed encounter error situations. Programmers face logical and runtime errors when writing programs. As a programmer you will be expected to handle these exceptional situations with grace. This sprint will give you hands on practice on exception handling, and help you to handle errors at runtime.
 
 - [Unchecked Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html)
 
-### Create and Implement a User-defined Exception
+### Sprint2 - Create and Implement a User-defined Exception
 
 Developing error free applications are not very easy, they require skills. As a programmer when developing an application you need to give graceful solutions when errors are encountered. In this sprint you will learn how to implement custom error or exception handlers.
 
-### Store and Manipulate Objects Using Ordered Collections
+### Sprint3 - Store and Manipulate Objects Using Ordered Collections
 
 At times, we need to handle a collection of objects. This task can be performed with the help of arrays. However, arrays work on a single type of data. Java provides a collection framework to work on different types of objects. This framework provides interfaces, classes, and algorithms for implementing data structures and for various other purposes, such as storing, retrieving, and manipulating objects. In this learning sprint, you will learn to use the generic class to handle data consistency while using collections and learn to apply the built-in data structure classes supported by Java.
 
-### Manipulate Objects Using Unordered Collections and Construct Objects As a Key Value Pair
+### Sprint4 - Manipulate Objects Using Unordered Collections and Construct Objects As a Key Value Pair
 
 The Map interface enables you to create a collection with key-value pair objects. In this collection, both key and value are objects. You need to use the key object to access the corresponding value object. The Map interface allows duplicate value objects but the key object must be unique. In this learning sprint, you will learn to use Set and Map where Set will not allow you to store duplicate data, wherelse Map will help you to store objects as Key and Value pair.
 
-### Data Modeling Using RDBMS (DDL & DML)
+### Sprint5 - Data Modeling Using RDBMS (DDL & DML)
 
 A database must be modelled to store data in a specified structure. The structure in which data will be stored in a relational database is in the form of tables that contain rows and columns. This learning sprint will enable you to model data in tables. Execute SQL queries to create a table with specific attributes and also apply constraints when creating a table.
 
