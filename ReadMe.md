@@ -524,9 +524,12 @@ Most applications developed encounter error situations. Programmers face logical
 
 - [Unchecked Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html)
 
-### Sprint2 - Create and Implement a User-defined Exception
+### [Sprint2 - Create and Implement a User-defined Exception](./C10-Advanced%20Programming%20in%20Java/S2-UserDefinedException-2311/)
 
 Developing error free applications are not very easy, they require skills. As a programmer when developing an application you need to give graceful solutions when errors are encountered. In this sprint you will learn how to implement custom error or exception handlers.
+
+- [How to Throw Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/throwing.html)
+- [The try-with-resources Statement](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
 
 ### Sprint3 - Store and Manipulate Objects Using Ordered Collections
 
