@@ -531,9 +531,14 @@ Developing error free applications are not very easy, they require skills. As a 
 - [How to Throw Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/throwing.html)
 - [The try-with-resources Statement](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
 
-### Sprint3 - Store and Manipulate Objects Using Ordered Collections
+### [Sprint3 - Store and Manipulate Objects Using Ordered Collections](./C10-Advanced%20Programming%20in%20Java/S3-Collections-2811/)
 
 At times, we need to handle a collection of objects. This task can be performed with the help of arrays. However, arrays work on a single type of data. Java provides a collection framework to work on different types of objects. This framework provides interfaces, classes, and algorithms for implementing data structures and for various other purposes, such as storing, retrieving, and manipulating objects. In this learning sprint, you will learn to use the generic class to handle data consistency while using collections and learn to apply the built-in data structure classes supported by Java.
+
+- [Generic Types](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
+- [Generic Methods and Bounded Type Parameters](https://docs.oracle.com/javase/tutorial/java/generics/boundedTypeParams.html)
+- [The List Interface](https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html)
+- [The Set Interface](https://docs.oracle.com/javase/tutorial/collections/interfaces/set.html)
 
 ### Sprint4 - Manipulate Objects Using Unordered Collections and Construct Objects As a Key Value Pair
 
