@@ -540,9 +540,12 @@ At times, we need to handle a collection of objects. This task can be performed 
 - [The List Interface](https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html)
 - [The Set Interface](https://docs.oracle.com/javase/tutorial/collections/interfaces/set.html)
 
-### Sprint4 - Manipulate Objects Using Unordered Collections and Construct Objects As a Key Value Pair
+### [Sprint4 - Manipulate Objects Using Unordered Collections and Construct Objects As a Key Value Pair](./C10-Advanced%20Programming%20in%20Java/S4-CollectionManipulation-3011/)
 
 The Map interface enables you to create a collection with key-value pair objects. In this collection, both key and value are objects. You need to use the key object to access the corresponding value object. The Map interface allows duplicate value objects but the key object must be unique. In this learning sprint, you will learn to use Set and Map where Set will not allow you to store duplicate data, wherelse Map will help you to store objects as Key and Value pair.
+
+- [The Set Interface](https://docs.oracle.com/javase/tutorial/collections/interfaces/set.html)
+- [Interface Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
 
 ### Sprint5 - Data Modeling Using RDBMS (DDL & DML)
 
