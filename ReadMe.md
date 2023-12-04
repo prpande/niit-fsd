@@ -547,9 +547,13 @@ The Map interface enables you to create a collection with key-value pair objects
 - [The Set Interface](https://docs.oracle.com/javase/tutorial/collections/interfaces/set.html)
 - [Interface Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
 
-### Sprint5 - Data Modeling Using RDBMS (DDL & DML)
+### [Sprint5 - Data Modeling Using RDBMS (DDL & DML)](./C10-Advanced%20Programming%20in%20Java/S5-RDBMS-1204/)
 
 A database must be modelled to store data in a specified structure. The structure in which data will be stored in a relational database is in the form of tables that contain rows and columns. This learning sprint will enable you to model data in tables. Execute SQL queries to create a table with specific attributes and also apply constraints when creating a table.
+
+- [SQL](https://www.studytonight.com/dbms/introduction-to-sql.php)
+- [DDL: Data Definition Language](https://www.studytonight.com/dbms/truncate-drop-rename-query.php)
+- [DML: Data Manipulation Language](https://www.studytonight.com/dbms/dml-command.php)
 
 ## Additional Resources
 
