@@ -32,7 +32,7 @@ In the digital era, where data plays a pivotal role in shaping decisions and dri
   - [Triggers](#triggers)
 - [Data Manipulation Language (DML) in SQL](#data-manipulation-language-dml-in-sql)
   - [SELECT Statement](#select-statement)
-  - [2. INSERT Statement](#2-insert-statement)
+  - [INSERT Statement](#insert-statement)
   - [UPDATE Statement](#update-statement)
   - [DELETE Statement](#delete-statement)
   - [Transactions](#transactions)
@@ -320,7 +320,7 @@ WHERE DepartmentID = 101;
 - **Projection** Choosing specific columns (`FirstName`, `LastName`, `Salary`).
 - **Filtering** Retrieving data based on a condition (`DepartmentID = 101`).
 
-### 2. INSERT Statement
+### INSERT Statement
 
 The `INSERT` statement adds new records to a table
 
