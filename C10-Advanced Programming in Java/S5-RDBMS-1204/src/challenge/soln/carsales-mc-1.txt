@@ -1,0 +1,46 @@
+use CarSales;
+create table Customer(  
+	customerId int primary key,
+    firstName varchar(10),
+    lastName varchar(10),
+    city varchar(15),
+    rating int, 
+    salesId int,
+    foreign key (salesId) references SalesPerson (salesId)
+);
+insert into Customer values(2001, "Hoffman", "Anny", "London", 100, 1001);
+insert into Customer values(2002, "Giovanni", "Jenny", "Rome", 200, 1003);
+insert into Customer values(2003, "Liu", "William", "San Jose", 100, 1002);
+insert into Customer values(2004, "Harry", "Grass", "Berlin", 300, 1002);
+insert into Customer values(2005, "Clemens", "John", "London", 200, 1001);
+insert into Customer values(2006, "Fanny", "John", "San Jose", 200, 1004);
+insert into Customer values(2007, "Jonathan", "Bob", "Rome", 300, 1004);
+
+create table Orders(
+	orderId int,
+    amount int,
+    orderDate varchar(10),
+    customerId int,
+    foreign key (customerId) references Customer (customerId)
+);
+
+insert into orders values(3001, 123, "01-02-2020", 2001);
+insert into orders values(3003, 187, "02-10-2020", 2007);
+insert into orders values(3002, 100, "30-07-2000", 2003);
+insert into orders values(3005, 201, "9-10-2011", 2007);
+insert into orders values(3009, 145, "10-10-2012", 2002);
+insert into orders values(3007, 167, "02-04-2021", 2002);
+insert into orders values(3008, 189, "02-03-1999", 2006);
+insert into orders values(3010, 100, "18-09-2000", 2004);
+
+SET SQL_SAFE_UPDATES=0;
+
+delete from orders where orderId=3008;
+
+delete from salesperson where comissionRate=0;
+
+update orders set amount=200 where amount=100;
+
+update salesperson set comissionRate=28 where comissionRate=26;
+
+update customer set rating=150 where rating=100;
