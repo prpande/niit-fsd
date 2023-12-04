@@ -1,0 +1,15 @@
+create database if not exists CarSales;
+use CarSales;
+create table SalesPerson(
+	salesId int primary key,
+    firstName varchar(10),
+    city varchar(15),
+    comissionRate int
+);
+insert into SalesPerson values(1001, "John", "London", 12);
+insert into SalesPerson values(1002, "Bob", "San Jose", 13);
+insert into SalesPerson values(1004, "Judith", "London", 11);
+insert into SalesPerson values(1007, "Robin", "Barcelona", 15);
+insert into SalesPerson values(1003, "Harry", "New York", 10);
+insert into SalesPerson values(1005, "James", "London", 26);
+insert into SalesPerson values(1008, "Charles", "Florida", 0);
