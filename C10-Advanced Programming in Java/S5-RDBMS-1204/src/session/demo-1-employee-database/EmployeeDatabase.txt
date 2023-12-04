@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS EmployeeDatabase;
+
+USE EmployeeDatabase;
+
+CREATE TABLE Employees (emp_no INT,birth_date Varchar(30),first_name VARCHAR(14),last_name VARCHAR(16),gender VARCHAR(10),hire_date Varchar(20),designation Varchar(30),deptName Varchar(30));
+

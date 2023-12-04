@@ -1,0 +1,31 @@
+insert into Employees values(103,'1994-10-07','Tim','Brown','M','2020-03-03','Sales-Manager','Sales'); 
+
+
+insert into Employees values(101,'1998-06-05','Tom','Sauve','M','2020-03-03','Assistant Manager','HR');​
+
+insert into Employees values(104,'2000-06-05','John','Steve','M','2020-03-03','Accountant','Accounts');​
+
+insert into Employees values(105,'1995-11-11','Bob','Nicholas','M','2020-03-03','Intern','Sales');​
+
+insert into Employees values(106,'1992-02-01','William','Sauve','M','2020-03-03','Manager','HR');​
+
+insert into Employees values(107,'1998-08-10','Wills','Sauve','M','2020-03-03','Developer','R&D');​
+
+
+
+mysql> select * from Employees;
++--------+------------+------------+-----------+-----------+------------+-------------------+----------+
+| emp_no | birth_date | first_name | last_name | ​gender   | hire_date  | designation       | deptName |
++--------+------------+------------+-----------+-----------+------------+-------------------+----------+
+|    103 | 1994-10-07 | Tim        | Brown     | M         | 2020-03-03 | Sales-Manager     | Sales    |
+|    101 | 1998-06-05 | Tom        | Sauve     | M         | 2020-03-03 | Assistant Manager | HR       |
+|    104 | 2000-06-05 | John       | Steve     | M         | 2020-03-03 | Accountant        | Accounts |
+|    105 | 1995-11-11 | Bob        | Nicholas  | M         | 2020-03-03 | Intern            | Sales    |
+|    106 | 1992-02-01 | William    | Sauve     | M         | 2020-03-03 | Manager           | HR       |
+|    107 | 1998-08-10 | Wills      | Sauve     | M         | 2020-03-03 | Developer         | R&D      |
++--------+------------+------------+-----------+-----------+------------+-------------------+----------+
+6 rows in set (0.00 sec)
+
+
+
+​
