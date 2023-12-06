@@ -570,6 +570,8 @@ A database must be modelled to store data in a specified structure. The structur
 
 Over the past few years, Apache Maven has been used by developers as a software project management and comprehension tool. Most large-scale Java projects mandate using Maven to increase developers' productivity. As a back-end programmer, you will be required to manage the dependencies of the back-end application. In this learning sprint, you will learn how to structure a Java application and manage the dependencies through hands-on practices and challenges.
 
+- [Maven commands](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+
 ### Sprint2 - Develop Backend Application by Using Spring Framework
 
 Spring makes programming Java quicker, easier, and safer for everybody. Spring's focus on speed, simplicity, and productivity has made it the world's most popular Java framework. As a Java Developer, it is essential to know the working of the Spring Framework and the tools that will help you to develop out-of-the-box solutions. In this learning sprint, you will learn the basic components of Spring and the Spring core container that will manage the objects of your application.
