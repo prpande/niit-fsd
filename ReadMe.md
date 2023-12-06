@@ -67,6 +67,13 @@
   - [Sprint3 - Store and Manipulate Objects Using Ordered Collections](#sprint3---store-and-manipulate-objects-using-ordered-collections)
   - [Sprint4 - Manipulate Objects Using Unordered Collections and Construct Objects As a Key Value Pair](#sprint4---manipulate-objects-using-unordered-collections-and-construct-objects-as-a-key-value-pair)
   - [Sprint5 - Data Modeling Using RDBMS (DDL \& DML)](#sprint5---data-modeling-using-rdbms-ddl--dml)
+- [Course11 - Building Spring Applications](#course11---building-spring-applications)
+  - [Sprint1 - Structure, Package and Build a Java Web Application Using Maven](#sprint1---structure-package-and-build-a-java-web-application-using-maven)
+  - [Sprint2 - Develop Backend Application by Using Spring Framework](#sprint2---develop-backend-application-by-using-spring-framework)
+  - [Sprint3 - Implement Inversion Of Control (IOC) Inside the Spring Application by Using Annotations](#sprint3---implement-inversion-of-control-ioc-inside-the-spring-application-by-using-annotations)
+  - [Sprint4 - Build the Skeleton of Spring Boot Application](#sprint4---build-the-skeleton-of-spring-boot-application)
+  - [Sprint5 - Develop RESTful Services by Using Spring Boot by using JPA](#sprint5---develop-restful-services-by-using-spring-boot-by-using-jpa)
+  - [Sprint6 - Implement Crud by Using JPA Within a Restful Service](#sprint6---implement-crud-by-using-jpa-within-a-restful-service)
 - [Additional Resources](#additional-resources)
 
 ## Software
@@ -554,6 +561,34 @@ A database must be modelled to store data in a specified structure. The structur
 - [SQL](https://www.studytonight.com/dbms/introduction-to-sql.php)
 - [DDL: Data Definition Language](https://www.studytonight.com/dbms/truncate-drop-rename-query.php)
 - [DML: Data Manipulation Language](https://www.studytonight.com/dbms/dml-command.php)
+
+## [Course11 - Building Spring Applications](./C11-Building%20Spring%20Applications/)
+
+"Have you ever wondered how you can perform net banking or book a ticket online? What technology is used to perform the business logic of your web applications? Back-end technology is the backbone of every web application. Typically the back-end of the web application includes all the services, interfaces to the data, and the core business logic. Java Spring framework is one of the most popular frameworks used to build enterprise-grade back-end web applications. This course will introduce you to the Java Spring Framework and help you design and develop the back-end functionality of a web application using Spring Boot. It also provides you with hands-on coding exercises and will enable you to build the back-end of a web application using Spring Boot."
+
+### [Sprint1 - Structure, Package and Build a Java Web Application Using Maven](./C11-Building%20Spring%20Applications/S1-Maven-0612/)
+
+Over the past few years, Apache Maven has been used by developers as a software project management and comprehension tool. Most large-scale Java projects mandate using Maven to increase developers' productivity. As a back-end programmer, you will be required to manage the dependencies of the back-end application. In this learning sprint, you will learn how to structure a Java application and manage the dependencies through hands-on practices and challenges.
+
+### Sprint2 - Develop Backend Application by Using Spring Framework
+
+Spring makes programming Java quicker, easier, and safer for everybody. Spring's focus on speed, simplicity, and productivity has made it the world's most popular Java framework. As a Java Developer, it is essential to know the working of the Spring Framework and the tools that will help you to develop out-of-the-box solutions. In this learning sprint, you will learn the basic components of Spring and the Spring core container that will manage the objects of your application.
+
+### Sprint3 - Implement Inversion Of Control (IOC) Inside the Spring Application by Using Annotations
+
+The Spring container is the core of the Spring Framework. The Spring IoC Container manages the lifecycle of the domain objects and uses dependency injection. A Back-end Java Developer needs to configure the IoC container for a web application and manage the application's domain objects. Configure a Spring container in this learning sprint and use dependency injection(DI) to manage domain objects, also known as Spring Beans using the XML-based configuration using setter, constructor, and property-based DI.
+
+### Sprint4 - Build the Skeleton of Spring Boot Application
+
+Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can 'just run.' Spring Boot will help you to build a back-end application with minimum fuss. Most Spring Boot applications need minimal Spring configuration. Many large organizations use Spring Boot to build their back-end applications. This learning sprint will enable you to create a bare-bones Spring Boot application.
+
+### Sprint5 - Develop RESTful Services by Using Spring Boot by using JPA
+
+For newly emerged technologies, REST APIs provide a flexible, lightweight way to integrate applications and have emerged as the most common method for connecting components of the distributed system. As a back-end developer, building REST APIs will be a key factor. This learning sprint will enable you to build REST APIs and use an in-memory database like H2 for data persistence.
+
+### Sprint6 - Implement Crud by Using JPA Within a Restful Service
+
+Implementing the data layer of a REST application is quite cumbersome. Spring Data JPA, part of the larger Spring Data family, makes it easy to implement JPA-based repositories. In this learning sprint, you will develop RESTful Services using Spring Boot with MySQL database, build the data layer using JPA, and implement POST, GET, PUT and DELETE methods.
 
 ## Additional Resources
 
