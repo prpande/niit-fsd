@@ -572,19 +572,21 @@ Over the past few years, Apache Maven has been used by developers as a software 
 
 - [Maven commands](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
-### Sprint2 - Develop Backend Application by Using Spring Framework
+### [Sprint2 - Develop Backend Application by Using Spring Framework](./C11-Building%20Spring%20Applications/S2-IntroToSpring-0812/)
 
 Spring makes programming Java quicker, easier, and safer for everybody. Spring's focus on speed, simplicity, and productivity has made it the world's most popular Java framework. As a Java Developer, it is essential to know the working of the Spring Framework and the tools that will help you to develop out-of-the-box solutions. In this learning sprint, you will learn the basic components of Spring and the Spring core container that will manage the objects of your application.
 
-### Sprint3 - Implement Inversion Of Control (IOC) Inside the Spring Application by Using Annotations
+- [Spring Framework Documentation](https://docs.spring.io/spring-framework/reference/)
+
+### [Sprint3 - Implement Inversion Of Control (IOC) Inside the Spring Application by Using Annotations](./C11-Building%20Spring%20Applications/S3-SpringIoC-1112/)
 
 The Spring container is the core of the Spring Framework. The Spring IoC Container manages the lifecycle of the domain objects and uses dependency injection. A Back-end Java Developer needs to configure the IoC container for a web application and manage the application's domain objects. Configure a Spring container in this learning sprint and use dependency injection(DI) to manage domain objects, also known as Spring Beans using the XML-based configuration using setter, constructor, and property-based DI.
 
-### Sprint4 - Build the Skeleton of Spring Boot Application
+### [Sprint4 - Build the Skeleton of Spring Boot Application](./C11-Building%20Spring%20Applications/S4-SpringBoot-1312/)
 
 Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can 'just run.' Spring Boot will help you to build a back-end application with minimum fuss. Most Spring Boot applications need minimal Spring configuration. Many large organizations use Spring Boot to build their back-end applications. This learning sprint will enable you to create a bare-bones Spring Boot application.
 
-### Sprint5 - Develop RESTful Services by Using Spring Boot by using JPA
+### [Sprint5 - Develop RESTful Services by Using Spring Boot by using JPA](./C11-Building%20Spring%20Applications/S5-RestfulServices-1512/)
 
 For newly emerged technologies, REST APIs provide a flexible, lightweight way to integrate applications and have emerged as the most common method for connecting components of the distributed system. As a back-end developer, building REST APIs will be a key factor. This learning sprint will enable you to build REST APIs and use an in-memory database like H2 for data persistence.
 
