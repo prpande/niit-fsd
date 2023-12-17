@@ -596,6 +596,9 @@ Spring Boot makes it easy to create stand-alone, production-grade Spring based A
 
 For newly emerged technologies, REST APIs provide a flexible, lightweight way to integrate applications and have emerged as the most common method for connecting components of the distributed system. As a back-end developer, building REST APIs will be a key factor. This learning sprint will enable you to build REST APIs and use an in-memory database like H2 for data persistence.
 
+- [What Are RESTful Web Services?](https://docs.oracle.com/javaee/6/tutorial/doc/gijqy.html)
+- [H2 Database](https://www.h2database.com/html/tutorial.html)
+
 ### Sprint6 - Implement Crud by Using JPA Within a Restful Service
 
 Implementing the data layer of a REST application is quite cumbersome. Spring Data JPA, part of the larger Spring Data family, makes it easy to implement JPA-based repositories. In this learning sprint, you will develop RESTful Services using Spring Boot with MySQL database, build the data layer using JPA, and implement POST, GET, PUT and DELETE methods.
