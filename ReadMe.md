@@ -583,6 +583,7 @@ Spring makes programming Java quicker, easier, and safer for everybody. Spring's
 The Spring container is the core of the Spring Framework. The Spring IoC Container manages the lifecycle of the domain objects and uses dependency injection. A Back-end Java Developer needs to configure the IoC container for a web application and manage the application's domain objects. Configure a Spring container in this learning sprint and use dependency injection(DI) to manage domain objects, also known as Spring Beans using the XML-based configuration using setter, constructor, and property-based DI.
 
 - [The IoC Container](https://docs.spring.io/spring-framework/reference/core/beans.html)
+- [Understanding Spring MVC](https://www.codejava.net/frameworks/spring/understanding-spring-mvc?showall=&start=1)
 
 ### [Sprint4 - Build the Skeleton of Spring Boot Application](./C11-Building%20Spring%20Applications/S4-SpringBoot-1312/)
 
