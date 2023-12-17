@@ -589,6 +589,9 @@ The Spring container is the core of the Spring Framework. The Spring IoC Contain
 
 Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can 'just run.' Spring Boot will help you to build a back-end application with minimum fuss. Most Spring Boot applications need minimal Spring configuration. Many large organizations use Spring Boot to build their back-end applications. This learning sprint will enable you to create a bare-bones Spring Boot application.
 
+- [Spring Quickstart Guide](https://spring.io/quickstart)
+- [Spring Initializr](https://start.spring.io/)
+
 ### [Sprint5 - Develop RESTful Services by Using Spring Boot by using JPA](./C11-Building%20Spring%20Applications/S5-RestfulServices-1512/)
 
 For newly emerged technologies, REST APIs provide a flexible, lightweight way to integrate applications and have emerged as the most common method for connecting components of the distributed system. As a back-end developer, building REST APIs will be a key factor. This learning sprint will enable you to build REST APIs and use an in-memory database like H2 for data persistence.
