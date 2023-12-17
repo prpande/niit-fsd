@@ -11,7 +11,7 @@ HELP.md
 **/buildNumber.properties
 **/.mvn/timing.properties
 **/.mvn/wrapper/**
-**/mvnw
+**/mvnw*
 !**/src/main/**
 !**/src/test/**
 
