@@ -599,9 +599,12 @@ For newly emerged technologies, REST APIs provide a flexible, lightweight way to
 - [What Are RESTful Web Services?](https://docs.oracle.com/javaee/6/tutorial/doc/gijqy.html)
 - [H2 Database](https://www.h2database.com/html/tutorial.html)
 
-### Sprint6 - Implement Crud by Using JPA Within a Restful Service
+### [Sprint6 - Implement Crud by Using JPA Within a Restful Service](./C11-Building%20Spring%20Applications/S6-CRUDwithJPA-1812/)
 
 Implementing the data layer of a REST application is quite cumbersome. Spring Data JPA, part of the larger Spring Data family, makes it easy to implement JPA-based repositories. In this learning sprint, you will develop RESTful Services using Spring Boot with MySQL database, build the data layer using JPA, and implement POST, GET, PUT and DELETE methods.
+
+- [Introduction to the Java Persistence API](https://docs.oracle.com/javaee/6/tutorial/doc/bnbpz.html)
+- [Spring Data JPA](https://docs.spring.io/spring-data/jpa/reference/)
 
 ## Additional Resources
 
