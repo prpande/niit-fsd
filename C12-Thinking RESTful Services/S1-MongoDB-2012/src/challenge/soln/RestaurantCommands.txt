@@ -1,0 +1,141 @@
+use restaurant_db;
+
+db.createCollection('restaurant');
+
+db.restaurant.insertOne({
+	address:{
+		building: '23, Archer Main',
+		street: 'Marble Drive',
+		zipcode: 403204
+	},
+	type_of_restaurant: 'Bakery',
+	cuisine: ['pastry', 'dessert'],
+	state: 'Oklahoma',
+	grades:[
+		{ date: {'$date': 1393804800000}, grade: 'A', score: 2},
+		{ date: {'$date': 1378857600000}, grade: 'A', score: 6},
+		{ date: {'$date': 1358985600000}, grade: 'A', score: 10},
+		{ date: {'$date': 1322006400000}, grade: 'A', score: 9},
+		{ date: {'$date': 1299715200000}, grade: 'B', score: 14}
+	],
+	name: 'Park Bake Shop',
+	restaurant_id: '30075445'
+})
+
+db.restaurant.insertMany([
+{
+	address:{
+	building: '668, Curtner Place',
+	street: 'Saratoga Drive',
+	zipcode: 403204
+	},
+	type_of_restaurant: 'Pizza',
+	cuisine: ['Italian'],
+	state: 'Oklahoma',
+	grades:[
+		{ date: {'$date': 1349713300000}, grade: 'B', score: 12}
+	],
+	name: 'Papa Johns Pizza',
+	restaurant_id: '30075432'
+},
+{
+	address:{
+	building: '3267, Main Road',
+	street: 'Mission Blvd',
+	zipcode: 403204
+	},
+	type_of_restaurant: 'French',
+	cuisine: ['French'],
+	state: 'Oklahoma',
+	grades:[
+		{ date: {'$date': 1393855800000}, grade: 'A', score: 5},
+		{ date: {'$date': 1379857600000}, grade: 'A', score: 4},
+		{ date: {'$date': 1354985600000}, grade: 'B', score: 15}
+	],
+	name: 'Le Petite Chef',
+	restaurant_id: '30075668'
+},
+{
+	address:{
+	building: '1142',
+	street: 'Tamalpais Place',
+	zipcode: 503334
+	},
+	type_of_restaurant: 'Burger',
+	cuisine: ['burger', 'fries'],
+	state: 'Rochester',
+	grades:[
+		{ date: {'$date': 1396404800000}, grade: 'A', score: 5},
+		{ date: {'$date': 1376657600000}, grade: 'A', score: 7}
+	],
+	name: 'Bobs Burgers',
+	restaurant_id: '30075445'
+},
+{
+	address:{
+	building: '668',
+	street: 'Homestead Road',
+	zipcode: 403202
+	},
+	type_of_restaurant: 'Bakery',
+	cuisine: ['pastry', 'dessert'],
+	state: 'Oklahoma',
+	grades:[
+		{ date: {'$date': 1393334800000}, grade: 'A', score: 8},
+		{ date: {'$date': 1378457600000}, grade: 'A', score: 4}
+	],
+	name: 'Cakes n Bakes',
+	restaurant_id: '30075887'
+},
+{
+	address:{
+	building: '2785',
+	street: 'Peach Street',
+	zipcode: 703204
+	},
+	type_of_restaurant: 'Bakery',
+	cuisine: ['pastry', 'dessert'],
+	state: 'Kingston',
+	grades:[
+		{ date: {'$date': 1369715200000}, grade: 'B', score: 14}
+	],
+	name: 'Bake My Cake',
+	restaurant_id: '800894456'
+}
+])
+
+db.restaurant.find().pretty();
+ 
+db.restaurant.find({type_of_restaurant: 'Bakery'}).pretty();
+
+db.restaurant.find({cuisine:{$in:["Italian","French"]}}).pretty();
+
+db.restaurant.find({'address.zipcode': 403204}).projection({_id:0, restaurant_id:1, 'grades.score':1}).pretty()
+
+db.restaurant.find({'grades.score': {$gt:10}}).pretty() 
+
+db.restaurant.aggregate([{ 
+	$project: { 
+		_id: "$name", 
+		TotalScore: { 
+			$reduce: { 
+				input: "$grades", 
+				initialValue: 0, 
+				in: { $add: ["$$value", "$$this.score"] }
+			}
+		}
+	}
+}])
+
+db.restaurant.aggregate([
+	{
+		$project:{array:"$grades.score"}
+	},
+	{$unwind:"$array"},
+	{
+		$group:{
+			_id:"Total",
+			"ScoreSum":{$sum:"$array"}
+		}
+	}
+])
