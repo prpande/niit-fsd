@@ -631,9 +631,11 @@ The rise of the Internet has changed application development profoundly. The amo
 - [MongoDB Cheat sheet](https://www.mongodb.com/developer/products/mongodb/cheat-sheet/)
 - [MongoDB Query and Projection Operators](https://www.mongodb.com/docs/manual/reference/operator/query/)
   
-### Sprint2 - Manage Semi-structured and Unstructured data and Handle Exceptions Within a RESTful Service by Using Mongo Repository
+### [Sprint2 - Manage Semi-structured and Unstructured data and Handle Exceptions Within a RESTful Service by Using Mongo Repository](./C12-Thinking%20RESTful%20Services/S2-MongoDBExceptions-2212/)
 
 MongoDB powers faster, more flexible application development with a document data model. MongoDB's document model is simple for developers to learn and use while still providing all the capabilities needed to meet the most complex requirements of a REST Application. With the help of this sprint, you will get hands-on practice in storing and modeling structured, semi-structured, and unstructured data using MongoDB in a REST API.
+
+- [Mongo Repository](https://docs.spring.io/spring-data/mongodb/reference/#reference)
 
 ### Sprint3 - Test RESTful Services at Service Layer and Data Layer by Using Testing Tools (JUnit, Mockito)
 
