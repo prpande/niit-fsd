@@ -1,0 +1,8 @@
+Create the database 
+use movie_db;
+
+Create the collection movies
+db.createCollection("movies")
+
+Insert One value into the collection
+db.movies.insertOne({title:"The Hobbit - An Unexpected Journey", writer:"J.R.R. Tolkein", year: 2012, franchise:"The Hobbit"})

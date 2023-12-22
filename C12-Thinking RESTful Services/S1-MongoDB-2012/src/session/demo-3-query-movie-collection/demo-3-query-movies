@@ -1,0 +1,14 @@
+Fetch all documents in a formatted manner.
+db.movies.find().pretty()
+
+Find all documents with the writer set to " J.R.R. Tolkein “.
+db.movies.find({writer:"J.R.R. Tolkein"})
+
+Fetch all documents where franchise includes “The Chronicles of Narnia“ or "The Hobbit".
+db.movies.find({franchise:{ $in: [ "The Chronicles of Narnia","The Hobbit"] } })
+
+Fetch all documents with franchise set to "The Hobbit“.
+db.movies.find({franchise:"The Hobbit"})
+
+Fetch all movies released between the year 2003 and 2009.
+db.movies.find({ year : { $gt :  2003, $lt : 2009}});

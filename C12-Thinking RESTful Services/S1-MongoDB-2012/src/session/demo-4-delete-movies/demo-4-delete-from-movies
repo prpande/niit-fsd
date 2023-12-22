@@ -1,0 +1,5 @@
+Delete the movie “The Hobbit - An Unexpected Journey“.
+db.movies.deleteOne({title:"The Hobbit : An Unexpected Journey"})
+
+Delete the movies with franchise “The Lord of the Rings”
+db.movies.deleteMany({franchise:"The Lord of the Rings"})
