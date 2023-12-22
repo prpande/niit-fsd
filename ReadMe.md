@@ -85,8 +85,10 @@
 ## Software
 
 - [IntelliJ Community Edition](<https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC>)
+
 - [Git](<https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe>)
   - [GitHub Pull Requests and Issues](<https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github>)
+
 - [Visual Studio Code](<https://code.visualstudio.com/download>)
 - Java Extensions for VS Code
   - [Extension Pack for Java](<https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack>)
@@ -101,8 +103,13 @@
   - [Live Server](<https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer>)
   - [JavaScript (ES6) code snippets](<https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets>)
   - [Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets](<https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode>)
+
 - [NodeJS](<https://nodejs.org/en>)
 - [Postman](https://www.postman.com/downloads/)
+
+- MongoDB
+  - [MongoDB Community Edition](https://www.mongodb.com/try/download/community)
+  - [MongoDB Shell](https://www.mongodb.com/try/download/shell)
 
 ## Repository Directory Structure
 
@@ -620,6 +627,10 @@ We are in the midst of an unprecedented phase of digital transformation. Hospita
 
 The rise of the Internet has changed application development profoundly. The amount of data, the structure of the data, the scale of applications, and the way applications have developed have all changed dramatically. These changes have led many organizations of all sizes to adopt NoSQL database technology. With the help of this sprint, you will get hands-on practice to store data in flexible, JSON-like documents where fields in the data can vary and the structure can be changed over time.
 
+- [MongoDB CRUD Operations](https://www.mongodb.com/docs/manual/crud/)
+- [MongoDB Cheat sheet](https://www.mongodb.com/developer/products/mongodb/cheat-sheet/)
+- [MongoDB Query and Projection Operators](https://www.mongodb.com/docs/manual/reference/operator/query/)
+  
 ### Sprint2 - Manage Semi-structured and Unstructured data and Handle Exceptions Within a RESTful Service by Using Mongo Repository
 
 MongoDB powers faster, more flexible application development with a document data model. MongoDB's document model is simple for developers to learn and use while still providing all the capabilities needed to meet the most complex requirements of a REST Application. With the help of this sprint, you will get hands-on practice in storing and modeling structured, semi-structured, and unstructured data using MongoDB in a REST API.
