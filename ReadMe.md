@@ -74,6 +74,12 @@
   - [Sprint4 - Build the Skeleton of Spring Boot Application](#sprint4---build-the-skeleton-of-spring-boot-application)
   - [Sprint5 - Develop RESTful Services by Using Spring Boot by using JPA](#sprint5---develop-restful-services-by-using-spring-boot-by-using-jpa)
   - [Sprint6 - Implement Crud by Using JPA Within a Restful Service](#sprint6---implement-crud-by-using-jpa-within-a-restful-service)
+- [Course12 - Thinking RESTful Services](#course12---thinking-restful-services)
+  - [Sprint1 - Use a NoSQL database (MongoDB) to Manage Semi-Structured and Unstructured Data](#sprint1---use-a-nosql-database-mongodb-to-manage-semi-structured-and-unstructured-data)
+  - [Sprint2 - Manage Semi-structured and Unstructured data and Handle Exceptions Within a RESTful Service by Using Mongo Repository](#sprint2---manage-semi-structured-and-unstructured-data-and-handle-exceptions-within-a-restful-service-by-using-mongo-repository)
+  - [Sprint3 - Test RESTful Services at Service Layer and Data Layer by Using Testing Tools (JUnit, Mockito)](#sprint3---test-restful-services-at-service-layer-and-data-layer-by-using-testing-tools-junit-mockito)
+  - [Sprint4 - Test RESTful Services at Controller Layer by Using Testing Tools (JUnit, Mockito)](#sprint4---test-restful-services-at-controller-layer-by-using-testing-tools-junit-mockito)
+  - [Sprint5 - Authenticate a Backend Application by Using JWT](#sprint5---authenticate-a-backend-application-by-using-jwt)
 - [Additional Resources](#additional-resources)
 
 ## Software
@@ -605,6 +611,30 @@ Implementing the data layer of a REST application is quite cumbersome. Spring Da
 
 - [Introduction to the Java Persistence API](https://docs.oracle.com/javaee/6/tutorial/doc/bnbpz.html)
 - [Spring Data JPA](https://docs.spring.io/spring-data/jpa/reference/)
+
+## [Course12 - Thinking RESTful Services](./C12-Thinking%20RESTful%20Services/)
+
+We are in the midst of an unprecedented phase of digital transformation. Hospitals are extending care beyond the hospital ward, non-bank players drive innovation in the payments space, and media companies distribute the content across multiple channels and partners. These changes are irreversibly reshaping industry boundaries and business models. Businesses must act now to ensure their businesses stay relevant and competitive. New technologies like SaaS, mobile and IoT demand a new level of connectivity that can be achieved by designing API-led applications that package underlying connectivity and orchestration services, are easily discoverable and have reusable building blocks exposed by APIs. This course will enable you to build and test RESTful APIs to help businesses embrace new technologies easily. It will also provide you with hands-on to containerize the entire application using Docker and JWT Token to authenticate the user.
+
+### [Sprint1 - Use a NoSQL database (MongoDB) to Manage Semi-Structured and Unstructured Data](./C12-Thinking%20RESTful%20Services/S1-MongoDB-2012/)
+
+The rise of the Internet has changed application development profoundly. The amount of data, the structure of the data, the scale of applications, and the way applications have developed have all changed dramatically. These changes have led many organizations of all sizes to adopt NoSQL database technology. With the help of this sprint, you will get hands-on practice to store data in flexible, JSON-like documents where fields in the data can vary and the structure can be changed over time.
+
+### Sprint2 - Manage Semi-structured and Unstructured data and Handle Exceptions Within a RESTful Service by Using Mongo Repository
+
+MongoDB powers faster, more flexible application development with a document data model. MongoDB's document model is simple for developers to learn and use while still providing all the capabilities needed to meet the most complex requirements of a REST Application. With the help of this sprint, you will get hands-on practice in storing and modeling structured, semi-structured, and unstructured data using MongoDB in a REST API.
+
+### Sprint3 - Test RESTful Services at Service Layer and Data Layer by Using Testing Tools (JUnit, Mockito)
+
+API testing aims to test APIs to determine whether the built APIs meet expectations regarding your application's functionality, performance, reliability, and security. As a full-stack developer testing the API is part of the role. In this learning sprint, you will test the service and repository layer of the REST API using JUnit and Mockito and perform integration testing.
+
+### Sprint4 - Test RESTful Services at Controller Layer by Using Testing Tools (JUnit, Mockito)
+
+API testing aims to test APIs to determine whether the built APIs meet expectations regarding your application's functionality, performance, reliability, and security. As a full-stack developer testing the API is part of the role. In this learning sprint, you will test the controller layer of the REST API using JUnit and Mockito and reveal bugs, inconsistencies, or deviations from the expected behavior.
+
+### Sprint5 - Authenticate a Backend Application by Using JWT
+
+Every day millions of users put out sensitive information on the internet, and keeping that information safe is one of the biggest challenges for developers. As a developer building a secure application is very crucial. In this sprint, you will learn to secure your REST API by using basic authentication using JWT or JSON Web Tokens in this sprint.
 
 ## Additional Resources
 
