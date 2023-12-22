@@ -1,0 +1,47 @@
+use address_db;
+
+db.createCollection('address');
+
+db.address.insertOne({
+houseNo: 23,
+streetName: 'Main Dave Street',
+city: 'New York',
+zipCode: 7002
+});
+
+db.address.insertMany([{
+houseNo: 21,
+streetName: 'North 31st Street',
+city: 'Rochester',
+zipCode: 8002
+},{
+houseNo: 141,
+streetName: 'Covington Street',
+city: 'New York',
+zipCode: 7302
+},{
+houseNo: 54,
+streetName: 'Curtner Avenue',
+city: 'Kingston',
+zipCode: 4005
+},{
+houseNo: 1142,
+streetName: 'Tamalpais Street',
+city: 'Rochester',
+zipCode: 8454
+},{
+houseNo: 75,
+streetName: 'Homestead Street',
+city: 'Kingston',
+zipCode: 4152
+}]);
+
+db.address.find().pretty();
+
+db.address.find({city:'Rochester'}).pretty();
+
+db.address.find({city:'New York'}).count();
+
+db.address.find({city:{$in:['Rochester', 'New York', 'Kingston']}}).pretty();
+
+db.address.deleteMany({city:'New York'});
