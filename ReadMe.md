@@ -637,9 +637,12 @@ MongoDB powers faster, more flexible application development with a document dat
 
 - [Mongo Repository](https://docs.spring.io/spring-data/mongodb/docs/1.2.x/reference/html/mongo.repositories.html)
 
-### Sprint3 - Test RESTful Services at Service Layer and Data Layer by Using Testing Tools (JUnit, Mockito)
+### [Sprint3 - Test RESTful Services at Service Layer and Data Layer by Using Testing Tools (JUnit, Mockito)](./C12-Thinking%20RESTful%20Services/S3-Mockito-2712/)
 
 API testing aims to test APIs to determine whether the built APIs meet expectations regarding your application's functionality, performance, reliability, and security. As a full-stack developer testing the API is part of the role. In this learning sprint, you will test the service and repository layer of the REST API using JUnit and Mockito and perform integration testing.
+
+- [Mockito](https://site.mockito.org/)
+- [Integration Testing](https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/integration-testing.html)
 
 ### Sprint4 - Test RESTful Services at Controller Layer by Using Testing Tools (JUnit, Mockito)
 
