@@ -644,9 +644,11 @@ API testing aims to test APIs to determine whether the built APIs meet expectati
 - [Mockito](https://site.mockito.org/)
 - [Integration Testing](https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/integration-testing.html)
 
-### Sprint4 - Test RESTful Services at Controller Layer by Using Testing Tools (JUnit, Mockito)
+### [Sprint4 - Test RESTful Services at Controller Layer by Using Testing Tools (JUnit, Mockito)](./C12-Thinking%20RESTful%20Services/S4-ControllerTesting-2912/)
 
 API testing aims to test APIs to determine whether the built APIs meet expectations regarding your application's functionality, performance, reliability, and security. As a full-stack developer testing the API is part of the role. In this learning sprint, you will test the controller layer of the REST API using JUnit and Mockito and reveal bugs, inconsistencies, or deviations from the expected behavior.
+
+- [MockMVC - Testing the Web Layer](https://spring.io/guides/gs/testing-web/)
 
 ### Sprint5 - Authenticate a Backend Application by Using JWT
 
