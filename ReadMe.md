@@ -654,6 +654,9 @@ API testing aims to test APIs to determine whether the built APIs meet expectati
 
 Every day millions of users put out sensitive information on the internet, and keeping that information safe is one of the biggest challenges for developers. As a developer building a secure application is very crucial. In this sprint, you will learn to secure your REST API by using basic authentication using JWT or JSON Web Tokens in this sprint.
 
+- [Spring Boot Security + JWT Hello World Example](https://www.javainuse.com/spring/boot-jwt)
+- [JWT](https://jwt.io/)
+
 ## Additional Resources
 
 > Java tutorials:  <https://docs.oracle.com/javase/tutorial/java/index.html>
