@@ -650,7 +650,7 @@ API testing aims to test APIs to determine whether the built APIs meet expectati
 
 - [MockMVC - Testing the Web Layer](https://spring.io/guides/gs/testing-web/)
 
-### Sprint5 - Authenticate a Backend Application by Using JWT
+### [Sprint5 - Authenticate a Backend Application by Using JWT](./C12-Thinking%20RESTful%20Services/S5-JWT-0201/)
 
 Every day millions of users put out sensitive information on the internet, and keeping that information safe is one of the biggest challenges for developers. As a developer building a secure application is very crucial. In this sprint, you will learn to secure your REST API by using basic authentication using JWT or JSON Web Tokens in this sprint.
 
