@@ -671,6 +671,8 @@ Do you think an e-commerce application is created as one large application? ​I
 
 The Docker tool is used to create, deploy, and run applications by using containers. Developers can use Docker DevOps to pack all parts of an application, like the libraries and other dependencies and ship them out as a single package. This learning sprint will enable you to package your application and database and the dependencies together in containers using Docker.
 
+- [Docker-Getting Started](https://docs.docker.com/get-started/)
+
 ### Sprint2 - Create Microservices by Using Spring Boot
 
 Microservices are modular, autonomous and logical units of functionality that are independently deployable and scalable. They are an architectural style in which large complex software applications are composed of one or more services. In this learning sprint, you will build applications which are made up of independently deployable, modular microservices.
