@@ -80,6 +80,12 @@
   - [Sprint3 - Test RESTful Services at Service Layer and Data Layer by Using Testing Tools (JUnit, Mockito)](#sprint3---test-restful-services-at-service-layer-and-data-layer-by-using-testing-tools-junit-mockito)
   - [Sprint4 - Test RESTful Services at Controller Layer by Using Testing Tools (JUnit, Mockito)](#sprint4---test-restful-services-at-controller-layer-by-using-testing-tools-junit-mockito)
   - [Sprint5 - Authenticate a Backend Application by Using JWT](#sprint5---authenticate-a-backend-application-by-using-jwt)
+- [Course13 - Creating, Managing and Establishing Communication Between Microservices](#course13---creating-managing-and-establishing-communication-between-microservices)
+  - [Sprint1 - Containerize RESTful Services and Database by Using Docker](#sprint1---containerize-restful-services-and-database-by-using-docker)
+  - [Sprint2 - Create Microservices by Using Spring Boot](#sprint2---create-microservices-by-using-spring-boot)
+  - [Sprint3 - Create a Single-Entry Point to Route the Request Coming for Different Microservices Using Spring Cloudâ](#sprint3---create-a-single-entry-point-to-route-the-request-coming-for-different-microservices-using-spring-cloudâ)
+  - [Sprint4 - Register Microservices on a Netflix Eureka Discovery Server](#sprint4---register-microservices-on-a-netflix-eureka-discovery-server)
+  - [Sprint5 - Establish Synchronous Communication Among Microservices by Using Feign Client](#sprint5---establish-synchronous-communication-among-microservices-by-using-feign-client)
 - [Additional Resources](#additional-resources)
 
 ## Software
@@ -656,6 +662,30 @@ Every day millions of users put out sensitive information on the internet, and k
 
 - [Spring Boot Security + JWT Hello World Example](https://www.javainuse.com/spring/boot-jwt)
 - [Introduction to JSON Web Tokens](https://jwt.io/introduction)
+
+## [Course13 - Creating, Managing and Establishing Communication Between Microservices](./C13-Creating,%20Managing%20&%20Establishing%20Communication%20between%20Microservices/)
+
+Do you think an e-commerce application is created as one large application? ​If there is an ongoing sale or new features are to be added, how do you think the changes will be launched on the application?​Microservices is a cloud-based architectural approach composed of loosely coupled, independently deployable smaller services that are cohesively put together to create and work on larger, more complex applications. The approach has gained popularity, especially among today's business leaders, as it enables them to structure their operation model and run their teams as per their requirements. This course will introduce you to creating an application with multiple microservices. You will also establish communication between multiple microservices synchronously using a feign client.
+
+### Sprint1 - Containerize RESTful Services and Database by Using Docker
+
+The Docker tool is used to create, deploy, and run applications by using containers. Developers can use Docker DevOps to pack all parts of an application, like the libraries and other dependencies and ship them out as a single package. This learning sprint will enable you to package your application and database and the dependencies together in containers using Docker.
+
+### Sprint2 - Create Microservices by Using Spring Boot
+
+Microservices are modular, autonomous and logical units of functionality that are independently deployable and scalable. They are an architectural style in which large complex software applications are composed of one or more services. In this learning sprint, you will build applications which are made up of independently deployable, modular microservices.
+
+### Sprint3 - Create a Single-Entry Point to Route the Request Coming for Different Microservices Using Spring Cloudâ
+
+Spring Cloud provides developer tools to quickly build common patterns in distributed systems (e.g. configuration management, service discovery, circuit breakers, intelligent routing, micro-proxy, control bus, one-time tokens, global locks, leadership election, distributed sessions, cluster state). In this learning sprint, you will Route requests to microservices using the Spring Cloud Gateway, which provides a library for building the API Gateways on top of Spring and Java.
+
+### Sprint4 - Register Microservices on a Netflix Eureka Discovery Server
+
+Eureka Server is an application that holds information about all client-service applications. Every Microservice will register into the Eureka server, and the Eureka server knows all the client applications running on each port and IP address. In this learning sprint, you will build a service registry using the Netflix Eureka Server to register microservices in an application.
+
+### Sprint5 - Establish Synchronous Communication Among Microservices by Using Feign Client
+
+In synchronous communication, one microservice communicates with another through a rest endpoint over HTTP protocol creating a chain of requests between the microservices while serving the client request. In this learning sprint, you will explore microservice communication and implement Feign client to communicate synchronously between microservices.
 
 ## Additional Resources
 
