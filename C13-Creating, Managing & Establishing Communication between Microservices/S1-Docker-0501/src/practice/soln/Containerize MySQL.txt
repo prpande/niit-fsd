@@ -1,0 +1,15 @@
+docker pull mysql
+docker network create myNetwork
+docker run -d -it --network myNetwork --name mysqlcontainer -e MYSQL_ROOT_PASSWORD=root mysql:latest
+docker exec -it mysqlcontainer bash
+mysql -u root -p
+create database UsersDB;
+use UsersDB;
+create table Users(
+    -> userId int primary key,
+    -> userName varchar(20),
+    -> address varchar(30),
+    -> phoneNumber int,
+    -> email varchar(20)
+    -> );
+insert into Users values(1001,"John Doe", "123 Marine Drive", 98786756, "john.doe@gmail.com");

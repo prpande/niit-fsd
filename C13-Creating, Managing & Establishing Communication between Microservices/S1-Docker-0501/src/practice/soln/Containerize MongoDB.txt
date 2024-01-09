@@ -1,0 +1,13 @@
+docker pull mongo
+docker run -it -d --name mongocontainer mongo:latest
+docker exec -it mongocontainer bash
+mongosh
+db.createCollection("customers")
+use customers
+db.customers.insertOne({
+	name:"Jon Doe", 
+	age:25, 
+	address:"123 Marine Drive",
+	phoneNumber:9878675643, 
+	email:"john.doe@gmail.com"
+})
