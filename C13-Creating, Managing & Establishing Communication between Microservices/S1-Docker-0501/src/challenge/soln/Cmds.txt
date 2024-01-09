@@ -1,0 +1,5 @@
+docker pull mysql
+docker network create customer-network
+docker run -d -it --network customer-network --name mysqlservice -e MYSQL_ROOT_PASSWORD=root mysql:latest
+docker build -t customer-app:v1 .
+docker run -it --network customer-network -p 8085:8085 --name customerappcontainer -d customer-app:v1
