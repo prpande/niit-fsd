@@ -117,6 +117,8 @@
   - [MongoDB Community Edition](https://www.mongodb.com/try/download/community)
   - [MongoDB Shell](https://www.mongodb.com/try/download/shell)
 
+- [Docker](https://docs.docker.com/desktop/install/windows-install/)
+
 ## Repository Directory Structure
 
 ```text
