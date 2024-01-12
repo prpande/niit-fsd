@@ -681,9 +681,11 @@ Microservices are modular, autonomous and logical units of functionality that ar
 
 - [Microservice Architecture](https://microservices.io/)
 
-### Sprint3 - Create a Single-Entry Point to Route the Request Coming for Different Microservices Using Spring Cloud
+### [Sprint3 - Create a Single-Entry Point to Route the Request Coming for Different Microservices Using Spring Cloud](./C13-Creating,%20Managing%20&%20Establishing%20Communication%20between%20Microservices/S3-SpringCloud-1101/)
 
 Spring Cloud provides developer tools to quickly build common patterns in distributed systems (e.g. configuration management, service discovery, circuit breakers, intelligent routing, micro-proxy, control bus, one-time tokens, global locks, leadership election, distributed sessions, cluster state). In this learning sprint, you will Route requests to microservices using the Spring Cloud Gateway, which provides a library for building the API Gateways on top of Spring and Java.
+
+- [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway/)
 
 ### Sprint4 - Register Microservices on a Netflix Eureka Discovery Server
 
