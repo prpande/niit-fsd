@@ -17,6 +17,11 @@ public class UserProductServiceImpl implements IUserProductService {
     // Autowire the UserProductRepository using constructor autowiring
     private UserProductRepository userProductRepository;
 
+    @Autowired
+    public UserProductServiceImpl(UserProductRepository userProductRepository) {
+        this.userProductRepository = userProductRepository;
+    }
+    
     @Override
     public User registerUser(User user) throws UserAlreadyExistsException {
         // Register a new user
