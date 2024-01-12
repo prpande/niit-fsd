@@ -23,7 +23,7 @@ public class JwtFilter extends GenericFilter {
 
         // Parse and validate the token and set the user id from claims in the request header as an attribute.
         String token = authHeader.substring(7);
-        Claims claims = Jwts.parser().setSigningKey(ENCRYPTION_KEY).parseClaimsJwt(token).getBody();
+        Claims claims = Jwts.parser().setSigningKey(ENCRYPTION_KEY).parseClaimsJws(token).getBody();
         request.setAttribute("claims", claims);
         filterChain.doFilter(request, response);
     }

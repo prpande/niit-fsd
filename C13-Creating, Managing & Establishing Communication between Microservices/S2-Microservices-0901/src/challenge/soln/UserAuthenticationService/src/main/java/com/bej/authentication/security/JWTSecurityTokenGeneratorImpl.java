@@ -25,8 +25,8 @@ public class JWTSecurityTokenGeneratorImpl implements SecurityTokenGenerator {
     public String generateToken(Map<String, Object> claims, String subject) {
         // Generate the token and set the user id in the claims
         return Jwts.builder()
-                .setSubject(subject)
                 .setClaims(claims)
+                .setSubject(subject)
                 .setIssuedAt(new Date())
                 .signWith(SignatureAlgorithm.HS256, ENCRYPTION_KEY)
                 .compact();
