@@ -76,3 +76,9 @@
 - Bit Manipulation: https://leetcode.com/discuss/general-discussion/1139479/bit-manipulation-in-depth-explanation-problems-sample-solutions
 - Math and Number Theory: https://leetcode.com/discuss/general-discussion/1162606/math-number-theory-for-beginners-problems-sample-solutions
 - System Design: https://leetcode.com/discuss/general-discussion/1084618/system-design-for-beginners-problems-sample-solutions
+
+[Introduction to Clean Code and Software Design Principles](https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09)
+[Top 75 Programming Interview Questions Answers to Crack Any Coding Job Interview](https://www.java67.com/2018/05/top-75-programming-interview-questions-answers.html)
+  [10 Math Concepts for Programmers](https://www.youtube.com/watch?v=bOCHTHkBoAs&ab_channel=Fireship)
+  
+  [Questions for Companies like TCS, CTS, HCL, IBM](https://www.geeksforgeeks.org/must-do-questions-for-companies-like-tcs-cts-hcl-ibm/)
