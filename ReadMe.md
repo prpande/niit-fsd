@@ -688,9 +688,11 @@ Spring Cloud provides developer tools to quickly build common patterns in distri
 - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway/)
 - [Java Predicate](https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html)
 
-### Sprint4 - Register Microservices on a Netflix Eureka Discovery Server
+### [Sprint4 - Register Microservices on a Netflix Eureka Discovery Server](./C13-Creating,%20Managing%20&%20Establishing%20Communication%20between%20Microservices/S4-EurekaDiscoveryServer-1201/)
 
 Eureka Server is an application that holds information about all client-service applications. Every Microservice will register into the Eureka server, and the Eureka server knows all the client applications running on each port and IP address. In this learning sprint, you will build a service registry using the Netflix Eureka Server to register microservices in an application.
+
+- [Service Discovery: Eureka Server](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html)
 
 ### Sprint5 - Establish Synchronous Communication Among Microservices by Using Feign Client
 
