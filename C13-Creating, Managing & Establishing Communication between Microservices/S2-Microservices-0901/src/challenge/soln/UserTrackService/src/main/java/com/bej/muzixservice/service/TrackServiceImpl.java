@@ -58,6 +58,7 @@ public class TrackServiceImpl implements ITrackService {
         }
 
         trackList.add(track);
+        userObj.setTrackList(trackList);
         return userTrackRepository.save(userObj);
     }
 
@@ -95,6 +96,7 @@ public class TrackServiceImpl implements ITrackService {
         }
 
         trackList.remove(foundTrack);
+        foundUser.setTrackList(trackList);
         return userTrackRepository.save(foundUser);
     }
 
@@ -127,7 +129,7 @@ public class TrackServiceImpl implements ITrackService {
 
         trackList.remove(foundTrack);
         trackList.add(track);
-
+        userObj.setTrackList(trackList);
         return userTrackRepository.save(userObj);
     }
 }

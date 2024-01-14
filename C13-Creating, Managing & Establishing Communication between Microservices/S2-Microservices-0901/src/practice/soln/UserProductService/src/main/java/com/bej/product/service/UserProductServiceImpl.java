@@ -42,6 +42,7 @@ public class UserProductServiceImpl implements IUserProductService {
         User foundUser = userProductRepository.findById(userId).get();
         List<Product> productList = foundUser.getProductList();
         productList.add(product);
+        foundUser.setProductList(productList);
         return userProductRepository.save(foundUser);
     }
 
@@ -69,6 +70,7 @@ public class UserProductServiceImpl implements IUserProductService {
         }
 
         productList.remove(foundProduct);
+        userObj.setProductList(productList);
         return userProductRepository.save(userObj);
     }
 
