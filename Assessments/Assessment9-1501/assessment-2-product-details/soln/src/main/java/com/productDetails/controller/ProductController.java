@@ -43,7 +43,7 @@ public class ProductController {
     }
 
     @PutMapping("/products/{id}")
-    public ResponseEntity<?> updateTrack(@RequestBody Product product, @PathVariable int id){
+    public ResponseEntity<?> updateProduct(@RequestBody Product product, @PathVariable int id){
         return new ResponseEntity<>(productService.updateProduct(product, id), HttpStatus.OK);
     }
 }
