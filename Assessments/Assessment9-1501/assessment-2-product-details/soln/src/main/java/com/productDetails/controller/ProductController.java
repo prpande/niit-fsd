@@ -41,4 +41,9 @@ public class ProductController {
     public ResponseEntity<?> getProductByPrice(@PathVariable float productPrice){
         return new ResponseEntity<>(productService.getProductByPrice(productPrice), HttpStatus.FOUND);
     }
+
+    @PutMapping("/products/{id}")
+    public ResponseEntity<?> updateTrack(@RequestBody Product product, @PathVariable int id){
+        return new ResponseEntity<>(productService.updateProduct(product, id), HttpStatus.OK);
+    }
 }

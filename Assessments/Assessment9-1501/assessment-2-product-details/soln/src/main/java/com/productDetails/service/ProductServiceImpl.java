@@ -48,4 +48,31 @@ public class ProductServiceImpl implements IProductService{
     public List<Product> getProductByPrice(float productPrice) {
         return productRepository.findByProductPrice(productPrice);
     }
+
+    @Override
+    public Product updateProduct(Product product, int productId){
+        Optional<Product> foundProduct = productRepository.findById(productId);
+        if (foundProduct.isEmpty()) {
+            return null;
+        }
+
+        Product existingProduct = foundProduct.get();
+        if (product.getProductName() != null) {
+            existingProduct.setProductDescription(product.getProductDescription());
+        }
+
+        if (product.getProductName() != null) {
+            existingProduct.setProductName(product.getProductName());
+        }
+
+        if (product.getProductInformation() != null) {
+            existingProduct.setProductInformation(product.getProductInformation());
+        }
+
+        if (product.getProductPrice() > 0) {
+            existingProduct.setProductPrice(product.getProductPrice());
+        }
+
+        return productRepository.save(existingProduct);
+    }
 }

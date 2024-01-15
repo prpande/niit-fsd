@@ -10,4 +10,5 @@ public interface IProductService {
     Product getProductById(int id);
     boolean deleteProductById(int id);
     List<Product> getProductByPrice(float productPrice);
+    Product updateProduct(Product product, int productId);
 }
