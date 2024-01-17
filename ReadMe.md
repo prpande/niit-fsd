@@ -694,9 +694,12 @@ Eureka Server is an application that holds information about all client-service 
 
 - [Service Discovery: Eureka Server](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html)
 
-### Sprint5 - Establish Synchronous Communication Among Microservices by Using Feign Client
+### [Sprint5 - Establish Synchronous Communication Among Microservices by Using Feign Client](./C13-Creating,%20Managing%20&%20Establishing%20Communication%20between%20Microservices/S5-FeignClient-1701/)
 
 In synchronous communication, one microservice communicates with another through a rest endpoint over HTTP protocol creating a chain of requests between the microservices while serving the client request. In this learning sprint, you will explore microservice communication and implement Feign client to communicate synchronously between microservices.
+
+- [Intro to Feign](https://www.baeldung.com/intro-to-feign)
+- [Declarative REST Client: Feign](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html)
 
 ## Additional Resources
 
