@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 
 @RestController
-@RequestMapping("/api/v2")
+@RequestMapping("/api/v1")
 public class CustomerProductController {
     // Autowire ICustomerProductService using constructor autowiring
     private ICustomerProductService customerProductService;

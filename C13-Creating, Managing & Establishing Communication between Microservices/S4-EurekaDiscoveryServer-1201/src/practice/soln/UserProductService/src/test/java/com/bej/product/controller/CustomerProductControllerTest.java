@@ -80,7 +80,7 @@ class CustomerProductControllerTest {
     @Test
     public void registerUserSuccess() throws Exception {
         when(customerProductService.registerCustomer(any())).thenReturn(customer);
-        mockMvc.perform(post("/api/v2/register")
+        mockMvc.perform(post("/api/v1/register")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(asJSONString(customer)))
                 .andExpect(status().isCreated())
@@ -90,7 +90,7 @@ class CustomerProductControllerTest {
     @Test
     public void registerUserFailure() throws Exception {
         when(customerProductService.registerCustomer(any())).thenThrow(CustomerAlreadyExistsException.class);
-        mockMvc.perform(post("/api/v2/register")
+        mockMvc.perform(post("/api/v1/register")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(asJSONString(customer)))
                 .andExpect(status().isConflict())

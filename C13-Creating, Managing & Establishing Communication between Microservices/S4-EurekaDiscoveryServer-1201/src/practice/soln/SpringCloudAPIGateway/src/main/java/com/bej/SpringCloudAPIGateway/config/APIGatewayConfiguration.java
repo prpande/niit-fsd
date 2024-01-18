@@ -12,11 +12,11 @@ public class APIGatewayConfiguration {
     public RouteLocator setupRoutes(RouteLocatorBuilder builder){
         return builder.routes()
                 .route(predicateSpec -> predicateSpec
-                        .path("/api/v1/**")
+                        .path("/api/v2/**")
                         .uri("lb://customer-authentication-service"))
 
                 .route(predicateSpec -> predicateSpec
-                        .path("/api/v2/**")
+                        .path("/api/v1/**")
                         .uri("lb://customer-product-service"))
                 .build();
     }
