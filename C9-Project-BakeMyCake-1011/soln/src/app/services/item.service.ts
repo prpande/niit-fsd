@@ -8,7 +8,7 @@ import { Item } from 'src/models/item';
 })
 export class ItemService {
 
-  itemUrl: string = "http://localhost:3000/items";
+  itemUrl: string = "https://my-json-server.typicode.com/prpande/bakemycake/items";
 
   constructor(private http:HttpClient) { }
 

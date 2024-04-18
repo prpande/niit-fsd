@@ -8,7 +8,7 @@ import { Order } from 'src/models/order';
 })
 export class OrderService {
 
-  order_url = "http://localhost:3000/orders";
+  order_url = "https://my-json-server.typicode.com/prpande/bakemycake/orders";
 
   constructor(private http:HttpClient) { }
 
