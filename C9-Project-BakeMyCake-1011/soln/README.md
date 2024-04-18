@@ -1,27 +1,23 @@
-# BakeMyCake
+Single page application project assigned to leaners as culmination of the front-end course curriculum of the Full Stack Developer program at NIIT.
+This project required the learners to apply and showcase the various technologies and skills learned during the different sprints of the course.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 
-## Development server
+# Bake My Cake
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A single page application using Angular — Bake My Cake, that allows customers to make an online request for cakes, cookies, or brownies of their choice.
 
-## Code scaffolding
+## Project Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Create a streamlined and user-friendly single-page application utilizing Angular, named "Bake My Cake," designed to facilitate online requests for customized cakes, cookies, or brownies. 
+- Showcase these delectable treats through appealing images and concise details, enabling users to effortlessly choose their desired items and input order specifics.
+- Implement a confirmation mechanism to ensure users validate their order details before navigating away from the order view. 
+- Incorporate a search and filtering functionality for swift item selection based on user preferences. 
+- Additionally, enable the site administrator to access and review incoming order requests.
+- Implement a redirection feature prompting users to validate their identity as a site administrator before granting access to the order request view. 
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- HTML & CSS
+- TS & Angular Framework
+- Json-Server
+- Angular Material & Bootstrap

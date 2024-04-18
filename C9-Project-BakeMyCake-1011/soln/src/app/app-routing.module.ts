@@ -11,7 +11,8 @@ import { canDeactivateGuard } from './guards/can-deactivate.guard';
 const routes: Routes = [
   {
     path: "home",
-    component: LandingViewComponent
+    redirectTo: "",
+    pathMatch: "full"
   },
   {
     path: "order/:id",
@@ -29,8 +30,7 @@ const routes: Routes = [
   },
   {
     path: "",
-    redirectTo: "/home",
-    pathMatch: "full"
+    component: LandingViewComponent
   },
   {
     path: "**",

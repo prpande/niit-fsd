@@ -450,7 +450,7 @@
       "category": "Cupcakes",
       "description": "Delicious cupcakes perfect for summer gatherings. Made with a light and fluffy vanilla batter, topped with a mix of fresh berries including strawberries, blueberries, and raspberries. Ingredients: Flour, sugar, butter, eggs, vanilla extract, baking powder, salt, mixed berries.",
       "price": 399,
-      "imagePath": "/assets/berries summer cupcakes.jpg",
+      "imagePath": "assets/berriessummercupcakes.jpg",
       "rating": 4.5
     },
     {
@@ -459,7 +459,7 @@
       "category": "Brownies",
       "description": "Indulge in the rich and fudgy goodness of our brownies with a twist. This assorted pack includes different flavors such as classic chocolate, walnut, and caramel swirl. Ingredients: Chocolate, butter, sugar, eggs, flour, cocoa powder, walnuts, caramel.",
       "price": 599,
-      "imagePath": "/assets/brownies different flavor.jpg",
+      "imagePath": "assets/browniesdifferentflavor.jpg",
       "rating": 4.2
     },
     {
@@ -468,7 +468,7 @@
       "category": "Cookies",
       "description": "Melt-in-your-mouth buttery cookies that are perfect with a cup of tea or coffee. These classic cookies are made with simple ingredients like butter, sugar, and flour. Ingredients: Butter, sugar, flour, vanilla extract.",
       "price": 249,
-      "imagePath": "/assets/butter cookies.jpg",
+      "imagePath": "assets/buttercookies.jpg",
       "rating": 4
     },
     {
@@ -477,7 +477,7 @@
       "category": "Cheesecake",
       "description": "A delightful cheesecake with a twist of cherry jelly. The creamy cheesecake is topped with a layer of sweet and tangy cherry jelly. Ingredients: Cream cheese, sugar, eggs, vanilla extract, graham cracker crust, cherry jelly.",
       "price": 699,
-      "imagePath": "/assets/cherry jelly cheesecake.jpg",
+      "imagePath": "assets/cherryjellycheesecake.jpg",
       "rating": 4.7
     },
     {
@@ -486,7 +486,7 @@
       "category": "Cake",
       "description": "A decadent chocolate cake loaded with fresh blueberries. The combination of rich chocolate and bursting blueberries creates a delightful flavor. Ingredients: Chocolate, flour, sugar, butter, eggs, cocoa powder, blueberries.",
       "price": 899,
-      "imagePath": "/assets/chocolate blueberries cake.jpg",
+      "imagePath": "assets/chocolateblueberriescake.jpg",
       "rating": 4.8
     },
     {
@@ -495,7 +495,7 @@
       "category": "Chocolates",
       "description": "Indulge in these bite-sized chocolate bonbons filled with various creamy centers. Flavors include hazelnut, raspberry, and caramel. Ingredients: Chocolate, cream, hazelnut, raspberry, caramel.",
       "price": 449,
-      "imagePath": "/assets/chocolate bonbons.jpg",
+      "imagePath": "assets/chocolatebonbons.jpg",
       "rating": 4.4
     },
     {
@@ -504,7 +504,7 @@
       "category": "Brownies",
       "description": "Classic chocolate brownies that are dense, fudgy, and irresistible. Made with high-quality cocoa and a generous amount of chocolate chunks. Ingredients: Chocolate, butter, sugar, eggs, flour, cocoa powder.",
       "price": 549,
-      "imagePath": "/assets/chocolate brownies.jpg",
+      "imagePath": "assets/chocolatebrownies.jpg",
       "rating": 4.3
     },
     {
@@ -513,7 +513,7 @@
       "category": "Cookies",
       "description": "A chocolate lover's dream! These cookies are loaded with both cocoa powder and chunks of premium chocolate. Perfectly chewy with a rich chocolate flavor. Ingredients: Chocolate, butter, sugar, flour, cocoa powder.",
       "price": 399,
-      "imagePath": "/assets/chocolate cookies.jpg",
+      "imagePath": "assets/chocolatecookies.jpg",
       "rating": 4.1
     },
     {
@@ -522,7 +522,7 @@
       "category": "Cupcakes",
       "description": "Indulge in the decadence of chocolate with these moist and fluffy chocolate cupcakes. Topped with a velvety chocolate frosting for an extra treat. Ingredients: Flour, sugar, butter, eggs, cocoa powder, baking powder, salt.",
       "price": 349,
-      "imagePath": "/assets/chocolate cupcake.jpg",
+      "imagePath": "assets/chocolatecupcake.jpg",
       "rating": 4.6
     },
     {
@@ -531,7 +531,7 @@
       "category": "Cake",
       "description": "An exquisite chocolate cake featuring a blend of summer berries. Layers of chocolate cake are filled with a luscious berry compote and frosted with chocolate ganache. Ingredients: Chocolate, flour, sugar, butter, eggs, mixed berries, ganache.",
       "price": 999,
-      "imagePath": "/assets/chocolate summer berries cake.jpg",
+      "imagePath": "assets/chocolatesummerberriescake.jpg",
       "rating": 4.9
     },
     {
@@ -540,7 +540,7 @@
       "category": "Cheesecake",
       "description": "The timeless classic cheesecake with a buttery graham cracker crust and a smooth, creamy filling. Pure indulgence in every bite. Ingredients: Cream cheese, sugar, eggs, vanilla extract, graham cracker crust.",
       "price": 799,
-      "imagePath": "/assets/classic cheesecake.jpg",
+      "imagePath": "assets/classiccheesecake.jpg",
       "rating": 4.5
     },
     {
@@ -549,7 +549,7 @@
       "category": "Cake",
       "description": "A delightful cake that combines the goodness of cookies and cream. Layers of moist cake are sandwiched with a velvety cookies and cream frosting. Ingredients: Flour, sugar, butter, eggs, cookies, cream.",
       "price": 649,
-      "imagePath": "/assets/cookies cream cake.jpg",
+      "imagePath": "assets/cookiescreamcake.jpg",
       "rating": 4.2
     },
     {
@@ -558,7 +558,7 @@
       "category": "Cupcakes",
       "description": "Celebrate Easter with these festive cupcakes. Topped with colorful frosting and edible decorations, they're a joyous addition to your holiday festivities. Ingredients: Flour, sugar, butter, eggs, vanilla extract, baking powder, salt, food coloring.",
       "price": 499,
-      "imagePath": "/assets/easter cupcakes.jpg",
+      "imagePath": "assets/eastercupcakes.jpg",
       "rating": 4.4
     },
     {
@@ -567,7 +567,7 @@
       "category": "Cake",
       "description": "A classic fruit cake filled with a medley of dried fruits and nuts. Moist and flavorful, it's a perfect treat for any occasion. Ingredients: Flour, sugar, butter, eggs, mixed dried fruits, nuts.",
       "price": 849,
-      "imagePath": "/assets/fruit cake.jpg",
+      "imagePath": "assets/fruitcake.jpg",
       "rating": 4.3
     },
     {
@@ -576,7 +576,7 @@
       "category": "Cake",
       "description": "A fun and whimsical cake perfect for birthdays or themed parties. Decorated with colorful frosting and edible monster-themed decorations. Ingredients: Flour, sugar, butter, eggs, vanilla extract, food coloring.",
       "price": 1099,
-      "imagePath": "/assets/monster theme cake.jpg",
+      "imagePath": "assets/monsterthemecake.jpg",
       "rating": 4.7
     },
     {
@@ -585,7 +585,7 @@
       "category": "Muffins",
       "description": "Spice up your muffin experience with these devilishly delicious muffins. Featuring a hint of cinnamon and a devil horn-shaped decoration. Ingredients: Flour, sugar, butter, eggs, cinnamon.",
       "price": 399,
-      "imagePath": "/assets/muffin devil horns.jpg",
+      "imagePath": "assets/muffindevilhorns.jpg",
       "rating": 4.1
     },
     {
@@ -594,7 +594,7 @@
       "category": "Muffins",
       "description": "Adorable ghost-shaped muffins that are both cute and tasty. Perfect for Halloween or any spooky-themed occasion. Ingredients: Flour, sugar, butter, eggs, vanilla extract, baking powder, salt.",
       "price": 449,
-      "imagePath": "/assets/muffin ghost.jpg",
+      "imagePath": "assets/muffinghost.jpg",
       "rating": 4
     },
     {
@@ -603,7 +603,7 @@
       "category": "Cupcakes",
       "description": "Embrace the flavors of fall with these pumpkin spice cupcakes. Infused with warm spices and topped with a luscious cream cheese frosting. Ingredients: Flour, sugar, butter, eggs, pumpkin puree, spices, cream cheese.",
       "price": 499,
-      "imagePath": "/assets/pumpkin spice cupcakes.jpg",
+      "imagePath": "assets/pumpkinspicecupcakes.jpg",
       "rating": 4.6
     }
   ]
